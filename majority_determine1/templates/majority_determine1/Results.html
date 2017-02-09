@@ -1,0 +1,35 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Result
+{% endblock %}
+
+{% block content %}
+    {% include 'majority_determine1/Instructions.html' %}
+    <p>
+        Result for Coin 1: {{ group.coin }}.
+    </p>
+    <p>
+        Result for Coin 2:
+    </p>
+    <table class="table-condensed" style="width:500px; margin-top:20px;">
+
+        {% for p in player.get_others_in_group %}
+
+             <tr><td>{{ p.id_in_group }}: {{ p.decision }}</td></tr>
+
+        {% endfor %}
+
+    </table>
+    <p>
+        You have chosen Option: {{player.option}}.
+        Your payoff is: {{ player.payoff }}.
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
+    {% next_button %}
+{% endblock %}
+
+
