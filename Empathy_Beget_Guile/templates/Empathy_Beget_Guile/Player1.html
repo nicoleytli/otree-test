@@ -1,0 +1,74 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Task 3: Two-player Communication Game
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        This is a short experiment in decision making. In this experiment, you will be matched with another worker.
+        Neither of you will ever know the identity of the other. The money that you earn will be paid to you next week,
+        privately and in cash.
+    </p>
+    <p>
+        Two possible monetary payments are available to you and your counterpart in the experiment.
+        The two payment options are:
+    </p>
+
+{% if player.treatment == 1 %}
+    <p>
+        <strong>Option A</strong>: 5 cents to you and 6 cents to the other worker
+    </p>
+    <p>
+        <strong>Option B</strong>: 6 cents to you and 5 cents to the other worker
+    </p>
+{% elif player.treatment == 2 %}
+    <p>
+        <strong>Option A</strong>: 5 cents to you and 15 cents to the other worker
+    </p>
+    <p>
+        <strong>Option B</strong>: 6 cents to you and 5 cents to the other worker
+    </p>
+{% else %}
+    <p>
+       <strong>Option A</strong>: 5 cents to you and 15 cents to the other worker
+    </p>
+    <p>
+       <strong>Option B</strong>: 15 cents to you and 5 cents to the other worker
+    </p>
+{% endif %}
+
+    <p>
+        The choice rests with the other worker who will have to choose either Option A or Option B. The only information
+        your counterpart will have is information sent by you in a message. That is, he or she will not know the
+        monetary payments associated with each choice.
+    </p>
+    <p>
+        We now ask you to choose one of the following two possible messages, which you will send to your counterpart:
+    </p>
+    <p>
+        <strong>Message 1</strong>: “Option A will earn you more money than Option B.”
+    </p>
+    <p>
+        <strong>Message 2</strong>: “Option B will earn you more money than Option A.”
+    </p>
+    <p>
+        We will show the other worker your message and ask him or her to choose either A or B. To repeat, your
+        counterpart’s choice will determine the payments in the experiment. However, your counterpart will never know
+        what sums were actually offered in the option not chosen (that is, he or she will never know whether your
+        message was true or not). Moreover, he or she will never know the sums to be paid to you according to the
+        different options.
+    </p>
+    <p>
+        We will pay the two of you according to the choice made by your counterpart.
+    </p>
+
+
+    {% formfield player.Message_12 with label='I choose to send:' %}
+
+
+
+    {% next_button %}
+{% endblock %}

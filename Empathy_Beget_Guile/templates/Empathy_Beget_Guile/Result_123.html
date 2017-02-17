@@ -1,0 +1,62 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Result
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Your payoff for Task 2 is: <strong>$0.20</strong>.
+    </p>
+
+{% if player.treatment == 4 %}
+
+    <p>
+        Your payment for Task 3 is: <strong>$0.10</strong>.
+    </p>
+    <p>
+        Your total payoff is: <strong>$0.30</strong>.
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
+{% else %}
+
+    {% if player.role == 'Player 1' %}
+    <p>
+        In task 3, you are Player 1, you chose to send <strong>{{player.Message_12}}</strong>.<br>
+        Your counterpart chose <strong>{{player.other_player.option_AB}}</strong>.
+    </p>
+    <p>
+        Your payoff for Task 3 is: <strong>{{task2}}</strong>.
+    </p>
+
+    <p>
+        Your total payoff is: <strong>{{player.payoff}}</strong>.
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
+
+    {% else %}
+    <p>
+        In task 3, you are Player 2.
+        You chose <strong>{{player.option_AB}}</strong>.
+    </p>
+    <p>
+        Your payoff for Task 3 is: <strong>{{task2}}</strong>.
+    </p>
+
+    <p>
+        Your total payoff is: <strong>{{player.payoff}}</strong>.
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
+    {% endif %}
+
+{% endif %}
+
+{% endblock %}

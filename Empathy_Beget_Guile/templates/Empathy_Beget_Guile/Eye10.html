@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load staticfiles %}
+
+{% block title %}
+    Task 2: Describe Eye Expression
+{% endblock %}
+
+{% block content %}
+
+    {% include 'Empathy_Beget_Guile/Instructions.html' %}
+
+    <p>Please look at the following image:</p>
+    <img src="{% static "Empathy_Beget_Guile/eye10.png" %}"/>
+
+    {% formfield player.option_10 with label='Which word best describes what the person is thinking or feeling?' %}
+
+    {% next_button %}
+
+{% endblock %}
