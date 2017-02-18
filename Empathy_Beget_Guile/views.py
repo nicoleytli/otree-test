@@ -10,7 +10,7 @@ class ResultsWaitPage(WaitPage):
         self.group.set_payoffs()
 
     def is_displayed(self):
-        return self.player.treatment != 4
+        return self.player.is_4 == 0
 
 
 class MyWaitPage(WaitPage):
@@ -20,13 +20,16 @@ class MyWaitPage(WaitPage):
     def after_all_players_arrive(self):
         self.group.get_treatment()
 
+    def is_displayed(self):
+        return self.player.is_4 == 0
+
 
 class Player1(Page):
     form_model = models.Player
     form_fields = ['Message_12']
 
     def is_displayed(self):
-        return self.player.id_in_group == 1 and self.player.treatment != 4
+        return self.player.id_in_group == 1 and self.player.is_4 == 0
 
     timeout_seconds = 240
     timeout_submission = {'Message_12': 'Message 1'}
@@ -37,7 +40,7 @@ class Player2(Page):
     form_fields = ['option_AB']
 
     def is_displayed(self):
-        return self.player.id_in_group == 2 and self.player.treatment != 4
+        return self.player.id_in_group == 2 and self.player.is_4 == 0
 
     timeout_seconds = 240
     timeout_submission = {'option_AB': 'Option A'}
@@ -51,7 +54,7 @@ class treatment_4(Page):
         self.player.payoff = 0.30
 
     def is_displayed(self):
-        return self.player.treatment == 4
+        return self.player.is_4 == 1
 
 
 class Result_123(Page):
@@ -67,12 +70,12 @@ class Demographic(Page):
 
 class WaitforP1(WaitPage):
     def is_displayed(self):
-        return self.player.treatment != 4
+        return self.player.is_4 == 0
 
 
 class Task3(Page):
     def is_displayed(self):
-        return self.player.id_in_group == 2 and self.player.treatment != 4
+        return self.player.id_in_group == 2 and self.player.is_4 == 0
 
 
 page_sequence = [

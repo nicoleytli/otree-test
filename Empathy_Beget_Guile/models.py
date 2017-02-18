@@ -18,7 +18,13 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    pass
+    def before_session_starts(self):
+        for p in self.get_players():
+            temp = random.randint(1, 4)
+            if temp == 1:
+                p.is_4 = 1
+            else:
+                p.is_4 = 0
 
 
 class Group(BaseGroup):
@@ -29,7 +35,7 @@ class Group(BaseGroup):
         p1 = self.get_player_by_role('Player 1')
         p2 = self.get_player_by_role('Player 2')
 
-        self.treatment = random.randint(1, 4)
+        self.treatment = random.randint(1, 3)
         p1.treatment = self.treatment
         p2.treatment = self.treatment
 
@@ -90,9 +96,6 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
 
-    # Treatment
-    treatment = models.IntegerField()
-
     def role(self):
         if self.id_in_group == 1:
             return 'Player 1'
@@ -122,6 +125,12 @@ class Player(BasePlayer):
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
+
+    # Is treatment 4
+    is_4 = models.IntegerField()
+
+    # treatment
+    treatment = models.IntegerField()
 
     get_code1 = models.CharField()
     get_code2 = models.CharField()
