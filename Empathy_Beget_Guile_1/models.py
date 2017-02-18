@@ -52,6 +52,7 @@ class Group(BaseGroup):
             p.score = compute(p)
 
 
+
 class Player(BasePlayer):
     # Used to transcribe a paragraph
     text = models.TextField()
