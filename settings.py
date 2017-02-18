@@ -178,7 +178,7 @@ SESSION_CONFIGS = [
         'name': 'Empathy_Beget_Guile',
         'display_name': "Empathy Beget Guile",
         'num_demo_participants': 8,
-        'app_sequence': ['Empathy_Beget_Guile'],
+        'app_sequence': ['Empathy_Beget_Guile_1', 'Empathy_Beget_Guile'],
     }
 ]
 
