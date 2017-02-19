@@ -115,9 +115,8 @@ class Player(BasePlayer):
     age = models.PositiveIntegerField()
 
     religion = models.CharField(
-        choices=['Christian', 'Hindu', 'Muslim', 'Atheist'],
-        doc="""Please choose one of the options""",
-        widget=widgets.RadioSelect()
+        # doc="""Please fill in the blank with, e.x.: Christian, Hindu.""",
+        # widget=widgets.RadioSelect()
     )
 
     service = models.CharField(
