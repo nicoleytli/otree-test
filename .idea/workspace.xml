@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering/templates/covering/Choice.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -51,29 +50,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Decide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Decide2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Decide_exp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Instructions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Instructions_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Introduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Results_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/_builtin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Introduction_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/participant_generated_urn_1/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/MyPage.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/participant_generated_urn/models.py" afterPath="$PROJECT_DIR$/participant_generated_urn/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Results.html" afterPath="$PROJECT_DIR$/participant_generated_urn/templates/participant_generated_urn/Results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/participant_generated_urn/views.py" afterPath="$PROJECT_DIR$/participant_generated_urn/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="147" column="49" lean-forward="false" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -188,7 +165,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-60">
@@ -280,11 +257,11 @@
         <option value="$PROJECT_DIR$/participant_generated_urn_1/views.py" />
         <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html" />
         <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions_2.html" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html" />
         <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html" />
         <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide_exp.html" />
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -1087,16 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile_1/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3273">
@@ -1123,6 +1090,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="147" column="49" lean-forward="false" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

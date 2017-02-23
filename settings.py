@@ -145,7 +145,7 @@ SESSION_CONFIGS = [
     },
     {
         'name': 'participant_generated_urn_1',
-        'display_name': "Participant Generate",
+        'display_name': "Participant Generate Urn",
         'num_demo_participants': 8,
         'app_sequence': ['participant_generated_urn_1'],
     },
