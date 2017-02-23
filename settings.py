@@ -138,48 +138,23 @@ SESSION_CONFIG_DEFAULTS = {
 
 SESSION_CONFIGS = [
     {
-        'name': 'ambiguity_exp1',
-        'display_name': "Ambiguity_exp1",
-        'num_demo_participants': 2,
-        'app_sequence': ['ambiguity_exp1'],
-    },
-    {
-        'name': 'ambiguity_exp2',
-        'display_name': "Ambiguity_exp2",
-        'num_demo_participants': 5,
-        'app_sequence': ['ambiguity_exp2'],
-    },
-    {
-        'name': 'majority_determine1',
-        'display_name': "Majority Determines Outcome",
-        'num_demo_participants': 4,
-        'real_world_currency_per_point': 0.01,
-        'app_sequence': ['majority_determine1', 'payment_info'],
-    },
-    {
-        'name': 'my_trust',
-        'display_name': "My Trust Game (simple version from tutorial)",
-        'num_demo_participants': 2,
-        'app_sequence': ['my_trust'],
-    },
-    {
-        'name': 'my_public_goods',
-        'display_name': "My Public Goods (Simple Version)",
-        'num_demo_participants': 3,
-        'app_sequence': ['my_public_goods', 'survey', 'payment_info'],
-    },
-    {
-        'name': 'battle_of_the_sexes',
-        'display_name': "Battle of the sexed",
-        'num_demo_participants': 2,
-        'app_sequence': ['battle_of_the_sexes',  'payment_info'],
-    },
-    {
         'name': 'Empathy_Beget_Guile',
         'display_name': "Empathy Beget Guile",
         'num_demo_participants': 8,
         'app_sequence': ['Empathy_Beget_Guile_1', 'Empathy_Beget_Guile'],
-    }
+    },
+    {
+        'name': 'participant_generated_urn_1',
+        'display_name': "Participant Generate",
+        'num_demo_participants': 8,
+        'app_sequence': ['participant_generated_urn_1'],
+    },
+    # {
+    #     'name': 'covering',
+    #     'display_name': "covering",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['covering'],
+    # },
 ]
 
 # anything you put after the below line will override

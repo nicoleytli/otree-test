@@ -31,7 +31,7 @@ class Player1(Page):
     def is_displayed(self):
         return self.player.id_in_group == 1 and self.player.is_4 == 0
 
-    timeout_seconds = 240
+    timeout_seconds = 480
     timeout_submission = {'Message_12': 'Message 1'}
 
 
@@ -42,7 +42,7 @@ class Player2(Page):
     def is_displayed(self):
         return self.player.id_in_group == 2 and self.player.is_4 == 0
 
-    timeout_seconds = 240
+    timeout_seconds = 480
     timeout_submission = {'option_AB': 'Option A'}
 
 
