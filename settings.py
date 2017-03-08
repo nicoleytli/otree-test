@@ -54,8 +54,8 @@ ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
 
 # setting for integration with AWS Mturk
-AWS_ACCESS_KEY_ID = environ.get()
-AWS_SECRET_ACCESS_KEY = environ.get()
+AWS_ACCESS_KEY_ID = environ.get('AKIAJIJUXGGB5YZHGUHA')
+AWS_SECRET_ACCESS_KEY = environ.get('sH/MA/uXi4f6B/Ry9yDWV5Fa+eeBBj17OlbIX4mY')
 
 
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
