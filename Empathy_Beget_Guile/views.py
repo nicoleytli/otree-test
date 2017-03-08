@@ -18,10 +18,10 @@ class MyWaitPage(WaitPage):
     players_per_group = 2
 
     def after_all_players_arrive(self):
-        self.group.get_treatment()
+        self.subsession.get_treatment()
 
-    def is_displayed(self):
-        return self.player.is_4 == 0
+    # def is_displayed(self):
+    #     return self.player.is_4 == 0
 
 
 class Player1(Page):

@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/_builtin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/templates/covering_test/pagetest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covering_test/views.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -50,8 +58,105 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/Control.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/Empathy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/Guile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/static/Empathy_Beget_Guile_1/eye9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye23.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye24.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye25.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye26.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye27.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye28.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye29.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye30.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye31.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye32.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye33.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye34.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye35.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye36.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Eye9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Priming.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1/Welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile_1/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player2.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3_intro.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3_intro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html" afterPath="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,10 +167,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/oTree$Test__majority_determine1_templates_majority_determine1_Decide2_html.coverage" NAME="Test: majority_determine1.templates.majority_determine1.Decide2.html Coverage Results" MODIFIED="1486682890125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/oTree$testing__2_.coverage" NAME="testing (2) Coverage Results" MODIFIED="1488908145024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covering_test" />
     <SUITE FILE_PATH="coverage/oTree$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1486647639276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oTree$testing__1_.coverage" NAME="testing (1) Coverage Results" MODIFIED="1487689953066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/participant_generated_urn_1" />
     <SUITE FILE_PATH="coverage/oTree$tests.coverage" NAME="tests Coverage Results" MODIFIED="1486470892530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ambiguity_exp1" />
     <SUITE FILE_PATH="coverage/oTree$test.coverage" NAME="test Coverage Results" MODIFIED="1486587215729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/majority_determine1" />
+    <SUITE FILE_PATH="coverage/oTree$models.coverage" NAME="models Coverage Results" MODIFIED="1488497133331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covering_test" />
+    <SUITE FILE_PATH="coverage/oTree$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1488496540597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covering_test" />
+    <SUITE FILE_PATH="coverage/oTree$tests__2_.coverage" NAME="tests (2) Coverage Results" MODIFIED="1488974428910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eye_Exam" />
     <SUITE FILE_PATH="coverage/oTree$testing.coverage" NAME="testing Coverage Results" MODIFIED="1487377221521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Empathy_Beget_Guile_1" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -77,18 +186,90 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Decide.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-1158">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eye_Exam/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="281" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eye_Exam/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-843">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result_123.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instructions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="belief.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -97,21 +278,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instructions_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions_2.html">
+      <file leaf-file-name="Decide.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/models.py">
+      <file leaf-file-name="Player1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -130,6 +311,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>left</find>
+      <find>name</find>
+      <find>player 1</find>
+      <find>role</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,57 +325,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/covering/templates/covering/64.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/63.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/62.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/61.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/60.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/24.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/25.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/26.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/27.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/28.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/29.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/30.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/31.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/32.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/33.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/34.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/35.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/36.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/37.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/38.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/39.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/40.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/41.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/42.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/43.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/44.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/45.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/46.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/47.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/48.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/49.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/50.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/51.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/52.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/53.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/54.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/55.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/56.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/57.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/58.html" />
-        <option value="$PROJECT_DIR$/covering/templates/covering/59.html" />
-        <option value="$PROJECT_DIR$/covering/views.py" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/models.py" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/views.py" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions_2.html" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html" />
-        <option value="$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide_exp.html" />
+        <option value="$PROJECT_DIR$/covering_test/models.py" />
+        <option value="$PROJECT_DIR$/covering_test/templates/covering_test/MyPage.html" />
+        <option value="$PROJECT_DIR$/covering_test/testing.py" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile_1/models.py" />
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile_1/views.py" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye1.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye2.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye3.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye4.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye5.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye6.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye7.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye8.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye9.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye10.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye11.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye12.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye13.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye14.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye15.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye16.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye17.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye18.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye19.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye20.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye21.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye22.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye23.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye24.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye25.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye26.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye27.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye28.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye29.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye30.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye31.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye32.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye33.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye34.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye35.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye36.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Introduction.html" />
+        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Priming.html" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/Eye_Exam/models.py" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
+        <option value="$PROJECT_DIR$/Eye_Exam/views.py" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html" />
       </list>
     </option>
   </component>
@@ -222,8 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +428,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="participant_generated_urn_1" />
+              <option name="myItemId" value="Eye_Exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,20 +442,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="participant_generated_urn_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="participant_generated_urn_1" />
+              <option name="myItemId" value="Empathy_Beget_Guile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,86 +461,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/covering/templates/covering" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/covering" />
+      <recent name="$PROJECT_DIR$/covering/templates/covering" />
       <recent name="$PROJECT_DIR$/Empathy_Beget_Guile_1/templates/Empathy_Beget_Guile_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testing (1)">
-    <configuration default="false" name="Test: majority_determine1.templates.majority_determine1.Decide2.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oTree" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="majority_determine1.templates.majority_determine1.Decide2.html" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/majority_determine1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oTree" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/majority_determine1/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oTree" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Empathy_Beget_Guile_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="oTree" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Empathy_Beget_Guile_1/testing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tests (2)">
     <configuration default="false" name="testing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -379,6 +482,78 @@
       <module name="oTree" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/participant_generated_urn_1/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testing (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covering_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oTree" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covering_test/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covering_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oTree" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covering_test/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covering_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oTree" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covering_test/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Eye_Exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oTree" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eye_Exam/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -683,19 +858,19 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.D" />
       <item index="1" class="java.lang.String" itemvalue="Python.trial" />
       <item index="2" class="java.lang.String" itemvalue="Python.tests" />
-      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: majority_determine1.templates.majority_determine1.Decide2.html" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="6" class="java.lang.String" itemvalue="Python.testing" />
-      <item index="7" class="java.lang.String" itemvalue="Python.testing (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testing (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testing (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.tests (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.models" />
+      <item index="7" class="java.lang.String" itemvalue="Python.tests (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.testing (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testing" />
-        <item index="2" class="java.lang.String" itemvalue="Django tests.Test: majority_determine1.templates.majority_determine1.Decide2.html" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tests (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testing (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.models" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tests (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.testing (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -756,41 +931,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -805,154 +959,309 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/29.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/30.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/31.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/32.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/33.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/34.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/35.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/36.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/37.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/38.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/39.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/40.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/41.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/42.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/43.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/44.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/45.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/46.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/47.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/48.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/49.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/50.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/51.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/52.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/53.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/54.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/55.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/56.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/57.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/58.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/60.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/59.html" />
-    <entry file="file://$PROJECT_DIR$/covering/templates/covering/p14.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/covering/views.py">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/testing.py" />
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/views.py">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Introduction.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye25.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye26.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye27.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye28.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye29.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye30.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye31.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye32.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye33.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye34.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye35.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye36.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Priming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Instructions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Introduction_2.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile_1/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3273">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="147" column="49" lean-forward="false" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Results_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide_exp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1302">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions.html">
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -960,18 +1269,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Instructions_2.html">
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3_intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1158">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="281" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-843">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
         </state>
       </provider>

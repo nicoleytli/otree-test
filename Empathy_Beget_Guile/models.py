@@ -18,26 +18,53 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    def before_session_starts(self):
-        for p in self.get_players():
-            temp = random.randint(1, 4)
-            if temp == 1:
-                p.is_4 = 1
-            else:
-                p.is_4 = 0
+    # def before_session_starts(self):
+    #     for p in self.get_players():
+    #         temp = random.randint(1, 4)
+    #         if temp == 1:
+    #             p.is_4 = 1
+    #         else:
+    #             p.is_4 = 0
+    def get_treatment(self):
+        # for i, g in enumerate(self.get_groups()):
+        #     for p in g.get_players():
+        #         p.treatment = treatment[i]
+        #         if treatment[i] == 4:
+        #             p.is_4 = 1
+        #         else:
+        #             p.is_4 = 0
+        for g in self.get_groups():
+            for p in g.get_players():
+                if g.id_in_subsession == 2 or g.id_in_subsession == 6 or g.id_in_subsession == 10:
+                    g.treatment = 1
+                    p.treatment = 1
+                    p.is_4 = 0
+                elif g.id_in_subsession == 3 or g.id_in_subsession == 7 or g.id_in_subsession == 11:
+                    g.treatment = 2
+                    p.treatment = 2
+                    p.is_4 = 0
+                elif g.id_in_subsession == 4 or g.id_in_subsession == 8 or g.id_in_subsession == 12:
+                    g.treatment = 3
+                    p.treatment = 3
+                    p.is_4 = 0
+                else:
+                    g.treatment = 4
+                    p.treatment = 4
+                    p.is_4 = 1
+
 
 
 class Group(BaseGroup):
 
     treatment = models.IntegerField()
 
-    def get_treatment(self):
-        p1 = self.get_player_by_role('Player 1')
-        p2 = self.get_player_by_role('Player 2')
-
-        self.treatment = random.randint(1, 3)
-        p1.treatment = self.treatment
-        p2.treatment = self.treatment
+    # def get_treatment(self):
+    #     p1 = self.get_player_by_role('Player 1')
+    #     p2 = self.get_player_by_role('Player 2')
+    #
+    #     self.treatment = random.randint(1, 3)
+    #     p1.treatment = self.treatment
+    #     p2.treatment = self.treatment
 
     def set_payoffs(self):
 
@@ -130,6 +157,3 @@ class Player(BasePlayer):
 
     # treatment
     treatment = models.IntegerField()
-
-    get_code1 = models.CharField()
-    get_code2 = models.CharField()

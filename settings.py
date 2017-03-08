@@ -5,7 +5,11 @@ import dj_database_url
 from boto.mturk import qualification
 
 import otree.settings
-
+# from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
+#
+# TEMPLATE_CONTEXT_PROCESSORS += (
+#     'django.core.context_processors.request',
+# )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -140,8 +144,8 @@ SESSION_CONFIGS = [
     {
         'name': 'Empathy_Beget_Guile',
         'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 8,
-        'app_sequence': ['Empathy_Beget_Guile_1', 'Empathy_Beget_Guile'],
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
     {
         'name': 'participant_generated_urn_1',
@@ -149,12 +153,12 @@ SESSION_CONFIGS = [
         'num_demo_participants': 8,
         'app_sequence': ['participant_generated_urn_1'],
     },
-    # {
-    #     'name': 'covering',
-    #     'display_name': "covering",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['covering'],
-    # },
+    {
+        'name': 'covering_test',
+        'display_name': "covering",
+        'num_demo_participants': 2,
+        'app_sequence': ['covering_test']
+    }
 ]
 
 # anything you put after the below line will override
