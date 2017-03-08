@@ -54,8 +54,8 @@ ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
 
 # setting for integration with AWS Mturk
-AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_ACCESS_KEY_ID = environ.get('AKIAJIJUXGGB5YZHGUHA')
+AWS_SECRET_ACCESS_KEY = environ.get('SFasU/HElyPsPFRJHOaDeHQVMk02Ueu/HpbAZlrS')
 
 
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
@@ -144,21 +144,21 @@ SESSION_CONFIGS = [
     {
         'name': 'Empathy_Beget_Guile',
         'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
+        'num_demo_participants': 8,
         'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
-    {
-        'name': 'participant_generated_urn_1',
-        'display_name': "Participant Generate Urn",
-        'num_demo_participants': 8,
-        'app_sequence': ['participant_generated_urn_1'],
-    },
-    {
-        'name': 'covering_test',
-        'display_name': "covering",
-        'num_demo_participants': 2,
-        'app_sequence': ['covering_test']
-    }
+    # {
+    #     'name': 'participant_generated_urn_1',
+    #     'display_name': "Participant Generate Urn",
+    #     'num_demo_participants': 8,
+    #     'app_sequence': ['participant_generated_urn_1'],
+    # },
+    # {
+    #     'name': 'covering_test',
+    #     'display_name': "covering",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['covering_test']
+    # }
 ]
 
 # anything you put after the below line will override
