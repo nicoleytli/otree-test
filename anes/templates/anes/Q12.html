@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 12-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose the death penalty for persons convicted of murder?
+    </p>
+
+    {% formfield player.question_12 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

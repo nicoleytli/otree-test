@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 8-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose the use of marijuana being legal?
+    </p>
+
+    {% formfield player.question_8 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

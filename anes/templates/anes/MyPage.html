@@ -1,0 +1,31 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Instructions
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Thank you for agreeing to take part in this survey.
+    </p>
+    <p>
+        In this survey, there are 14 questions about the presidential primary, stereotyping, the economy, discrimination,
+        race and racial consciousness, police use of force, and numerous policy issues. For each question, we will ask
+        your preference as well as the level of it.
+    </p>
+    <p>
+        This survey should only take 5-7 minutes to complete. Please try to do the task as quickly as possible, but you
+        will not be timed.
+    </p>
+    <p>
+        Be assured that all answers you provide will be kept in the strictest confidentiality.
+    </p>
+    <p>
+        Please click 'Next' to begin.
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

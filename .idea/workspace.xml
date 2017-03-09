@@ -2,6 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Demographic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye26.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye27.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye28.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye29.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye30.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye31.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye32.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye33.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye34.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye35.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye36.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Eye9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Instructions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Priming.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,59 +112,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
+      <file leaf-file-name="L7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1158">
-              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eye_Exam/views.py">
+      <file leaf-file-name="L8.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="281" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eye_Exam/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-843">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result_123.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -93,52 +135,78 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="402">
+              <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file leaf-file-name="PaymentInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment_info/templates/payment_info/PaymentInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L9.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L9.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="belief.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/belief.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decide.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide.html">
+      <file leaf-file-name="L10.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html">
+      <file leaf-file-name="L11.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L12.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L12.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L13.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L13.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L14.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes/templates/anes/L14.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -171,39 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/covering_test/models.py" />
-        <option value="$PROJECT_DIR$/covering_test/templates/covering_test/MyPage.html" />
-        <option value="$PROJECT_DIR$/covering_test/testing.py" />
-        <option value="$PROJECT_DIR$/Empathy_Beget_Guile_1/models.py" />
-        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
-        <option value="$PROJECT_DIR$/Empathy_Beget_Guile_1/views.py" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye1.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye2.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye3.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye4.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye5.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye6.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye7.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye8.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye9.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye10.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye11.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye12.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye13.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye14.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye15.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye16.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye17.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye18.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye19.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye20.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye21.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye22.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye23.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye24.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye25.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye26.html" />
-        <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye27.html" />
         <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye28.html" />
         <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye29.html" />
         <option value="$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye30.html" />
@@ -218,9 +253,42 @@
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html" />
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
         <option value="$PROJECT_DIR$/Eye_Exam/models.py" />
-        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
         <option value="$PROJECT_DIR$/Eye_Exam/views.py" />
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html" />
+        <option value="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q2.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q1.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q3.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q4.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q5.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q6.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q7.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q8.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q9.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q10.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q11.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q12.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q13.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Q14.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Results.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/Demographic.html" />
+        <option value="$PROJECT_DIR$/anes/views.py" />
+        <option value="$PROJECT_DIR$/anes/models.py" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/MyPage.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L1.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L2.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L3.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L4.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L5.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L6.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L7.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L8.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L9.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L10.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L11.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L12.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L13.html" />
+        <option value="$PROJECT_DIR$/anes/templates/anes/L14.html" />
         <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
@@ -266,8 +334,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,6 +347,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/anes/templates/anes" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/covering" />
       <recent name="$PROJECT_DIR$/covering/templates/covering" />
@@ -749,19 +818,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,335 +858,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye22.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye24.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye28.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye29.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye30.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye31.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye32.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye33.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye34.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye35.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Eye36.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Priming.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Empathy_Beget_Guile_1/Welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3_intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,79 +882,398 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eye_Exam/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1158">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eye_Exam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="3660">
           <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="281" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Player1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="180">
           <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-843">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#22#31#0" expanded="true" />
+            <element signature="e#22#31#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/templates/participant_generated_urn_1/Decide2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="130" column="4" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant_generated_urn_1/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="114" column="36" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/participant_generated_urn/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="91" lean-forward="false" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="105" lean-forward="false" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Q5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="111" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/Demographic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="144" column="30" lean-forward="false" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/MyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes/templates/anes/L14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment_info/templates/payment_info/PaymentInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="402">
+          <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

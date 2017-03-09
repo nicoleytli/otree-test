@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 6-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose or neither favor nor oppose laws to protect gays and lesbians against job discrimination?
+    </p>
+
+    {% formfield player.question_6 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

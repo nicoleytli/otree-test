@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 5-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose requiring employers to pay women and men the same amount for
+        the same work?
+    </p>
+
+    {% formfield player.question_5 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

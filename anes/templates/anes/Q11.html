@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 11-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        'Fracking' is a way to drill for natural gas by pumping high pressure fluid into the ground.
+        Do you favor, oppose, or neither favor nor oppose fracking in the U.S.?
+    </p>
+
+    {% formfield player.question_11 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

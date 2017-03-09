@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 1-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose the government trying to reduce the difference in incomes
+        between the richest and poorest households?
+    </p>
+
+    {% formfield player.question_1 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

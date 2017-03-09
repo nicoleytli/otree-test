@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 7-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose placing limits on political campaign spending?
+    </p>
+
+    {% formfield player.question_7 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

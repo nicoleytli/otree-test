@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 1-14
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose building a wall on the U.S. border with Mexico?
+    </p>
+
+    {% formfield player.question_14 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

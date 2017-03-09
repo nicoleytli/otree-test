@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 10-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose allowing universities to increase the number of black students
+        studying at their schools by considering race along with other factors when choosing students?
+
+    </p>
+
+    {% formfield player.question_10 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}

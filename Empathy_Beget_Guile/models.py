@@ -35,15 +35,15 @@ class Subsession(BaseSubsession):
         #             p.is_4 = 0
         for g in self.get_groups():
             for p in g.get_players():
-                if g.id_in_subsession == 2 or g.id_in_subsession == 6 or g.id_in_subsession == 10:
+                if g.id_in_subsession % 4 == 2:
                     g.treatment = 1
                     p.treatment = 1
                     p.is_4 = 0
-                elif g.id_in_subsession == 3 or g.id_in_subsession == 7 or g.id_in_subsession == 11:
+                elif g.id_in_subsession % 4 == 3:
                     g.treatment = 2
                     p.treatment = 2
                     p.is_4 = 0
-                elif g.id_in_subsession == 4 or g.id_in_subsession == 8 or g.id_in_subsession == 12:
+                elif g.id_in_subsession % 4 == 0:
                     g.treatment = 3
                     p.treatment = 3
                     p.is_4 = 0

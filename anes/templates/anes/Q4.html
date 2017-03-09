@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 4-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you favor, oppose, or neither favor nor oppose the U.S. send- ing ground troops to fight Islamic militants,
+        such as ISIS, in Iraq and Syria?
+    </p>
+
+    {% formfield player.question_4 with label='' %}
+
+    {% next_button %}
+
+{% endblock %}
