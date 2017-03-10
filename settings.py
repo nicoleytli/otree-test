@@ -159,12 +159,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 8,
     #     'app_sequence': ['participant_generated_urn_1'],
     # },
-    {
-        'name': 'covering_test',
-        'display_name': "covering",
-        'num_demo_participants': 2,
-        'app_sequence': ['covering_test']
-    }
+    # {
+    #     'name': 'covering_test',
+    #     'display_name': "covering",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['covering_test']
+    # }
 ]
 
 # anything you put after the below line will override

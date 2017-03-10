@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Demographic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/L9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes/templates/anes/Q9.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -79,9 +50,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" afterPath="$PROJECT_DIR$/Empathy_Beget_Guile/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,8 +104,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+            <state relative-caret-position="357">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="166" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -1271,8 +1240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+        <state relative-caret-position="357">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="166" selection-end-column="7" />
           <folding />
         </state>
       </provider>
