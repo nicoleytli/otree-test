@@ -195,9 +195,19 @@ import types
 #
 # print('yes/'+collection[0])
 
-mylist = [1, 2, 3, 4]
-result = []
-for i, g in enumerate(mylist):
-    result.append(mylist[i])
+import urllib.request
+import ssl
 
-print(result)
+ssl._create_default_https_context = ssl._create_unverified_context
+link = "https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0"
+data = urllib.request.urlopen(link)
+
+# selected = set()  # the set don't allow repetition
+#
+# while len(selected) <= 66:
+#     selected.add(random.choice(f))
+#
+# temp = list(selected)
+
+for line in data: # files are iterable
+    print(line)

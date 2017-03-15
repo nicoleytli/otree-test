@@ -141,30 +141,30 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    },
-    {
-        'name': 'anes',
-        'display_name': "ANES",
-        'num_demo_participants': 2,
-        'app_sequence': ['anes'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Beget Guile",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    # },
+    # {
+    #     'name': 'anes',
+    #     'display_name': "ANES",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['anes'],
+    # },
     # {
     #     'name': 'participant_generated_urn_1',
     #     'display_name': "Participant Generate Urn",
     #     'num_demo_participants': 8,
     #     'app_sequence': ['participant_generated_urn_1'],
     # },
-    # {
-    #     'name': 'covering_test',
-    #     'display_name': "covering",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['covering_test']
-    # }
+    {
+        'name': 'covering_test',
+        'display_name': "covering",
+        'num_demo_participants': 2,
+        'app_sequence': ['covering_test']
+    }
 ]
 
 # anything you put after the below line will override

@@ -4,6 +4,7 @@ from otree.api import (
 )
 import random
 import os
+import requests
 
 author = 'Your name here'
 
@@ -768,6 +769,11 @@ class Player(BasePlayer):
         else:
             path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female"
 
+        # if self.audio_group == 'male':
+        #     path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male'
+        # else:
+        #     path = 'https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0'
+
         collection = os.listdir(path)
         selected = set()  # the set don't allow repetition
 
@@ -782,6 +788,8 @@ class Player(BasePlayer):
                 temp.append('male/'+temp_1[i])
             else:
                 temp.append('female/' + temp_1[i])
+        #
+        # temp = list(selected)
 
         self.audio_for_player_1 = temp[0]
         self.audio_for_player_2 = temp[1]
