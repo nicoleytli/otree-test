@@ -1,0 +1,43 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+{% load staticfiles %}
+
+{% block title %}
+    Task 1: Text Transcription
+{% endblock %}
+
+{% block content %}
+
+
+{% if player.condition == 'E1' or player.condition == 'E2' or player.condition == 'E3' or player.condition == 'E4'%}
+
+    <p>
+        Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
+    </p>
+
+    <img src="{% static "Empathy/Empathy.png" %}"/>
+
+{% elif player.condition == 'C1' or player.condition == 'C2' or player.condition == 'C3' or player.condition == 'C4'%}
+
+    <p>
+        Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
+    </p>
+
+    <img src="{% static "Empathy/Control.png" %}"/>
+
+{% else %}
+
+    <p>
+        Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
+    </p>
+
+    <img src="{% static "Empathy/Guile.png" %}"/>
+
+
+{% endif %}
+
+    {% formfield player.text with label='Transcribe text here' %}
+
+{% next_button %}
+
+{% endblock %}

@@ -195,12 +195,12 @@ import types
 #
 # print('yes/'+collection[0])
 
-import urllib.request
-import ssl
-
-ssl._create_default_https_context = ssl._create_unverified_context
-link = "https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0"
-data = urllib.request.urlopen(link)
+# import urllib.request
+# import ssl
+#
+# ssl._create_default_https_context = ssl._create_unverified_context
+# link = "https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0"
+# data = urllib.request.urlopen(link)
 
 # selected = set()  # the set don't allow repetition
 #
@@ -209,5 +209,70 @@ data = urllib.request.urlopen(link)
 #
 # temp = list(selected)
 
-for line in data: # files are iterable
-    print(line)
+# for line in data: # files are iterable
+#     print(line)
+
+import re
+import urllib.request
+import ssl
+# ssl._create_default_https_context = ssl._create_unverified_context
+# htmlSource = urllib.request.urlopen("https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0").read(200000)
+#
+# linksList = re.findall('<a href=(.*?)>.*?</a>', htmlSource.decode('utf-8'))
+# for link in linksList:
+#     print(link)
+# treatment_empathy = [1, 2, 3, 4]
+# treatment_control = [1, 2, 3, 4]
+# treatment_guile = [1, 2, 3, 4]
+#
+# random.shuffle(treatment_empathy)
+# random.shuffle(treatment_control)
+# random.shuffle(treatment_guile)
+#
+# Empathy = 0
+# Control = 0
+# Guile = 0
+#
+# class Player:
+#     priming = random.choice(['Empathy', 'Control', 'Guile'])
+#     treatment = 999
+#     is_4 = 999
+#
+# player = []
+# for _ in range(4):
+#     player.append(Player)
+# for i in range(4):
+#     print(player[i].priming)
+
+# for p in player:
+#     if p.priming == 'Empathy':
+#         # ≥
+#         p.treatment = treatment_empathy[Empathy]
+#         p.is_4 = bool(treatment_empathy[Empathy] == 4)
+#         Empathy += 1
+#     elif p.priming == 'Control':
+#         # temp = 'Control'
+#         p.treatment = treatment_empathy[Control]
+#         p.is_4 = bool(treatment_empathy[Control] == 4)
+#         Control += 1
+#     else:
+#         # temp = 'Guile'
+#         p.treatment = treatment_empathy[Guile]
+#         p.is_4 = bool(treatment_empathy[Guile] == 4)
+#         Guile += 1
+#     print(p.priming)
+#     print(p.treatment)
+#     print(p.is_4)
+#
+# print(treatment_control)
+# print(treatment_guile)
+# print(treatment_empathy)
+# print(Empathy)
+# print(Control)
+# print(Guile)
+
+# priming_treatment = [['Empathy', 1], ['Empathy', 2], ['Empathy', 3], ['Empathy', 4], ['Control', 1], ['Control', 2],
+#                      ['Control', 3], ['Control', 4], ['Guile', 1], ['Guile', 2], ['Guile', 3], ['Guile', 4]]
+# random.shuffle(priming_treatment)
+#
+# print(priming_treatment)

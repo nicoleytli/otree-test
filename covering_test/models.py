@@ -764,15 +764,15 @@ class Player(BasePlayer):
 
 
     def get_audios(self):
-        if self.audio_group == 'male':
-            path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male"  # insert the path to your directory
-        else:
-            path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female"
-
         # if self.audio_group == 'male':
-        #     path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male'
+        #     path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male"  # insert the path to your directory
         # else:
-        #     path = 'https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0'
+        #     path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female"
+
+        if self.audio_group == 'male':
+            path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male'
+        else:
+            path = 'https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0'
 
         collection = os.listdir(path)
         selected = set()  # the set don't allow repetition

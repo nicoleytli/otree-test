@@ -111,9 +111,10 @@ ROOMS = [
 # https://boto.readthedocs.org/en/latest/ref/mturk.html?highlight=mturk#module-boto.mturk.qualification
 
 mturk_hit_settings = {
-    'keywords': ['easy', 'bonus', 'choice', 'study'],
-    'title': 'Title for your experiment',
-    'description': 'Description for your experiment',
+    'keywords': ['easy', 'bonus', 'game', 'study'],
+    'title': 'Behavioral Experiment',
+    'description': 'This is part of a study in decision making. In this activity, you will be grouped with another worker, and finish three tasks(two non-interactive tasks and one interactive game).'
+                   ,
     'frame_height': 500,
     'preview_template': 'global/MTurkPreview.html',
     'minutes_allotted_per_assignment': 60,
@@ -159,12 +160,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 8,
     #     'app_sequence': ['participant_generated_urn_1'],
     # },
+    # {
+    #     'name': 'covering_test',
+    #     'display_name': "covering",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['covering_test']
+    # },
     {
-        'name': 'covering_test',
-        'display_name': "covering",
-        'num_demo_participants': 2,
-        'app_sequence': ['covering_test']
-    }
+        'name': 'Empathy',
+        'display_name': "Empathy Beget Guile",
+        'num_demo_participants': 24,
+        'app_sequence': ['Empathy'],
+    },
 ]
 
 # anything you put after the below line will override
