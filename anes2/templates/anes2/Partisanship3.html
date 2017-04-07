@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Partisanship 2
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Do you think yourself as CLOSER to the {{ par1 }} Party or to the {{ par2 }} Party?
+    </p>
+
+    {% formfield player.partisanship3 with label='Please choose one of the bottons:'%}
+
+    {% next_button %}
+
+{% endblock %}

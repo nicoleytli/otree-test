@@ -166,11 +166,41 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['covering_test']
     # },
+    # {
+    #     'name': 'Empathy',
+    #     'display_name': "Empathy Beget Guile",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Empathy'],
+    # },
+    # {
+    #     'name': 'likert',
+    #     'display_name': "likert",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['likert'],
+    # },
+    # {
+    #     'name': 'likertquest',
+    #     'display_name': "likertquest",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['likertquest'],
+    # },
+    # {
+    #     'name': 'ses',
+    #     'display_name': "ses",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['ses'],
+    # },
+    # {
+    #     'name': 'anes',
+    #     'display_name': "anes",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['anes2'],
+    # },
     {
-        'name': 'Empathy',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
-        'app_sequence': ['Empathy'],
+        'name': 'long_survey',
+        'display_name': "long survey",
+        'num_demo_participants': 4,
+        'app_sequence': ['anes2', 'likert', 'likertquest', 'behave', 'ses'],
     },
 ]
 

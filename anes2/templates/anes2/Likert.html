@@ -1,0 +1,15 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question {{ player.round_number }}-2 of {{ Constants.num_rounds }}
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.likert with label='Do you favor that' %}
+
+    {% next_button %}
+
+{% endblock %}

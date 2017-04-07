@@ -1,0 +1,15 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.whichclass with label='Which class do you think you belong to?' %}
+
+    {% next_button %}
+
+{% endblock %}

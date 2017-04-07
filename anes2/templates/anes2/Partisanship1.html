@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Partisanship 1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Generally speaking, do you usually think yourself as a {{ partisanship1 }}, a {{ partisanship2 }}, an INDEPENDENT
+    or what?
+    </p>
+
+    {% formfield player.partisanship1 with label='Please choose one of the bottons:'%}
+
+    {% next_button %}
+
+{% endblock %}

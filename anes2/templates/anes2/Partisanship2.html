@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Partisanship 2
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Would you call yourself a STRONG {{ partisanship }} or not very STRONG {{ partisanship }}?
+    </p>
+
+    {% formfield player.partisanship2 with label='Please choose one of the bottons:'%}
+
+    {% next_button %}
+
+{% endblock %}
