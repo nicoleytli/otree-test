@@ -97,19 +97,13 @@ class Player(BasePlayer):
     )
 
     middle = models.IntegerField(
-        choices=[[1, 'Lower class or poor'],
-                 [2, 'Average middle class'],
-                 [3, 'Upper middle class'],
-                 [4, 'Lower middle class'],
-                 [5, 'Upper class'],
-                 [6, 'Other']]
+        choices=[
+                 [1, 'Average middle class'],
+                 [2, 'Upper middle class']]
     )
 
     working = models.IntegerField(
-        choices=[[1, 'Lower class or poor'],
-                 [2, 'Average working class'],
-                 [3, 'Upper working class'],
-                 [4, 'Lower working class'],
-                 [5, 'Upper class'],
-                 [6, 'Other']]
+        choices=[
+                 [1, 'Average working class'],
+                 [2, 'Upper working class']]
     )
