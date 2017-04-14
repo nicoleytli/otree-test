@@ -202,13 +202,7 @@ SESSION_CONFIGS = [
         'num_demo_participants': 10,
         'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'donation', 'ses'],
     },
-#     {
-#         'name': 'seek',
-#         'display_name': "seek",
-#         'num_demo_participants': 2,
-#         'app_sequence': ['seekinfo'],
-#     },
-# ]
+]
 
 # anything you put after the below line will override
 # oTree's default settings. Use with caution.

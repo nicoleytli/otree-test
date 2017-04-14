@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/donation/testing.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -51,33 +50,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/_builtin/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/templates/behave/MyPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/templates/behave/Results.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/behave/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/likert/question.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/models.py" afterPath="$PROJECT_DIR$/anes2/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/MyPage.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/MyPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship1.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship2.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship3.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Partisanship3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Priming1.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/views.py" afterPath="$PROJECT_DIR$/anes2/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/models.py" afterPath="$PROJECT_DIR$/likert/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/views.py" afterPath="$PROJECT_DIR$/likert/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likertquest/issue.csv" afterPath="$PROJECT_DIR$/likertquest/issue.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likertquest/models.py" afterPath="$PROJECT_DIR$/likertquest/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likertquest/views.py" afterPath="$PROJECT_DIR$/likertquest/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ses/models.py" afterPath="$PROJECT_DIR$/ses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ses/views.py" afterPath="$PROJECT_DIR$/ses/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,8 +85,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="185" selection-end-column="8" />
+            <state relative-caret-position="233">
+              <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/donation/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="53">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -168,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/seekinfo/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/anes2/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="668">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -325,42 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anes2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anes2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anes2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -840,9 +788,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,7 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/behave-trust/templates/behave-trust/Instructions.html" />
     <entry file="file://$PROJECT_DIR$/behave-trust/templates/behave-trust/Send.html" />
     <entry file="file://$PROJECT_DIR$/behave-trust/templates/behave-trust/Introduction.html" />
     <entry file="file://$PROJECT_DIR$/behave-trust/templates/behave-trust/Sendback.html" />
@@ -1171,7 +1118,7 @@
     <entry file="file://$PROJECT_DIR$/donation/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -1227,7 +1174,7 @@
     <entry file="file://$PROJECT_DIR$/seekinfo/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1235,7 +1182,7 @@
     <entry file="file://$PROJECT_DIR$/anes2/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1248,10 +1195,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="185" selection-end-column="8" />
+        <state relative-caret-position="233">
+          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
           <folding />
         </state>
       </provider>
