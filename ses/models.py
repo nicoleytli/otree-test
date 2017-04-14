@@ -92,12 +92,8 @@ class Player(BasePlayer):
     )
 
     chclass = models.IntegerField(
-        choices=[[1, 'Upper class'],
-                 [2, 'Middle class'],
-                 [3, 'Working class'],
-                 [4, 'Neither middle nor working class'],
-                 [5, 'Lower class or poor'],
-                 [6, 'Other']]
+        choices=[[1, 'Middle class'],
+                 [2, 'Working class']]
     )
 
     middle = models.IntegerField(

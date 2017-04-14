@@ -6,8 +6,11 @@
 {% endblock %}
 
 {% block content %}
-    
 
+    <p>The following photo is taken from Donald Trump's inauguration speech:</p>
+    <img src="{% static "anes2/inauguration.jpg" %}"/>
+
+    {% formfield player.priming2 with label="Did you vote for him in the US presidential election of 2016?" %}
     {% next_button %}
 
 {% endblock %}

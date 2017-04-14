@@ -1,0 +1,29 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Choice
+{% endblock %}
+
+{% block content %}
+
+    {% include 'behavetrust/Instructions.html' %}
+
+    <p>
+        You are <strong>Participant B</strong>.<br>
+        In previous question, Participant A described herself/himself as: <strong>{{ counter }}</strong>
+    </p>
+    <p>
+        Participant A sent you {{group.sent_amount}} and you received {{tripled_amount}}.<br>
+        Now you have <strong>{{tripled_amount}}</strong>.
+    </p>
+    <p>
+        How many points will you send to participant A?
+    </p>
+
+    {% formfield group.sent_back_amount with label=prompt %}
+
+    {% next_button %}
+
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Page title
+{% endblock %}
+
+{% block content %}
+
+    <a href="http://www.google.com/">
+       <input type="submit" value="Visit Google" />
+    </a>
+<a href="http://www.google.com" ><input type='text' style="border:1px solid blue;"/></a>
+    {% next_button %}
+
+{% endblock %}

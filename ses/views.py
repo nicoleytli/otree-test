@@ -38,7 +38,7 @@ class Demo5(Page):
     form_fields = ['middle']
 
     def is_displayed(self):
-        return self.player.whichclass == 2 or self.player.chclass == 2
+        return self.player.whichclass == 2 or self.player.chclass == 1
 
 
 class Demo6(Page):
@@ -46,7 +46,7 @@ class Demo6(Page):
     form_fields = ['working']
 
     def is_displayed(self):
-        return self.player.whichclass == 3 or self.player.chclass == 3
+        return self.player.whichclass == 3 or self.player.chclass == 2
 
 class End(Page):
     pass

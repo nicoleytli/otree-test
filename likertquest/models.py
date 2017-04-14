@@ -36,27 +36,27 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    care1f = models.CharField(
+    care1f = models.IntegerField(
         widget=widgets.RadioSelect()
     )
 
-    care1o = models.CharField(
+    care1o = models.IntegerField(
         widget=widgets.RadioSelect()
     )
 
-    care2f = models.CharField(
+    care2f = models.IntegerField(
         widget=widgets.RadioSelect(),
     )
 
-    care2o = models.CharField(
+    care2o = models.IntegerField(
         widget=widgets.RadioSelect(),
     )
 
-    care3f = models.CharField(
+    care3f = models.IntegerField(
         widget=widgets.RadioSelect(),
     )
 
-    care3o = models.CharField(
+    care3o = models.IntegerField(
         widget=widgets.RadioSelect(),
     )
 

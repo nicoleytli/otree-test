@@ -64,3 +64,10 @@ class Player(BasePlayer):
 
     def current_question(self):
         return self.session.vars['questions'][self.round_number - 1]
+
+    # def opinion(self):
+    #     self.participant.vars['opinion_%s' % self.round_number] = 'Indifferent'
+    #
+    # def care(self):
+    #     self.participant.vars['care_%s' % self.round_number] = 999
+

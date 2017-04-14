@@ -1,0 +1,43 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Sign Petition
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Here is an overview of your answers to the issues mentioned in this study.<br>
+        Which of the following issues would you be interested in signing your petition(s) for?
+    </p>
+    <p>
+        We will present you the link(s) after this page to sign your petition(s) regarding to your choice(s).
+        <strong>You can make single choice or multiple choices</strong>
+    </p>
+
+        <table class="table table-hover">
+
+            <tr><td width="30%" align="left">Issues</td>
+                <td width="10%" align="center">Your Answer</td>
+            <td width="5%" align="center">Choice</td>
+            </tr>
+
+        {% for question, attitude, v in list %}
+
+            <tr><td width="30%" align="left">{{ question }}</td>
+                <td width="10%" align="center">{{ attitude }}</td>
+            <td width="5%" align="center">
+                <input type="radio" name="{{ petition }}" value={{ v }}>
+            </td>
+            </tr>
+
+        {% endfor %}
+
+
+        </table>
+
+
+    {% next_button %}
+
+{% endblock %}

@@ -193,16 +193,22 @@ SESSION_CONFIGS = [
     # {
     #     'name': 'anes',
     #     'display_name': "anes",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['anes2'],
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['likert', 'donation'],
     # },
     {
         'name': 'long_survey',
         'display_name': "long survey",
-        'num_demo_participants': 4,
-        'app_sequence': ['anes2', 'likert', 'likertquest', 'behave', 'ses'],
+        'num_demo_participants': 10,
+        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'donation', 'ses'],
     },
-]
+#     {
+#         'name': 'seek',
+#         'display_name': "seek",
+#         'num_demo_participants': 2,
+#         'app_sequence': ['seekinfo'],
+#     },
+# ]
 
 # anything you put after the below line will override
 # oTree's default settings. Use with caution.
