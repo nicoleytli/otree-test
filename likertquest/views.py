@@ -23,7 +23,7 @@ class Care1(Page):
     form_fields = ['care1f', 'care1o']
 
     def care1f_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
@@ -32,7 +32,7 @@ class Care1(Page):
         return list_question
 
     def care1o_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
@@ -46,7 +46,7 @@ class Care2(Page):
     form_fields = ['care2f', 'care2o']
 
     def care2f_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
@@ -63,7 +63,7 @@ class Care2(Page):
         return list_new
 
     def care2o_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
@@ -86,7 +86,7 @@ class Care3(Page):
     form_fields = ['care3f', 'care3o']
 
     def care3f_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
@@ -106,7 +106,7 @@ class Care3(Page):
         return list_new
 
     def care3o_choices(self):
-        list_question = [[1, 'Reduce the difference in income'], [2, 'limit imports'], [3, 'Send troops to fight ISIS'],
+        list_question = [[1, 'Reduce the difference in income'], [2, 'Limit imports'], [3, 'Send troops to fight ISIS'],
                          [4, 'Protect gays and lesbians against job discrimination'], [5, 'The death penalty for murder'],
                          [6, 'Change access to citizenship for children of illegal immigrants'], [7, 'Build a wall on the US-Mexico border'],
                          [8, 'Paid leave for parents of new children'], [9, 'Increase number of black students at universities'],
