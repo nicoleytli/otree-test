@@ -16,8 +16,10 @@ class Constants(BaseConstants):
     players_per_group = None
     num_rounds = 1
 
-    conditions = ['1LG', '1QG', '1QNG', '1LS', '1QS', '1QNS', '1LP', '1QP', '1QNP', '2LG', '2QG', '2QNG', '2LS', '2QS',
-                 '2QNS', '2LP', '2QP', '2QNP', '3LG', '3QG', '3QNG', '3LS', '3QS', '3QNS', '3LP', '3QP', '3QNP']
+    conditions = ['1LG', '1QG', '1QNG', '1LP', '1QP', '1QNP', '1LD', '1QD', '1QND','1LI', '1QI',
+                  '1QNI','2LG', '2QG', '2QNG', '2LP', '2QP', '2QNP', '2LD', '2QD', '2QND', '2LI',
+                  '2QI', '2QNI', '3LG', '3QG', '3QNG', '3LP', '3QP', '3QNP','3LD', '3QD', '3QND',
+                  '3LI', '3QI', '3QNI']
 
 
 class Subsession(BaseSubsession):
@@ -61,7 +63,10 @@ class Player(BasePlayer):
 
     order3 = models.IntegerField()
 
-    priming1 = models.TextField()
+    priming1 = models.CharField(
+        choices=['Yes', 'No'],
+        widget=widgets.RadioSelect
+    )
 
     priming2 = models.CharField(
         choices=['Yes', 'No'],

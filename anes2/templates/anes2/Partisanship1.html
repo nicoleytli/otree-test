@@ -8,11 +8,11 @@
 {% block content %}
 
     <p>
-        Generally speaking, do you usually think yourself as a {{ partisanship1 }}, a {{ partisanship2 }}, an INDEPENDENT
-    or what?
+        <strong>Generally speaking, do you usually think yourself as a {{ partisanship1 }}, a {{ partisanship2 }}, an INDEPENDENT
+            or what?</strong>
     </p>
 
-    {% formfield player.partisanship1 with label='Please choose one of the buttons:'%}
+    {% formfield player.partisanship1 with label=prompt%}
 
     {% next_button %}
 

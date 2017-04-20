@@ -11,16 +11,14 @@
 
     <p>
         You are <strong>Participant A</strong>. <br>
-        Now you have {{Constants.amount_allocated}}.
+        Now you have ${{Constants.amount_allocated}}.
     </p>
     <p>
-        <I>In the previous question, participant B described herself/himself as <strong>{{ counter }}</strong></I><br>
-    </p>
-    <p>
-        How many points will you send to participant B?
+        <I>In the previous question, participant B described herself/himself as <strong>{{ counter }}.</strong></I><br>
     </p>
 
-    {% formfield group.sent_amount with label="Please enter a number from 0 to 100:" %}
+
+    {% formfield group.sent_amount with label="How much money will you send to participant B?" %}
     <p>
     {% next_button %}
     </p>

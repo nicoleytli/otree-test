@@ -1,0 +1,40 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Information Seeking
+{% endblock %}
+
+{% block content %}
+
+    <p>
+    <strong>Which of the following issues would you be interested in getting more information?
+        Please choose one or more options.</strong>
+    </p>
+
+        <table class="table table-hover">
+
+            <tr><td width="30%" align="center"><strong>Issue</strong></td>
+            <td width="5%" align="center"><strong>Choice</strong></td>
+            </tr>
+
+        {% for question, info in list %}
+
+            <tr><td width="30%" align="left">{{ question }}</td>
+            <td width="5%" align="center">
+                <input type="radio" name="{{ info }}" value='True'>
+            </td>
+            </tr>
+
+        {% endfor %}
+
+
+        </table>
+
+    <p>
+        <strong>We will show you the link(s) for more information on the next page.</strong>
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

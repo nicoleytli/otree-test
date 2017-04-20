@@ -133,16 +133,22 @@ class MyPage(Page):
         des = [Constants.description[temp1-1], Constants.description[temp2-1], Constants.description[temp5-1]]
         no = ['1', '2', '3']
 
+        self.player.org_option1 = Constants.organization[temp1-1]
+        self.player.org_option2 = Constants.organization[temp2-1]
+        self.player.org_option3 = Constants.organization[temp5-1]
+
         mylist = zip(org, des, no)
 
         return {'list': mylist}
 
+
+
     def is_displayed(self):
-        return self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
-               self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '2LP' or \
-               self.participant.vars['group'] == '2QP' or self.participant.vars['group'] == '2QNP' or \
-               self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
-               self.participant.vars['group'] == '3QNP'
+        return self.participant.vars['group'] == '1LD' or self.participant.vars['group'] == '1QD' or \
+               self.participant.vars['group'] == '1QND' or self.participant.vars['group'] == '2LD' or \
+               self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
+               self.participant.vars['group'] == '3LD' or self.participant.vars['group'] == '3QD' or \
+               self.participant.vars['group'] == '3QND'
 
 
 

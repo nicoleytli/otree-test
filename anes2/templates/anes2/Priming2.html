@@ -2,15 +2,24 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Partisan Prime 2
+    Partisan Prime 1
 {% endblock %}
 
 {% block content %}
 
-    <p>The following photo is taken from Donald Trump's inauguration speech:</p>
-    <img src="{% static "anes2/inauguration.jpg" %}"/>
+    <img src="{% static "anes2/crowd.jpg" %}"/>
 
-    {% formfield player.priming2 with label="Did you vote for him in the US presidential election of 2016?" %}
+
+    <p>
+        <strong>A CNN journalist says:</strong><br>
+     "The turnout for the inauguration of President Donald Trump appears to be smaller than that of his predecessor as
+        measured by the photo of the two events."
+    </p>
+
+
+    {% formfield player.priming1 with label="Were you aware about this difference in the opinion?" %}
+
+
     {% next_button %}
 
 {% endblock %}

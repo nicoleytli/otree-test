@@ -2,18 +2,17 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Sign Petition
+    Petition
 {% endblock %}
 
 {% block content %}
 
     <p>
         Here is an overview of your answers to the issues mentioned in this study.<br>
-        Which of the following issues would you be interested in signing your petition(s) for?
+        Which one would you like to sign a petition for?
     </p>
     <p>
-        We will present you the link(s) after this page to sign your petition(s) regarding to your choice(s).
-        <strong>You can make single choice or multiple choices</strong>
+        We will give you further information to sign your petition through email.
     </p>
 
         <table class="table table-hover">
@@ -36,6 +35,8 @@
 
 
         </table>
+
+            {% formfield player.email_petition with label='Please leave your email address:'%}
 
 
     {% next_button %}

@@ -110,32 +110,37 @@ class Priming1(Page):
 
     def is_displayed(self):
         return self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or \
-               self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '1LS' or \
-               self.participant.vars['group'] == '1QS' or self.participant.vars['group'] == '1QNS' or \
-               self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
-               self.participant.vars['group'] == '1QNP'
+               self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
+               self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '1LD' or \
+               self.participant.vars['group'] == '1QD' or self.participant.vars['group'] == '1QND' or \
+               self.participant.vars['group'] == '1LI' or self.participant.vars['group'] == '1QI' or \
+               self.participant.vars['group'] == '1QNI'
 
 
 class Priming2(Page):
     form_model = models.Player
-    form_fields = ['priming2']
+    form_fields = ['priming1']
 
     def is_displayed(self):
         return self.participant.vars['group'] == '2LG' or self.participant.vars['group'] == '2QG' or \
-               self.participant.vars['group'] == '2QNG' or self.participant.vars['group'] == '2LS' or \
-               self.participant.vars['group'] == '2QS' or self.participant.vars['group'] == '2QNS' or \
-               self.participant.vars['group'] == '2LP' or self.participant.vars['group'] == '2QP' or \
-               self.participant.vars['group'] == '2QNP'
+               self.participant.vars['group'] == '2QNG' or self.participant.vars['group'] == '2LP' or self.participant.vars['group'] == '2QP' or \
+               self.participant.vars['group'] == '2QNP' or self.participant.vars['group'] == '2LD' or \
+               self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
+               self.participant.vars['group'] == '2LI' or self.participant.vars['group'] == '2QI' or \
+               self.participant.vars['group'] == '2QNI'
 
 
 class Control(Page):
+    form_model = models.Player
+    form_fields = ['priming1']
 
     def is_displayed(self):
         return self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or \
-               self.participant.vars['group'] == '3QNG' or self.participant.vars['group'] == '3LS' or \
-               self.participant.vars['group'] == '3QS' or self.participant.vars['group'] == '3QNS' or \
-               self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
-               self.participant.vars['group'] == '3QNP'
+               self.participant.vars['group'] == '3QNG' or self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
+               self.participant.vars['group'] == '3QNP' or self.participant.vars['group'] == '3LD' or \
+               self.participant.vars['group'] == '3QD' or self.participant.vars['group'] == '3QND' or \
+               self.participant.vars['group'] == '3LI' or self.participant.vars['group'] == '3QI' or \
+               self.participant.vars['group'] == '3QNI'
 
 
 

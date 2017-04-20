@@ -16,9 +16,9 @@ class MyPage(Page):
             qd['choice3'],
         ]
 
-    # def before_next_page(self):
+    def before_next_page(self):
     #     self.player.care()
-    #     self.player.opinion()
+        self.player.opinion()
 
 
 
@@ -35,7 +35,7 @@ class Likert(Page):
         ur_list = [2, 'a moderate amount']
         return [my_list[0], ur_list, my_list[1]]
 
-    def opinion(self):
+    def before_next_page(self):
         self.participant.vars['opinion_%s' % self.round_number] = 'Agree'
 
     # def before_next_page(self):
@@ -56,7 +56,7 @@ class Likert2(Page):
         ur_list = [2, 'a moderate amount']
         return [my_list[0], ur_list, my_list[1]]
 
-    def opinion(self):
+    def before_next_page(self):
         self.participant.vars['opinion_%s' % self.round_number] = 'Disagree'
 
     # def before_next_page(self):

@@ -62,6 +62,7 @@ AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
 REAL_WORLD_CURRENCY_CODE = 'USD'
 USE_POINTS = False
 
+POINTS_DECIMAL_PLACES = 1
 
 # e.g. en, de, fr, it, ja, zh-hans
 # see: https://docs.djangoproject.com/en/1.9/topics/i18n/#term-language-code
@@ -200,8 +201,14 @@ SESSION_CONFIGS = [
         'name': 'long_survey',
         'display_name': "long survey",
         'num_demo_participants': 10,
-        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'donation', 'ses'],
+        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'ses'],
     },
+    # {
+    #     'name': 'info',
+    #     'display_name': "infoseeking",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['anes2', 'likert', 'petition'],
+    # },
 ]
 
 # anything you put after the below line will override

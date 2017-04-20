@@ -15,16 +15,16 @@
             <strong>{{ group.sent_back_amount }}</strong>.
             </p>
             <p>
-                You were initially endowed with <strong>$100</strong>,
+                You were initially endowed with <strong>$1</strong>,
                 chose to send <strong>{{ group.sent_amount }}</strong>,
                 received <strong>{{ group.sent_back_amount }}</strong>. <br>
                 Thus you
-                now have <strong>$100-{{ group.sent_amount }}+{{ group.sent_back_amount }}={{ player.payoff }}</strong>.
+                now have <strong>$1-{{ group.sent_amount }}+{{ group.sent_back_amount }}={{ player.payoff }}</strong>.
 
 
         {% else %}
                 Participant A sent you <strong>{{ group.sent_amount }}</strong>.<br>
-                They were tripled so you received
+                You received
                 <strong>{{ tripled_amount }}</strong>. You chose to return
                 <strong>{{ group.sent_back_amount }}</strong>.
             </p>

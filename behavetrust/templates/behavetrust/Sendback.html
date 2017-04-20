@@ -17,11 +17,9 @@
         Participant A sent you {{group.sent_amount}} and you received {{tripled_amount}}.<br>
         Now you have <strong>{{tripled_amount}}</strong>.
     </p>
-    <p>
-        How many points will you send to participant A?
-    </p>
 
-    {% formfield group.sent_back_amount with label=prompt %}
+
+    {% formfield group.sent_back_amount with label='How much money will you send to participant A?' %}
 
     {% next_button %}
 

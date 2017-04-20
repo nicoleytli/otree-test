@@ -22,7 +22,7 @@ class Constants(BaseConstants):
 
 
     # Initial amount allocated to each player
-    amount_allocated = c(100)
+    amount_allocated = 1
     multiplication_factor = 3
 
 
@@ -32,13 +32,13 @@ class Subsession(BaseSubsession):
 
 class Group(BaseGroup):
     sent_amount = models.CurrencyField(
-        min=0, max=Constants.amount_allocated,
         doc="""Amount sent by P1""",
+        choices=currency_range(0, Constants.amount_allocated, 0.1),
     )
 
     sent_back_amount = models.CurrencyField(
         doc="""Amount sent back by P2""",
-        min=c(0),
+        min=0,
     )
 
 

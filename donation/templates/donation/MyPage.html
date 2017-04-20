@@ -7,7 +7,7 @@
 
 {% block content %}
     <p>
-        Congratulations! You have been selected for a 10 dollar cash reward!
+        Congratulations! You have been selected for a <strong>10 dollar</strong> cash reward!
     </p>
     <p>
         Would you like to donate a share of this reward to one of the organizations mentioned below?
@@ -39,12 +39,12 @@
         Each organization was selected because its purpose is to take action on some of the issues mentioned in the survey.
     </p>
 
-    {% formfield player.donation with lable='I would like to donate(optional):' %}
-    {% formfield player.org with label='to(optional):' %}
-    {% formfield  player.email with label='Please enter your email to receive your donation receipt(optional):'%}
+    {% formfield player.donation with label='I would like to donate:' %}
+    {% formfield player.org with label='to(No. of the organization):' %}
+    {% formfield player.email with label='Please enter your email to receive your donation receipt:'%}
 
     <p>
-        If you do not wish to donate, please click next to skip this page.
+        <I><strong>If you do not wish to donate, please click next to skip this page.</strong></I>
     </p>
 
     {% next_button %}
