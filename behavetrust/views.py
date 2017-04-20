@@ -62,7 +62,7 @@ class Send(Page):
         return {'counter': other.choice}
 
 
-class SendBack(Page):
+class Sendback(Page):
     """This page is only for P2
     P2 sends back some amount (of the tripled amount received) to P1"""
 
@@ -132,7 +132,7 @@ page_sequence = [
     SecondWait,
     Send,
     ThirdWait,
-    SendBack,
+    Sendback,
     ResultsWaitPage,
     Results,
 ]
