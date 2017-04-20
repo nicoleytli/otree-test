@@ -1,0 +1,60 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 3
+{% endblock %}
+
+{% block content %}
+    <p>
+        <strong>We hear a lot of talk these days about liberals and conservatives. <br>
+        Here is a seven-point scale on which the political views that people might hold are
+            arranged from extremely liberal to extremely conservative.</strong>
+    </p>
+    <p>
+        <strong>Where would you place yourself on this scale, or haven't you thought much about this?</strong>
+    </p>
+
+
+    <table class="table table-hover">
+
+        <tr>
+            <td width="10%" align="center">Extremely liberal</td>
+            <td width="10%" align="center">Liberal</td>
+            <td width="10%" align="center">Slightly liberal</td>
+            <td width="10%" align="center">Moderate; middle of the road</td>
+            <td width="10%" align="center">Slightly conservative</td>
+            <td width="10%" align="center">Conservative</td>
+            <td width="10%" align="center">Extremely conservative</td>
+        </tr>
+        <tr>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=1></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=2></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=3></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=4></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=5></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=6></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q5" value=7></td>
+        </tr>
+        </table>
+    <table class="table table-hover">
+    <tr>
+        <td width="100%" align="center">Haven't thought much about this</td>
+    </tr>
+    <tr>
+        <td width="100%" align="center">
+            <input type="radio" name="Q5" value=99></td>
+    </tr>
+
+    </table>
+
+    {% next_button %}
+
+{% endblock %}

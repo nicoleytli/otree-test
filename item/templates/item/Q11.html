@@ -1,0 +1,58 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 8
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        <strong>Some people feel the government in Washington should see to it that every person has a job and a good standard
+        of living. Suppose these people are at one end of a scale, at point 1. Others think the government should just
+        let each person get ahead on their own. Suppose these people are at the other end, at point 7. And, of course,
+            some other people have opinions somewhere in between, at points 2, 3, 4, 5, or 6.</strong>
+    </p>
+
+    <p>
+        <strong>Where would you place yourself on this scale, or haven't you thought much about this?</strong>
+    </p>
+
+        <table class="table table-hover">
+
+        <tr>
+        <td width="10%" align="right">Govt should see to jobs and standard of living</td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=1></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=2></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=3></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=4></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=5></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=6></td>
+        <td width="4%" align="center">
+            <input type="radio" name="Q11" value=7></td>
+
+        <td width="10%" align="left">Govt should let each person get ahead on own</td>
+        </tr>
+        </table>
+
+    <table class="table table-hover">
+    <tr>
+        <td width="100%" align="center">Haven't thought much about this</td>
+
+        </tr>
+        <tr>
+        <td width="100%" align="center">
+            <input type="radio" name="Q11" value=99></td>
+    </tr>
+    </table>
+
+
+    {% next_button %}
+
+{% endblock %}

@@ -201,13 +201,13 @@ SESSION_CONFIGS = [
         'name': 'long_survey',
         'display_name': "long survey",
         'num_demo_participants': 20,
-        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'ses'],
+        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'item', 'ses'],
     },
     # {
-    #     'name': 'info',
-    #     'display_name': "infoseeking",
-    #     'num_demo_participants': 20,
-    #     'app_sequence': ['anes2', 'likert', 'petition'],
+    #     'name': 'item',
+    #     'display_name': "item",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['item'],
     # },
 ]
 
