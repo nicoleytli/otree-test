@@ -200,7 +200,7 @@ SESSION_CONFIGS = [
     {
         'name': 'long_survey',
         'display_name': "long survey",
-        'num_demo_participants': 10,
+        'num_demo_participants': 20,
         'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'ses'],
     },
     # {
