@@ -47,6 +47,13 @@ class Player(BasePlayer):
                 [2, 'No, I did not']],
         widget=widgets.RadioSelect()
     )
+    Q4_2 = models.IntegerField(
+        choices=[[1, 'Support'],
+                 [2, 'Oppose'],
+                 [3, 'Neither']],
+        widget = widgets.RadioSelect()
+    )
+    Q4_3 = models.TextField()
     Q5 = models.IntegerField()
     Q6 = models.IntegerField(
         choices=[[1, 'Liberal'],

@@ -40,6 +40,22 @@ class Q4(Page):
     form_fields = ['Q4']
 
 
+class Q41(Page):
+    form_model = models.Player
+    form_fields = ['Q4_2']
+
+    def is_displayed(self):
+        return self.player.Q4 == 1
+
+
+class Q42(Page):
+    form_model = models.Player
+    form_fields = ['Q4_3']
+
+    def is_displayed(self):
+        return self.player.Q4_2 == 3 and self.player.Q4 == 1
+
+
 class Q5(Page):
     form_model = models.Player
     form_fields = ['Q5']
@@ -93,6 +109,8 @@ page_sequence = [
     Q2,
     Q3,
     Q4,
+    Q41,
+    Q42,
     Q5,
     Q6,
     Q7,

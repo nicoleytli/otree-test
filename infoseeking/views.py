@@ -6,7 +6,7 @@ from .models import Constants
 
 class MyPage(Page):
     form_model = models.Player
-    form_fields = ['info1', 'info2', 'info3', 'info4', 'info5', 'info6', 'info7', 'info8', 'info9', 'info10']
+    form_fields = ['info1', 'info2', 'info3', 'info4', 'info5', 'info6', 'info7', 'info8', 'info9', 'info10', 'email_info']
 
     def vars_for_template(self):
         question = ['Reduce the difference in income', 'Limit imports', 'Send troops to fight ISIS',
@@ -77,5 +77,5 @@ class Results(Page):
 
 page_sequence = [
     MyPage,
-    Results
+    # Results
 ]

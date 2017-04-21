@@ -26,18 +26,43 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    petition = models.IntegerField(
-        choices=[[1, 'Reduce the difference in income'],
-                 [2, 'Limit imports'],
-                 [3, 'Send troops to fight ISIS'],
-                 [4, 'Protect gays and lesbians against job discrimination'],
-                 [5, 'The death penalty for murder'],
-                 [6, 'Change access to citizenship for children of illegal immigrants'],
-                 [7, 'Build a wall on the US-Mexico border'],
-                 [8, 'Paid leave for parents of new children'],
-                 [9, 'Increase number of black students at universities'],
-                 [10, 'Pay women and men the same amount for the same work']],
-        widget=widgets.RadioSelect(),
+    petition_1 = models.CharField(
+        blank=True
+    )
+
+    petition_2 = models.CharField(
+        blank=True
+    )
+
+    petition_3 = models.CharField(
+        blank=True
+    )
+
+    petition_4 = models.CharField(
+        blank=True
+    )
+
+    petition_5 = models.CharField(
+        blank=True
+    )
+
+    petition_6 = models.CharField(
+        blank=True
+    )
+
+    petition_7 = models.CharField(
+        blank=True
+    )
+
+    petition_8 = models.CharField(
+        blank=True
+    )
+
+    petition_9 = models.CharField(
+        blank=True
+    )
+
+    petition_10 = models.CharField(
         blank=True
     )
 

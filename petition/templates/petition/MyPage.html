@@ -9,25 +9,27 @@
 
     <p>
         Here is an overview of your answers to the issues mentioned in this study.<br>
-        Which one would you like to sign a petition for?
+        Would you be interested in voicing your concerns through social media on one issue or more? If so,
+        let us know by checking all that apply.
     </p>
     <p>
-        We will give you further information to sign your petition through email.
+        You will be directed to a page with links to petitions that align with your own policy position,
+        feel free to share these links with your friends!
     </p>
 
         <table class="table table-hover">
 
-            <tr><td width="30%" align="left">Issues</td>
+            <tr><td width="30%" align="left">Issue</td>
                 <td width="10%" align="center">Your Answer</td>
             <td width="5%" align="center">Choice</td>
             </tr>
 
-        {% for question, attitude, v in list %}
+        {% for question, attitude, petition in list %}
 
             <tr><td width="30%" align="left">{{ question }}</td>
                 <td width="10%" align="center">{{ attitude }}</td>
             <td width="5%" align="center">
-                <input type="radio" name="{{ petition }}" value={{ v }}>
+                <input type="radio" name="{{ petition }}" value="True">
             </td>
             </tr>
 
@@ -36,7 +38,9 @@
 
         </table>
 
-            {% formfield player.email_petition with label='Please leave your email address:'%}
+    <p>
+        <strong><I>If you are not interested, please move to the next page.</I></strong>
+    </p>
 
 
     {% next_button %}

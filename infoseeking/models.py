@@ -57,3 +57,5 @@ class Player(BasePlayer):
         blank=True
     )
 
+    email_info = models.CharField()
+
