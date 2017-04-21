@@ -167,12 +167,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['covering_test']
     # },
-    # {
-    #     'name': 'Empathy',
-    #     'display_name': "Empathy Beget Guile",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Empathy'],
-    # },
+    {
+        'name': 'Empathy',
+        'display_name': "Empathy Beget Guile",
+        'num_demo_participants': 24,
+        'app_sequence': ['Empathy'],
+    },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
