@@ -23,13 +23,23 @@ http://getbootstrap.com/components/
        </a>
     </li>
 
+    <input type="hidden" name="time_stamp_entered"
+    value="0" id="time_stamp_entered"/>	
+
+
+    {% next_button %}
+
+{% endblock %}
+
+{% block scripts %}
+
     <script>
       $(document).ready(function(){
-         var ps=$("#rent_car").position();
+         var ps=$("#info").position();
          $(".float_box").css("position","absolute");
          $(".float_box").css("left",ps.left+80);
          $(".float_box").css("top",ps.top);
-        $("#rent_car").hover(function(){
+        $("#info").hover(function(){
             //record the current time
         $(this).data( 'start', new Date().getTime() );
             $(".float_box").show();},
@@ -43,7 +53,5 @@ http://getbootstrap.com/components/
             $(".float_box").hide();});
         })
     </script>
-
-    {% next_button %}
 
 {% endblock %}
