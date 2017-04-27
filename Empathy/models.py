@@ -317,7 +317,7 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
 
-    def role_p(self):
+    def role(self):
         if self.id_in_group == 1:
             return 'Player 1'
         if self.id_in_group == 2:
