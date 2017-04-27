@@ -50,46 +50,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye1.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye10.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye11.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye12.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye13.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye14.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye15.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye16.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye17.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye18.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye19.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye2.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye20.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye21.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye22.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye23.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye24.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye24.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye25.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye26.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye26.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye27.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye28.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye28.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye29.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye29.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye3.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye30.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye30.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye31.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye31.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye32.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye32.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye33.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye33.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye34.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye34.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye35.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye35.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye36.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye36.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye4.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye5.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye6.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye7.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye8.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye9.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Eye9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Instructions.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Instructions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/templates/Empathy/Welcome.html" afterPath="$PROJECT_DIR$/Empathy/templates/Empathy/Welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empathy/views.py" afterPath="$PROJECT_DIR$/Empathy/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,16 +81,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Eye30.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy/templates/Empathy/Eye30.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Eye31.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empathy/templates/Empathy/Eye31.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -180,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Welcome.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Welcome.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empathy/templates/Empathy/Welcome.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -206,6 +157,18 @@
             <state relative-caret-position="285">
               <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Empathy/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="425" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,7 +226,6 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/Empathy/models.py" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Result_123.html" />
-        <option value="$PROJECT_DIR$/Empathy/views.py" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Instructions.html" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Eye1.html" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Eye2.html" />
@@ -302,6 +264,7 @@
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Eye35.html" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Eye36.html" />
         <option value="$PROJECT_DIR$/Empathy/templates/Empathy/Welcome.html" />
+        <option value="$PROJECT_DIR$/Empathy/views.py" />
       </list>
     </option>
   </component>
@@ -352,42 +315,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empathy_Beget_Guile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empathy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empathy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1010,16 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="418" column="3" lean-forward="false" selection-start-line="418" selection-start-column="3" selection-end-line="418" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Empathy/templates/Empathy/Eye1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1327,8 +1244,18 @@
     <entry file="file://$PROJECT_DIR$/Empathy/templates/Empathy/Welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="425" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
