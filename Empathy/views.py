@@ -42,9 +42,12 @@ class Wait(WaitPage):
     players_per_group = 2
 
 
-class ResultWait(WaitPage):
-    def after_all_players_arrive(self):
-        self.group.get_scores()
+# class ResultWait(WaitPage):
+    # def after_all_players_arrive(self):
+    #     self.group.get_scores()
+
+    # def is_displayed(self):
+    #     return self.group.treatment != 4
 
 
 class Priming(Page):
@@ -262,8 +265,8 @@ class Eye36(Page):
     form_model = models.Player
     form_fields = ['feeling36_response']
 
-    # def before_next_page(self):
-    #     self.group.get_scores()
+    def before_next_page(self):
+        self.group.get_scores()
 
 class ResultsWaitPage(WaitPage):
 
@@ -387,42 +390,42 @@ page_sequence = [
     Priming,
     Introduction,
     Eye1,
-    Eye2,
-    Eye3,
-    Eye4,
-    Eye5,
-    Eye6,
-    Eye7,
-    Eye8,
-    Eye9,
-    Eye10,
-    Eye11,
-    Eye12,
-    Eye13,
-    Eye14,
-    Eye15,
-    Eye16,
-    Eye17,
-    Eye18,
-    Eye19,
-    Eye20,
-    Eye21,
-    Eye22,
-    Eye23,
-    Eye24,
-    Eye25,
-    Eye26,
-    Eye27,
-    Eye28,
-    Eye29,
-    Eye30,
-    Eye31,
-    Eye32,
-    Eye33,
-    Eye34,
-    Eye35,
+    # Eye2,
+    # Eye3,
+    # Eye4,
+    # Eye5,
+    # Eye6,
+    # Eye7,
+    # Eye8,
+    # Eye9,
+    # Eye10,
+    # Eye11,
+    # Eye12,
+    # Eye13,
+    # Eye14,
+    # Eye15,
+    # Eye16,
+    # Eye17,
+    # Eye18,
+    # Eye19,
+    # Eye20,
+    # Eye21,
+    # Eye22,
+    # Eye23,
+    # Eye24,
+    # Eye25,
+    # Eye26,
+    # Eye27,
+    # Eye28,
+    # Eye29,
+    # Eye30,
+    # Eye31,
+    # Eye32,
+    # Eye33,
+    # Eye34,
+    # Eye35,
     Eye36,
-    ResultWait,
+    # ResultWait,
     Player1,
     Task3,
     WaitforP1,
