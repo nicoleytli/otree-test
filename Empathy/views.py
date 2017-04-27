@@ -42,13 +42,6 @@ class Wait(WaitPage):
     players_per_group = 2
 
 
-# class ResultWait(WaitPage):
-    # def after_all_players_arrive(self):
-    #     self.group.get_scores()
-
-    # def is_displayed(self):
-    #     return self.group.treatment != 4
-
 
 class Priming(Page):
     form_model = models.Player
@@ -425,7 +418,6 @@ page_sequence = [
     Eye34,
     Eye35,
     Eye36,
-    # ResultWait,
     Player1,
     Task3,
     WaitforP1,
