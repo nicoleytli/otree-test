@@ -9,7 +9,7 @@
 {% block content %}
 
 
-{% if player.condition == 'E1' or player.condition == 'E2' or player.condition == 'E3' or player.condition == 'E4'%}
+{% if player.group_num == 2 or player.group_num == 5 or player.group_num == 8 or player.group_num == 11 %}
 
     <p>
         Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
@@ -17,7 +17,7 @@
 
     <img src="{% static "Empathy/Empathy.png" %}"/>
 
-{% elif player.condition == 'C1' or player.condition == 'C2' or player.condition == 'C3' or player.condition == 'C4'%}
+{% elif player.group_num == 1 or player.group_num == 4 or player.group_num == 7 or player.group_num == 10 %}
 
     <p>
         Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.

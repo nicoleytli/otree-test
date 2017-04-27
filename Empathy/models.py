@@ -15,27 +15,27 @@ class Constants(BaseConstants):
     name_in_url = 'Empathy'
     players_per_group = 2
     num_rounds = 1
-    conditions = ['E1', 'E2', 'E3', 'E4', 'C1', 'C2', 'C3', 'C4', 'G1', 'G2', 'G3', 'G4']
+    conditions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 
 class Subsession(BaseSubsession):
     def before_session_starts(self):
         for p in self.get_players():
-            p.condition = 'None'
+            p.group_num = 999
 
 
 class Group(BaseGroup):
     def get_scores(self):
 
         def compute(player):
-            answer = [player.option_1, player.option_2, player.option_3, player.option_4, player.option_5,
-                      player.option_6, player.option_7, player.option_8, player.option_9, player.option_10,
-                      player.option_11, player.option_12, player.option_13, player.option_14, player.option_15,
-                      player.option_16, player.option_17, player.option_18, player.option_19, player.option_20,
-                      player.option_21, player.option_22, player.option_23, player.option_24, player.option_25,
-                      player.option_26, player.option_27, player.option_28, player.option_29, player.option_30,
-                      player.option_31, player.option_32, player.option_33, player.option_34, player.option_35,
-                      player.option_36]
+            answer = [player.feeling1_response, player.feeling2_response, player.feeling3_response, player.feeling4_response, player.feeling5_response,
+                      player.feeling6_response, player.feeling7_response, player.feeling8_response, player.feeling9_response, player.feeling10_response,
+                      player.feeling11_response, player.feeling12_response, player.feeling13_response, player.feeling14_response, player.feeling15_response,
+                      player.feeling16_response, player.feeling17_response, player.feeling18_response, player.feeling19_response, player.feeling20_response,
+                      player.feeling21_response, player.feeling22_response, player.feeling23_response, player.feeling24_response, player.feeling25_response,
+                      player.feeling26_response, player.feeling27_response, player.feeling28_response, player.feeling29_response, player.feeling30_response,
+                      player.feeling31_response, player.feeling32_response, player.feeling33_response, player.feeling34_response, player.feeling35_response,
+                      player.feeling36_response]
 
             correction = ['Playful', 'Upset', 'Desire', 'Insisting', 'Worried', 'Fantasizing', 'Uneasy', 'Despondent',
                           'Preoccupied', 'Cautious', 'Regretful', 'Skeptical', 'Anticipating', 'Accusing',
@@ -90,14 +90,14 @@ class Group(BaseGroup):
 
     def get_treatment(self):
         for p in self.get_players():
-            if p.condition == 'E4' or p.condition == 'C4' or p.condition == 'G4':
+            if p.group_num == 10 or p.group_num == 11 or p.group_num == 12:
                 p.is_4 = 1
                 self.treatment = 4
             else:
                 p.is_4 = 0
-                if p.condition == 'E1' or p.condition == 'C1' or p.condition == 'G1':
+                if p.group_num == 1 or p.group_num == 2 or p.group_num == 3:
                     self.treatment = 1
-                elif p.condition == 'E2' or p.condition == 'C2' or p.condition == 'G2':
+                elif p.group_num == 4 or p.group_num == 5 or p.group_num == 6:
                     self.treatment = 2
                 else:
                     self.treatment = 3
@@ -109,182 +109,182 @@ class Player(BasePlayer):
     text = models.TextField()
 
     # 36 eye expressions
-    option_1 = models.CharField(
+    feeling1_response = models.CharField(
         choices=['Playful', 'Comforting', 'Irritated', 'Bored'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_2 = models.CharField(
+    feeling2_response = models.CharField(
         choices=['Terrified', 'Upset', 'Arrogant', 'Annoyed'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_3 = models.CharField(
+    feeling3_response = models.CharField(
         choices=['Joking', 'Flustered', 'Desire', 'Convinced'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_4 = models.CharField(
+    feeling4_response = models.CharField(
         choices=['Joking', 'Insisting', 'Amused', 'Relaxed'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_5 = models.CharField(
+    feeling5_response = models.CharField(
         choices=['Irritated', 'Sarcastic', 'Worried', 'Friendly'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_6 = models.CharField(
+    feeling6_response = models.CharField(
         choices=['Aghast', 'Fantasizing', 'Impatient', 'Alarmed'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_7 = models.CharField(
+    feeling7_response = models.CharField(
         choices=['Apologetic', 'Friendly', 'Uneasy', 'Dispirited'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_8 = models.CharField(
+    feeling8_response = models.CharField(
         choices=['Despondent', 'Relieved', 'Shy', 'Excited'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_9 = models.CharField(
+    feeling9_response = models.CharField(
         choices=['Annoyed', 'Hostile', 'Horrified', 'Preoccupied'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_10 = models.CharField(
+    feeling10_response = models.CharField(
         choices=['Cautious', 'Insisting', 'Bored', 'Aghast'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_11 = models.CharField(
+    feeling11_response = models.CharField(
         choices=['Terrified', 'Amused', 'Regretful', 'Flirtatious'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_12 = models.CharField(
+    feeling12_response = models.CharField(
         choices=['Indifferent', 'Embarrassed', 'Skeptical', 'Dispirited'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_13 = models.CharField(
+    feeling13_response = models.CharField(
         choices=['Decisive', 'Anticipating', 'Threatening', 'Shy'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_14 = models.CharField(
+    feeling14_response = models.CharField(
         choices=['Irritated', 'Disappointed', 'Depressed', 'Accusing'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_15 = models.CharField(
+    feeling15_response = models.CharField(
         choices=['Contemplative', 'Flustered', 'Encouraging', 'Amused'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_16 = models.CharField(
+    feeling16_response = models.CharField(
         choices=['Irritated', 'Thoughtful', 'Encouraging', 'Sympathetic'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_17 = models.CharField(
+    feeling17_response = models.CharField(
         choices=['Doubtful', 'Affectionate', 'Playful', 'Aghast'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_18 = models.CharField(
+    feeling18_response = models.CharField(
         choices=['Decisive', 'Amused', 'Aghast', 'Bored'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_19 = models.CharField(
+    feeling19_response = models.CharField(
         choices=['Arrogant', 'Grateful', 'Sarcastic', 'Tentative'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_20 = models.CharField(
+    feeling20_response = models.CharField(
         choices=['Dominant', 'Friendly', 'Guilty', 'Horrified'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_21 = models.CharField(
+    feeling21_response = models.CharField(
         choices=['Embarrassed', 'Fantasizing', 'Confused', 'Panicked'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_22 = models.CharField(
+    feeling22_response = models.CharField(
         choices=['Preoccupied', 'Grateful', 'Insisting', 'Imploring'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_23 = models.CharField(
+    feeling23_response = models.CharField(
         choices=['Contented', 'Apologetic', 'Defiant', 'Curious'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_24 = models.CharField(
+    feeling24_response = models.CharField(
         choices=['Pensive', 'Irritated', 'Excited', 'Hostile'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_25 = models.CharField(
+    feeling25_response = models.CharField(
         choices=['Panicked', 'Incredulous', 'Despondent', 'Interested'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_26 = models.CharField(
+    feeling26_response = models.CharField(
         choices=['Alarmed', 'Shy', 'Hostile', 'Anxious'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_27 = models.CharField(
+    feeling27_response = models.CharField(
         choices=['Joking', 'Cautious', 'Arrogant', 'Reassuring'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_28 = models.CharField(
+    feeling28_response = models.CharField(
         choices=['Interested', 'Joking', 'Affectionate', 'Contented'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_29 = models.CharField(
+    feeling29_response = models.CharField(
         choices=['Impatient', 'Aghast', 'Irritated', 'Reflective'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_30 = models.CharField(
+    feeling30_response = models.CharField(
         choices=['Grateful', 'Flirtatious', 'Hostile', 'Disappointed'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_31 = models.CharField(
+    feeling31_response = models.CharField(
         choices=['Ashamed', 'Confident', 'Joking', 'Dispirited'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_32 = models.CharField(
+    feeling32_response = models.CharField(
         choices=['Serious', 'Ashamed', 'Bewildered', 'Alarmed'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_33 = models.CharField(
+    feeling33_response = models.CharField(
         choices=['Embarrassed', 'Guilty', 'Fantasizing', 'Concerned'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_34 = models.CharField(
+    feeling34_response = models.CharField(
         choices=['Aghast', 'Baffled', 'Distrustful', 'Terrified'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_35 = models.CharField(
+    feeling35_response = models.CharField(
         choices=['Puzzled', 'Nervous', 'Insisting', 'Contemplative'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option_36 = models.CharField(
+    feeling36_response = models.CharField(
         choices=['Ashamed', 'Nervous', 'Suspicious', 'Indecisive'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
@@ -294,7 +294,7 @@ class Player(BasePlayer):
     score = models.IntegerField()
 
     # Decision for Treatment 1-3
-    Message_12 = models.CharField(
+    message = models.CharField(
         choices=['Message 1', 'Message 2'],
         doc="""Either 'Message 1' or 'Message 2'""",
         widget=widgets.RadioSelect()
@@ -306,18 +306,18 @@ class Player(BasePlayer):
     )
 
     # Decision for Treatment 4
-    option4_1 = models.CharField(
+    D_Q39_1 = models.CharField(
         choices=['Completely Fair', 'Fair', 'Unfair', 'Very Unfair'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
-    option4_2 = models.CharField(
+    D_Q39_2 = models.CharField(
         choices=['Completely Fair', 'Fair', 'Unfair', 'Very Unfair'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
     )
 
-    def role(self):
+    def role_p(self):
         if self.id_in_group == 1:
             return 'Player 1'
         if self.id_in_group == 2:
@@ -340,7 +340,7 @@ class Player(BasePlayer):
         # widget=widgets.RadioSelect()
     )
 
-    service = models.CharField(
+    services = models.CharField(
         choices=['Never', 'Once a year', 'Once a month', 'Once a week', 'More than once a week'],
         doc="""Please choose one of the options""",
         widget=widgets.RadioSelect()
@@ -350,5 +350,5 @@ class Player(BasePlayer):
     is_4 = models.IntegerField()
 
 
-    # condition
-    condition = models.CharField()
+    # group
+    group_num = models.IntegerField()

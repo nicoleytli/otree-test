@@ -169,8 +169,8 @@ SESSION_CONFIGS = [
     # },
     {
         'name': 'Empathy',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
+        'display_name': "Empathy",
+        'num_demo_participants': 30,
         'app_sequence': ['Empathy'],
     },
     # {
@@ -197,12 +197,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['likert', 'donation'],
     # },
-    {
-        'name': 'long_survey',
-        'display_name': "long survey",
-        'num_demo_participants': 20,
-        'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'item', 'ses'],
-    },
+    # {
+    #     'name': 'long_survey',
+    #     'display_name': "long survey",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'item', 'ses'],
+    # },
     # {
     #     'name': 'item',
     #     'display_name': "item",
