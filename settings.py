@@ -169,7 +169,7 @@ SESSION_CONFIGS = [
     # },
     {
         'name': 'Empathy',
-        'display_name': "Empathy",
+        'display_name': "Empathy Beget Guile",
         'num_demo_participants': 30,
         'app_sequence': ['Empathy'],
     },
@@ -211,7 +211,7 @@ SESSION_CONFIGS = [
     # },
     {
         'name': 'mouse',
-        'display_name': "mouse",
+        'display_name': "Mouse Hovering",
         'num_demo_participants': 2,
         'app_sequence': ['mouse'],
     },
