@@ -43,22 +43,22 @@ class Player(BasePlayer):
     time_3 = models.FloatField(
         blank=True
     )
-    time_stamp_1a = models.IntegerField(
+    time_stamp_1a = models.FloatField(
         blank=True
     )
-    time_stamp_1b = models.IntegerField(
+    time_stamp_1b = models.FloatField(
         blank=True
     )
-    time_stamp_2a = models.IntegerField(
+    time_stamp_2a = models.FloatField(
         blank=True
     )
-    time_stamp_2b = models.IntegerField(
+    time_stamp_2b = models.FloatField(
         blank=True
     )
-    time_stamp_3a = models.IntegerField(
+    time_stamp_3a = models.FloatField(
         blank=True
     )
-    time_stamp_3b = models.IntegerField(
+    time_stamp_3b = models.FloatField(
         blank=True
     )
     name = models.CharField()
