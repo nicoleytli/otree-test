@@ -209,6 +209,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['item'],
     # },
+    {
+        'name': 'mouse',
+        'display_name': "mouse",
+        'num_demo_participants': 2,
+        'app_sequence': ['mouse'],
+    },
 ]
 
 # anything you put after the below line will override

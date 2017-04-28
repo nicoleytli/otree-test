@@ -1,13 +1,46 @@
-{% extends "global/Page.html" %}
+{% extends "global/Base.html" %}
 {% load staticfiles otree_tags %}
-
-{% block title %}
-    Page title
-{% endblock %}
 
 {% block content %}
 
+    Enter your name: <input type="text" name="name">
+
+<p> Time in seconds between document ready and last key was pressed: <span>0</span></p>
+
+<input type="hidden" name="time_stamp_entered"
+    value="0" id="time_stamp_entered"/>
+
+<input type="hidden" name="time_stamp_click"
+    value="0" id="time_stamp_click"/>
+
     {% next_button %}
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script>
+
+
+i = 0;
+$(document).ready(function(e){
+
+    var d = new Date();
+    $("#time_stamp_entered").val(d.getTime());
+
+    $("input").keypress(function(e){
+    var d = new Date();
+    $("#time_stamp_click").val(d.getTime());
+    // Different timing, therefore you cannot compute/interpret difference $("#time_stamp_click").val(e.timeStamp);
+    $("span").text(($("#time_stamp_click").val()-$("#time_stamp_entered").val())/1000);
+    });
+});
+
+</script>
+
+
+
 {% endblock %}
 
 

@@ -2,29 +2,88 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Page title
+    Information Seeking
 {% endblock %}
 
 {% block content %}
 
-<!--
-Documentation on how to write a django template here:
-https://docs.djangoproject.com/en/1.8/ref/templates/language/
+    <p>
+        Please move your mouse cursor to the following issues you are interested in to get more information.
+    </p>
 
-Bootstrap comes pre-loaded, so you can use any Bootstrap elements:
-http://getbootstrap.com/components/
+{#    <li class="fl mr10" id="info">#}
+{#       <a href="" class="white block">Information</a>#}
+{#       <a class="float_box hand none" href="">#}
+{#           <img src="{% static "mouse/Control.png" %}"/>#}
+{#       </a>#}
+{#    </li>#}
 
--->
+<input type="hidden" name="time_stamp_1a" value=0 id="time_stamp_entered_1"/>
 
-    <li class="fl mr10" id="info">
-       <a href="" class="white block">Information</a>
-       <a class="float_box hand none" href="">
-           <img src="{% static "mouse/Control.png" %}"/>
-       </a>
-    </li>
+<input type="hidden" name="time_stamp_1b" value=0 id="time_stamp_click_1"/>
 
-    <input type="hidden" name="time_stamp_entered"
-    value="0" id="time_stamp_entered"/>
+<input type="hidden" name="time_stamp_2a" value=0 id="time_stamp_entered_2"/>
+
+<input type="hidden" name="time_stamp_2b" value=0 id="time_stamp_click_2"/>
+
+<input type="hidden" name="time_stamp_3a" value=0 id="time_stamp_entered_3"/>
+
+<input type="hidden" name="time_stamp_3b" value=0 id="time_stamp_click_3"/>
+
+{#        <table class="table table-hover">#}
+{##}
+{#            <tr>#}
+{#            <td width="30%" align="center">#}
+{#                <li class="fl mr10" id="info_1">#}
+{#                <a href="" class="white block">Information 1</a>#}
+{#                <a class="float_box_1 hand none" href="">#}
+{#                <img src="{% static "mouse/Control.png" %}"/>#}
+{#                </a>#}
+{#                </li>#}
+{#            </td>#}
+{#            <td width="30%" align="center">#}
+{#                <li class="fl mr10" id="info_2">#}
+{#                <a href="" class="white block">Information 2</a>#}
+{#                <a class="float_box_2 hand none" href="">#}
+{#                <img src="{% static "mouse/Empathy.png" %}"/>#}
+{#                </a>#}
+{#                </li>#}
+{#            </td>#}
+{##}
+{#            <td width="30%" align="center">#}
+{#                <li class="fl mr10" id="info_3">#}
+{#                <a href="" class="white block">Information 3</a>#}
+{#                <a class="float_box_3 hand none" href="">#}
+{#                <img src="{% static "mouse/Guile.png" %}"/>#}
+{#                </a>#}
+{#                </li>#}
+{#            </td>#}
+{#            </tr>#}
+{##}
+{#        </table>#}
+
+        <table class="table table-hover">
+
+            <tr>
+            <td width="30%" align="center">
+                <li class="fl mr10" id="info_1">
+                     <div title="information 1">Information 1</div>
+                </li>
+            </td>
+            <td width="30%" align="center">
+                <li class="fl mr10" id="info_2">
+                    <div title="information 2">Information 2</div>
+                </li>
+            </td>
+
+            <td width="30%" align="center">
+                <li class="fl mr10" id="info_3">
+                    <div title="information 3">Information 3</div>
+                </li>
+            </td>
+            </tr>
+
+        </table>
 
 
     {% next_button %}
@@ -33,25 +92,120 @@ http://getbootstrap.com/components/
 
 {% block scripts %}
 
+{#    <script>#}
+{#      $(document).ready(function(){#}
+{#         var ps=$("#info").position();#}
+{#         $(".float_box").css("position","absolute");#}
+{#         $(".float_box").css("left",ps.left+80);#}
+{#         $(".float_box").css("top",ps.top);#}
+{#        $("#info").hover(function(){#}
+{#            //record the current time#}
+{#        $(this).data( 'start', new Date().getTime() );#}
+{#            $(".float_box").show();},#}
+{#            function(){#}
+{#            //grab the end time#}
+{#        var end = new Date().getTime();#}
+{#        //calculate the difference in seconds#}
+{#        var hoverTime = ( end - $(this).data('start') )/1000;#}
+{#        //use the result#}
+{#        $("span").text(hoverTime);#}
+{#            $(".float_box").hide();});#}
+{#        })#}
+{#    </script>#}
+
     <script>
-      $(document).ready(function(){
-         var ps=$("#info").position();
-         $(".float_box").css("position","absolute");
-         $(".float_box").css("left",ps.left+80);
-         $(".float_box").css("top",ps.top);
-        $("#info").hover(function(){
-            //record the current time
-        $(this).data( 'start', new Date().getTime() );
-            $(".float_box").show();},
+{#        $(document).ready(function(){#}
+{#         var ps=$("#info").position();#}
+{#         $(".float_box").css("position","absolute");#}
+{#         $(".float_box").css("left",ps.left+80);#}
+{#         $(".float_box").css("top",ps.top);#}
+
+{#    $(document).ready(function(){#}
+{#	document.getElementById("group_operation").style.display="none";#}
+{#    });#}
+
+    $(document).ready(function(e){
+
+{#        document.getElementById("info_1").style.display="none";#}
+{#        document.getElementById("info_2").style.display="none";#}
+{#        document.getElementById("info_3").style.display="none";#}
+
+        $("#info_1").hover(function(){
+{#            $(".float_box_1").show();#}
+            var d = new Date();
+            $("#time_stamp_entered_1").val(d.getTime());},
             function(){
-            //grab the end time
-        var end = new Date().getTime();
-        //calculate the difference in seconds
-        var hoverTime = ( end - $(this).data('start') )/1000;
-        //use the result
-        alert( hoverTime.toFixed( 2 ) );
-            $(".float_box").hide();});
-        })
+            var d = new Date();
+            $("#time_stamp_click_1").val(d.getTime());
+{#            $(".float_box_1").hide();#}
+        });
+
+        $("#info_2").hover(function(){
+{#            $(".float_box_2").show();#}
+            var d = new Date();
+            $("#time_stamp_entered_2").val(d.getTime());},
+            function(){
+            var d = new Date();
+            $("#time_stamp_click_2").val(d.getTime());
+{#            $(".float_box_2").hide();#}
+        });
+
+        $("#info_3").hover(function(){
+{#            $(".float_box_3").show();#}
+            var d = new Date();
+            $("#time_stamp_entered_3").val(d.getTime());},
+            function(){
+            var d = new Date();
+            $("#time_stamp_click_3").val(d.getTime());
+{#            $(".float_box_3").hide();#}
+        });
+        });
+
+
+{#        $("#info").mouseover(function(){#}
+{#        $(".float_box").show();#}
+{#        var d = new Date();#}
+{#        $("#time_stamp_entered").val(d.getTime());#}
+{#        }),#}
+{##}
+{#        $("#info").mouseout(function(){#}
+{#        var d = new Date();#}
+{#        $("#time_stamp_click").val(d.getTime());#}
+{#        $(".float_box").hide();#}
+{#        });#}
+
+{#        $(document).ready(function(e){#}
+{##}
+{#        var d = new Date();#}
+{#        $("#time_stamp_entered").val(d.getTime());#}
+{##}
+{#        $("input").keypress(function(e){#}
+{#        var d = new Date();#}
+{#        $("#time_stamp_click").val(d.getTime());#}
+{#        // Different timing, therefore you cannot compute/interpret difference $("#time_stamp_click").val(e.timeStamp);#}
+{#        $("span").text(($("#time_stamp_click").val()-$("#time_stamp_entered").val())/1000);#}
+{#            });#}
+{#        });#}
+
+
+{#        $("#info").hover(#}
+{#        //mouseover handler#}
+{#        function(){#}
+{#            //record the current time#}
+{#            var d = new Date();#}
+{#            $("#time_stamp_entered").val(d.getTime());#}
+{#        },#}
+{#        //mouseout handler#}
+{#        function(){#}
+    {#        //grab the end time#}
+    {#        var end = new Date().getTime();#}
+    {#        //calculate the difference in seconds#}
+    {#        var hoverTime = ( end - $(this).data('start') )/1000;#}
+    {#        //use the result#}
+    {#        alert( hoverTime.toFixed( 2 ) );#}
+{#            var d = new Date();#}
+{#            $("#time_stamp_click").val(d.getTime());}#}
+{#        );#}
     </script>
 
 {% endblock %}
