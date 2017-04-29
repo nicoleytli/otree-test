@@ -14,6 +14,9 @@
     <p>
         Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
     </p>
+    <p>
+
+    </p>
 
     <img src="{% static "Eye_Exam/Empathy.png" %}"/>
 
@@ -21,6 +24,9 @@
 
     <p>
         Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
+    </p>
+    <p>
+
     </p>
 
     <img src="{% static "Eye_Exam/Control.png" %}"/>
@@ -30,13 +36,16 @@
     <p>
         Transcribe the text below. Completing the data entry ensures that you are a real human and not a spammer.
     </p>
+    <p>
+
+    </p>
 
     <img src="{% static "Eye_Exam/Guile.png" %}"/>
 
 
 {% endif %}
 
-    {% formfield player.text with label='Transcribe text here' %}
+    {% formfield player.text with label='Transcribe the text here:' %}
 
 {% next_button %}
 

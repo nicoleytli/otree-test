@@ -143,12 +143,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    # {
-    #     'name': 'Empathy_Beget_Guile',
-    #     'display_name': "Empathy Beget Guile",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    # },
+    {
+        'name': 'Empathy_Beget_Guile',
+        'display_name': "Empathy Beget Guile",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    },
     # {
     #     'name': 'anes',
     #     'display_name': "ANES",
@@ -167,12 +167,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['covering_test']
     # },
-    {
-        'name': 'Empathy',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 30,
-        'app_sequence': ['Empathy'],
-    },
+    # {
+    #     'name': 'Empathy',
+    #     'display_name': "Empathy Beget Guile",
+    #     'num_demo_participants': 30,
+    #     'app_sequence': ['Empathy'],
+    # },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -186,10 +186,10 @@ SESSION_CONFIGS = [
     #     'app_sequence': ['likertquest'],
     # },
     # {
-    #     'name': 'ses',
-    #     'display_name': "ses",
+    #     'name': 'Eye_Exam',
+    #     'display_name': "eye",
     #     'num_demo_participants': 2,
-    #     'app_sequence': ['ses'],
+    #     'app_sequence': ['Eye_Exam'],
     # },
     # {
     #     'name': 'anes',
@@ -204,17 +204,17 @@ SESSION_CONFIGS = [
     #     'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'item', 'ses'],
     # },
     # {
-    #     'name': 'item',
-    #     'display_name': "item",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['item'],
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
-    {
-        'name': 'mouse',
-        'display_name': "Mouse Hovering",
-        'num_demo_participants': 2,
-        'app_sequence': ['mouse'],
-    },
+    # {
+    #     'name': 'mouse',
+    #     'display_name': "Mouse Hovering",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['mouse'],
+    # },
 ]
 
 # anything you put after the below line will override

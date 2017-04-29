@@ -14,19 +14,19 @@
 {% if player.is_4 == 1 %}
 
     <p>
-        Your payment for Task 3 is: <strong>$0.10</strong>.
+        Your payoff for Task 3 is: <strong>$0.10</strong>.
     </p>
     <p>
         Your total payoff is: <strong>$0.30</strong>.
     </p>
     <p>
-        Thank you for your participation!
+        <strong>Thank you for your participation!</strong>
     </p>
 {% else %}
 
     {% if player.role == 'Player 1' %}
     <p>
-        In task 3, you are Player 1, you chose to send <strong>{{player.Message_12}}</strong>.<br>
+        In task 3, you are Player 1, you chose to send <strong>{{player.message}}</strong>.<br>
         Your counterpart chose <strong>{{player.other_player.option_AB}}</strong>.
     </p>
     <p>
@@ -37,7 +37,7 @@
         Your total payoff is: <strong>{{player.payoff}}</strong>.
     </p>
     <p>
-        Thank you for your participation!
+        <strong>Thank you for your participation!</strong>
     </p>
 
     {% else %}
@@ -53,11 +53,12 @@
         Your total payoff is: <strong>{{player.payoff}}</strong>.
     </p>
     <p>
-        Thank you for your participation!
+        <strong>Thank you for your participation!</strong>
     </p>
     {% endif %}
 
 {% endif %}
 
     {% next_button %}
+
 {% endblock %}

@@ -3,7 +3,7 @@
 {% load staticfiles %}
 
 {% block title %}
-    Task 2: Describe Eye Expression
+    Task 2: Describe Eye Expression 6/36
 {% endblock %}
 
 {% block content %}
@@ -13,7 +13,7 @@
     <p>Please look at the following image:</p>
     <img src="{% static "Eye_Exam/eye6.png" %}"/>
 
-    {% formfield player.option_6 with label='Which word best describes what the person is thinking or feeling?' %}
+    {% formfield player.feeling6_response with label='Which word best describes what the person is thinking or feeling?' %}
 
     {% next_button %}
 
