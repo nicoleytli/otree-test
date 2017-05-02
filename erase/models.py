@@ -46,5 +46,6 @@ class Player(BasePlayer):
                  [8, 'Paid leave for parents of new children'],
                  [9, 'Increase number of black students at universities'],
                  [10, 'Pay women and men the same amount for the same work']],
-        blank=True
+        blank=True,
+        widget=widgets.RadioSelect()
     )
