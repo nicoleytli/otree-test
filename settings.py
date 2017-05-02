@@ -143,18 +143,18 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    },
-    {
-        'name': 'likert',
-        'display_name': "likert",
-        'num_demo_participants': 20,
-        'app_sequence': ['likert'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Beget Guile",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    # },
+    # {
+    #     'name': 'likert',
+    #     'display_name': "likert",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['likert'],
+    # },
     # {
     #     'name': 'participant_generated_urn_1',
     #     'display_name': "Participant Generate Urn",
