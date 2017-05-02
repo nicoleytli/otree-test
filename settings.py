@@ -149,12 +149,12 @@ SESSION_CONFIGS = [
         'num_demo_participants': 24,
         'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
-    # {
-    #     'name': 'anes',
-    #     'display_name': "ANES",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['anes'],
-    # },
+    {
+        'name': 'likert',
+        'display_name': "likert",
+        'num_demo_participants': 20,
+        'app_sequence': ['likert'],
+    },
     # {
     #     'name': 'participant_generated_urn_1',
     #     'display_name': "Participant Generate Urn",
@@ -215,6 +215,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['mouse'],
     # },
+    {
+        'name': 'erase',
+        'display_name': "mouse eraser",
+        'num_demo_participants': 5,
+        'app_sequence': ['erase'],
+    },
 ]
 
 # anything you put after the below line will override

@@ -57,9 +57,8 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
 
-    likert = models.IntegerField(
-        widget=widgets.RadioSelectHorizontal()
-    )
+    likert = models.IntegerField()
+    important = models.IntegerField()
 
 
     def current_question(self):
@@ -70,4 +69,6 @@ class Player(BasePlayer):
     #
     # def care(self):
     #     self.participant.vars['care_%s' % self.round_number] = 999
+
+
 

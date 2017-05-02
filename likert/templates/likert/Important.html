@@ -2,13 +2,13 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Question {{ player.round_number }}-2 of {{ Constants.num_rounds }}
+    Question {{ player.round_number }}-2-2 of {{ Constants.num_rounds }}
 {% endblock %}
 
 {% block content %}
 
     <p>
-        <strong>Do you favor that: </strong>
+        <strong>How important is this issue to you personally? </strong>
     </p>
 
         <table class="table table-hover">
@@ -22,7 +22,7 @@
         <tr>
             {% for value in values %}
         <td width="10%" align="center">
-            <input type="radio" name='likert' value={{ value }}></td>
+            <input type="radio" name='important' value={{ value }}></td>
             {% endfor %}
         </tr>
         </table>
@@ -31,3 +31,8 @@
     {% next_button %}
 
 {% endblock %}
+
+
+
+
+
