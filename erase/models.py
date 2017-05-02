@@ -35,7 +35,7 @@ class Player(BasePlayer):
     mouse_y = models.TextField(
         blank=True
     )
-    ratio = models.FloatField(
+    percentage = models.FloatField(
         blank=True
     )
     option = models.IntegerField(

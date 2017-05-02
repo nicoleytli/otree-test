@@ -19,7 +19,7 @@ class ResultsWaitPage(WaitPage):
 
 class Results(Page):
     form_model = models.Player
-    form_fields = ['mouse_x', 'mouse_y', 'ratio']
+    form_fields = ['mouse_x', 'mouse_y', 'percentage']
 
     def vars_for_template(self):
         question = ['Reduce the difference in income', 'Limit imports', 'Send troops to fight ISIS',
@@ -54,9 +54,9 @@ class Results(Page):
                     area.append((radius * 2)*(radius * 2))
 
         if sum(area) <= width*height:
-            self.player.ratio = sum(area) / (width*height)
+            self.player.percentage = sum(area) / (width*height)
         else:
-            self.player.ratio = 1
+            self.player.percentage = 1
 
     def is_displayed(self):
         return self.player.option == 1 or self.player.option == 2 or self.player.option == 3 or \
