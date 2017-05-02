@@ -9,6 +9,8 @@ class MyPage(Page):
     form_fields = ['option']
 
 
+
+
 class ResultsWaitPage(WaitPage):
 
     def after_all_players_arrive(self):
@@ -55,6 +57,11 @@ class Results(Page):
             self.player.ratio = sum(area) / (width*height)
         else:
             self.player.ratio = 1
+
+    def is_displayed(self):
+        return self.player.option == 1 or self.player.option == 2 or self.player.option == 3 or \
+               self.player.option == 4 or self.player.option == 5 or self.player.option == 6 or \
+               self.player.option == 7 or self.player.option == 8 or self.player.option == 9 or self.player.option == 10
 
 
 
