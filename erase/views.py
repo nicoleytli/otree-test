@@ -32,8 +32,12 @@ class Results(Page):
         return {'issue': issue}
 
     def before_next_page(self):
-        mouse_x_temp = self.player.mouse_x.split(",")
-        mouse_y_temp = self.player.mouse_y.split(",")
+        if self.player.mouse_x == False or self.player.mouse_y == False:
+            mouse_x_temp = 0
+            mouse_y_temp = 0
+        else:
+            mouse_x_temp = self.player.mouse_x.split(",")
+            mouse_y_temp = self.player.mouse_y.split(",")
 
         mouse_x = list(map(int, mouse_x_temp))
         mouse_y = list(map(int, mouse_y_temp))
@@ -44,14 +48,17 @@ class Results(Page):
         area = []
 
         for i in range(len(mouse_x)):
-            if i == 0:
-                area.append((radius * 2)*(radius * 2))
-            else:
-                if abs(mouse_x[i]-mouse_x[i-1]) <= radius and abs(mouse_y[i]-mouse_y[i-1]) <= radius:
-                    area.append(2*(abs(mouse_x[i]-mouse_x[i-1]))*radius + 2*(abs(mouse_y[i]-mouse_y[i-1]))*radius - \
-                        abs(mouse_y[i]-mouse_y[i-1])*abs(mouse_x[i]-mouse_x[i-1]))
-                else:
+            if 0 <= mouse_x[i] <= 690 and 0 <= mouse_y[i] <= 600:
+                if i == 0:
                     area.append((radius * 2)*(radius * 2))
+                else:
+                    if abs(mouse_x[i]-mouse_x[i-1]) <= radius and abs(mouse_y[i]-mouse_y[i-1]) <= radius:
+                        area.append(2*(abs(mouse_x[i]-mouse_x[i-1]))*radius + 2*(abs(mouse_y[i]-mouse_y[i-1]))*radius - \
+                            abs(mouse_y[i]-mouse_y[i-1])*abs(mouse_x[i]-mouse_x[i-1]))
+                    else:
+                        area.append((radius * 2)*(radius * 2))
+            else:
+                pass
 
         if sum(area) <= width*height:
             self.player.percentage = sum(area) / (width*height)
