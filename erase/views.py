@@ -39,8 +39,8 @@ class Results(Page):
             mouse_x_temp = self.player.mouse_x.split(",")
             mouse_y_temp = self.player.mouse_y.split(",")
 
-        mouse_x = list(map(int, mouse_x_temp))
-        mouse_y = list(map(int, mouse_y_temp))
+        mouse_x = list(map(int, map(float, mouse_x_temp)))
+        mouse_y = list(map(int, map(float, mouse_y_temp)))
 
         radius = 30
         width = 690
