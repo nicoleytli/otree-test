@@ -1,0 +1,15 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.chclass with label='If you had to make a choice, would you call yourself middle class or working class?' %}
+
+    {% next_button %}
+
+{% endblock %}

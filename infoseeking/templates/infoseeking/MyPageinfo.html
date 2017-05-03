@@ -1,0 +1,50 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Information Seeking
+{% endblock %}
+
+{% block content %}
+
+    <p>
+    The following issues were mentioned in this study:
+    </p>
+    <p>
+    <strong>Would you be interested in taking action on one issue or more? If so, let us know by checking all that apply.
+</strong>
+    </p>
+
+        <table class="table table-hover">
+
+            <tr><td width="30%" align="center"><strong>Issue</strong></td>
+            <td width="5%" align="center"><strong>Choice</strong></td>
+            </tr>
+
+        {% for question, info in list %}
+
+            <tr><td width="30%" align="left">{{ question }}</td>
+            <td width="5%" align="center">
+                <input type="radio" name="{{ info }}" value='True'>
+            </td>
+            </tr>
+
+        {% endfor %}
+
+
+        </table>
+
+    <p>
+        <strong>We will send you non-partisan information on each issue using the email address you provide
+            at the bottom of the page.</strong>
+    </p>
+
+    {% formfield player.email_info with label=prompt %}
+
+    <p>
+        <strong><I>If you are not interested, please move to the next page. </I></strong>
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

@@ -2,7 +2,7 @@ from otree.api import (
     models, widgets, BaseConstants, BaseSubsession, BaseGroup, BasePlayer,
     Currency as c, currency_range
 )
-
+import random
 
 author = 'Your name here'
 
@@ -18,7 +18,10 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    pass
+    def before_session_starts(self):
+        for p in self.get_players():
+            p.preference_party = random.choice(['same', 'opposite'])
+
 
 
 class Group(BaseGroup):
@@ -26,4 +29,12 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    pass
+    partner = models.IntegerField(
+        widget=widgets.RadioSelect()
+    )
+    preference_party = models.CharField()
+    donation_party = models.IntegerField(
+        choices=[[1, 'I choose to guess his/her party identification'],
+                 [2, 'I choose to guess his/her donation decision']],
+        widget=widgets.RadioSelect()
+    )

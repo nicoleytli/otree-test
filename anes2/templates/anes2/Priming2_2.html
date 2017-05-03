@@ -1,0 +1,48 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Partisan Prime 2-2
+{% endblock %}
+
+{% block content %}
+        <p>
+            Here are seven-point scales for 10 issues.
+        </p>
+        <p>
+            <strong>Where would you place the Republican party on this scale?</strong>
+        </p>
+
+        <table class="table table-hover">
+
+            <tr><td width="30%" align="center"><strong>Issue</strong></td>
+            <td width="5%" align="center"><strong>Favor a great deal</strong></td>
+            <td width="5%" align="center"><strong>Favor a moderate amount</strong></td>
+            <td width="5%" align="center"><strong>Favor a little</strong></td>
+            <td width="5%" align="center"><strong>Neither favor nor oppose</strong></td>
+            <td width="5%" align="center"><strong>Oppose a little</strong></td>
+            <td width="5%" align="center"><strong>Oppose a moderate amount</strong></td>
+            <td width="5%" align="center"><strong>Oppose a great deal</strong></td>
+            </tr>
+
+
+        {% for issue, name in mylist %}
+
+            <tr><td width="30%" align="left">{{ issue }}</td>
+                {% for value in values %}
+                <td width="5%" align="center">
+                    <input type="radio" name="{{ name }}" value='{{ value }}'>
+                </td>
+                {% endfor %}
+            </tr>
+
+        {% endfor %}
+
+
+
+        </table>
+
+
+    {% next_button %}
+
+{% endblock %}

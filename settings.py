@@ -197,12 +197,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['likert', 'donation'],
     # },
-    # {
-    #     'name': 'long_survey',
-    #     'display_name': "long survey",
-    #     'num_demo_participants': 20,
-    #     'app_sequence': ['anes2', 'likert', 'likertquest', 'behavetrust', 'petition', 'donation', 'infoseeking', 'item', 'ses'],
-    # },
+    {
+        'name': 'long_survey',
+        'display_name': "long survey",
+        'num_demo_participants': 20,
+        'app_sequence': ['anes2', 'likert2', 'petition', 'donation', 'infoseeking', 'erase', 'item', 'ses'],
+    },
     # {
     #     'name': 'Empathy_Beget_Guile',
     #     'display_name': "Empathy",
@@ -210,17 +210,24 @@ SESSION_CONFIGS = [
     #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
     # {
-    #     'name': 'mouse',
-    #     'display_name': "Mouse Hovering",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['mouse'],
+    #     'name': 'test',
+    #     'display_name': "test",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['likert', 'mytrust', 'ses'],
     # },
-    {
-        'name': 'erase',
-        'display_name': "mouse eraser",
-        'num_demo_participants': 5,
-        'app_sequence': ['erase'],
-    },
+    # {
+    #     'name': 'erase',
+    #     'display_name': "mouse eraser",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['erase'],
+    # },
+    # {
+    #     'name': 'anes',
+    #     'display_name': "anes",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['anes2'],
+    # },
+
 ]
 
 # anything you put after the below line will override

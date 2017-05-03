@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 2
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.Q4 with label='Did you participate in a march or a protest since President Trump’s election?'%}
+
+    {% next_button %}
+
+{% endblock %}

@@ -43,10 +43,6 @@ class Partisanship1(Page):
         random.shuffle(ans)
         p1 = ans[0]
         p2 = ans[1]
-        if p1 == 'DEMOCRAT':
-            self.player.order1 = 1
-        else:
-            self.player.order1 = 2
         return {'partisanship1': p1,
                 'partisanship2': p2}
 
@@ -84,10 +80,6 @@ class Partisanship3(Page):
         random.shuffle(ans)
         p1 = ans[0]
         p2 = ans[1]
-        if p1 == 'Democratic':
-            self.player.order3 = 1
-        else:
-            self.player.order3 = 2
         return {'par1': p1,
                 'par2': p2}
 
@@ -114,12 +106,34 @@ class Priming1(Page):
                self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '1LD' or \
                self.participant.vars['group'] == '1QD' or self.participant.vars['group'] == '1QND' or \
                self.participant.vars['group'] == '1LI' or self.participant.vars['group'] == '1QI' or \
-               self.participant.vars['group'] == '1QNI'
+               self.participant.vars['group'] == '1QNI' or self.participant.vars['group'] == '1LM' or \
+               self.participant.vars['group'] == '1QM' or self.participant.vars['group'] == '1QNM'
 
 
 class Priming2(Page):
     form_model = models.Player
-    form_fields = ['priming1']
+    form_fields = ['priming2_dem_1', 'priming2_dem_2', 'priming2_dem_3', 'priming2_dem_4', 'priming2_dem_5',
+                 'priming2_dem_6', 'priming2_dem_7', 'priming2_dem_8', 'priming2_dem_9', 'priming2_dem_10']
+
+    def vars_for_template(self):
+        issues = ['Reduce the difference in income', 'Pay women and men the same amount for the same work',
+                  'Limit imports', 'Increase number of black students at universities',
+                  'Paid leave for parents of new children', 'Build a wall on the US-Mexico border',
+                  'Change access to citizenship for children of illegal immigrants', 'The death penalty for murder',
+                  'Protect gays and lesbians against job discrimination', 'Send troops to fight ISIS']
+
+        values = ['Favor a great deal', 'Favor a moderate amount', 'Favor a little',
+                  'Neither favor nor oppose', 'Oppose a little', 'Oppose a moderate amount', 'Oppose a great deal']
+
+        names = ['priming2_dem_1', 'priming2_dem_2', 'priming2_dem_3', 'priming2_dem_4', 'priming2_dem_5',
+                 'priming2_dem_6', 'priming2_dem_7', 'priming2_dem_8', 'priming2_dem_9', 'priming2_dem_10']
+
+        mylist = zip(issues, names)
+
+        return {
+                'values': values,
+                'mylist': mylist}
+
 
     def is_displayed(self):
         return self.participant.vars['group'] == '2LG' or self.participant.vars['group'] == '2QG' or \
@@ -127,7 +141,43 @@ class Priming2(Page):
                self.participant.vars['group'] == '2QNP' or self.participant.vars['group'] == '2LD' or \
                self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
                self.participant.vars['group'] == '2LI' or self.participant.vars['group'] == '2QI' or \
-               self.participant.vars['group'] == '2QNI'
+               self.participant.vars['group'] == '2QNI' or self.participant.vars['group'] == '2LM' or \
+               self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM'
+
+
+class Priming2_2(Page):
+    form_model = models.Player
+    form_fields = ['priming2_rep_1', 'priming2_rep_2', 'priming2_rep_3', 'priming2_rep_4', 'priming2_rep_5',
+                'priming2_rep_6', 'priming2_rep_7', 'priming2_rep_8', 'priming2_rep_9', 'priming2_rep_10']
+
+    def vars_for_template(self):
+        issues = ['Reduce the difference in income', 'Pay women and men the same amount for the same work',
+                  'Limit imports', 'Increase number of black students at universities',
+                  'Paid leave for parents of new children', 'Build a wall on the US-Mexico border',
+                  'Change access to citizenship for children of illegal immigrants', 'The death penalty for murder',
+                  'Protect gays and lesbians against job discrimination', 'Send troops to fight ISIS']
+
+        values = ['Favor a great deal', 'Favor a moderate amount', 'Favor a little',
+                  'Neither favor nor oppose', 'Oppose a little', 'Oppose a moderate amount', 'Oppose a great deal']
+
+        names = ['priming2_rep_1', 'priming2_rep_2', 'priming2_rep_3', 'priming2_rep_4', 'priming2_rep_5',
+                'priming2_rep_6', 'priming2_rep_7', 'priming2_rep_8', 'priming2_rep_9', 'priming2_rep_10']
+
+        mylist = zip(issues, names)
+
+        return {
+                'values': values,
+                'mylist': mylist}
+
+    def is_displayed(self):
+        return self.participant.vars['group'] == '2LG' or self.participant.vars['group'] == '2QG' or \
+               self.participant.vars['group'] == '2QNG' or self.participant.vars['group'] == '2LP' or \
+               self.participant.vars['group'] == '2QP' or \
+               self.participant.vars['group'] == '2QNP' or self.participant.vars['group'] == '2LD' or \
+               self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
+               self.participant.vars['group'] == '2LI' or self.participant.vars['group'] == '2QI' or \
+               self.participant.vars['group'] == '2QNI' or self.participant.vars['group'] == '2LM' or \
+               self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM'
 
 
 class Control(Page):
@@ -140,7 +190,8 @@ class Control(Page):
                self.participant.vars['group'] == '3QNP' or self.participant.vars['group'] == '3LD' or \
                self.participant.vars['group'] == '3QD' or self.participant.vars['group'] == '3QND' or \
                self.participant.vars['group'] == '3LI' or self.participant.vars['group'] == '3QI' or \
-               self.participant.vars['group'] == '3QNI'
+               self.participant.vars['group'] == '3QNI' or self.participant.vars['group'] == '3LM' or \
+               self.participant.vars['group'] == '3QM' or self.participant.vars['group'] == '3QNM'
 
 
 
@@ -150,6 +201,7 @@ page_sequence = [
     Control,
     Priming1,
     Priming2,
+    Priming2_2,
     Partisanship1,
     Partisanship2,
     Partisanship3

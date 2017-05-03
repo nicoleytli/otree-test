@@ -1,0 +1,22 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Behavioral Game
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        In the previews questions, all the issues are indifferent to you.<br>
+    </p>
+    <p>
+        Now suppose you are asked to play an interactive game with another participant who reports {{ same_different }} opinion
+        on the issue <strong>{{ issue }}</strong>, or who reports being the {{ direction }} party.
+    </p>
+
+    {% formfield player.partner with label='Which one would you like to choose?' %}
+
+    {% next_button %}
+
+{% endblock %}

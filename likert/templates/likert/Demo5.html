@@ -1,0 +1,16 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.middle with label='Would you say that you are about average middle class or that you are in the upper part of the middle class?' %}
+
+
+    {% next_button %}
+
+{% endblock %}

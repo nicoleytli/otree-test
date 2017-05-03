@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 3-2
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.Q6 with label='If you had to choose, would you consider yourself a liberal or a conservative?'%}
+
+    {% next_button %}
+
+{% endblock %}

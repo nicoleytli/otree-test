@@ -1,0 +1,16 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.myclass with label='There has been some talk these days about different social classes. Most people say they belong either to the middle class or the working class. Do you ever think of yourself as belonging in one of these classes?' %}
+
+
+    {% next_button %}
+
+{% endblock %}

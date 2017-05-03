@@ -2,13 +2,14 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Question {{ player.round_number }}-2 of {{ Constants.num_rounds }}
+    Question 1-2
 {% endblock %}
 
 {% block content %}
 
 
-    {% formfield player.likert with label='Do you favor that' %}
+    {% formfield player.care1o with label='Which one do you care about the least?'%}
+
 
     {% next_button %}
 

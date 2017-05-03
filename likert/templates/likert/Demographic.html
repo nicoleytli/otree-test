@@ -1,0 +1,25 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.birth with label='Your birth year'%}
+
+    {% formfield player.educ with label='What is the highest level of school you have completed or the highest degree you have received? '%}
+
+    {% formfield player.dip with label='People can get a high school diploma in a variety of ways, such as graduating from high school or by getting a GED or other equivalent. How did you get your high school diploma?' %}
+
+    {% formfield player.duty with label='Are you now serving on active duty in the U.S. armed forces -- the U.S. Air Force, Army, Coast Guard, Marine Corps, or Navy -- or have you previously served on active duty in the U.S. armed forces, or have you never served on active duty in the U.S. armed forces?' %}
+
+    {% formfield player.emptype with label='We would like to know if you are working now, temporarily laid off, or are you unemployed, retired, permanently disabled, a homemaker, a student, or what?' %}
+
+    {% formfield player.work with label='Are you doing any work for pay at the present time?' %}
+
+    {% next_button %}
+
+{% endblock %}

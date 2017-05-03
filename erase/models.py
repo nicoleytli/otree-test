@@ -18,10 +18,9 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    # def before_session_starts(self):
-    #     for p in self.get_players():
-    #         p.option = 999
-    pass
+    def before_session_starts(self):
+        for p in self.get_players():
+            p.option = 999
 
 
 class Group(BaseGroup):

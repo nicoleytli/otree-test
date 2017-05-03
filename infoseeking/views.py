@@ -4,7 +4,7 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 
 
-class MyPage(Page):
+class MyPageinfo(Page):
     form_model = models.Player
     form_fields = ['info1', 'info2', 'info3', 'info4', 'info5', 'info6', 'info7', 'info8', 'info9', 'info10', 'email_info']
 
@@ -76,6 +76,6 @@ class Results(Page):
 
 
 page_sequence = [
-    MyPage,
+    MyPageinfo,
     # Results
 ]

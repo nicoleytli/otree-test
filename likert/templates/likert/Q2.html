@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 1-2
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.Q2 with label='Which one did you vote for?'%}
+
+    {% next_button %}
+
+{% endblock %}

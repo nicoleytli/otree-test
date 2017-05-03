@@ -1,0 +1,45 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 7
+{% endblock %}
+
+{% block content %}
+    <p>
+        <strong>Where would you place the Republican Party on this scale?</strong>
+    </p>
+
+
+    <table class="table table-hover">
+
+        <tr>
+            <td width="10%" align="center">Extremely liberal</td>
+            <td width="10%" align="center">Liberal</td>
+            <td width="10%" align="center">Slightly liberal</td>
+            <td width="10%" align="center">Moderate; middle of the road</td>
+            <td width="10%" align="center">Slightly conservative</td>
+            <td width="10%" align="center">Conservative</td>
+            <td width="10%" align="center">Extremely conservative</td>
+        </tr>
+        <tr>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=1></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=2></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=3></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=4></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=5></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=6></td>
+        <td width="10%" align="center">
+            <input type="radio" name="Q10" value=7></td>
+        </tr>
+        </table>
+
+    {% next_button %}
+
+{% endblock %}

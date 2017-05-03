@@ -2,7 +2,7 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Question {{ player.round_number }}-2 of {{ Constants.num_rounds }}
+    Question 1-2 of 10
 {% endblock %}
 
 {% block content %}
@@ -22,7 +22,7 @@
         <tr>
             {% for value in values %}
         <td width="10%" align="center">
-            <input type="radio" name='likert' value={{ value }}></td>
+            <input type="radio" name='likert_1' value={{ value }}></td>
             {% endfor %}
         </tr>
         </table>

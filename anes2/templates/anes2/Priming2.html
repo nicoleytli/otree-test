@@ -2,28 +2,42 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Partisan Prime 1
+    Partisan Prime 2-1
 {% endblock %}
 
 {% block content %}
+        <p>
+            Here are seven-point scales for 10 issues.
+        </p>
+        <p>
+            <strong>Where would you place the Democratic party on this scale?</strong>
+        </p>
 
-    <img src="{% static "anes2/crowd.jpg" %}"/>
+        <table class="table table-hover">
 
+            <tr><td width="30%" align="center"><strong>Issue</strong></td>
+            <td width="5%" align="center"><strong>Favor a great deal</strong></td>
+            <td width="5%" align="center"><strong>Favor a moderate amount</strong></td>
+            <td width="5%" align="center"><strong>Favor a little</strong></td>
+            <td width="5%" align="center"><strong>Neither favor nor oppose</strong></td>
+            <td width="5%" align="center"><strong>Oppose a little</strong></td>
+            <td width="5%" align="center"><strong>Oppose a moderate amount</strong></td>
+            <td width="5%" align="center"><strong>Oppose a great deal</strong></td>
+            </tr>
 
-    <p>
-        <strong>A CNN journalist says:</strong><br>
-     "The turnout for the inauguration of President Donald Trump appears to be smaller than that of his predecessor as
-        measured by the photo of the two events."
-    </p>
+        {% for issue, name in mylist %}
 
-    <p>
-        <strong>White House press secretary Sean Spicer says:</strong><br>
-    "Some journalists reported inaccurate crowd numbers and used misrepresentative photographs to minimise the enormous
-        support. 420,000 people used the D.C. Metro public transit on Jan. 20, 2017, compared with 317,000 for President Obama’s
-        2013 inaugural. This is the largest audience ever to witness an inauguration, period, both in person and around the globe."
-    </p>
+            <tr><td width="30%" align="left">{{ issue }}</td>
+                {% for value in values %}
+                <td width="5%" align="center">
+                    <input type="radio" name="{{ name }}" value='{{ value }}'>
+                </td>
+                {% endfor %}
+            </tr>
 
-    {% formfield player.priming1 with label="Were you aware about this difference in opinion?" %}
+        {% endfor %}
+
+        </table>
 
 
     {% next_button %}
