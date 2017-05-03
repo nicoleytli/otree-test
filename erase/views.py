@@ -32,15 +32,16 @@ class Results(Page):
         return {'issue': issue}
 
     def before_next_page(self):
-        if self.player.mouse_x == False or self.player.mouse_y == False:
-            mouse_x_temp = 0
-            mouse_y_temp = 0
+        if self.player.mouse_x == '' or self.player.mouse_y == '':
+            mouse_x_temp = -1
+            mouse_y_temp = -1
+            mouse_x = [mouse_x_temp]
+            mouse_y = [mouse_y_temp]
         else:
             mouse_x_temp = self.player.mouse_x.split(",")
             mouse_y_temp = self.player.mouse_y.split(",")
-
-        mouse_x = list(map(int, map(float, mouse_x_temp)))
-        mouse_y = list(map(int, map(float, mouse_y_temp)))
+            mouse_x = list(map(int, map(float, mouse_x_temp)))
+            mouse_y = list(map(int, map(float, mouse_y_temp)))
 
         radius = 30
         width = 690
