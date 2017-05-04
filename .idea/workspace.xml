@@ -2,80 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Care1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Care2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Care3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demo3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demo4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demo5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demo6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demographic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Demographic2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Donation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Donation_party.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Donation_trust.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/End.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Important9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Likertt9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPageinfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPagepetition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Partisanship1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Partisanship2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Partisanship3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q41.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q42.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Q9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Resultspetition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mytrust/templates/mytrust/Donation_party.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -124,39 +50,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ses/templates/ses/Partisanship1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ses/templates/ses/Partisanship2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ses/templates/ses/Partisanship3.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/anes2/question.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Likert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/covering_test/testing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/donation/testing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/infoseeking/templates/infoseeking/MyPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mytrust/templates/mytrust/MyPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/petition/templates/petition/MyPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/petition/templates/petition/Results.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/models.py" afterPath="$PROJECT_DIR$/anes2/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/MyPage.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/MyPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/views.py" afterPath="$PROJECT_DIR$/anes2/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erase/models.py" afterPath="$PROJECT_DIR$/erase/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erase/views.py" afterPath="$PROJECT_DIR$/erase/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoseeking/views.py" afterPath="$PROJECT_DIR$/infoseeking/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/models.py" afterPath="$PROJECT_DIR$/likert/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Important.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Important.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Likert.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Likert2.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Likert2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/MyPage.html" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/views.py" afterPath="$PROJECT_DIR$/likert/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytrust/models.py" afterPath="$PROJECT_DIR$/mytrust/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytrust/views.py" afterPath="$PROJECT_DIR$/mytrust/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petition/views.py" afterPath="$PROJECT_DIR$/petition/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ses/models.py" afterPath="$PROJECT_DIR$/ses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ses/views.py" afterPath="$PROJECT_DIR$/ses/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -188,11 +85,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="228" selection-end-column="8" />
+            <state relative-caret-position="341">
+              <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes2/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Priming2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Priming2_2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="12" column="76" lean-forward="false" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -228,16 +157,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/MyPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petition/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -263,26 +182,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyPageinfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infoseeking/templates/infoseeking/MyPageinfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infoseeking/templates/infoseeking/Results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -367,10 +266,7 @@
         <option value="$PROJECT_DIR$/likert/models.py" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Donation_trust.html" />
         <option value="$PROJECT_DIR$/likert/views.py" />
-        <option value="$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html" />
-        <option value="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" />
         <option value="$PROJECT_DIR$/anes2/models.py" />
-        <option value="$PROJECT_DIR$/anes2/views.py" />
         <option value="$PROJECT_DIR$/erase/models.py" />
         <option value="$PROJECT_DIR$/erase/views.py" />
         <option value="$PROJECT_DIR$/likert2/models.py" />
@@ -380,6 +276,9 @@
         <option value="$PROJECT_DIR$/petition/templates/petition/MyPagepetition.html" />
         <option value="$PROJECT_DIR$/petition/views.py" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/anes2/templates/anes2/Priming2.html" />
+        <option value="$PROJECT_DIR$/anes2/views.py" />
+        <option value="$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html" />
       </list>
     </option>
   </component>
@@ -419,6 +318,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anes2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anes2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anes2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1182,26 +1117,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/likert2/templates/likert/Likert.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1221,16 +1140,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anes2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="109" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,8 +1279,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="228" selection-end-column="8" />
+        <state relative-caret-position="341">
+          <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming2_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="12" column="76" lean-forward="false" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
           <folding />
         </state>
       </provider>

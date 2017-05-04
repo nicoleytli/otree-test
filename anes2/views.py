@@ -122,8 +122,7 @@ class Priming2(Page):
                   'Change access to citizenship for children of illegal immigrants', 'The death penalty for murder',
                   'Protect gays and lesbians against job discrimination', 'Send troops to fight ISIS']
 
-        values = ['Favor a great deal', 'Favor a moderate amount', 'Favor a little',
-                  'Neither favor nor oppose', 'Oppose a little', 'Oppose a moderate amount', 'Oppose a great deal']
+        values = ['Strongly favor', 'Somewhat favor', 'Neutral', 'Somewhat oppose', 'Strongly oppose']
 
         names = ['priming2_dem_1', 'priming2_dem_2', 'priming2_dem_3', 'priming2_dem_4', 'priming2_dem_5',
                  'priming2_dem_6', 'priming2_dem_7', 'priming2_dem_8', 'priming2_dem_9', 'priming2_dem_10']
@@ -157,8 +156,7 @@ class Priming2_2(Page):
                   'Change access to citizenship for children of illegal immigrants', 'The death penalty for murder',
                   'Protect gays and lesbians against job discrimination', 'Send troops to fight ISIS']
 
-        values = ['Favor a great deal', 'Favor a moderate amount', 'Favor a little',
-                  'Neither favor nor oppose', 'Oppose a little', 'Oppose a moderate amount', 'Oppose a great deal']
+        values = ['Strongly favor', 'Somewhat favor', 'Neutral', 'Somewhat oppose', 'Strongly oppose']
 
         names = ['priming2_rep_1', 'priming2_rep_2', 'priming2_rep_3', 'priming2_rep_4', 'priming2_rep_5',
                 'priming2_rep_6', 'priming2_rep_7', 'priming2_rep_8', 'priming2_rep_9', 'priming2_rep_10']
