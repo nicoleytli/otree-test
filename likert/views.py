@@ -1244,13 +1244,12 @@ class Donation(Page):
         return {'list': mylist}
 
 
-    # def is_displayed(self):
-    #     return
-               # (self.participant.vars['group'] == '1LD' or self.participant.vars['group'] == '1QD' or \
-               # self.participant.vars['group'] == '1QND' or self.participant.vars['group'] == '2LD' or \
-               # self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
-               # self.participant.vars['group'] == '3LD' or self.participant.vars['group'] == '3QD' or \
-               # self.participant.vars['group'] == '3QND')
+    def is_displayed(self):
+        return self.participant.vars['group'] == '1LD' or self.participant.vars['group'] == '1QD' or \
+               self.participant.vars['group'] == '1QND' or self.participant.vars['group'] == '2LD' or \
+               self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
+               self.participant.vars['group'] == '3LD' or self.participant.vars['group'] == '3QD' or \
+               self.participant.vars['group'] == '3QND'
 
 
 # class Donation2(Page):
@@ -1561,27 +1560,6 @@ class Partisanship3(Page):
     def is_displayed(self):
         return self.player.partisanship1 == 3 or self.player.partisanship1 == 5 or self.player.partisanship1 == 8
 
-    def before_next_page(self):
-        # if self.player.partisanship3 == 1:
-        #     self.participant.vars['partisanship'] = 'Closer to Republican Party'
-        # elif self.player.partisanship3 == 2:
-        #     self.participant.vars['partisanship'] = 'Closer to Democratic Party'
-        # else:
-        #     self.participant.vars['partisanship'] = 'Independent'
-
-        row = [self.player.id_in_subsession, self.player.submitted_answer_1, self.player.likert_1,
-               self.player.submitted_answer_2, self.player.likert_2, self.player.submitted_answer_3,
-               self.player.likert_3, self.player.submitted_answer_4, self.player.likert_4,
-               self.player.submitted_answer_5, self.player.likert_5, self.player.submitted_answer_6,
-               self.player.likert_6, self.player.submitted_answer_7, self.player.likert_7,
-               self.player.submitted_answer_8, self.player.likert_8, self.player.submitted_answer_9,
-               self.player.likert_9, self.player.submitted_answer_10, self.player.likert_10,
-               self.player.org_option1, self.player.org_option2, self.player.org_option3, self.player.org,
-               self.player.partisanship1, self.player.partisanship2, self.player.partisanship3]
-
-        with open('data.csv', 'a+') as f:
-            f_csv = csv.writer(f)
-            f_csv.writerows(row)
 
 
 class MyPagetrust(Page):
@@ -1621,7 +1599,11 @@ class MyPagetrust(Page):
         return mylist
 
     def is_displayed(self):
-        return self.participant.vars['issue'] != 999
+        return self.participant.vars['issue'] != 999 and (self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or
+                                                    self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '2LG' or
+                                                    self.participant.vars['group'] == '2QG' or self.participant.vars['group'] == '2QNG' or
+                                                    self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or
+                                                    self.participant.vars['group'] == '3QNG')
 
 
 
@@ -1664,7 +1646,11 @@ class MyPagetrust2(Page):
         return mylist
 
     def is_displayed(self):
-        return self.participant.vars['issue'] == 999
+        return self.participant.vars['issue'] == 999 and (self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or
+                                                    self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '2LG' or
+                                                    self.participant.vars['group'] == '2QG' or self.participant.vars['group'] == '2QNG' or
+                                                    self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or
+                                                    self.participant.vars['group'] == '3QNG')
 
 
 class Donation_party(Page):
@@ -1672,23 +1658,18 @@ class Donation_party(Page):
     form_fields = ['donation_party']
 
     def before_next_page(self):
-        if self.player.donation_party == 2:
-            if self.player.partner == 1 or self.player.partner == 3:
-                if self.participant.vars['issue'] != 999:
-                    num = self.participant.vars['issue']
-                    self_preference = self.participant.vars['preference_%s' % num]
-                    direction = self.player.preference_party
-                    if direction == 'same':
-                        preference = self_preference
+        if self.player.donation_party == 2:   #如果选择猜donation
+            if self.player.partner == 1:  #选择和意见相反的人玩游戏
+                if self.participant.vars['issue'] != 999:   #如果不是极端情况
+                    num = self.participant.vars['issue']    #需要匹配的issue号码
+                    # self_preference = self.participant.vars['preference_%s' % num]  #匹配自己的issue，得到代表偏好的号码
+                    self_opinion = self.participant.vars['opinion_%s' % num] #得到自己的意见 agree or disagree
+                    if self_opinion == 'Agree':  #找对方的意见
+                        other_opinion = 'Oppose'
                     else:
-                        if self_preference == 1:
-                            preference = 3
-                        elif self_preference == 2:
-                            preference = random.choice([1, 3])
-                        elif self_preference == 3:
-                            preference = 1
-                        else:
-                            preference = random.randint(1, 3)
+                        other_opinion = 'Favor'
+
+                    # other_preference = self_preference  #由于是和意见相反的人做游戏，所以preference要一致
 
                     with open('likert/data.csv') as f:
                         all_objects = list(csv.DictReader(f))
@@ -1696,21 +1677,24 @@ class Donation_party(Page):
                     dona_1 = []
                     dona_2 = []
                     dona_3 = []
-                    dona_correct=[]
+                    dona_correct = []
                     for i in range(len(all_objects)):
-                        if all_objects[i]['opinion_%s' % num] == preference:
-                            if all_objects[i]['donation_1'] != '':
+                        if all_objects[i]['opinion_%s' % num] == other_opinion:
+                            # if all_objects[i]['level_%s' % num] == str(other_preference):
+                            if all_objects[i]['donation_1'] != '':   #如果是有donation的
                                 dona_1.append(all_objects[i]['donation_1'])
                                 dona_2.append(all_objects[i]['donation_2'])
                                 dona_3.append(all_objects[i]['donation_3'])
                                 dona_correct.append(all_objects[i]['donation_correct'])
+                                # else:
+                                #     pass
                             else:
                                 pass
                         else:
                             pass
 
-                    if len(dona_1) == 0:
-                        self.player.if_random = 1
+                    if len(dona_1) == 0:  #如果没有找到合适的人
+                        self.player.if_random = 1  #标记：接下来的工作都是随机进行
                         self.player.donation1 = random.choice(Constants.organization)
                         list_temp_1 = [self.player.donation1]
                         list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
@@ -1718,8 +1702,8 @@ class Donation_party(Page):
                         list_temp_2 = [self.player.donation1, self.player.donation2]
                         list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
                         self.player.donation3 = random.choice(list_new_2)
-                        self.player.donation_correct = 'None'
-                        for i in range(10):
+                        self.player.donation_correct = 'None'  #随机选的，没有正确答案
+                        for i in range(10):  #找donation org的号码
                             if Constants.organization[i] == self.player.donation1:
                                 numb1 = i
                             elif Constants.organization[i] == self.player.donation2:
@@ -1733,7 +1717,7 @@ class Donation_party(Page):
                         self.player.description3 = Constants.description[numb3]
                     else:
                         self.player.if_random = 0
-                        self.player.donation1 = random.choice(dona_1)
+                        self.player.donation1 = random.choice(dona_1)  #随机选择一个人
                         for i in range(len(dona_1)):
                             if dona_1[i] == self.player.donation1:
                                 numb4 = i
@@ -1753,8 +1737,283 @@ class Donation_party(Page):
                         self.player.description2 = Constants.description[numb6]
                         self.player.description3 = Constants.description[numb7]
 
+                    self.player.other_opinion = other_opinion
+                    # if other_preference == 1:
+                    #     self.player.other_preference = 'a great deal'
+                    # elif other_preference == 2:
+                    #     self.player.other_preference = 'a moderate amount'
+                    # else:
+                    #     self.player.other_preference = 'a little'
+                # 如果是极端情况, 那么选取任何一个意见相左的人的donation
                 else:
-                    self.player.if_random = 1
+                    num = self.participant.vars['issue']    #需要匹配的issue号码
+
+                    with open('likert/data.csv') as f:
+                        all_objects = list(csv.DictReader(f))
+
+                    dona_1 = []
+                    dona_2 = []
+                    dona_3 = []
+                    dona_correct = []
+                    opinion_list = []
+                    preference_list = []
+                    for i in range(len(all_objects)):
+                        if all_objects[i]['opinion_%s' % num] != 'Neither favor nor oppose':
+                            if all_objects[i]['donation_1'] != '':   #如果是有donation的
+                                dona_1.append(all_objects[i]['donation_1'])
+                                dona_2.append(all_objects[i]['donation_2'])
+                                dona_3.append(all_objects[i]['donation_3'])
+                                dona_correct.append(all_objects[i]['donation_correct'])
+                                opinion_list.append(all_objects[i]['opinion_%s' % num])
+                                # preference_list.append(all_objects[i]['level_%s' % num])
+                            else:
+                                pass
+
+                    if len(dona_1) == 0:
+                        self.player.if_random = 1  #标记：接下来的工作都是随机进行
+                        self.player.donation1 = random.choice(Constants.organization)
+                        list_temp_1 = [self.player.donation1]
+                        list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
+                        self.player.donation2 = random.choice(list_new_1)
+                        list_temp_2 = [self.player.donation1, self.player.donation2]
+                        list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
+                        self.player.donation3 = random.choice(list_new_2)
+                        self.player.donation_correct = 'None'  #随机选的，没有正确答案
+                        for i in range(10):  #找donation org的号码
+                            if Constants.organization[i] == self.player.donation1:
+                                numb10 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb11 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb12 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb10]
+                        self.player.description2 = Constants.description[numb11]
+                        self.player.description3 = Constants.description[numb12]
+
+                        other_opinion = random.choice(['Favor', 'Oppose'])
+                        # other_preference = str(random.choice([1, 2, 3]))
+                    else:
+                        self.player.if_random = 0
+                        self.player.donation1 = random.choice(dona_1)  # 随机选择一个人
+                        for i in range(len(dona_1)):
+                            if dona_1[i] == self.player.donation1:
+                                numb8 = i
+                        self.player.donation2 = dona_2[numb8]
+                        self.player.donation3 = dona_3[numb8]
+                        self.player.donation_correct = dona_correct[numb8]
+                        # other_preference = preference_list[numb8]  #记录下选择的人的preference 和 opinion
+                        other_opinion = opinion_list[numb8]
+                        for i in range(10):
+                            if Constants.organization[i] == self.player.donation1:
+                                numb5 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb6 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb7 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb5]
+                        self.player.description2 = Constants.description[numb6]
+                        self.player.description3 = Constants.description[numb7]
+
+                    self.player.other_opinion = other_opinion
+                    # if other_preference == '1':
+                    #     self.player.other_preference = 'a great deal'
+                    # elif other_preference == '2':
+                    #     self.player.other_preference = 'a moderate amount'
+                    # else:
+                    #     self.player.other_preference = 'a little'
+
+
+            elif self.player.partner == 3: # 玩家选择和自己意见相同的人玩游戏
+
+                if self.participant.vars['issue'] != 999:   #如果不是极端情况
+                    num = self.participant.vars['issue']    #需要匹配的issue号码
+                    # self_preference = self.participant.vars['preference_%s' % num]  #匹配自己的issue，得到代表偏好的号码
+                    self_opinion = self.participant.vars['opinion_%s' % num] #得到自己的意见 agree or disagree
+                    if self_opinion == 'Agree':
+                        other_opinion = 'Favor'
+                    else:
+                        other_opinion = 'Oppose'
+
+                    with open('likert/data.csv') as f:
+                        all_objects = list(csv.DictReader(f))
+
+                    # other_preference = self_preference
+
+                    dona_1 = []
+                    dona_2 = []
+                    dona_3 = []
+                    dona_correct = []
+                    for i in range(len(all_objects)):
+                        if all_objects[i]['opinion_%s' % num] == other_opinion:
+                            # if all_objects[i]['level_%s' % num] == str(other_preference):
+                            if all_objects[i]['donation_1'] != '':  # 如果是有donation的
+                                dona_1.append(all_objects[i]['donation_1'])
+                                dona_2.append(all_objects[i]['donation_2'])
+                                dona_3.append(all_objects[i]['donation_3'])
+                                dona_correct.append(all_objects[i]['donation_correct'])
+                                # else:
+                                #     pass
+                            else:
+                                pass
+                        else:
+                            pass
+
+                    if len(dona_1) == 0:  # 如果没有找到合适的人
+                        self.player.if_random = 1  # 标记：接下来的工作都是随机进行
+                        self.player.donation1 = random.choice(Constants.organization)
+                        list_temp_1 = [self.player.donation1]
+                        list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
+                        self.player.donation2 = random.choice(list_new_1)
+                        list_temp_2 = [self.player.donation1, self.player.donation2]
+                        list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
+                        self.player.donation3 = random.choice(list_new_2)
+                        self.player.donation_correct = 'None'  # 随机选的，没有正确答案
+                        for i in range(10):  # 找donation org的号码
+                            if Constants.organization[i] == self.player.donation1:
+                                numb1 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb2 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb3 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb1]
+                        self.player.description2 = Constants.description[numb2]
+                        self.player.description3 = Constants.description[numb3]
+                    else:
+                        self.player.if_random = 0
+                        self.player.donation1 = random.choice(dona_1)  # 随机选择一个人
+                        for i in range(len(dona_1)):
+                            if dona_1[i] == self.player.donation1:
+                                numb4 = i
+                        self.player.donation2 = dona_2[numb4]
+                        self.player.donation3 = dona_3[numb4]
+                        self.player.donation_correct = dona_correct[numb4]
+                        for i in range(10):
+                            if Constants.organization[i] == self.player.donation1:
+                                numb5 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb6 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb7 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb5]
+                        self.player.description2 = Constants.description[numb6]
+                        self.player.description3 = Constants.description[numb7]
+
+
+                else: #极端的case
+                    num = self.participant.vars['issue']  # 需要匹配的issue号码
+
+                    other_opinion = 'Neither favor nor oppose'
+
+                    with open('likert/data.csv') as f:
+                        all_objects = list(csv.DictReader(f))
+
+                    dona_1 = []
+                    dona_2 = []
+                    dona_3 = []
+                    dona_correct = []
+                    opinion_list = []
+                    preference_list = []
+                    for i in range(len(all_objects)):
+                        if all_objects[i]['opinion_%s' % num] == 'Neither favor nor oppose':
+                            if all_objects[i]['donation_1'] != '':  # 如果是有donation的
+                                dona_1.append(all_objects[i]['donation_1'])
+                                dona_2.append(all_objects[i]['donation_2'])
+                                dona_3.append(all_objects[i]['donation_3'])
+                                dona_correct.append(all_objects[i]['donation_correct'])
+                                opinion_list.append(all_objects[i]['opinion_%s' % num])
+                                # preference_list.append(all_objects[i]['level_%s' % num])
+                            else:
+                                pass
+
+                    if len(dona_1) == 0:
+                        self.player.if_random = 1  # 标记：接下来的工作都是随机进行
+                        self.player.donation1 = random.choice(Constants.organization)
+                        list_temp_1 = [self.player.donation1]
+                        list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
+                        self.player.donation2 = random.choice(list_new_1)
+                        list_temp_2 = [self.player.donation1, self.player.donation2]
+                        list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
+                        self.player.donation3 = random.choice(list_new_2)
+                        self.player.donation_correct = 'None'  # 随机选的，没有正确答案
+                        for i in range(10):  # 找donation org的号码
+                            if Constants.organization[i] == self.player.donation1:
+                                numb10 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb11 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb12 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb10]
+                        self.player.description2 = Constants.description[numb11]
+                        self.player.description3 = Constants.description[numb12]
+
+                    else:
+                        self.player.if_random = 0
+                        self.player.donation1 = random.choice(dona_1)  # 随机选择一个人
+                        for i in range(len(dona_1)):
+                            if dona_1[i] == self.player.donation1:
+                                numb8 = i
+                        self.player.donation2 = dona_2[numb8]
+                        self.player.donation3 = dona_3[numb8]
+                        self.player.donation_correct = dona_correct[numb8]
+                        for i in range(10):
+                            if Constants.organization[i] == self.player.donation1:
+                                numb5 = i
+                            elif Constants.organization[i] == self.player.donation2:
+                                numb6 = i
+                            elif Constants.organization[i] == self.player.donation3:
+                                numb7 = i
+                            else:
+                                pass
+                        self.player.description1 = Constants.description[numb5]
+                        self.player.description2 = Constants.description[numb6]
+                        self.player.description3 = Constants.description[numb7]
+
+                self.player.other_opinion = other_opinion
+                # if other_opinion != 'Neither favor nor oppose':
+                #     self.player.other_preference = other_preference
+                # else:
+                #     pass
+
+            elif self.player.partner == 2: #和相反党派的人玩游戏
+                self_party = self.player.partisanship1
+                if self_party == 1: #自己是demo
+                    other_party = 2
+                elif self_party == 2:
+                    other_party = 1
+                else:
+                    other_party = random.choice([1, 2]) #中立的话，随机为他选择对方的党派
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list = []
+                dona_1 = []
+                dona_2 = []
+                dona_3 = []
+                dona_correct = []
+                for i in range(len(all_objects)):
+                    if all_objects[i]['partisanship_1'] == str(other_party):
+                        if all_objects[i]['donation_1'] != '':  # 如果是有donation的
+                            dona_1.append(all_objects[i]['donation_1'])
+                            dona_2.append(all_objects[i]['donation_2'])
+                            dona_3.append(all_objects[i]['donation_3'])
+                            dona_correct.append(all_objects[i]['donation_correct'])
+                            # party_list.append(all_objects[i]['partisanship_1'])
+                        else:
+                            pass
+
+                if len(dona_1) == 0:  # 如果没有找到合适的人
+                    self.player.if_random = 1  # 标记：接下来的工作都是随机进行
                     self.player.donation1 = random.choice(Constants.organization)
                     list_temp_1 = [self.player.donation1]
                     list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
@@ -1762,110 +2021,411 @@ class Donation_party(Page):
                     list_temp_2 = [self.player.donation1, self.player.donation2]
                     list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
                     self.player.donation3 = random.choice(list_new_2)
-                    self.player.donation_correct = 'None'
-                    for i in range(10):
+                    self.player.donation_correct = 'None'  # 随机选的，没有正确答案
+                    for i in range(10):  # 找donation org的号码
                         if Constants.organization[i] == self.player.donation1:
-                            numb8 = i
-                        elif Constants.organization[i] == self.player.donation2:
-                            numb9 = i
-                        elif Constants.organization[i] == self.player.donation3:
                             numb10 = i
+                        elif Constants.organization[i] == self.player.donation2:
+                            numb11 = i
+                        elif Constants.organization[i] == self.player.donation3:
+                            numb12 = i
                         else:
                             pass
-                    self.player.description1 = Constants.description[numb8]
-                    self.player.description2 = Constants.description[numb9]
-                    self.player.description3 = Constants.description[numb10]
-            else:
-                if self.player.preference_party == 'same':
-                    party1 = self.player.partisanship1
-                    party2 = self.player.partisanship2
-                    party3 = self.player.partisanship3
+                    self.player.description1 = Constants.description[numb10]
+                    self.player.description2 = Constants.description[numb11]
+                    self.player.description3 = Constants.description[numb12]
                 else:
-                    if self.player.partisanship1 == 1:
-                        party1 = 2
-                        if self.player.partisanship2 == 1:
-                            party2 = 1
-                        elif self.player.partisanship2 == 2:
-                            party2 = 2
+                    self.player.if_random = 0
+                    self.player.donation1 = random.choice(dona_1)  # 随机选择一个人
+                    for i in range(len(dona_1)):
+                        if dona_1[i] == self.player.donation1:
+                            numb8 = i
+                    self.player.donation2 = dona_2[numb8]
+                    self.player.donation3 = dona_3[numb8]
+                    self.player.donation_correct = dona_correct[numb8]
+                    for i in range(10):
+                        if Constants.organization[i] == self.player.donation1:
+                            numb5 = i
+                        elif Constants.organization[i] == self.player.donation2:
+                            numb6 = i
+                        elif Constants.organization[i] == self.player.donation3:
+                            numb7 = i
                         else:
-                            party2 = 999
-                    elif self.player.partisanship1 == 2:
-                        party1 = 1
-                        if self.player.partisanship2 == 1:
-                            party2 = 1
-                        elif self.player.partisanship2 == 2:
-                            party2 = 2
+                            pass
+                    self.player.description1 = Constants.description[numb5]
+                    self.player.description2 = Constants.description[numb6]
+                    self.player.description3 = Constants.description[numb7]
+
+                if other_party == 1:
+                    self.player.other_party = 'Democrat'
+                else:
+                    self.player.other_party = 'Republican'
+
+
+            else: #和相同党派的人玩
+                self_party = self.player.partisanship1
+                if self_party == 1:
+                    other_party = 1
+                elif self_party == 2:
+                    other_party = 2
+                else:
+                    other_party = 999
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list = []
+                dona_1 = []
+                dona_2 = []
+                dona_3 = []
+                dona_correct = []
+                for i in range(len(all_objects)):
+                    if other_party == 999:
+                        if all_objects[i]['partisanship_1'] == '3' or all_objects[i]['partisanship_1'] == '5' or all_objects[i]['partisanship_1'] == '8':
+                            if all_objects[i]['donation_1'] != '':  # 如果是有donation的
+                                dona_1.append(all_objects[i]['donation_1'])
+                                dona_2.append(all_objects[i]['donation_2'])
+                                dona_3.append(all_objects[i]['donation_3'])
+                                dona_correct.append(all_objects[i]['donation_correct'])
+                                party_list.append(all_objects[i]['partisanship_1'])
+                            else:
+                                pass
                         else:
-                            party2 = 999
+                            pass
                     else:
-                        party1 = 999
-                        if self.player.partisanship3 == 1:
-                            party3 = 2
-                        elif self.player.partisanship3 == 2:
-                            party3 = 1
+                        if all_objects[i]['partisanship_1'] == str(other_party):
+                            if all_objects[i]['donation_1'] != '':  # 如果是有donation的
+                                dona_1.append(all_objects[i]['donation_1'])
+                                dona_2.append(all_objects[i]['donation_2'])
+                                dona_3.append(all_objects[i]['donation_3'])
+                                dona_correct.append(all_objects[i]['donation_correct'])
+                                party_list.append(all_objects[i]['partisanship_1'])
+                            else:
+                                pass
+
+                if len(dona_1) == 0:  # 如果没有找到合适的人
+                    self.player.if_random = 1  # 标记：接下来的工作都是随机进行
+                    self.player.donation1 = random.choice(Constants.organization)
+                    list_temp_1 = [self.player.donation1]
+                    list_new_1 = [i for i in Constants.organization if i not in list_temp_1]
+                    self.player.donation2 = random.choice(list_new_1)
+                    list_temp_2 = [self.player.donation1, self.player.donation2]
+                    list_new_2 = [i for i in Constants.organization if i not in list_temp_2]
+                    self.player.donation3 = random.choice(list_new_2)
+                    self.player.donation_correct = 'None'  # 随机选的，没有正确答案
+                    for i in range(10):  # 找donation org的号码
+                        if Constants.organization[i] == self.player.donation1:
+                            numb10 = i
+                        elif Constants.organization[i] == self.player.donation2:
+                            numb11 = i
+                        elif Constants.organization[i] == self.player.donation3:
+                            numb12 = i
                         else:
-                            party3 = 999
+                            pass
+                    self.player.description1 = Constants.description[numb10]
+                    self.player.description2 = Constants.description[numb11]
+                    self.player.description3 = Constants.description[numb12]
+                else:
+                    self.player.if_random = 0
+                    self.player.donation1 = random.choice(dona_1)  # 随机选择一个人
+                    for i in range(len(dona_1)):
+                        if dona_1[i] == self.player.donation1:
+                            numb8 = i
+                    self.player.donation2 = dona_2[numb8]
+                    self.player.donation3 = dona_3[numb8]
+                    self.player.donation_correct = dona_correct[numb8]
+                    # self.player.other_party = party_list[numb8]
+                    for i in range(10):
+                        if Constants.organization[i] == self.player.donation1:
+                            numb5 = i
+                        elif Constants.organization[i] == self.player.donation2:
+                            numb6 = i
+                        elif Constants.organization[i] == self.player.donation3:
+                            numb7 = i
+                        else:
+                            pass
+                    self.player.description1 = Constants.description[numb5]
+                    self.player.description2 = Constants.description[numb6]
+                    self.player.description3 = Constants.description[numb7]
+
+                if self_party == 1:
+                    self.player.other_party = 'Democrat'
+                elif self_party == 2:
+                    self.player.other_party = 'Republican'
+                elif self_party == 3:
+                    self.player.other_party = 'Independent'
+                elif self_party == 5:
+                    self.player.other_party = 'Other party'
+                else:
+                    self.player.other_party = 'Do not know'
+
+        # 猜党派: 选项是固定的
+        else:
+            if self.player.partner == 1: #和意见相反的人玩
+                num = self.participant.vars['issue']  # 需要匹配的issue号码
+                # self_preference = self.participant.vars['preference_%s' % num]  # 匹配自己的issue，得到代表偏好的号码
+                self_opinion = self.participant.vars['opinion_%s' % num]  # 得到自己的意见 agree or disagree
+                if self_opinion == 'Agree':  # 找对方的意见
+                    other_opinion = 'Oppose'
+                else:
+                    other_opinion = 'Favor'
+
+                # other_preference = self_preference  # 由于是和意见相反的人做游戏，所以preference要一致
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list_1 = []
+                party_list_2 = []
+                party_list_3 = []
+                for i in range(len(all_objects)):
+                    if all_objects[i]['opinion_%s' % num] == other_opinion:
+                        # if all_objects[i]['level_%s' % num] == str(other_preference):
+                        party_list_1.append(all_objects[i]['partisanship_1'])
+                        party_list_2.append(all_objects[i]['partisanship_2'])
+                        party_list_3.append(all_objects[i]['partisanship_3'])
+                        # else:
+                        #     pass
+                    else:
+                        pass
+
+                if len(party_list_1) == 0:  # 如果没有找到合适的人
+                    self.player.party_identification = random.choice(['Strong Democrat', 'Not very strong Democrat', 'Do not know', 'Inapplicable', 'Not very strong Republican', 'Strong Republican', 'Closer to Republican', 'Closer to Democratic', 'Neither closer to Republican nor Democratic'])
+                else:
+                    party1 = random.choice(party_list_1)
+                    for i in range(len(party_list_1)):
+                        if party_list_1[i] == party1:
+                            numbx = i
+                        else:
+                            pass
+                    party2 = party_list_2[numbx]
+                    party3 = party_list_3[numbx]
+                    if party1 == '1':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Democrat'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Democrat'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    elif party1 == '2':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Republican'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Republican'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    else:
+                        if party3 == '1':
+                            self.player.party_identification = 'Closer to Republican'
+                        elif party3 == '2':
+                            self.player.party_identification = 'Closer to Democratic'
+                        else:
+                            self.player.party_identification = 'Neither closer to Republican nor Democratic'
+
+            elif self.player.partner == 3: #和意见相同的人玩
+                num = self.participant.vars['issue']  # 需要匹配的issue号码
+                # self_preference = self.participant.vars['preference_%s' % num]  # 匹配自己的issue，得到代表偏好的号码
+                self_opinion = self.participant.vars['opinion_%s' % num]  # 得到自己的意见 agree or disagree
+                if self_opinion == 'Agree':  # 找对方的意见
+                    other_opinion = 'Favor'
+                else:
+                    other_opinion = 'Oppose'
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list_1 = []
+                party_list_2 = []
+                party_list_3 = []
+                for i in range(len(all_objects)):
+                    if all_objects[i]['opinion_%s' % num] == other_opinion:
+                        # if all_objects[i]['level_%s' % num] == str(other_preference):
+                        party_list_1.append(all_objects[i]['partisanship_1'])
+                        party_list_2.append(all_objects[i]['partisanship_2'])
+                        party_list_3.append(all_objects[i]['partisanship_3'])
+                        # else:
+                        #     pass
+                    else:
+                        pass
+
+                if len(party_list_1) == 0:  # 如果没有找到合适的人
+                    self.player.party_identification = random.choice(['Strong Democrat', 'Not very strong Democrat', 'Do not know', 'Inapplicable', 'Not very strong Republican', 'Strong Republican', 'Closer to Republican', 'Closer to Democratic', 'Neither closer to Republican nor Democratic'])
+                else:
+                    party1 = random.choice(party_list_1)
+                    for i in range(len(party_list_1)):
+                        if party_list_1[i] == party1:
+                            numbx = i
+                        else:
+                            pass
+                    party2 = party_list_2[numbx]
+                    party3 = party_list_3[numbx]
+                    if party1 == '1':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Democrat'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Democrat'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    elif party1 == '2':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Republican'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Republican'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    else:
+                        if party3 == '1':
+                            self.player.party_identification = 'Closer to Republican'
+                        elif party3 == '2':
+                            self.player.party_identification = 'Closer to Democratic'
+                        else:
+                            self.player.party_identification = 'Neither closer to Republican nor Democratic'
+
+            elif self.player.partner == 2: #和不同党派的人玩
+                party0 = self.player.partisanship1
+                if party0 == 1:
+                    other_party = 2
+                elif party0 == 2:
+                    other_party = 1
+                else:
+                    other_party = random.choice([1, 2])
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list_1 = []
+                party_list_2 = []
+                party_list_3 = []
+                for i in range(len(all_objects)):
+                    if all_objects[i]['partisanship_1'] == str(other_party):
+                        # if all_objects[i]['level_%s' % num] == str(other_preference):
+                        party_list_1.append(all_objects[i]['partisanship_1'])
+                        party_list_2.append(all_objects[i]['partisanship_2'])
+                        party_list_3.append(all_objects[i]['partisanship_3'])
+                        # else:
+                        #     pass
+                    else:
+                        pass
+
+                if len(party_list_1) == 0:  # 如果没有找到合适的人
+                    self.player.party_identification = random.choice(['Strong Democrat', 'Not very strong Democrat', 'Do not know', 'Inapplicable', 'Not very strong Republican', 'Strong Republican', 'Closer to Republican', 'Closer to Democratic', 'Neither closer to Republican nor Democratic'])
+                else:
+                    party1 = random.choice(party_list_1)
+                    for i in range(len(party_list_1)):
+                        if party_list_1[i] == party1:
+                            numbx = i
+                        else:
+                            pass
+                    party2 = party_list_2[numbx]
+                    party3 = party_list_3[numbx]
+                    if party1 == '1':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Democrat'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Democrat'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    elif party1 == '2':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Republican'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Republican'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    else:
+                        if party3 == '1':
+                            self.player.party_identification = 'Closer to Republican'
+                        elif party3 == '2':
+                            self.player.party_identification = 'Closer to Democratic'
+                        else:
+                            self.player.party_identification = 'Neither closer to Republican nor Democratic'
+
+            else: #和相同党派的人玩
+                party0 = self.player.partisanship1
+                if party0 == 1:
+                    other_party = 1
+                elif party0 == 2:
+                    other_party = 2
+                else:
+                    other_party = party0
+
+                with open('likert/data.csv') as f:
+                    all_objects = list(csv.DictReader(f))
+
+                party_list_1 = []
+                party_list_2 = []
+                party_list_3 = []
+                for i in range(len(all_objects)):
+                    if all_objects[i]['partisanship_1'] == str(other_party):
+                        # if all_objects[i]['level_%s' % num] == str(other_preference):
+                        party_list_1.append(all_objects[i]['partisanship_1'])
+                        party_list_2.append(all_objects[i]['partisanship_2'])
+                        party_list_3.append(all_objects[i]['partisanship_3'])
+                        # else:
+                        #     pass
+                    else:
+                        pass
+
+                if len(party_list_1) == 0:  # 如果没有找到合适的人
+                    self.player.party_identification = random.choice(
+                        ['Strong Democrat', 'Not very strong Democrat', 'Do not know', 'Inapplicable',
+                         'Not very strong Republican', 'Strong Republican', 'Closer to Republican',
+                         'Closer to Democratic', 'Neither closer to Republican nor Democratic'])
+                else:
+                    party1 = random.choice(party_list_1)
+                    for i in range(len(party_list_1)):
+                        if party_list_1[i] == party1:
+                            numbx = i
+                        else:
+                            pass
+                    party2 = party_list_2[numbx]
+                    party3 = party_list_3[numbx]
+                    if party1 == '1':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Democrat'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Democrat'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    elif party1 == '2':
+                        if party2 == '1':
+                            self.player.party_identification = 'Strong Republican'
+                        elif party2 == '2':
+                            self.player.party_identification = 'Not very strong Republican'
+                        elif party2 == '5':
+                            self.player.party_identification = 'Inapplicable'
+                        else:
+                            self.player.party_identification = 'Do not know'
+                    else:
+                        if party3 == '1':
+                            self.player.party_identification = 'Closer to Republican'
+                        elif party3 == '2':
+                            self.player.party_identification = 'Closer to Democratic'
+                        else:
+                            self.player.party_identification = 'Neither closer to Republican nor Democratic'
+
+    def is_displayed(self):
+        return self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or \
+                self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '2LG' or \
+                self.participant.vars['group'] == '2QG' or self.participant.vars['group'] == '2QNG' or \
+                self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or \
+                self.participant.vars['group'] == '3QNG'
 
 # 现在有一些疑问，第一，partisanship放在哪里合适，第二，如果这个player是中立的，那么选择和同一党派的人玩猜党派的游戏该怎么办。
-
-        else:
-            # 玩家选择猜相反的情况
-            # if self.player.partisanship1 == 1:
-            #     party1 = 2
-            #     if self.player.partisanship2 == 1:
-            #         party2 = 1
-            #     elif self.player.partisanship2 == 2:
-            #         party2 = 2
-            #     else:
-            #         party2 = 999
-            # elif self.player.partisanship1 == 2:
-            #     party1 = 1
-            #     if self.player.partisanship2 == 1:
-            #         party2 = 1
-            #     elif self.player.partisanship2 == 2:
-            #         party2 = 2
-            #     else:
-            #         party2 = 999
-            # else:
-            #     party1 = 999
-            #     if self.player.partisanship3 == 1:
-            #         party3 = 2
-            #     elif self.player.partisanship3 == 2:
-            #         party3 = 1
-            #     else:
-            #         party3 = 999
-            #
-            # with open('likert/data.csv') as f:
-            #     all_objects = list(csv.DictReader(f))
-            #
-            # if self.player.preference_party == 'same':
-            #
-            #
-            # party_1 = []
-            # party_2 = []
-            # party_3 = []
-            # if party1 == 999:
-            #     if party3 == 999:
-            #         for i in range(len(all_objects)):
-            #             if all_objects[i]['partisanship_1'] == 5 or all_objects[i]['partisanship_1'] == 8:
-            #                 if all_objects[i]['partisanship_3'] == 3:
-            #
-            #
-            #
-            #
-            # if len(party_1) != 0:
-            #     real_party_1 = random.choice(party_1)
-            #     for i in range(len(party_1)):
-            #         if party_1[i] == real_party_1:
-            #             num11 = i
-            #         else:
-            #             pass
-            #     real_party_2 = party_2[num11]
-            #     real_party_3 = party_3[num11]
-            # else:
-            #     real_party_1 = random.choice()
-            pass
-
 
 
 class Donation_trust(Page):
@@ -1873,18 +2433,126 @@ class Donation_trust(Page):
     form_fields = ['donation_choice']
 
     def is_displayed(self):
-        return self.player.donation_party == 2
+        return self.player.donation_party == 2 and (self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or
+                                                    self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '2LG' or
+                                                    self.participant.vars['group'] == '2QG' or self.participant.vars['group'] == '2QNG' or
+                                                    self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or
+                                                    self.participant.vars['group'] == '3QNG')
+
+    def vars_for_template(self):
+        donation_org = [self.player.donation1, self.player.donation2, self.player.donation3]
+        description = [self.player.description1, self.player.description2, self.player.description3]
+        no = ['1', '2', '3']
+
+        mylist = zip(donation_org, description, no)
+
+        return {'mylist': mylist}
 
 
 class Party_trust(Page):
     def is_displayed(self):
-        return self.player.donation_party == 1
+        return self.player.donation_party == 1 and (self.participant.vars['group'] == '1LG' or self.participant.vars['group'] == '1QG' or
+                                                    self.participant.vars['group'] == '1QNG' or self.participant.vars['group'] == '2LG' or
+                                                    self.participant.vars['group'] == '2QG' or self.participant.vars['group'] == '2QNG' or
+                                                    self.participant.vars['group'] == '3LG' or self.participant.vars['group'] == '3QG' or
+                                                    self.participant.vars['group'] == '3QNG')
+
+    def vars_for_template(self):
+        pass
 
 
 
 class End(Page):
-    pass
+    def before_next_page(self):
+        # if self.player.partisanship3 == 1:
+        #     self.participant.vars['partisanship'] = 'Closer to Republican Party'
+        # elif self.player.partisanship3 == 2:
+        #     self.participant.vars['partisanship'] = 'Closer to Democratic Party'
+        # else:
+        #     self.participant.vars['partisanship'] = 'Independent'
 
+        row = [(self.player.id_in_subsession, self.player.submitted_answer_1, self.player.likert_1,
+               self.player.submitted_answer_2, self.player.likert_2, self.player.submitted_answer_3,
+               self.player.likert_3, self.player.submitted_answer_4, self.player.likert_4,
+               self.player.submitted_answer_5, self.player.likert_5, self.player.submitted_answer_6,
+               self.player.likert_6, self.player.submitted_answer_7, self.player.likert_7,
+               self.player.submitted_answer_8, self.player.likert_8, self.player.submitted_answer_9,
+               self.player.likert_9, self.player.submitted_answer_10, self.player.likert_10,
+               self.player.org_option1, self.player.org_option2, self.player.org_option3, self.player.org,
+               self.player.partisanship1, self.player.partisanship2, self.player.partisanship3)]
+
+        with open('likert/data.csv', 'a+') as f:
+            f_csv = csv.writer(f)
+            f_csv.writerows(row)
+
+
+class MyPagemouse(Page):
+    form_model = models.Player
+    form_fields = ['mouse_option']
+
+    def is_displayed(self):
+        return self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
+               self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
+                self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
+                self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
+                self.participant.vars['group'] == '3QNM'
+
+
+class Resultsmouse(Page):
+    form_model = models.Player
+    form_fields = ['mouse_x', 'mouse_y', 'percentage']
+
+    def vars_for_template(self):
+        question = ['Reduce the difference in income', 'Limit imports', 'Send troops to fight ISIS',
+                    'Protect gays and lesbians against job discrimination', 'The death penalty for murder',
+                    'Change access to citizenship for children of illegal immigrants',
+                    'Build a wall on the US-Mexico border',
+                    'Paid leave for parents of new children', 'Increase number of black students at universities',
+                    'Pay women and men the same amount for the same work']
+        issue = question[self.player.mouse_option - 1]
+        return {'issue': issue}
+
+    def before_next_page(self):
+        if self.player.mouse_x == '' or self.player.mouse_y == '':
+            mouse_x_temp = -1
+            mouse_y_temp = -1
+            mouse_x = [mouse_x_temp]
+            mouse_y = [mouse_y_temp]
+        else:
+            mouse_x_temp = self.player.mouse_x.split(",")
+            mouse_y_temp = self.player.mouse_y.split(",")
+            mouse_x = list(map(int, map(float, mouse_x_temp)))
+            mouse_y = list(map(int, map(float, mouse_y_temp)))
+
+        radius = 30
+        width = 690
+        height = 600
+        area = []
+
+        for i in range(len(mouse_x)):
+            if 0 <= mouse_x[i] <= 690 and 0 <= mouse_y[i] <= 600:
+                if i == 0:
+                    area.append((radius * 2)*(radius * 2))
+                else:
+                    if abs(mouse_x[i]-mouse_x[i-1]) <= radius and abs(mouse_y[i]-mouse_y[i-1]) <= radius:
+                        area.append(2*(abs(mouse_x[i]-mouse_x[i-1]))*radius + 2*(abs(mouse_y[i]-mouse_y[i-1]))*radius - \
+                            abs(mouse_y[i]-mouse_y[i-1])*abs(mouse_x[i]-mouse_x[i-1]))
+                    else:
+                        area.append((radius * 2)*(radius * 2))
+            else:
+                pass
+
+        if sum(area) <= width*height:
+            self.player.percentage = sum(area) / (width*height)
+        else:
+            self.player.percentage = 1
+
+    def is_displayed(self):
+        return self.player.mouse_option != 999 and (self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
+               self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
+                self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
+                self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
+                self.participant.vars['group'] == '3QNM')
 
 page_sequence = [
     MyPage,
@@ -1937,9 +2605,13 @@ page_sequence = [
     Partisanship2,
     Partisanship3,
     Donation,
+    MyPagemouse,
+    Resultsmouse,
     MyPagetrust,
     MyPagetrust2,
     Donation_party,
+    Donation_trust,
+    Party_trust,
     MyPageinfo,
     MyPagepetition,
     Resultspetition,

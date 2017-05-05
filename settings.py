@@ -197,12 +197,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['likert', 'donation'],
     # },
-    {
-        'name': 'long_survey',
-        'display_name': "long survey",
-        'num_demo_participants': 20,
-        'app_sequence': ['anes2', 'likert2', 'petition', 'donation', 'infoseeking', 'erase', 'item', 'ses'],
-    },
+    # {
+    #     'name': 'long_survey',
+    #     'display_name': "long survey",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['anes2', 'likert2', 'petition', 'donation', 'infoseeking', 'erase', 'item', 'ses'],
+    # },
     # {
     #     'name': 'Empathy_Beget_Guile',
     #     'display_name': "Empathy",
@@ -215,17 +215,17 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 5,
     #     'app_sequence': ['likert', 'mytrust', 'ses'],
     # },
+    {
+        'name': 'erase',
+        'display_name': "mouse eraser",
+        'num_demo_participants': 5,
+        'app_sequence': ['erase'],
+    },
     # {
-    #     'name': 'erase',
-    #     'display_name': "mouse eraser",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['erase'],
-    # },
-    # {
-    #     'name': 'anes',
-    #     'display_name': "anes",
-    #     'num_demo_participants': 10,
-    #     'app_sequence': ['anes2'],
+    #     'name': 'long_survey_2',
+    #     'display_name': "long survey 2",
+    #     'num_demo_participants': 30,
+    #     'app_sequence': ['anes2', 'likert'],
     # },
 
 ]

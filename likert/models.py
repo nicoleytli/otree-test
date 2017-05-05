@@ -59,6 +59,7 @@ class Subsession(BaseSubsession):
     def before_session_starts(self):
         for p in self.get_players():
             p.preference_party = random.choice(['same', 'opposite'])
+            p.mouse_option = 999
 
 
 
@@ -440,11 +441,48 @@ class Player(BasePlayer):
     donation2 = models.CharField()
     donation3 = models.CharField()
     donation_correct = models.CharField()
-    donation_choice = models.CharField()
+    donation_choice = models.IntegerField(
+        choices=[1, 2, 3],
+        widget=widgets.RadioSelect()
+    )
 
     description1 = models.CharField()
     description2 = models.CharField()
     description3 = models.CharField()
+
+    other_opinion = models.CharField()
+    other_preference = models.CharField()
+    other_party = models.CharField()
+    party_identification = models.CharField()
+    party_choice = models.CharField(
+        choices=['Strong Democrat', 'Not very strong Democrat', 'Closer to Democratic',
+                 'Closer to Republican', 'Not very strong Republican', 'Strong Republican',
+                 'Neither closer to Democratic nor Republican', 'Inapplicable', 'He/She dose not know']
+    )
+
+    mouse_x = models.TextField(
+        blank=True
+    )
+    mouse_y = models.TextField(
+        blank=True
+    )
+    percentage = models.FloatField(
+        blank=True
+    )
+    mouse_option = models.IntegerField(
+        choices=[[1, 'Reduce the difference in income'],
+                 [2, 'Limit imports'],
+                 [3, 'Send troops to fight ISIS'],
+                 [4, 'Protect gays and lesbians against job discrimination'],
+                 [5, 'The death penalty for murder'],
+                 [6, 'Change access to citizenship for children of illegal immigrants'],
+                 [7, 'Build a wall on the US-Mexico border'],
+                 [8, 'Paid leave for parents of new children'],
+                 [9, 'Increase number of black students at universities'],
+                 [10, 'Pay women and men the same amount for the same work']],
+        blank=True,
+        widget=widgets.RadioSelect()
+    )
 
 
 

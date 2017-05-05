@@ -8,12 +8,12 @@ class MyPage(Page):
     form_model = models.Player
     form_fields = ['option']
 
-    def is_displayed(self):
-        return self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
-               self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
-                self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
-                self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
-                self.participant.vars['group'] == '3QNM'
+    # def is_displayed(self):
+    #     return self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
+    #            self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
+    #             self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
+    #             self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
+    #             self.participant.vars['group'] == '3QNM'
 
 
 class Results(Page):
@@ -66,11 +66,12 @@ class Results(Page):
             self.player.percentage = 1
 
     def is_displayed(self):
-        return self.player.option != 999 and (self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
-               self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
-                self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
-                self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
-                self.participant.vars['group'] == '3QNM')
+        return self.player.option != 999 \
+               # and (self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
+               # self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
+               #  self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
+               #  self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
+               #  self.participant.vars['group'] == '3QNM')
 
 
 

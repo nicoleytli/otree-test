@@ -200,7 +200,7 @@ page_sequence = [
     Priming1,
     Priming2,
     Priming2_2,
-    Partisanship1,
-    Partisanship2,
-    Partisanship3
+    # Partisanship1,
+    # Partisanship2,
+    # Partisanship3
 ]

@@ -35,29 +35,29 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    partisanship1 = models.IntegerField(
-        choices=[[1, 'Democrat'],
-                 [2, 'Republican'],
-                 [3, 'Independent'],
-                 [5, 'Other party'],
-                 [8, 'Do not know']],
-        widget=widgets.RadioSelect()
-    )
-
-    partisanship2 = models.IntegerField(
-        choices=[[1, 'Strong'],
-                 [2, 'Not very strong'],
-                 [5, 'Inapplicable'],
-                 [8, 'Do not know']],
-        widget=widgets.RadioSelect()
-    )
-
-    partisanship3 = models.IntegerField(
-        choices=[[1, 'Closer to Republican'],
-                 [2, 'Closer to Democratic'],
-                 [3, 'Neither']],
-        widget=widgets.RadioSelect()
-    )
+    # partisanship1 = models.IntegerField(
+    #     choices=[[1, 'Democrat'],
+    #              [2, 'Republican'],
+    #              [3, 'Independent'],
+    #              [5, 'Other party'],
+    #              [8, 'Do not know']],
+    #     widget=widgets.RadioSelect()
+    # )
+    #
+    # partisanship2 = models.IntegerField(
+    #     choices=[[1, 'Strong'],
+    #              [2, 'Not very strong'],
+    #              [5, 'Inapplicable'],
+    #              [8, 'Do not know']],
+    #     widget=widgets.RadioSelect()
+    # )
+    #
+    # partisanship3 = models.IntegerField(
+    #     choices=[[1, 'Closer to Republican'],
+    #              [2, 'Closer to Democratic'],
+    #              [3, 'Neither']],
+    #     widget=widgets.RadioSelect()
+    # )
 
     priming1 = models.CharField(
         choices=['Yes', 'No'],
