@@ -66,8 +66,10 @@ class Results(Page):
             self.player.percentage = 1
 
     def is_displayed(self):
-        return self.player.option != 999 \
-               # and (self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
+        return self.player.option == 1 or self.player.option == 2 or self.player.option == 3 or self.player.option == 4 or \
+               self.player.option == 5 or self.player.option == 6 or self.player.option == 7 or self.player.option == 8 or \
+               self.player.option == 9 or self.player.option == 10
+        # and (self.participant.vars['group'] == '1LM' or self.participant.vars['group'] == '1QM' or \
                # self.participant.vars['group'] == '1QNM' or self.participant.vars['group'] == '2LM' or \
                #  self.participant.vars['group'] == '2QM' or self.participant.vars['group'] == '2QNM' or \
                #  self.participant.vars['group'] == '3LM' or self.participant.vars['group'] == '3QM' or \
