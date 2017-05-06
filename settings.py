@@ -114,12 +114,12 @@ ROOMS = [
 mturk_hit_settings = {
     'keywords': ['easy', 'bonus', 'game', 'study'],
     'title': 'Behavioral Experiment',
-    'description': 'This is part of a study in decision making. In this activity, you will be grouped with another worker, and finish three tasks(two non-interactive tasks and one interactive game).'
+    'description': 'This is part of a study in decision making. In this activity, you will be grouped with another worker, and finish three tasks.'
                    ,
     'frame_height': 500,
-    'preview_template': 'global/MTurkPreview.html',
+    'preview_template': 'Eye_Exam/Welcome.html',
     'minutes_allotted_per_assignment': 60,
-    'expiration_hours': 7*24, # 7 days
+    'expiration_hours': 30*24, # 7 days
     #'grant_qualification_id': 'YOUR_QUALIFICATION_ID_HERE',# to prevent retakes
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
@@ -143,12 +143,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    # {
-    #     'name': 'Empathy_Beget_Guile',
-    #     'display_name': "Empathy Beget Guile",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    # },
+    {
+        'name': 'Empathy_Beget_Guile',
+        'display_name': "Empathy Beget Guile",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -215,12 +215,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 5,
     #     'app_sequence': ['likert', 'mytrust', 'ses'],
     # },
-    {
-        'name': 'erase',
-        'display_name': "mouse eraser",
-        'num_demo_participants': 5,
-        'app_sequence': ['erase'],
-    },
+    # {
+    #     'name': 'erase',
+    #     'display_name': "mouse eraser",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['erase'],
+    # },
     # {
     #     'name': 'long_survey_2',
     #     'display_name': "long survey 2",
