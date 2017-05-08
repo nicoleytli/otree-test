@@ -113,8 +113,8 @@ ROOMS = [
 
 mturk_hit_settings = {
     'keywords': ['easy', 'bonus', 'game', 'study'],
-    'title': 'Behavioral Experiment',
-    'description': 'This is part of a study in decision making. In this activity, you will be grouped with another worker, and finish three tasks.'
+    'title': 'Behavioral Experiment(earn $0.20+bonus)',
+    'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
                    ,
     'frame_height': 500,
     'preview_template': 'Eye_Exam/Welcome.html',
@@ -122,7 +122,7 @@ mturk_hit_settings = {
     'expiration_hours': 30*24, # 7 days
     #'grant_qualification_id': 'YOUR_QUALIFICATION_ID_HERE',# to prevent retakes
     'qualification_requirements': [
-        # qualification.LocaleRequirement("EqualTo", "US"),
+        qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
         # qualification.Requirement('YOUR_QUALIFICATION_ID_HERE', 'DoesNotExist')
