@@ -84,6 +84,7 @@ class treatment_4(Page):
         return self.player.is_4 == 1
 
 
+
 class Result_123(Page):
 
     def vars_for_template(self):
@@ -104,6 +105,8 @@ class WaitforP1(WaitPage):
 class Task3(Page):
     def is_displayed(self):
         return self.player.id_in_group == 2 and self.player.is_4 == 0
+
+    timeout_seconds = 480
 
 
 page_sequence = [
