@@ -34,9 +34,12 @@ class Player(BasePlayer):
     mouse_y = models.TextField(
         blank=True
     )
-    percentage = models.FloatField(
+    mouse_t = models.TextField(
         blank=True
     )
+    # percentage = models.FloatField(
+    #     blank=True
+    # )
     option = models.IntegerField(
         choices=[[1, 'Reduce the difference in income'],
                  [2, 'Limit imports'],
@@ -50,4 +53,8 @@ class Player(BasePlayer):
                  [10, 'Pay women and men the same amount for the same work']],
         blank=True,
         widget=widgets.RadioSelect()
+    )
+
+    time = models.CharField(
+        blank=True
     )

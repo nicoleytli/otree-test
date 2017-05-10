@@ -143,12 +143,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Beget Guile",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Beget Guile",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    # },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -215,17 +215,23 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 5,
     #     'app_sequence': ['likert', 'mytrust', 'ses'],
     # },
-    # {
-    #     'name': 'erase',
-    #     'display_name': "mouse eraser",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['erase'],
-    # },
+    {
+        'name': 'erase',
+        'display_name': "mouse_tracking",
+        'num_demo_participants': 5,
+        'app_sequence': ['erase'],
+    },
     # {
     #     'name': 'long_survey_2',
     #     'display_name': "long survey 2",
     #     'num_demo_participants': 30,
     #     'app_sequence': ['anes2', 'likert'],
+    # },
+    # {
+    #     'name': 'tracking',
+    #     'display_name': "tracking",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['mouse_tracking'],
     # },
 
 ]
