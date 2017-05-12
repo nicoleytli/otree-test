@@ -24,6 +24,11 @@ class Constants(BaseConstants):
 
     amount_allocated = c(10)
 
+    conditions = ['1LG', '1QG', '1QNG', '1LP', '1QP', '1QNP', '1LD', '1QD', '1QND', '1LI', '1QI',
+                  '1QNI', '1LM', '1QM', '1QNM', '2LG', '2QG', '2QNG', '2LP', '2QP', '2QNP', '2LD',
+                  '2QD', '2QND', '2LI', '2QI', '2QNI', '2LM', '2QM', '2QNM', '3LG', '3QG', '3QNG',
+                  '3LP', '3QP', '3QNP', '3LD', '3QD', '3QND', '3LI', '3QI', '3QNI', '3LM', '3QM', '3QNM']
+
     organization = ['organization 1', 'organization 2', 'The American Chamber of Commerce', 'organization 4',
                     'organization 5', 'Center for Immigration Studies', 'organization 7', 'organization 8',
                     'organization 9', 'organization 10']
@@ -60,6 +65,7 @@ class Subsession(BaseSubsession):
         for p in self.get_players():
             p.preference_party = random.choice(['same', 'opposite'])
             p.mouse_option = 999
+            p.condition = 'None'
 
 
 
@@ -69,6 +75,36 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
+
+    priming1 = models.CharField(
+        choices=['Yes', 'No'],
+        widget=widgets.RadioSelect
+    )
+
+    priming2_dem_1 = models.CharField()
+    priming2_dem_2 = models.CharField()
+    priming2_dem_3 = models.CharField()
+    priming2_dem_4 = models.CharField()
+    priming2_dem_5 = models.CharField()
+    priming2_dem_6 = models.CharField()
+    priming2_dem_7 = models.CharField()
+    priming2_dem_8 = models.CharField()
+    priming2_dem_9 = models.CharField()
+    priming2_dem_10 = models.CharField()
+
+    priming2_rep_1 = models.CharField()
+    priming2_rep_2 = models.CharField()
+    priming2_rep_3 = models.CharField()
+    priming2_rep_4 = models.CharField()
+    priming2_rep_5 = models.CharField()
+    priming2_rep_6 = models.CharField()
+    priming2_rep_7 = models.CharField()
+    priming2_rep_8 = models.CharField()
+    priming2_rep_9 = models.CharField()
+    priming2_rep_10 = models.CharField()
+
+    # condition
+    condition = models.CharField()
 
     submitted_answer_1 = models.CharField(
         widget=widgets.RadioSelect(),
@@ -453,11 +489,10 @@ class Player(BasePlayer):
     other_opinion = models.CharField()
     other_preference = models.CharField()
     other_party = models.CharField()
+    other_party_level = models.CharField()
     party_identification = models.CharField()
     party_choice = models.CharField(
-        choices=['Strong Democrat', 'Not very strong Democrat', 'Closer to Democratic',
-                 'Closer to Republican', 'Not very strong Republican', 'Strong Republican',
-                 'Neither closer to Democratic nor Republican', 'Inapplicable', 'He/She dose not know']
+        widget=widgets.RadioSelect()
     )
 
     mouse_x = models.TextField(
@@ -483,6 +518,13 @@ class Player(BasePlayer):
         blank=True,
         widget=widgets.RadioSelect()
     )
+
+    #被抽中的issue的号码
+    issue_num = models.IntegerField()
+
+    #自己的opinion
+    self_opinion = models.CharField()
+
 
 
 

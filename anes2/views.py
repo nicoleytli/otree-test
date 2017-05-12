@@ -192,14 +192,23 @@ class Control(Page):
                self.participant.vars['group'] == '3QM' or self.participant.vars['group'] == '3QNM'
 
 
+class Priming11(Page):
+    form_model = models.Player
+    form_fields = ['priming1', 'mouse_x', 'mouse_y', 'mouse_t']
+
+
+    def before_next_page(self):
+        mouse_t_temp = self.player.mouse_t.split(",")
+        mouse_t = list(map(float, mouse_t_temp))
+        self.player.time = sum(mouse_t)
 
 
 page_sequence = [
     MyPage,
-    Control,
-    Priming1,
-    Priming2,
-    Priming2_2,
+    # Control,
+    Priming11,
+    # Priming2,
+    # Priming2_2,
     # Partisanship1,
     # Partisanship2,
     # Partisanship3

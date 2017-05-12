@@ -185,12 +185,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['likertquest'],
     # },
-    # {
-    #     'name': 'Eye_Exam',
-    #     'display_name': "eye",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['Eye_Exam'],
-    # },
+    {
+        'name': 'anes2',
+        'display_name': "Priming Treatment",
+        'num_demo_participants': 2,
+        'app_sequence': ['anes2'],
+    },
     # {
     #     'name': 'anes',
     #     'display_name': "anes",
@@ -209,12 +209,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
-    # {
-    #     'name': 'test',
-    #     'display_name': "test",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['likert', 'mytrust', 'ses'],
-    # },
+    {
+        'name': 'test',
+        'display_name': "test",
+        'num_demo_participants': 40,
+        'app_sequence': ['likert'],
+    },
     {
         'name': 'erase',
         'display_name': "mouse_tracking",

@@ -7,14 +7,15 @@
 
 {% block content %}
 
+{#    <p>#}
+{#        In the previews questions, you reported preference on:<br>#}
+{#        <strong>{{ issue }}</strong><br>#}
+{#        You {{ opinion }} it <strong>{{ level }}</strong>.#}
+{#    </p>#}
     <p>
-        In the previews questions, you reported preference on:<br>
-        <strong>{{ issue }}</strong><br>
-        You {{ opinion }} it <strong>{{ level }}</strong>.
-    </p>
-    <p>
+        In the previous questions, you reported preference on 10 different issues. <br>
         Now suppose you are asked to play an interactive game with another participant who reports {{ direction }}
-        preference on the same issue, or who reports being the {{ direction }} party.
+        preference on one of the issues, or who reports being the {{ direction }} party.
     </p>
 
     {% formfield player.partner with label='Which one would you like to choose?' %}

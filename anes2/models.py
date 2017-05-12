@@ -64,30 +64,36 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect
     )
 
-    priming2_dem_1 = models.CharField()
-    priming2_dem_2 = models.CharField()
-    priming2_dem_3 = models.CharField()
-    priming2_dem_4 = models.CharField()
-    priming2_dem_5 = models.CharField()
-    priming2_dem_6 = models.CharField()
-    priming2_dem_7 = models.CharField()
-    priming2_dem_8 = models.CharField()
-    priming2_dem_9 = models.CharField()
-    priming2_dem_10 = models.CharField()
-
-    priming2_rep_1 = models.CharField()
-    priming2_rep_2 = models.CharField()
-    priming2_rep_3 = models.CharField()
-    priming2_rep_4 = models.CharField()
-    priming2_rep_5 = models.CharField()
-    priming2_rep_6 = models.CharField()
-    priming2_rep_7 = models.CharField()
-    priming2_rep_8 = models.CharField()
-    priming2_rep_9 = models.CharField()
-    priming2_rep_10 = models.CharField()
-
+    # priming2_dem_1 = models.CharField()
+    # priming2_dem_2 = models.CharField()
+    # priming2_dem_3 = models.CharField()
+    # priming2_dem_4 = models.CharField()
+    # priming2_dem_5 = models.CharField()
+    # priming2_dem_6 = models.CharField()
+    # priming2_dem_7 = models.CharField()
+    # priming2_dem_8 = models.CharField()
+    # priming2_dem_9 = models.CharField()
+    # priming2_dem_10 = models.CharField()
+    #
+    # priming2_rep_1 = models.CharField()
+    # priming2_rep_2 = models.CharField()
+    # priming2_rep_3 = models.CharField()
+    # priming2_rep_4 = models.CharField()
+    # priming2_rep_5 = models.CharField()
+    # priming2_rep_6 = models.CharField()
+    # priming2_rep_7 = models.CharField()
+    # priming2_rep_8 = models.CharField()
+    # priming2_rep_9 = models.CharField()
+    # priming2_rep_10 = models.CharField()
+    #
     # condition
     condition = models.CharField()
+
+    mouse_x = models.CharField()
+    mouse_y = models.CharField()
+    mouse_t = models.CharField()
+
+    time = models.FloatField()
 
 
 

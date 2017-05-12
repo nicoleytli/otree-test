@@ -7,31 +7,26 @@
 
 {% block content %}
 
-    {% if player.partisanship1 == 1 or player.partisanship1 == 2 %}
+    {% if player.partner == 1 or player.partner == 3 %}
 
     <p>
-        In the previous questions, you reported yourself as a <strong>{{ party }}</strong>. <br>
-        Your party identification is: <strong>{{ id }}</strong>.
+        For the issue: <strong>{{ issue }}</strong>.
     </p>
     <p>
-        Your partner reported being the <strong>{{ same_opposite }}</strong> party.
+         Your opinion is <strong>{{ self_opinion }}</strong>. Your partner's opinion is <strong>{{ other_opinion }}</strong>.
     </p>
+
+    {% else %}
+
+    <p>
+        In the previous questions, your partner reported being the <strong>{{ party }}</strong> party.
+    </p>
+
+    {% endif %}
 
         {% formfield player.party_choice with label='Please guess his/her party identification: '%}
 
-    {% elif player.partisanship1 == 3 or player.partisanship == 5 or player.partisanship == 8 %}
 
-    {% if player.partisanship3 == 1 or player.partisanship3 == 2 %}
-
-    <p>
-        In the previous questions, you did not think yourself as a Republican or a Democrat.<br>
-        But you think you are {{ close }}
-    </p>
-    <p>
-        Your partner reported being the {{ dem_rep }} party.
-    </p>
-
-        {% formfield player.party_choice with label='Please guess his/her party identification: '%}
 
     {% next_button %}
 

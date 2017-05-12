@@ -6,6 +6,19 @@
 {% endblock %}
 
 {% block content %}
+
+    {% if player.partner == 1 or player.partner == 3 %}
+    <p>
+        The issue is: <strong>{{ issue }}</strong>.<br>
+        Your partner reported: <strong>{{ player.other_opinion }}</strong>
+    </p>
+
+    {% else %}
+    <p>
+        Your partner reported being the <strong>{{ player.other_party }}</strong> party.
+    </p>
+
+    {% endif %}
     <p>
         Your partner selected one organization from the following list:
     </p>

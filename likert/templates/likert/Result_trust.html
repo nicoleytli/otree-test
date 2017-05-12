@@ -1,0 +1,23 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Result
+{% endblock %}
+
+{% block content %}
+
+    {% if player.donation_party == 2 %}
+        <p>
+        You chose: <strong>{{ donation_choice }}</strong>.<br>
+        The correct answer is: <strong>{{ player.donation_correct }}</strong>.
+        </p>
+    {% else %}
+        <p>
+        You chose: <strong>{{ player.party_choice }}</strong>.<br>
+        The correct answer is: <strong>{{ player.other_party_level }}</strong>.
+        </p>
+    {% endif %}
+
+    {% next_button %}
+{% endblock %}

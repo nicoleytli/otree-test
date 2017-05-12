@@ -1,0 +1,35 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Partisan Prime 1
+{% endblock %}
+
+{% block content %}
+
+
+    <img src="{% static "anes2/crowd.jpg" %}"/>
+
+
+    <p>
+        <strong>A CNN journalist says:</strong><br>
+     "The turnout for the inauguration of President Donald Trump appears to be smaller than that of his predecessor as
+        measured by the photo of the two events."
+    </p>
+
+    <p>
+
+        <strong>White House press secretary Sean Spicer says:</strong><br>
+    "Some journalists reported inaccurate crowd numbers and used misrepresentative photographs to minimise the enormous
+        support. 420,000 people used the D.C. Metro public transit on Jan. 20, 2017, compared with 317,000 for President Obama’s
+        2013 inaugural. This is the largest audience ever to witness an inauguration, period, both in person and around the globe."
+    </p>
+
+
+
+    {% formfield player.priming1 with label="Were you aware about this difference in opinion?" %}
+
+
+    {% next_button %}
+
+{% endblock %}

@@ -1,2 +1,10 @@
-player_num,opinion_1,level_1,opinion_2,level_2,opinion_3,level_3,opinion_4,level_4,opinion_5,level_5,opinion_6,level_6,opinion_7,level_7,opinion_8,level_8,opinion_9,level_9,opinion_10,level_10,donation_1,donation_2,donation_3,donation_correct,partisanship_1,partisanship_2,partisanship_3
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
+player_num,opinion_1,opinion_2,opinion_3,opinion_4,opinion_5,opinion_6,opinion_7,opinion_8,opinion_9,opinion_10,donation_1,donation_2,donation_3,donation_correct,partisanship_1,partisanship_2,partisanship_3,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,1,Oppose,Favor,Oppose,Neither favor nor oppose,Neither favor nor oppose,Favor,Oppose,Oppose,Oppose,Favor,organization 1,organization 5,organization 8,3,5,,21,Oppose,Favor,Favor,Oppose,Neither favor nor oppose,Favor,Favor,Favor,Oppose,Favor,organization 7,organization 8,organization 2,3,2,2,
+1,Oppose,Favor,Oppose,Neither favor nor oppose,Oppose,Favor,Favor,Favor,Oppose,Oppose,,,,,2,2,
+4,Favor,Neither favor nor oppose,Favor,Favor,Oppose,Favor,Oppose,Neither favor nor oppose,Oppose,Oppose,,,,,1,2,
+14,Favor,Oppose,Favor,Neither favor nor oppose,Oppose,Favor,Oppose,Oppose,Favor,Neither favor nor oppose,,,,,2,2,
+1,Oppose,Neither favor nor oppose,Favor,Oppose,Favor,Neither favor nor oppose,Oppose,Oppose,Oppose,Favor,organization 9,Center for Immigration Studies,organization 2,3,2,8,
+2,Favor,Oppose,Neither favor nor oppose,Favor,Neither favor nor oppose,Favor,Oppose,Favor,Oppose,Favor,,,,,2,1,
+3,Favor,Neither favor nor oppose,Favor,Oppose,Oppose,Favor,Favor,Favor,Favor,Oppose,organization 10,organization 5,organization 4,1,2,5,
+4,Favor,Neither favor nor oppose,Favor,Favor,Oppose,Favor,Favor,Favor,Neither favor nor oppose,Oppose,,,,,1,2,
+5,Oppose,Favor,Favor,Favor,Favor,Oppose,Favor,Oppose,Neither favor nor oppose,Favor,,,,,8,,1

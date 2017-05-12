@@ -1,13 +1,30 @@
-{% extends "global/Base.html" %}
+{% extends "global/Page.html" %}
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Question 1 of 10
+    Introduction
 {% endblock %}
 
 {% block content %}
 
-    {% formfield player.submitted_answer_1 with label='Do you favor, oppose, or neither favor nor oppose the government trying to reduce the difference in incomes between the richest and poorest households? ' %}
+
+    <p><strong>Important information before we get started:</strong></p>
+
+    <p>
+    We are a research team from Georgetown University in Washington DC. We study what people living in the United States think and care about.<br>
+    We would like to ask you some questions about issues facing the United States today. There are no right or wrong answers, just let us know what you think.<br>
+    </p>
+
+    <p>
+    Toward the end of the survey, we will ask you a few questions about yourself such as your age, gender or level of education.
+    </p>
+    <p>
+        <strong>Remember, all your answers are collected anonymously: we cannot identify specific participants.</strong>
+    </p>
+
+    <p>
+        <I>If you have any questions regarding this study, please email using the email address mentioned at the end of the survey.</I>
+    </p>
 
     {% next_button %}
 
