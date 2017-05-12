@@ -1806,10 +1806,10 @@ class MyPagetrust(Page):
 
     def partner_choices(self):
         if self.player.preference_party == 'same':
-            mylist = [[3, 'I play trust game against someone who reports same preference on this issue'],
+            mylist = [[3, 'I play trust game against someone who reports same preference on one of the issues'],
                       [4, 'I play trust game against someone who reports being the same party']]
         else:
-            mylist = [[1, 'I play trust game against someone who reports opposite preference on this issue'],
+            mylist = [[1, 'I play trust game against someone who reports opposite preference on one of the issues'],
                       [2, 'I play trust game against someone who reports being the opposite party']]
         return mylist
 
@@ -2303,7 +2303,7 @@ class Donation_party(Page):
                 dona_num = [i for i in range(len(all_objects))]
                 dona_num_1 = dona_num
                 # 首先两边都不能是中立的选项
-                while issue_num == 0:
+                while issue_num == 0 and len(dona_num_1) != 0:
                     choose_num = random.choice(dona_num_1)  # 随机选择一个人来匹配, 从0开始
                     for i in range(1, 11):  # 从1开始，一共进行10个
                         if all_objects[choose_num]['opinion_%s' % i] != 'Indifferent' and self.participant.vars[
@@ -2316,7 +2316,7 @@ class Donation_party(Page):
                         dona_num_1 = [dona_num_1[i] for i in range(len(dona_num_1)) if dona_num_1[i] != choose_num]
 
                 # 如果没找到，放宽条件，都可以是中立选项来匹配
-                while issue_num == 0:
+                while issue_num == 0 and len(dona_num) != 0:
                     choose_num = random.choice(dona_num)  # 随机选择一个人来匹配
                     for i in range(1, 11):  # 从1开始，一共进行10个
                         if all_objects[choose_num]['opinion_%s' % i] != self.participant.vars['opinion_%s' % i]:
@@ -2404,7 +2404,7 @@ class Donation_party(Page):
                 dona_num = [i for i in range(len(all_objects))]
                 dona_num_1 = dona_num
                 # 首先两边都不能是中立的选项
-                while issue_num == 0:
+                while issue_num == 0 and len(dona_num_1) != 0:
                     choose_num = random.choice(dona_num_1)  # 随机选择一个人来匹配, 从0开始
                     for i in range(1, 11):  # 从1开始，一共进行10个
                         if all_objects[choose_num]['opinion_%s' % i] != 'Indifferent' and self.participant.vars[
@@ -2417,7 +2417,7 @@ class Donation_party(Page):
                         dona_num_1 = [dona_num_1[i] for i in range(len(dona_num_1)) if dona_num_1[i] != choose_num]
 
                 # 如果没找到，放宽条件，都可以是中立选项来匹配
-                while issue_num == 0:
+                while issue_num == 0 and len(dona_num) != 0:
                     choose_num = random.choice(dona_num)  # 随机选择一个人来匹配
                     for i in range(1, 11):  # 从1开始，一共进行10个
                         if all_objects[choose_num]['opinion_%s' % i] == self.participant.vars['opinion_%s' % i]:
@@ -2496,7 +2496,7 @@ class Donation_party(Page):
                 # 从总体中找党派不同的人
                 flag = 0
                 choose_num = 0
-                while flag == 0:
+                while flag == 0 and len(dona_num) != 0:
                     choose_num = random.choice(dona_num)  # 随机选择一个人来匹配
                     if all_objects[choose_num]['partisanship_1'] != str(self.player.partisanship1) and all_objects[choose_num]['partisanship_1'] != '3' and all_objects[choose_num]['partisanship_1'] != '5' and all_objects[choose_num]['partisanship_1'] != '8':
                         flag = 1
@@ -2545,7 +2545,7 @@ class Donation_party(Page):
                 # 从总体中找党派不同的人
                 flag = 0
                 choose_num = 0
-                while flag == 0:
+                while flag == 0 and len(dona_num) != 0:
                     choose_num = random.choice(dona_num)  # 随机选择一个人来匹配
                     if all_objects[choose_num]['partisanship_1'] == str(self.player.partisanship1):
                         flag = 1
