@@ -94,6 +94,24 @@ class MyPage(Page):
 #         else:
 #             self.participant.vars['partisanship'] = 'Independent'
 
+class Priming11(Page):
+    form_model = models.Player
+    form_fields = ['priming1', 'mouse_x', 'mouse_y', 'mouse_t']
+
+
+    def before_next_page(self):
+        mouse_t_temp = self.player.mouse_t.split(",")
+        mouse_t = list(map(float, mouse_t_temp))
+        self.player.time = sum(mouse_t)
+
+    def is_displayed(self):
+        return self.player.condition == '1LG' or self.player.condition == '1QG' or \
+               self.player.condition == '1QNG' or self.player.condition == '1LP' or self.player.condition == '1QP' or \
+               self.player.condition == '1QNP' or self.player.condition == '1LD' or \
+               self.player.condition == '1QD' or self.player.condition == '1QND' or \
+               self.player.condition == '1LI' or self.player.condition == '1QI' or \
+               self.player.condition == '1QNI' or self.player.condition == '1LM' or \
+               self.player.condition == '1QM' or self.player.condition == '1QNM'
 
 
 class Priming1(Page):
@@ -180,7 +198,13 @@ class Priming2_2(Page):
 
 class Control(Page):
     form_model = models.Player
-    form_fields = ['priming1']
+    form_fields = ['priming1', 'mouse_x', 'mouse_y', 'mouse_t']
+
+
+    def before_next_page(self):
+        mouse_t_temp = self.player.mouse_t.split(",")
+        mouse_t = list(map(float, mouse_t_temp))
+        self.player.time = sum(mouse_t)
 
     def is_displayed(self):
         return self.player.condition == '3LG' or self.player.condition == '3QG' or \
@@ -2596,7 +2620,12 @@ class Donation_trust(Page):
                             'Protect gays and lesbians against job discrimination',
                             'Send troops to fight ISIS']
 
-        issue = issue_list[self.player.issue_num - 1]
+        if self.player.partner == 2 or self.player.partner == 4:
+            iss_num = 1
+        else:
+            iss_num = self.player.issue_num
+
+        issue = issue_list[iss_num - 1]
 
         return {'mylist': mylist,
                 'issue': issue}
@@ -2719,7 +2748,7 @@ class MyPagemouse(Page):
 
 class Resultsmouse(Page):
     form_model = models.Player
-    form_fields = ['mouse_x', 'mouse_y', 'percentage']
+    form_fields = ['mouse_x', 'mouse_y', 'mouse_t']
 
     def vars_for_template(self):
         question = ['Reduce the difference in income', 'Limit imports', 'Send troops to fight ISIS',
@@ -2732,39 +2761,9 @@ class Resultsmouse(Page):
         return {'issue': issue}
 
     def before_next_page(self):
-        if self.player.mouse_x == '' or self.player.mouse_y == '':
-            mouse_x_temp = -1
-            mouse_y_temp = -1
-            mouse_x = [mouse_x_temp]
-            mouse_y = [mouse_y_temp]
-        else:
-            mouse_x_temp = self.player.mouse_x.split(",")
-            mouse_y_temp = self.player.mouse_y.split(",")
-            mouse_x = list(map(int, map(float, mouse_x_temp)))
-            mouse_y = list(map(int, map(float, mouse_y_temp)))
-
-        radius = 30
-        width = 690
-        height = 600
-        area = []
-
-        for i in range(len(mouse_x)):
-            if 0 <= mouse_x[i] <= 690 and 0 <= mouse_y[i] <= 600:
-                if i == 0:
-                    area.append((radius * 2)*(radius * 2))
-                else:
-                    if abs(mouse_x[i]-mouse_x[i-1]) <= radius and abs(mouse_y[i]-mouse_y[i-1]) <= radius:
-                        area.append(2*(abs(mouse_x[i]-mouse_x[i-1]))*radius + 2*(abs(mouse_y[i]-mouse_y[i-1]))*radius - \
-                            abs(mouse_y[i]-mouse_y[i-1])*abs(mouse_x[i]-mouse_x[i-1]))
-                    else:
-                        area.append((radius * 2)*(radius * 2))
-            else:
-                pass
-
-        if sum(area) <= width*height:
-            self.player.percentage = sum(area) / (width*height)
-        else:
-            self.player.percentage = 1
+        mouse_t_temp = self.player.mouse_t.split(",")
+        mouse_t = list(map(float, mouse_t_temp))
+        self.player.time = sum(mouse_t)
 
     def is_displayed(self):
         return (self.player.mouse_option == 1 or self.player.mouse_option == 2 or self.player.mouse_option == 3 or \
@@ -2779,7 +2778,7 @@ class Resultsmouse(Page):
 page_sequence = [
     MyPage,
     Control,
-    Priming1,
+    Priming11,
     Priming2,
     Priming2_2,
     Partisanship1,

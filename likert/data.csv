@@ -8,3 +8,8 @@ player_num,opinion_1,opinion_2,opinion_3,opinion_4,opinion_5,opinion_6,opinion_7
 3,Favor,Neither favor nor oppose,Favor,Oppose,Oppose,Favor,Favor,Favor,Favor,Oppose,organization 10,organization 5,organization 4,1,2,5,
 4,Favor,Neither favor nor oppose,Favor,Favor,Oppose,Favor,Favor,Favor,Neither favor nor oppose,Oppose,,,,,1,2,
 5,Oppose,Favor,Favor,Favor,Favor,Oppose,Favor,Oppose,Neither favor nor oppose,Favor,,,,,8,,1
+1,Favor,Oppose,Favor,Favor,Oppose,Oppose,Oppose,Favor,Favor,Oppose,,,,,2,1,
+7,Favor,Oppose,Favor,Favor,Oppose,Oppose,Favor,Oppose,Oppose,Favor,,,,,1,2,
+18,Oppose,Favor,Favor,Oppose,Oppose,Favor,Oppose,Oppose,Favor,Favor,,,,,1,2,
+21,Favor,Favor,Favor,Oppose,Neither favor nor oppose,Favor,Oppose,Oppose,Favor,Oppose,,,,,1,8,
+23,Oppose,Oppose,Favor,Oppose,Oppose,Oppose,Favor,Oppose,Favor,Neither favor nor oppose,,,,,2,5,

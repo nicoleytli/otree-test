@@ -210,14 +210,14 @@ SESSION_CONFIGS = [
     #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
     {
-        'name': 'test',
-        'display_name': "test",
+        'name': 'long_survey',
+        'display_name': "long survey",
         'num_demo_participants': 40,
         'app_sequence': ['likert'],
     },
     {
         'name': 'erase',
-        'display_name': "mouse_tracking",
+        'display_name': "mouse tracking",
         'num_demo_participants': 5,
         'app_sequence': ['erase'],
     },

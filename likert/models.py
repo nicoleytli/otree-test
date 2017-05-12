@@ -501,7 +501,10 @@ class Player(BasePlayer):
     mouse_y = models.TextField(
         blank=True
     )
-    percentage = models.FloatField(
+    mouse_t = models.TextField(
+        blank=True
+    )
+    time = models.FloatField(
         blank=True
     )
     mouse_option = models.IntegerField(

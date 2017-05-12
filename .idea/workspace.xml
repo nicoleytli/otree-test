@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anes2/templates/anes2/Priming11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/fake_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Control.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Priming1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Priming2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Priming2_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Result_trust.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/likert/templates/likert/Priming11.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/dictionaries/nicole.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html" />
@@ -57,20 +51,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oTree/Empathy_Beget_Guile/testing.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/likert/you.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oTree" afterPath="$PROJECT_DIR$/oTree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/models.py" afterPath="$PROJECT_DIR$/anes2/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes2/views.py" afterPath="$PROJECT_DIR$/anes2/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erase/views.py" afterPath="$PROJECT_DIR$/erase/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/data.csv" afterPath="$PROJECT_DIR$/likert/data.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/models.py" afterPath="$PROJECT_DIR$/likert/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Donation_trust.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Donation_trust.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/MyPage.html" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust.html" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust2.html" afterPath="$PROJECT_DIR$/likert/templates/likert/MyPagetrust2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Party_trust.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Party_trust.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/testing.py" afterPath="$PROJECT_DIR$/likert/testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Control.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/templates/likert/Resultsmouse.html" afterPath="$PROJECT_DIR$/likert/templates/likert/Resultsmouse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/likert/views.py" afterPath="$PROJECT_DIR$/likert/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
@@ -105,11 +93,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/likert/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30315">
-              <caret line="2021" column="20" lean-forward="true" selection-start-line="2021" selection-start-column="20" selection-end-line="2021" selection-end-column="20" />
+            <state relative-caret-position="419">
+              <caret line="2625" column="43" lean-forward="true" selection-start-line="2625" selection-start-column="43" selection-end-line="2625" selection-end-column="43" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -117,11 +105,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Resultsmouse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/likert/templates/likert/Resultsmouse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2715">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Control.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/likert/templates/likert/Control.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2428">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="221" column="31" lean-forward="false" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
+            <state relative-caret-position="371">
+              <caret line="218" column="24" lean-forward="true" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -130,8 +138,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anes2/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="196" column="28" lean-forward="false" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="202" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -149,61 +157,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Partisanship1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Partisanship1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Priming1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erase/templates/erase/Test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="300" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Priming11.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
+            <state relative-caret-position="840">
               <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erase/views.py">
+      <file leaf-file-name="Donation_trust.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/likert/templates/likert/Donation_trust.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="226" column="39" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="226" selection-end-column="39" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Party_trust.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/likert/templates/likert/Party_trust.html">
+      <file leaf-file-name="Priming11.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/likert/templates/likert/Priming11.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="209" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/likert/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7590">
+              <caret line="511" column="38" lean-forward="true" selection-start-line="511" selection-start-column="38" selection-end-line="511" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -221,9 +209,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>group_</find>
-      <find>role</find>
-      <find>result</find>
       <find>treatment</find>
       <find>question</find>
       <find>divPos</find>
@@ -251,6 +236,9 @@
       <find>condition</find>
       <find>group</find>
       <find>partisanship1</find>
+      <find>Resultsmouse</find>
+      <find>priming</find>
+      <find>control</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,8 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/likert/templates/likert/Important.html" />
-        <option value="$PROJECT_DIR$/likert/templates/likert/Important2.html" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Important3.html" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Important4.html" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Important5.html" />
@@ -296,7 +282,6 @@
         <option value="$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Welcome.html" />
         <option value="$PROJECT_DIR$/Empathy_Beget_Guile/views.py" />
         <option value="$PROJECT_DIR$/erase/templates/erase/Test3.html" />
-        <option value="$PROJECT_DIR$/erase/views.py" />
         <option value="$PROJECT_DIR$/erase/testt.py" />
         <option value="$PROJECT_DIR$/erase/models.py" />
         <option value="$PROJECT_DIR$/erase/templates/erase/Test2.html" />
@@ -306,13 +291,16 @@
         <option value="$PROJECT_DIR$/likert/templates/likert/MyPagetrust2.html" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Donation_trust.html" />
         <option value="$PROJECT_DIR$/likert/testing.py" />
-        <option value="$PROJECT_DIR$/likert/models.py" />
         <option value="$PROJECT_DIR$/likert/templates/likert/Party_trust.html" />
-        <option value="$PROJECT_DIR$/likert/views.py" />
         <option value="$PROJECT_DIR$/anes2/views.py" />
         <option value="$PROJECT_DIR$/anes2/templates/anes2/Priming11.html" />
         <option value="$PROJECT_DIR$/anes2/models.py" />
+        <option value="$PROJECT_DIR$/erase/views.py" />
+        <option value="$PROJECT_DIR$/likert/templates/likert/Resultsmouse.html" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/likert/models.py" />
+        <option value="$PROJECT_DIR$/likert/templates/likert/Control.html" />
+        <option value="$PROJECT_DIR$/likert/views.py" />
       </list>
     </option>
   </component>
@@ -367,7 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mytrust" />
+              <option name="myItemId" value="likert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,21 +369,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="erase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erase" />
+              <option name="myItemId" value="likert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -403,7 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="erase" />
+              <option name="myItemId" value="likert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -945,36 +919,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Task3_intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/treatment_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Eye2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1212,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Donation_trust.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/likert/templates/likert/Result_trust.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1234,22 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Control.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/likert/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1270,16 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/likert/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30315">
-          <caret line="2021" column="20" lean-forward="true" selection-start-line="2021" selection-start-column="20" selection-end-line="2021" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Partisanship1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1296,14 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erase/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="226" column="39" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="226" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -1312,9 +1214,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/erase/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erase/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="140" column="44" lean-forward="false" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Resultsmouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="218" column="24" lean-forward="true" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7590">
+          <caret line="511" column="38" lean-forward="true" selection-start-line="511" selection-start-column="38" selection-end-line="511" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/anes2/templates/anes2/Priming11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="840">
           <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding />
         </state>
@@ -1322,8 +1274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anes2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="196" column="28" lean-forward="false" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="202" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1338,11 +1290,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Priming11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="221" column="31" lean-forward="false" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="209" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2428">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/templates/likert/Donation_trust.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="2625" column="43" lean-forward="true" selection-start-line="2625" selection-start-column="43" selection-end-line="2625" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
