@@ -17,7 +17,7 @@ class Constants(BaseConstants):
     num_rounds = 1
     conditions = ['Treatment A', 'Treatment B', 'Treatment C', 'Treatment D']
 
-    startwp_timer = 20
+    startwp_timer = 10
 
 
 class Subsession(BaseSubsession):
