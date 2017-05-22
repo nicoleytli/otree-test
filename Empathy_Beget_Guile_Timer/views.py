@@ -122,8 +122,6 @@ class StartWP(CustomWaitPage):
     def get_players_for_group(self, waiting_players):
         post_dict = self.request.POST.dict()
         endofgame = post_dict.get('endofgame')
-        # bonus = post_dict.get('bonus_wait')
-        # self.participant.vars['bonus_wait'] = bonus
         if endofgame:
             curplayer = [p for p in waiting_players if p.pk == int(endofgame)][0]
             curplayer.outofthegame = True

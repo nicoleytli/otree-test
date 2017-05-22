@@ -75,32 +75,5 @@
 
     </script>
 
-{#    <script>#}
-{##}
-{#    function get_elapsed_time_string(total_seconds) {#}
-{#            function pretty(num) {#}
-{#                return num + ( num*100 % 10 == 0 ? "0" : "" ) ;#}
-{#        }#}
-{#      var minutes = Math.floor(total_seconds / 60);#}
-{#      var seconds = Math.floor(total_seconds % 60);#}
-{#      var floored_seconds = Math.floor(10*Math.floor(seconds/5))/10;#}
-{#      var bonus = pretty(Math.floor(100*(floored_seconds/100 + minutes/8))/100);#}
-{##}
-{#      return bonus;#}
-{#    }#}
-{##}
-{#    var elapsed_seconds = 0;#}
-{#    var temp = 0#}
-{#    setInterval(function() {#}
-{#      elapsed_seconds = elapsed_seconds + 1;#}
-{#      document.getElementById('bonus').innerHTML = get_elapsed_time_string(elapsed_seconds);#}
-{#      temp = get_elapsed_time_string(elapsed_seconds)#}
-{#      }, 1000);#}
-{##}
-{#    function stopCount() {#}
-{#        document.getElementById('bonus_wait').value = temp#}
-{#    }#}
-{##}
-{#    </script>#}
 
 {% endblock %}
