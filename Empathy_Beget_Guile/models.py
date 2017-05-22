@@ -33,28 +33,28 @@ class Group(BaseGroup):
 
         if self.treatment == 'Treatment A':
             if p2.option_AB == 'Option A':
-                p1.payoff = 0.25
-                p2.payoff = 0.26
+                p1.payoff = 1
+                p2.payoff = 1.04
             else:
-                p1.payoff = 0.26
-                p2.payoff = 0.25
+                p1.payoff = 1.04
+                p2.payoff = 1
         elif self.treatment == 'Treatment B':
             if p2.option_AB == 'Option A':
-                p1.payoff = 0.25
-                p2.payoff = 0.35
+                p1.payoff = 1
+                p2.payoff = 1.4
             else:
-                p1.payoff = 0.26
-                p2.payoff = 0.25
+                p1.payoff = 1.04
+                p2.payoff = 1
         elif self.treatment == 'Treatment C':
             if p2.option_AB == 'Option A':
-                p1.payoff = 0.25
-                p2.payoff = 0.35
+                p1.payoff = 1
+                p2.payoff = 1.4
             else:
-                p1.payoff = 0.35
-                p2.payoff = 0.25
+                p1.payoff = 1.4
+                p2.payoff = 1
         else:
-            p1.payoff = 0.30
-            p2.payoff = 0.30
+            p1.payoff = 1.2
+            p2.payoff = 1.2
 
     treatment = models.CharField()
 

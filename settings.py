@@ -1,3 +1,4 @@
+
 import os
 from os import environ
 
@@ -5,11 +6,9 @@ import dj_database_url
 from boto.mturk import qualification
 
 import otree.settings
-# from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
-#
-# TEMPLATE_CONTEXT_PROCESSORS += (
-#     'django.core.context_processors.request',
-# )
+
+
+CHANNEL_ROUTING = 'waitpage.routing.channel_routing'
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -143,12 +142,18 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    # {
-    #     'name': 'Empathy_Beget_Guile',
-    #     'display_name': "Empathy Beget Guile",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    # },
+    {
+        'name': 'Empathy_Beget_Guile',
+        'display_name': "Empathy Game(without Eye_Exam)",
+        'num_demo_participants': 24,
+        'app_sequence': ['Empathy_Beget_Guile'],
+    },
+    {
+        'name': 'Empathy_Beget_Guile_2',
+        'display_name': "Empathy Game",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -185,12 +190,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['likertquest'],
     # },
-    {
-        'name': 'anes2',
-        'display_name': "Priming Treatment",
-        'num_demo_participants': 2,
-        'app_sequence': ['anes2'],
-    },
+    # {
+    #     'name': 'anes2',
+    #     'display_name': "Priming Treatment",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['anes2'],
+    # },
     # {
     #     'name': 'anes',
     #     'display_name': "anes",
@@ -209,18 +214,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
-    {
-        'name': 'long_survey',
-        'display_name': "long survey",
-        'num_demo_participants': 40,
-        'app_sequence': ['likert'],
-    },
-    {
-        'name': 'erase',
-        'display_name': "mouse tracking",
-        'num_demo_participants': 5,
-        'app_sequence': ['erase'],
-    },
+    # {
+    #     'name': 'long_survey',
+    #     'display_name': "long survey",
+    #     'num_demo_participants': 40,
+    #     'app_sequence': ['likert'],
+    # },
+    # {
+    #     'name': 'erase',
+    #     'display_name': "mouse tracking",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['erase'],
+    # },
     # {
     #     'name': 'long_survey_2',
     #     'display_name': "long survey 2",
@@ -232,6 +237,12 @@ SESSION_CONFIGS = [
     #     'display_name': "tracking",
     #     'num_demo_participants': 5,
     #     'app_sequence': ['mouse_tracking'],
+    # },
+    # {
+    #     'name': 'waitpage',
+    #     'display_name': "Testing timeout on waiting page",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['waitpage'],
     # },
 
 ]

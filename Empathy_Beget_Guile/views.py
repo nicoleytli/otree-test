@@ -58,7 +58,7 @@ class Player1(Page):
     def is_displayed(self):
         return self.player.id_in_group == 1 and self.player.is_4 == 0
 
-    timeout_seconds = 480
+    timeout_seconds = 420
     timeout_submission = {'message': 'Message 1'}
 
 
@@ -69,7 +69,7 @@ class Player2(Page):
     def is_displayed(self):
         return self.player.id_in_group == 2 and self.player.is_4 == 0
 
-    timeout_seconds = 480
+    timeout_seconds = 420
     timeout_submission = {'option_AB': 'Option A'}
 
 
@@ -78,7 +78,7 @@ class treatment_4(Page):
     form_fields = ['D_Q39_1', 'D_Q39_2']
 
     def before_next_page(self):
-        self.player.payoff = 0.30
+        self.player.payoff = 1.20
 
     def is_displayed(self):
         return self.player.is_4 == 1
@@ -88,12 +88,18 @@ class treatment_4(Page):
 class Result_123(Page):
 
     def vars_for_template(self):
-        return {'task2': self.player.payoff - 0.20}
+        return {'task2': self.player.payoff - 0.80}
 
 
 class Demographic(Page):
     form_model = models.Player
     form_fields = ['gender', 'age', 'religion', 'services']
+
+    timeout_seconds = 300
+    timeout_submission = {'gender': 'Other',
+                          'age': 100,
+                          'religion': 'qwertyuiop',
+                          'services': 'Never'}
 
 
 
@@ -106,7 +112,7 @@ class Task3(Page):
     def is_displayed(self):
         return self.player.id_in_group == 2 and self.player.is_4 == 0
 
-    timeout_seconds = 480
+    timeout_seconds = 420
 
 
 page_sequence = [
