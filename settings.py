@@ -8,7 +8,7 @@ from boto.mturk import qualification
 import otree.settings
 
 
-CHANNEL_ROUTING = 'waitpage.routing.channel_routing'
+CHANNEL_ROUTING = 'Empathy_Beget_Guile_Timer.routing.channel_routing'
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
