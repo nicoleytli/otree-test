@@ -120,12 +120,12 @@ mturk_hit_settings = {
     'preview_template': 'Eye_Exam/Welcome.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 30*24, # 7 days
-    'grant_qualification_id': '33AQ1MMGKMEMHFUQNVA1B1TBMEB1WQ',# to prevent retakes
+    'grant_qualification_id': '39S8MMYHZMR16FZGX06NDK7IVGH1XJ',# to prevent retakes
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
-        # qualification.Requirement('YOUR_QUALIFICATION_ID_HERE', 'DoesNotExist')
+        qualification.Requirement('39S8MMYHZMR16FZGX06NDK7IVGH1XJ', 'DoesNotExist')
     ]
 }
 
