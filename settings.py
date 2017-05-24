@@ -113,7 +113,7 @@ ROOMS = [
 
 mturk_hit_settings = {
     'keywords': ['easy', 'bonus', 'game', 'study'],
-    'title': 'Behavioral Experiment(earn $0.20+bonus)',
+    'title': 'Behavioral Experiment (earn $0.80+bonus)',
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
                    ,
     'frame_height': 500,
@@ -239,18 +239,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 30,
     #     'app_sequence': ['anes2', 'likert'],
     # },
-    {
-        'name': 'tracking',
-        'display_name': "tracking",
-        'num_demo_participants': 5,
-        'app_sequence': ['erase'],
-    },
-    {
-        'name': 'empathy_timer',
-        'display_name': "Testing timeout on waiting page",
-        'num_demo_participants': 20,
-        'app_sequence': ['Empathy_Beget_Guile_Timer'],
-    },
+    # {
+    #     'name': 'tracking',
+    #     'display_name': "tracking",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['erase'],
+    # },
+    # {
+    #     'name': 'empathy_timer',
+    #     'display_name': "Testing timeout on waiting page",
+    #     'num_demo_participants': 20,
+    #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
+    # },
 
 ]
 
