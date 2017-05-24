@@ -155,12 +155,12 @@ SESSION_CONFIGS = [
         'num_demo_participants': 24,
         'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
-    # {
-    #     'name': 'Eye_Exam',
-    #     'display_name': "Eye Exam",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam'],
-    # },
+    {
+        'name': 'Eye_Exam',
+        'display_name': "Eye Exam",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam'],
+    },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -239,12 +239,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 30,
     #     'app_sequence': ['anes2', 'likert'],
     # },
-    # {
-    #     'name': 'tracking',
-    #     'display_name': "tracking",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['mouse_tracking'],
-    # },
+    {
+        'name': 'tracking',
+        'display_name': "tracking",
+        'num_demo_participants': 5,
+        'app_sequence': ['erase'],
+    },
     {
         'name': 'empathy_timer',
         'display_name': "Testing timeout on waiting page",
