@@ -10,6 +10,7 @@ import otree.settings
 
 CHANNEL_ROUTING = 'Empathy_Beget_Guile_Timer.routing.channel_routing'
 
+SENTRY_DSN = 'http://ee3c5daaa6be43c38afbb2df55987f9f:14944f017bfe4f3ba49fe45d05133d63@sentry.otree.org/170'
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -112,7 +113,7 @@ ROOMS = [
 # https://boto.readthedocs.org/en/latest/ref/mturk.html?highlight=mturk#module-boto.mturk.qualification
 
 mturk_hit_settings = {
-    'keywords': ['easy', 'bonus', 'game', 'study'],
+    'keywords': ['easy', 'bonus', 'game', 'study', 'images'],
     'title': 'Behavioral Experiment (earn $0.80+bonus)',
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
                    ,
@@ -120,12 +121,12 @@ mturk_hit_settings = {
     'preview_template': 'Eye_Exam/Welcome.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 30*24, # 7 days
-    'grant_qualification_id': '39S8MMYHZMR16FZGX06NDK7IVGH1XJ',# to prevent retakes
+    'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
-        qualification.Requirement('39S8MMYHZMR16FZGX06NDK7IVGH1XJ', 'DoesNotExist')
+        qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
     ]
 }
 
@@ -143,24 +144,24 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Game(without Eye_Exam)",
-        'num_demo_participants': 24,
-        'app_sequence': ['Empathy_Beget_Guile'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Game(without Eye_Exam)",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Empathy_Beget_Guile'],
+    # },
     {
         'name': 'Empathy_Beget_Guile_2',
         'display_name': "Empathy Game",
         'num_demo_participants': 24,
         'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
-    {
-        'name': 'Eye_Exam',
-        'display_name': "Eye Exam",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam'],
-    },
+    # {
+    #     'name': 'Eye_Exam',
+    #     'display_name': "Eye Exam",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam'],
+    # },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
