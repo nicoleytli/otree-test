@@ -1,0 +1,21 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Guess the Number
+{% endblock %}
+
+{% block content %}
+    {% include "lying_game/Instructions.html" %}
+
+    <p>
+        Please think of a number between <strong>0</strong> and <strong>10</strong>.<br>
+    </p>
+
+    <p>
+        If you are ready, click the next button to see the result.
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

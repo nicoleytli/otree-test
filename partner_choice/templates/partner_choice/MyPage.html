@@ -1,0 +1,21 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Trust Game - Your Choice
+{% endblock %}
+
+{% block content %}
+
+
+    <p>
+        In the previous questions, you reported strongest preference on: <strong>{{ issue }}</strong>. <br>
+        Now suppose you are asked to play a trust game with another participant who reports {{ direction }}
+        preference on this issue, or who reports being the {{ direction }} party.
+    </p>
+
+    {% formfield player.partner with label='Which one would you like to choose?' %}
+
+    {% next_button %}
+
+{% endblock %}

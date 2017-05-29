@@ -4,11 +4,11 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 import random
 
-class MyPage(Page):
-    form_model = models.Player
-    form_fields = ['donation', 'org', 'email']
-
-    def vars_for_template(self):
+# class MyPage(Page):
+#     form_model = models.Player
+#     form_fields = ['donation', 'org', 'email']
+#
+#     def vars_for_template(self):
         # cmiddle = []
         # biglist = []
         # temp = []
@@ -25,8 +25,8 @@ class MyPage(Page):
         #     else:
         #         pass
 
-        clot = [self.participant.vars['lot1'], self.participant.vars['lot2'], self.participant.vars['lot3']]
-        clittle = [self.participant.vars['little1'], self.participant.vars['little2'], self.participant.vars['little3']]
+        # clot = [self.participant.vars['lot1'], self.participant.vars['lot2'], self.participant.vars['lot3']]
+        # clittle = [self.participant.vars['little1'], self.participant.vars['little2'], self.participant.vars['little3']]
 
         # if len(clot) == 0:
         #     if len(cmiddle) == 0 and len(clittle) != 0:
@@ -119,36 +119,36 @@ class MyPage(Page):
         #     des.append(Constants.description[temp[1][1]])
         #     des.append(Constants.description[temp[2][1]])
 
-        temp1 = random.choice(clot)
-        temp2 = random.choice(clittle)
-        temp3 = [i for i in clot if i != temp1]
-        temp4 = [i for i in clittle if i != temp2]
-        temp5 = random.choice(temp3 + temp4)
-        if temp5 in clot:
-            self.player.annotation = '2 lot'
-        else:
-            self.player.annotation = '2 little'
+        # temp1 = random.choice(clot)
+        # temp2 = random.choice(clittle)
+        # temp3 = [i for i in clot if i != temp1]
+        # temp4 = [i for i in clittle if i != temp2]
+        # temp5 = random.choice(temp3 + temp4)
+        # if temp5 in clot:
+        #     self.player.annotation = '2 lot'
+        # else:
+        #     self.player.annotation = '2 little'
+        #
+        # org = [Constants.organization[temp1-1], Constants.organization[temp2-1], Constants.organization[temp5-1]]
+        # des = [Constants.description[temp1-1], Constants.description[temp2-1], Constants.description[temp5-1]]
+        # no = ['1', '2', '3']
+        #
+        # self.player.org_option1 = Constants.organization[temp1-1]
+        # self.player.org_option2 = Constants.organization[temp2-1]
+        # self.player.org_option3 = Constants.organization[temp5-1]
 
-        org = [Constants.organization[temp1-1], Constants.organization[temp2-1], Constants.organization[temp5-1]]
-        des = [Constants.description[temp1-1], Constants.description[temp2-1], Constants.description[temp5-1]]
-        no = ['1', '2', '3']
-
-        self.player.org_option1 = Constants.organization[temp1-1]
-        self.player.org_option2 = Constants.organization[temp2-1]
-        self.player.org_option3 = Constants.organization[temp5-1]
-
-        mylist = zip(org, des, no)
-
-        return {'list': mylist}
+        # mylist = zip(org, des, no)
+        #
+        # return {'list': mylist}
 
 
 
-    def is_displayed(self):
-        return self.participant.vars['group'] == '1LD' or self.participant.vars['group'] == '1QD' or \
-               self.participant.vars['group'] == '1QND' or self.participant.vars['group'] == '2LD' or \
-               self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
-               self.participant.vars['group'] == '3LD' or self.participant.vars['group'] == '3QD' or \
-               self.participant.vars['group'] == '3QND'
+    # def is_displayed(self):
+    #     return self.participant.vars['group'] == '1LD' or self.participant.vars['group'] == '1QD' or \
+    #            self.participant.vars['group'] == '1QND' or self.participant.vars['group'] == '2LD' or \
+    #            self.participant.vars['group'] == '2QD' or self.participant.vars['group'] == '2QND' or \
+    #            self.participant.vars['group'] == '3LD' or self.participant.vars['group'] == '3QD' or \
+    #            self.participant.vars['group'] == '3QND'
 
 
 
@@ -164,6 +164,31 @@ class MyPage(Page):
 #                self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
 #                self.participant.vars['group'] == '3QNP')}
 
+class MyPage(Page):
+    form_model = models.Player
+    form_fields = ['donation', 'org', 'email']
+
+    def vars_for_template(self):
+        org_random = list(random.sample(Constants.organization, 3))
+        des_random = [1, 2, 3]
+        for i in range(len(Constants.organization)):
+            if org_random[0] == Constants.organization[i]:
+                des_random[0] = Constants.description[i]
+            elif org_random[1] == Constants.organization[i]:
+                des_random[1] = Constants.description[i]
+            elif org_random[2] == Constants.organization[i]:
+                des_random[2] = Constants.description[i]
+            else:
+                pass
+        no = ['1', '2', '3']
+
+        mylist = zip(org_random, des_random, no)
+
+        self.player.org_option1 = org_random[0]
+        self.player.org_option2 = org_random[1]
+        self.player.org_option3 = org_random[2]
+
+        return {'list': mylist}
 
 
 page_sequence = [

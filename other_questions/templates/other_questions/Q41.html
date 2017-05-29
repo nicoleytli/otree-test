@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 2-2
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.Q4_2 with label='Was it a political march to support President Trump’s actions? To oppose President Trump’s actions? Neither?'%}
+
+    {% next_button %}
+
+{% endblock %}

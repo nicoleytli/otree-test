@@ -1,0 +1,43 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Prime 2-1
+{% endblock %}
+
+{% block content %}
+        <p>
+            Here are Likert scales for 10 issues.
+        </p>
+        <p>
+            <strong>Where would you place the Democratic party on the scales?</strong>
+        </p>
+
+        <table class="table table-hover">
+
+            <tr><td width="30%" align="center"><strong>Issue</strong></td>
+            <td width="5%" align="center"><strong>Strongly favor</strong></td>
+            <td width="5%" align="center"><strong>Somewhat favor</strong></td>
+            <td width="5%" align="center"><strong>Neutral</strong></td>
+            <td width="5%" align="center"><strong>Somewhat oppose</strong></td>
+            <td width="5%" align="center"><strong>Strongly oppose</strong></td>
+            </tr>
+
+        {% for issue, name in mylist %}
+
+            <tr><td width="30%" align="left">{{ issue }}</td>
+                {% for value in values %}
+                <td width="5%" align="center">
+                    <input type="radio" name="{{ name }}" value='{{ value }}'>
+                </td>
+                {% endfor %}
+            </tr>
+
+        {% endfor %}
+
+        </table>
+
+
+    {% next_button %}
+
+{% endblock %}

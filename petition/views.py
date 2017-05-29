@@ -19,22 +19,28 @@ class MyPagepetition(Page):
                   'Protect gays and lesbians against job discrimination',
                   'Send troops to fight ISIS']
         attitude = []
-        for i in range(1, 11):
-            attitude.append(self.participant.vars['opinion_%s' % i])
+
+# 为了给老师看
+#         for i in range(1, 11):
+#             attitude.append(self.participant.vars['opinion_%s' % i])
 
         petitionlist = ['petition_1', 'petition_2', 'petition_3', 'petition_4', 'petition_5', 'petition_6', 'petition_7',
                         'petition_8', 'petition_9', 'petition_10']
+
+        attitude = ['Agree', 'Agree', 'Disagree', 'Disagree', 'Indifferent', 'Agree', 'Agree',
+                    'Agree', 'Disagree', 'Indifferent']
 
         mylist = zip(question, attitude, petitionlist)
 
         return {'list': mylist}
 
-    def is_displayed(self):
-        return self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
-               self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '2LP' or \
-               self.participant.vars['group'] == '2QP' or self.participant.vars['group'] == '2QNP' or \
-               self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
-               self.participant.vars['group'] == '3QNP'
+# 为了给老师看
+    # def is_displayed(self):
+    #     return self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
+    #            self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '2LP' or \
+    #            self.participant.vars['group'] == '2QP' or self.participant.vars['group'] == '2QNP' or \
+    #            self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
+    #            self.participant.vars['group'] == '3QNP'
 
 
 class MyPage2(Page):
@@ -104,12 +110,13 @@ class Resultspetition(Page):
 
         return {'list': mylist}
 
-    def is_displayed(self):
-        return self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
-               self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '2LP' or \
-               self.participant.vars['group'] == '2QP' or self.participant.vars['group'] == '2QNP' or \
-               self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
-               self.participant.vars['group'] == '3QNP'
+# 为了给老师看
+    # def is_displayed(self):
+    #     return self.participant.vars['group'] == '1LP' or self.participant.vars['group'] == '1QP' or \
+    #            self.participant.vars['group'] == '1QNP' or self.participant.vars['group'] == '2LP' or \
+    #            self.participant.vars['group'] == '2QP' or self.participant.vars['group'] == '2QNP' or \
+    #            self.participant.vars['group'] == '3LP' or self.participant.vars['group'] == '3QP' or \
+    #            self.participant.vars['group'] == '3QNP'
 
 
 page_sequence = [

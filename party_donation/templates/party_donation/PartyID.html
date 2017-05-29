@@ -1,0 +1,13 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+     Guess Party Identification
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.party_choice with label='Please choose his/her party identification: '%}
+
+    {% next_button %}
+{% endblock %}

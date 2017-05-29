@@ -1,0 +1,38 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Choice
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        You can see the set of answers given by another participant in the following table. <br>
+        And then, you are given a choice between trying to guess his/her party identification and his/her donation decision.
+    </p>
+
+        <table class="table table-hover">
+
+            <tr>
+            <td width="30%" align="left"><strong>Issue</strong></td>
+            <td width="5%" align="left"><strong>Preference</strong></td>
+
+            </tr>
+
+        {% for issue, preference in mylist %}
+
+            <tr>
+                <td width="50%" align="left">{{ issue }}</td>
+                <td width="20%" align="left">{{ preference }}</td>
+            </tr>
+
+        {% endfor %}
+
+        </table>
+
+    {% formfield player.party_donation with label='Please choose:'%}
+
+    {% next_button %}
+
+{% endblock %}

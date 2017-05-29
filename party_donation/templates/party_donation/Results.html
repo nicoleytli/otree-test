@@ -1,0 +1,26 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Result
+{% endblock %}
+
+{% block content %}
+
+    {% if player.party_donation == 1 %}
+
+        Your choice: <strong>{{ choice }}</strong>. <br>
+        The other participant reports himself/herself as a: <strong>{{ answer }}</strong>.
+
+    {% else %}
+
+        Your choice: <strong>{{ choice }}</strong>. <br>
+        The other participant chooses: <strong>{{ answer }}</strong>.
+
+    {% endif %}
+
+    {% next_button %}
+
+{% endblock %}
+
+

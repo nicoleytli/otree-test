@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Question 1-1
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        <strong>In 2016 Donald Trump ran on the Republican ticket against Hillary Clinton for the Democrats.</strong>
+    </p>
+
+        {% formfield player.Q1 with label='Do you remember for sure whether or not you voted in that election?'%}
+
+    {% next_button %}
+
+{% endblock %}

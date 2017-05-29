@@ -1,0 +1,38 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Demographic Questions
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        <strong>Please choose one or more races that you consider yourself to be</strong><br>
+    <strong>Mark all that apply:</strong>
+    </p>
+
+        <table class="table table-hover">
+
+        {% for value, title in list %}
+
+            <tr>
+            <td width="5%" align="center">
+                <input type="radio" name="{{ value }}" value="True">
+            </td>
+            <td width="30%" align="left">{{ title }}</td>
+            </tr>
+
+        {% endfor %}
+
+
+        </table>
+
+
+    {% formfield player.hisp with label='Are you Spanish, Hispanic, or Latino?' %}
+
+    {% formfield player.gender with label='What is your gender?' %}
+
+    {% next_button %}
+
+{% endblock %}
