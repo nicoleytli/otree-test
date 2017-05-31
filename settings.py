@@ -130,7 +130,7 @@ mturk_hit_settings = {
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
                    ,
     'frame_height': 500,
-    'preview_template': 'global/MTurkPreview.html',
+    'preview_template': 'global/Compensation.html',
     'minutes_allotted_per_assignment': 20,
     'expiration_hours': 30*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
