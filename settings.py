@@ -130,7 +130,7 @@ mturk_hit_settings = {
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
                    ,
     'frame_height': 500,
-    'preview_template': 'Eye_Exam/Welcome.html',
+    'preview_template': 'compensation/MyPage.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 30*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
@@ -172,12 +172,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 24,
     #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     # },
-    {
-        'name': 'Eye_Exam',
-        'display_name': "Eye Exam",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam'],
-    },
+    # {
+    #     'name': 'Eye_Exam',
+    #     'display_name': "Eye Exam",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam'],
+    # },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -268,12 +268,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 3,
     #     'app_sequence': ['donation'],
     # },
-    {
-        'name': 'petition',
-        'display_name': "Behavioral Item - Petition",
-        'num_demo_participants': 3,
-        'app_sequence': ['petition'],
-    },
+    # {
+    #     'name': 'petition',
+    #     'display_name': "Behavioral Item - Petition",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['petition'],
+    # },
     # {
     #     'name': 'classictrust',
     #     'display_name': "Behavioral Item - Trust Game",
@@ -304,11 +304,17 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
+    # {
+    #     'name': 'url',
+    #     'display_name': "Testing url",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['url_test'],
+    # },
     {
-        'name': 'url',
-        'display_name': "Testing url",
+        'name': 'compensation',
+        'display_name': "compensation",
         'num_demo_participants': 2,
-        'app_sequence': ['url_test'],
+        'app_sequence': ['compensation'],
     },
 
 ]

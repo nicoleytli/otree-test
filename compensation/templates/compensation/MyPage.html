@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Compensation
+{% endblock %}
+
+{% block content %}
+
+    <p> Your ID is at the top right of your mechanical turk dashboard.</p>
+
+    {% formfield player.worker_id with label='Please enter your worker ID:' %}
+
+    {% next_button %}
+
+{% endblock %}
