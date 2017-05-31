@@ -134,11 +134,15 @@ mturk_hit_settings = {
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 30*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
+    'grant_qualification_id': '34TL3CYI87G71HI3DYZRBU1MA64PHI', #test invitation
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
         # qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
+        qualification.Requirement('34TL3CYI87G71HI3DYZRBU1MA64PHI',
+                                  'EqualTo',
+                                  '100')
     ]
 }
 
