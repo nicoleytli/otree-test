@@ -1,4 +1,3 @@
-
 import os
 from os import environ
 
@@ -8,11 +7,13 @@ from boto.mturk import qualification
 import otree.settings
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 CHANNEL_ROUTING = 'Empathy_Beget_Guile_Timer.routing.channel_routing'
 
 SENTRY_DSN = 'http://ee3c5daaa6be43c38afbb2df55987f9f:14944f017bfe4f3ba49fe45d05133d63@sentry.otree.org/170'
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # the environment variable OTREE_PRODUCTION controls whether Django runs in
 # DEBUG mode. If OTREE_PRODUCTION==1, then DEBUG=False
@@ -32,6 +33,15 @@ SECRET_KEY = '{{ secret_key }}'
 
 DATABASES = {
     'default': dj_database_url.config(
+        # Rather than hardcoding the DB parameters here,
+        # it's recommended to set the DATABASE_URL environment variable.
+        # This will allow you to use SQLite locally, and postgres/mysql
+        # on the server
+        # Examples:
+        # export DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
+        # export DATABASE_URL=mysql://USER:PASSWORD@HOST:PORT/NAME
+
+        # fall back to SQLite if the DATABASE_URL env var is missing
         default='sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
     )
 }
@@ -55,9 +65,11 @@ ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
 
 # setting for integration with AWS Mturk
-AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
 
+AWS_ACCESS_KEY_ID = 'AKIAJQALNTH4BR4ITVEQ'
+AWS_SECRET_ACCESS_KEY = 'kj+mo/f9D7I52E/I+GVtO9RwVd0JniheZ/q+SxgU'
 
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
 REAL_WORLD_CURRENCY_CODE = 'USD'
@@ -156,12 +168,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 24,
     #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     # },
-    # {
-    #     'name': 'Eye_Exam',
-    #     'display_name': "Eye Exam",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam'],
-    # },
+    {
+        'name': 'Eye_Exam',
+        'display_name': "Eye Exam",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam'],
+    },
     # {
     #     'name': 'likert',
     #     'display_name': "likert",
@@ -222,72 +234,78 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile'],
     # },
-    {
-        'name': 'long_survey',
-        'display_name': "Long Survey",
-        'num_demo_participants': 40,
-        'app_sequence': ['likert'],
-    },
-    {
-        'name': 'priming',
-        'display_name': "Prime",
-        'num_demo_participants': 3,
-        'app_sequence': ['priming_treatment'],
-    },
-    {
-        'name': 'all_likert',
-        'display_name': "Measurement Item - Likert",
-        'num_demo_participants': 3,
-        'app_sequence': ['all_likert'],
-    },
-    {
-        'name': 'erase',
-        'display_name': "Behavioral Item - Mouse Tracking",
-        'num_demo_participants': 5,
-        'app_sequence': ['erase'],
-    },
-    {
-        'name': 'donation',
-        'display_name': "Behavioral Item - Donation",
-        'num_demo_participants': 3,
-        'app_sequence': ['donation'],
-    },
+    # {
+    #     'name': 'long_survey',
+    #     'display_name': "Long Survey",
+    #     'num_demo_participants': 40,
+    #     'app_sequence': ['likert'],
+    # },
+    # {
+    #     'name': 'priming',
+    #     'display_name': "Prime",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['priming_treatment'],
+    # },
+    # {
+    #     'name': 'all_likert',
+    #     'display_name': "Measurement Item - Likert",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['all_likert'],
+    # },
+    # {
+    #     'name': 'erase',
+    #     'display_name': "Behavioral Item - Mouse Tracking",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['erase'],
+    # },
+    # {
+    #     'name': 'donation',
+    #     'display_name': "Behavioral Item - Donation",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['donation'],
+    # },
     {
         'name': 'petition',
         'display_name': "Behavioral Item - Petition",
         'num_demo_participants': 3,
         'app_sequence': ['petition'],
     },
-    {
-        'name': 'classictrust',
-        'display_name': "Behavioral Item - Trust Game",
-        'num_demo_participants': 10,
-        'app_sequence': ['partner_choice','classictrust'],
-    },
-    {
-        'name': 'party_donation',
-        'display_name': "Behavioral Item - Guess Party ID/Donation Decision",
-        'num_demo_participants': 10,
-        'app_sequence': ['party_donation'],
-    },
-    {
-        'name': 'lying_game',
-        'display_name': "Behavioral Item - Lying Game",
-        'num_demo_participants': 2,
-        'app_sequence': ['lying_game'],
-    },
-    {
-        'name': 'demographic',
-        'display_name': "Recall Behavioral Items + SES",
-        'num_demo_participants': 2,
-        'app_sequence': ['other_questions'],
-    },
+    # {
+    #     'name': 'classictrust',
+    #     'display_name': "Behavioral Item - Trust Game",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['partner_choice','classictrust'],
+    # },
+    # {
+    #     'name': 'party_donation',
+    #     'display_name': "Behavioral Item - Guess Party ID/Donation Decision",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['party_donation'],
+    # },
+    # {
+    #     'name': 'lying_game',
+    #     'display_name': "Behavioral Item - Lying Game",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['lying_game'],
+    # },
+    # {
+    #     'name': 'demographic',
+    #     'display_name': "Recall Behavioral Items + SES",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['other_questions'],
+    # },
     # {
     #     'name': 'empathy_timer',
     #     'display_name': "Testing timeout on waiting page",
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
+    {
+        'name': 'url',
+        'display_name': "Testing url",
+        'num_demo_participants': 2,
+        'app_sequence': ['url_test'],
+    },
 
 ]
 

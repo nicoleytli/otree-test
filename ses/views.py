@@ -5,8 +5,6 @@ from .models import Constants
 import random
 
 
-
-
 class Demographic(Page):
     form_model = models.Player
     form_fields = ['birth', 'educ', 'dip', 'duty', 'emptype', 'work']

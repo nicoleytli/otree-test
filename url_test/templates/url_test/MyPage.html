@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Page title
+{% endblock %}
+
+{% block content %}
+
+
+    <a href="{{ link }}" target=_blank>Link</a>
+
+    {% next_button %}
+
+{% endblock %}
