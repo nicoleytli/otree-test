@@ -126,23 +126,23 @@ ROOMS = [
 
 mturk_hit_settings = {
     'keywords': ['easy', 'bonus', 'game', 'study', 'images'],
-    'title': 'Behavioral Experiment (earn $0.80+bonus)',
-    'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks.'
+    'title': 'Behavioral Experiment (earn $0.80 + bonus)',
+    'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks. We will show you your total payoff on the last page. Additional reward amounts will be paid as a bonus.'
                    ,
     'frame_height': 500,
-    'preview_template': 'global/Compensation.html',
-    'minutes_allotted_per_assignment': 20,
-    'expiration_hours': 30*24, # 7 days
+    'preview_template': 'Eye_Exam/Welcome.html',
+    'minutes_allotted_per_assignment': 60,
+    'expiration_hours': 14*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
-    'grant_qualification_id': '3BEYYY5C0558D33AICHS96MF57C712', #test invitation
+    # 'grant_qualification_id': '3BEYYY5C0558D33AICHS96MF57C712', #test invitation
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
         # qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
-        qualification.Requirement('3BEYYY5C0558D33AICHS96MF57C712',
-                                  'EqualTo',
-                                  '100')
+        # qualification.Requirement('3BEYYY5C0558D33AICHS96MF57C712',
+        #                           'EqualTo',
+        #                           '100')
     ]
 }
 
@@ -160,12 +160,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    # {
-    #     'name': 'Empathy_Beget_Guile',
-    #     'display_name': "Empathy Game(without Eye_Exam)",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Empathy_Beget_Guile'],
-    # },
+    {
+        'name': 'Empathy_Beget_Guile',
+        'display_name': "Empathy Game(without Eye_Exam)",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    },
     # {
     #     'name': 'Empathy_Beget_Guile_2',
     #     'display_name': "Empathy Game",
@@ -310,12 +310,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['url_test'],
     # },
-    {
-        'name': 'compensation',
-        'display_name': "compensation",
-        'num_demo_participants': 2,
-        'app_sequence': ['compensation'],
-    },
+    # {
+    #     'name': 'compensation',
+    #     'display_name': "compensation",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['compensation'],
+    # },
 
 ]
 
