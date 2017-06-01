@@ -130,7 +130,7 @@ mturk_hit_settings = {
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks. We will show you your total payoff on the last page. Additional reward amounts will be paid as a bonus.'
                    ,
     'frame_height': 500,
-    'preview_template': 'Eye_Exam/Welcome.html',
+    'preview_template': 'global/MTurkPreview.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 14*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
@@ -162,7 +162,7 @@ SESSION_CONFIG_DEFAULTS = {
 SESSION_CONFIGS = [
     {
         'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Game(without Eye_Exam)",
+        'display_name': "Empathy Game",
         'num_demo_participants': 24,
         'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
     },
