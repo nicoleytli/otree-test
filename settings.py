@@ -160,12 +160,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Game",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Game",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    # },
     # {
     #     'name': 'Empathy_Beget_Guile_2',
     #     'display_name': "Empathy Game",
@@ -190,12 +190,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 8,
     #     'app_sequence': ['participant_generated_urn_1'],
     # },
-    # {
-    #     'name': 'covering_test',
-    #     'display_name': "covering",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['covering_test']
-    # },
+    {
+        'name': 'covering_test',
+        'display_name': "covering",
+        'num_demo_participants': 10,
+        'app_sequence': ['covering_test']
+    },
     # {
     #     'name': 'Empathy',
     #     'display_name': "Empathy Beget Guile",
