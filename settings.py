@@ -190,11 +190,17 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 8,
     #     'app_sequence': ['participant_generated_urn_1'],
     # },
+    # {
+    #     'name': 'covering_test',
+    #     'display_name': "covering",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['covering_test']
+    # },
     {
-        'name': 'covering_test',
-        'display_name': "covering",
+        'name': 'oral_argument',
+        'display_name': "Oral Arguments Experiment",
         'num_demo_participants': 10,
-        'app_sequence': ['covering_test']
+        'app_sequence': ['oral_argument']
     },
     # {
     #     'name': 'Empathy',

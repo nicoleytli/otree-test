@@ -1,7 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="" />
+    <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00058-108orig_19930113-argument-1-gale_norton-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00088-112orig_19911104-argument-0-mary_b_guthrie-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00193-121_19701217-argument-1-Carol_Mary_Los-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00443-153_19700224-argument-0-Brenda_Soloff-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00444-153_19700224-argument-1-Gretchen_White_Oberman-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00480-15_19611012-argument-1-Ruth_Kessler_Toch-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00496-15orig_19590522-argument-2-0-Lois_G_Forer-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00663-206_19701217-argument-1-Sybil_H_Landau-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00816-248_19590323-argument-2-1-Harriet_F_Pilpel-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00818-248_19630326-argument-1-Hiram_W_Kwan-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/00869-26_19701207-argument-0-Elizabeth_B_Dubois-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01024-30_19710323-argument-0-Beatrice_Rosenberg-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01332-40_19651116-argument-0-Doris_H_Maier-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01346-40orig_19720329-argument-1-Winifred_L_Wentworth-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01388-424_19630417-argument-1-0-Constance_B_Motley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01536-47_19681119-argument-1-Doris_H_Maier-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01761-5586_19710323-argument-0-Elizabeth_Roediger_Rindskopf-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01762-5586_19710323-argument-1-Dorothy_T_Beasley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01817-58_19611113-argument-1-1-Beatrice_Rosenberg-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01830-595_19700331-argument-0-Louise_H_Renne-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/01864-60_19600111-argument-0-Bessie_Margolin-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02013-65orig_19830330-argument-1-charlotte_uram-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02014-65orig_19870429-argument-0-charlotte_uram-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02016-660_19680422-argument-0-Jean_M_Coon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02031-66_19621106-argument-0-Constance_Baker_Motley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02050-67_19621106-argument-0-Constance_Baker_Motley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02064-68_19611205-argument-0-Julia_P_Cooper-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02075-69-5035_19710301-argument-1-Louise_Korns-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02100-69_19701020-argument-0-Brenda_Soloff-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02113-6_19681021-argument-0-Eleanor_Holmes_Norton-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02159-70-250_19720410-argument-1-Carmen_L_Massey-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02162-70-26_19711208-argument-1-Elizabeth_R_Rindskopf-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02189-70-40_19711213-argument-0-Margie_Pitts_Hames-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02190-70-40_19711213-argument-1-Dorothy_T_Beasley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02234-70-5041_19711014-argument-1-Christine_Y_Denson-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02384-71-1369_19730109-argument-0-Lillian_Z_Cohen-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02443-71-237_19720417-argument-0-Maria_L_Marcus-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02472-71-5078_19720222-argument-1-Dorothy_T_Beasley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02525-71-6852_19731009-argument-0-Marguerite_M_Buckley-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02558-71-850_19721106-argument-2-Phylis_Skloot_Bamberger-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02585-71_19640114-argument-3-Mary_Moran_Pajalich-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02586-71_19680327-argument-0-Brenda_Soloff-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02620-72-1168_19731114-argument-2-0-Jewel_S_Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02642-72-1328_19731212-argument-2-1-Anna_R_Lavin-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02691-72-214_19730228-argument-0-Betty_Jo_Christian-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02694-72-331_19731010-argument-0-Brenda_Soloff-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02695-72-350_19730319-argument-0-Jewell_S_Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02743-72-5881_19731017-argument-2-1-Jewel_S_Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02767-72-694_19730416-argument-1-Jean_M_Coon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02780-72-792_19730418-argument-2-1-Jean_M_Coon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02785-72-822_19731017-argument-0-Harriet_S_Shapiro-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02790-72-847_19731106-argument-0-Mary_M_Schroeder-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02827-727_19700304-argument-1-1-Louise_Korns-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02828-727_19700305-argument-2-0-Louise_Korns-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02845-73-1046_19750113-argument-0-Harriet_S_Shapiro-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02856-73-1162_19741217-argument-1-Sheila_Ginsberg-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02890-73-1347_19741211-argument-0-Lila_J_Young-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02911-73-1462_19750219-argument-0-Elizabeth_B_Levatino-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02923-73-1541_19750120-argument-1-Jewell_S_Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02924-73-1541_19750120-argument-2-Jewell_S_Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02965-73-1892_19750120-argument-1-Ruth_Bader_Ginsburg-justice.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/02996-73-2024_19750317-argument-0-Emmelyn_Loganbaldwin-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03087-73-640_19740326-argument-0-Joanne_Condas-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03088-73-640_19740326-argument-1-Wendy_W_Williams-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03094-73-6587_19750226-argument-0-Diana_A_Steele-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03115-73-759_19741016-argument-0-Ruth_Bader_Ginsburg-justice.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03117-73-762_19741017-argument-1-Elizabeth_A_Nolan-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03124-73-776_19741015-argument-0-Harriet_S_Shapiro-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03137-73-822_19741111-argument-1-Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03138-73-831_19740429-argument-0-Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03140-73-831_19740429-argument-2-Lafontant-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03165-73_19601207-argument-1-1-Charles_H_Weston-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03192-74-1124_19751210-argument-0-Marilyn_G_Rose-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03194-74-1137_19751202-argument-0-Amy_Juviler-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03221-74-1267_19751208-argument-0-Miriam_Naveira_De_Rodon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03235-74-1318_19760303-argument-2-Rhonda_Copelon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03244-74-1435_19760113-argument-0-Friedman-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03296-74-214_19750319-argument-0-Harriet_S_Shapiro-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03324-74-453_19750326-argument-0-Judith_A_Gordon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03433-74-944_19751014-argument-1-Edna_L_Caruso-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03454-74orig_19900108-argument-0-patricia_t_barmeyer-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03474-75-1261_19761129-argument-1-Lorna_Lawhead_Williams-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03476-75-1267_19761110-argument-0-Harriet_S_Shapiro-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03478-75-130_19760330-argument-1-Linda_R_Hirshman-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03480-75-1397_19761130-argument-1-Jane_E_Bloom-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03576-75-6297_19761207-argument-0-Janet_M_Calvo-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03589-75-699_19761005-argument-1-Ruth_Bader_Ginsburg-justice.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03625-75-978_19761208-argument-1-Daniel_M_Friedman-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03641-75_19701208-argument-0-Louise_H_Renne-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03642-75_19701208-argument-1-Louise_H_Renne-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03643-76-1058_19771012-argument-0-Sharon_L_King-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03733-76-180_19770321-argument-0-Louise_Gruner_Gans-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03734-76-180_19770321-argument-1-Helen_L_Buttenwieser-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03735-76-180_19770321-argument-2-Maria_L_Marcus-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03736-76-180_19770321-argument-3-Marcia_Robinson_Lowry-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03741-76-208_19770322-argument-0-Judith_A_Gordon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03753-76-422_19770419-argument-1-Pamela_S_Horowitz-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03765-76-5206_19770328-argument-0-Louise_Korns-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03781-76-616_19771003-argument-0-Jean_M_Coon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/static/oral_argument/03817-76-808_19790110-argument-0-judith_a_gordon-advocate.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/_builtin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/female_name.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/templates/oral_argument/Demographic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/templates/oral_argument/FirstPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/templates/oral_argument/Main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/templates/oral_argument/MyPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/templates/oral_argument/Results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/test_oral.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oral_argument/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covering_test/models.py" afterPath="$PROJECT_DIR$/covering_test/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covering_test/templates/covering_test/Demographic.html" afterPath="$PROJECT_DIR$/covering_test/templates/covering_test/Demographic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covering_test/views.py" afterPath="$PROJECT_DIR$/covering_test/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +138,7 @@
     <SUITE FILE_PATH="coverage/oTree$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1488496540597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covering_test" />
     <SUITE FILE_PATH="coverage/oTree$tests__2_.coverage" NAME="tests (2) Coverage Results" MODIFIED="1489613212961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eye_Exam" />
     <SUITE FILE_PATH="coverage/oTree$Test__majority_determine1_templates_majority_determine1_Decide2_html.coverage" NAME="Test: majority_determine1.templates.majority_determine1.Decide2.html Coverage Results" MODIFIED="1486682890125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/oTree$test_oral.coverage" NAME="test_oral Coverage Results" MODIFIED="1496521896850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oral_argument" />
     <SUITE FILE_PATH="coverage/oTree$tests.coverage" NAME="tests Coverage Results" MODIFIED="1486470892530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ambiguity_exp1" />
     <SUITE FILE_PATH="coverage/oTree$testing__4_.coverage" NAME="testing (4) Coverage Results" MODIFIED="1494544856911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/likert" />
     <SUITE FILE_PATH="coverage/oTree$models.coverage" NAME="models Coverage Results" MODIFIED="1488497133331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covering_test" />
@@ -33,11 +154,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="176" column="37" lean-forward="true" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
+            <state relative-caret-position="405">
+              <caret line="205" column="28" lean-forward="true" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_oral.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/test_oral.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -45,23 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/covering_test/models.py">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="781" column="0" lean-forward="true" selection-start-line="781" selection-start-column="0" selection-end-line="781" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/covering_test/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -70,60 +189,22 @@
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eye_Exam/views.py">
+        <entry file="file://$PROJECT_DIR$/oral_argument/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="945">
+              <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
+        <entry file="file://$PROJECT_DIR$/oral_argument/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Welcome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Welcome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result_123.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Result_123.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eye_Exam/migrations/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="134" column="86" lean-forward="false" selection-start-line="134" selection-start-column="86" selection-end-line="134" selection-end-column="86" />
               <folding>
                 <element signature="e#0#134#0" expanded="true" />
               </folding>
@@ -131,11 +212,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
+      <file leaf-file-name="Main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="840">
+              <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagetest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/pagetest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/Results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/MyPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/FirstPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,8 +274,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iss</find>
-      <find>order</find>
       <find>round</find>
       <find>opinion_</find>
       <find>preference</find>
@@ -183,6 +302,8 @@
       <find>finish_study</find>
       <find>opinion</find>
       <find>end</find>
+      <find>audio_group</find>
+      <find>result</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,15 +312,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partner_choice/templates/partner_choice/MyPage.html" />
-        <option value="$PROJECT_DIR$/partner_choice/models.py" />
-        <option value="$PROJECT_DIR$/partner_choice/views.py" />
-        <option value="$PROJECT_DIR$/classictrust/views.py" />
-        <option value="$PROJECT_DIR$/party_donation/templates/party_donation/PartyID.html" />
-        <option value="$PROJECT_DIR$/party_donation/models.py" />
-        <option value="$PROJECT_DIR$/party_donation/templates/party_donation/MyPage.html" />
-        <option value="$PROJECT_DIR$/party_donation/templates/party_donation/Donation.html" />
-        <option value="$PROJECT_DIR$/party_donation/templates/party_donation/Results.html" />
         <option value="$PROJECT_DIR$/party_donation/views.py" />
         <option value="$PROJECT_DIR$/priming_treatment/templates/priming_treatment/Priming11.html" />
         <option value="$PROJECT_DIR$/priming_treatment/templates/priming_treatment/Priming2.html" />
@@ -240,8 +352,17 @@
         <option value="$PROJECT_DIR$/Empathy/_builtin/__init__.py" />
         <option value="$PROJECT_DIR$/qv/views.py" />
         <option value="$PROJECT_DIR$/Eye_Exam/views.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/oral_argument/test_oral.py" />
+        <option value="$PROJECT_DIR$/covering_test/models.py" />
         <option value="$PROJECT_DIR$/covering_test/views.py" />
+        <option value="$PROJECT_DIR$/oral_argument/templates/oral_argument/MyPage.html" />
+        <option value="$PROJECT_DIR$/covering_test/templates/covering_test/Demographic.html" />
+        <option value="$PROJECT_DIR$/oral_argument/templates/oral_argument/Main.html" />
+        <option value="$PROJECT_DIR$/oral_argument/models.py" />
+        <option value="$PROJECT_DIR$/oral_argument/templates/oral_argument/Results.html" />
+        <option value="$PROJECT_DIR$/oral_argument/templates/oral_argument/FirstPage.html" />
+        <option value="$PROJECT_DIR$/oral_argument/views.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -273,6 +394,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -300,9 +422,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="covering_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="covering_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,14 +457,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oral_argument/templates/oral_argument" />
       <recent name="$PROJECT_DIR$/other_questions/templates/other_questions" />
       <recent name="$PROJECT_DIR$/all_likert/templates/all_likert" />
       <recent name="$PROJECT_DIR$/priming_treatment/templates/priming_treatment" />
       <recent name="$PROJECT_DIR$/likert/templates/likert" />
-      <recent name="$PROJECT_DIR$/anes2/templates/anes2" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.Django">
+  <component name="RunManager" selected="Python.test_oral">
+    <configuration default="false" name="test_oral" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oral_argument" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oTree" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oral_argument/test_oral.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -601,10 +762,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Django server.Django" />
       <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_oral" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_oral" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -663,20 +830,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32344633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39593115" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39593115" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,181 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Demo6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Demo4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Demo3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Q1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/End.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Q10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Q11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Q13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_questions/templates/other_questions/Demo7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/otree/views/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ses/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/otree/models/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile_Timer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anes2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anes2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petition/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petition/templates/petition/MyPage2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petition/templates/petition/MyPagepetition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petition/templates/petition/Resultspetition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_test/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_test/templates/url_test/MyPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_test/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compensation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compensation/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -956,14 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/_builtin/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -975,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +988,7 @@
         <state relative-caret-position="1125">
           <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
           <folding>
-            <element signature="e#0#134#0" expanded="true" />
+            <element signature="e#0#134#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1015,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,15 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,45 +1011,277 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/templates/Empathy_Beget_Guile/Demographic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/fake_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likert/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1857" column="50" lean-forward="false" selection-start-line="1857" selection-start-column="50" selection-end-line="1857" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="1440">
+          <caret line="100" column="49" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/waitpage/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="176" column="37" lean-forward="true" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#134#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waitpage/consumers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouse_tracking/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouse_tracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empathy_Beget_Guile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="724" column="0" lean-forward="false" selection-start-line="724" selection-start-column="0" selection-end-line="759" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/Question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/MyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/Demographic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/Choice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/Demographic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/covering_test/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/covering_test/models.py">
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/Results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="781" column="0" lean-forward="true" selection-start-line="781" selection-start-column="0" selection-end-line="781" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covering_test/templates/covering_test/pagetest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/test_oral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="134" column="86" lean-forward="false" selection-start-line="134" selection-start-column="86" selection-end-line="134" selection-end-column="86" />
           <folding>
             <element signature="e#0#134#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/FirstPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oral_argument/templates/oral_argument/MyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="205" column="28" lean-forward="true" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

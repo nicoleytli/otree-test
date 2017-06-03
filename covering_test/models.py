@@ -770,9 +770,9 @@ class Player(BasePlayer):
         #     path = "/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female"
 
         if self.audio_group == 'male':
-            path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/male'
+            path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female'
         else:
-            path = 'https://www.dropbox.com/sh/i9o862bbpir2whm/AACDJkzeBhNLYb5ko0pp8q4-a?dl=0'
+            path = '/Users/Nicole/Documents/oTree/covering_test/static/covering_test/female'
 
         collection = os.listdir(path)
         selected = set()  # the set don't allow repetition

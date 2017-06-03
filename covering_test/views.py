@@ -9,7 +9,7 @@ import os
 class MyPage(Page):
     def before_next_page(self):
         self.player.get_audio_group()
-        self.player.get_audios()
+        # self.player.get_audios()
         self.player.get_question()
 
 
@@ -51,7 +51,6 @@ class pagetest(Page):
                 'adj_list_right_3': self.player.name_list_right_8,
                 'name_3': self.player.name_8,
                 'value_3': self.player.value_8}
-
 
 
 class p1(Page):
@@ -1979,19 +1978,19 @@ class Demographic(Page):
 
 page_sequence = [
     MyPage,
-    pagetest,
-    # p1,
-    # p2,
-    # p3,
-    # p4,
-    # p5,
-    # p6,
-    # p7,
-    # p8,
-    # p9,
-    # p10,
-    # p11,
-    # p12,
+    # pagetest,
+    p1,
+    p2,
+    p3,
+    p4,
+    p5,
+    p6,
+    p7,
+    p8,
+    p9,
+    p10,
+    p11,
+    p12,
     # p13,
     # p14,
     # p15,
