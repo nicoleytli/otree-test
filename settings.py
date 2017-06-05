@@ -133,13 +133,13 @@ mturk_hit_settings = {
     'preview_template': 'global/MTurkPreview.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 14*24, # 7 days
-    'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
+    # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
     # 'grant_qualification_id': '3BEYYY5C0558D33AICHS96MF57C712', #test invitation
     'qualification_requirements': [
         # qualification.LocaleRequirement("EqualTo", "US"),
         # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
-        qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
+        # qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
         # qualification.Requirement('3BEYYY5C0558D33AICHS96MF57C712',
         #                           'EqualTo',
         #                           '100')
@@ -196,12 +196,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['covering_test']
     # },
-    {
-        'name': 'oral_argument',
-        'display_name': "Oral Arguments Experiment",
-        'num_demo_participants': 10,
-        'app_sequence': ['oral_argument']
-    },
+    # {
+    #     'name': 'oral_argument',
+    #     'display_name': "Oral Arguments Experiment",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['oral_argument']
+    # },
     # {
     #     'name': 'Empathy',
     #     'display_name': "Empathy Beget Guile",
@@ -310,12 +310,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    # {
-    #     'name': 'url',
-    #     'display_name': "Testing url",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['url_test'],
-    # },
+    {
+        'name': 'url',
+        'display_name': "Testing url",
+        'num_demo_participants': 2,
+        'app_sequence': ['url_test'],
+    },
     # {
     #     'name': 'compensation',
     #     'display_name': "compensation",

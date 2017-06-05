@@ -12,13 +12,12 @@ class MyPage(Page):
         self.player.participant_label = id[2]
 
         params = {'participant_label': self.player.participant_label}
-        base_url = 'https://talkpoverty.org/2015/06/10/solutions-economic-inequality/'
+        base_url = 'http://159.203.82.211/surveys/-KkJ0pght7x5b2XV6gKE/sections/0'
         url = base_url + '?' + urlencode(params)
 
         self.player.url = url
 
         return {'link': url}
-
 
 
 class ResultsWaitPage(WaitPage):
