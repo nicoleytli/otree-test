@@ -130,7 +130,7 @@ mturk_hit_settings = {
     'description': 'This is part of a study in decision-making. In this activity, you will be grouped with another worker and finish three tasks. We will show you your total payoff on the last page. Additional reward amounts will be paid as a bonus.'
                    ,
     'frame_height': 500,
-    'preview_template': 'global/MTurkPreview.html',
+    'preview_template': 'global/Compensation.html',
     'minutes_allotted_per_assignment': 60,
     'expiration_hours': 14*24, # 7 days
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
@@ -310,18 +310,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    {
-        'name': 'url',
-        'display_name': "Testing url",
-        'num_demo_participants': 2,
-        'app_sequence': ['url_test'],
-    },
     # {
-    #     'name': 'compensation',
-    #     'display_name': "compensation",
+    #     'name': 'url',
+    #     'display_name': "Testing url",
     #     'num_demo_participants': 2,
-    #     'app_sequence': ['compensation'],
+    #     'app_sequence': ['url_test'],
     # },
+    {
+        'name': 'compensation',
+        'display_name': "compensation",
+        'num_demo_participants': 2,
+        'app_sequence': ['compensation'],
+    },
 
 ]
 
