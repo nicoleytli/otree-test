@@ -5,12 +5,12 @@ import dj_database_url
 from boto.mturk import qualification
 
 import otree.settings
-from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
-
-
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.core.context_processors.request',
-)
+# from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+#
+#
+# TEMPLATE_CONTEXT_PROCESSORS = (
+#     'django.core.context_processors.request',
+# )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

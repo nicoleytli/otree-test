@@ -12,12 +12,12 @@ from django.template import RequestContext
 class FirstPage(Page):
     form_model = models.Player
     form_fields = ['current_url']
-    def index(request):
-        return render_to_response(
-            'url_test/FirstPage.html',
-            # {'title': 'User profile'},
-            context_instance=RequestContext(request)
-        )
+    # def index(request):
+    #     return render_to_response(
+    #         'url_test/FirstPage.html',
+    #         # {'title': 'User profile'},
+    #         context_instance=RequestContext(request)
+    #     )
 
 
 class MyPage(Page):
