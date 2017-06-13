@@ -5,7 +5,12 @@ import dj_database_url
 from boto.mturk import qualification
 
 import otree.settings
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.core.context_processors.request',
+)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -310,18 +315,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    # {
-    #     'name': 'url',
-    #     'display_name': "Testing url",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['url_test'],
-    # },
     {
-        'name': 'compensation',
-        'display_name': "compensation",
+        'name': 'url',
+        'display_name': "Testing url",
         'num_demo_participants': 2,
-        'app_sequence': ['compensation'],
+        'app_sequence': ['url_test'],
     },
+    # {
+    #     'name': 'compensation',
+    #     'display_name': "compensation",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['compensation'],
+    # },
 
 ]
 

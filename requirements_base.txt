@@ -1,5 +1,5 @@
 Babel==2.3.4
-Django==1.8.8
+Django==1.11.2
 django-countries==4.0
 django-easymoney==0.7.2
 django-endless-pagination==2.0

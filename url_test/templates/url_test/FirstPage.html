@@ -1,0 +1,44 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block content %}
+
+
+    <p>URL of this page: {{ request.get_full_path }}</p>
+
+    <input type="hidden" name="current_url" value="" id="current_url"/>
+
+    <button class="btn btn-primary" onclick="stopCount();">Next</button>
+
+{% endblock %}
+
+{% block scripts %}
+
+    <script type="text/javascript">
+{##}
+{#    path = request.getContextPath();#}
+{#    basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";#}
+{#    url  =  "http://"  +  request.getServerName()  +  ":"  +  request.getServerPort()  +  request.getContextPath()+request.getServletPath().substring(0,request.getServletPath().lastIndexOf("/")+1);#}
+{##}
+{#    if(request.getQueryString()!=null)#}
+{#    {#}
+{#        url+="?"+request.getQueryString();#}
+{#    }#}
+{#        System.out.println("path："+path);#}
+{#        System.out.println("basePath："+basePath);#}
+{#        System.out.println("URL："+url);#}
+{##}
+{#        System.out.println("URL参数："+request.getQueryString());#}
+{##}
+
+    function stopCount(){
+        document.getElementById('current_url').value = window.location.href ;
+    }
+
+    </script>
+
+{% endblock %}

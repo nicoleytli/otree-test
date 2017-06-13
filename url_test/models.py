@@ -31,3 +31,5 @@ class Group(BaseGroup):
 class Player(BasePlayer):
     participant_label = models.CharField()
     url = models.CharField()
+
+    current_url = models.TextField()

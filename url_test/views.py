@@ -3,6 +3,22 @@ from . import models
 from ._builtin import Page, WaitPage
 from .models import Constants
 from urllib.parse import urlencode
+from django.http import HttpResponse
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+
+
+
+class FirstPage(Page):
+    form_model = models.Player
+    form_fields = ['current_url']
+    def index(request):
+        return render_to_response(
+            'url_test/FirstPage.html',
+            # {'title': 'User profile'},
+            context_instance=RequestContext(request)
+        )
+
 
 class MyPage(Page):
 
@@ -31,6 +47,7 @@ class Results(Page):
 
 
 page_sequence = [
+    FirstPage,
     MyPage,
     # ResultsWaitPage,
     # Results
