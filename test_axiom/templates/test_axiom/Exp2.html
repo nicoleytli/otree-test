@@ -1,0 +1,57 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Experiment 2
+{% endblock %}
+
+{% block content %}
+
+    {% include 'test_axiom/Exp2_ins.html' %}
+
+    <p>
+        The message for you is: <div style="text-align:center"><strong>{{ message }}</strong></div>
+    </p>
+{#    <p>#}
+{#    <strong>#}
+{#        To repeat, the number X encrypted in each message is preselected by computer randomly and will remain the same.#}
+{#        The encryption algorithms are different between experiments. A different message does not indicate a different number.#}
+{#    </strong>#}
+{#    </p>#}
+    <p>
+    <br>
+    </p>
+
+    <p>
+        Here is the information for "Option A" and "Option B":
+    </p>
+    <div style="text-align:center">
+    <img src="{% static "test_axiom/exp2.png" %}" align="middle" height="220" width="820"/>
+    </div>
+    <p>
+    <br>
+    </p>
+    <p>
+        Since your message may contain any value of X between 0.00 to 20.00, please give us general instructions whether
+    you want Option A or Option B.
+    </p>
+    <p>
+    <strong>Do so by specifying a threshold:</strong>
+
+    {% formfield player.exp2_answer with label="If X is below or equal to" %}
+    <p>
+    <strong>
+        I want Option A, otherwise I will receive Option B.
+    </strong>
+    </p>
+    <p>
+        <u>For example:</u> <br>
+        If X is below or equal to $6.50 I want Option A, otherwise I will receive Option B.<br>
+        If X is below or equal to $15.33 I want Option A, otherwise I will receive Option B.<br>
+        ...
+    </p>
+
+
+    {% next_button %}
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Thank You!
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Your total payoff is: {{ player.payoff_1 }} + {{ player.payoff_2 }} + {{ player.payoff_3 }} = {{ total }}
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

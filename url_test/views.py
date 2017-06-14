@@ -43,13 +43,13 @@ class ResultsWaitPage(WaitPage):
 
 
 class Results(Page):
-    def optout(request):
-        return redirect("https://www.google.fr/?gfe_rd=cr&ei=A6ToVciUE8SA8Qf05Jn4Ag&gws_rd=ssl")
+    pass
+
 
 
 page_sequence = [
     FirstPage,
-    MyPage,
     # ResultsWaitPage,
-    Results
+    Results,
+    MyPage
 ]

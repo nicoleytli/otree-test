@@ -1,0 +1,45 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Questionnaire - Part Three
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Please answer the following questions.
+    </p>
+
+    {% formfield player.citizenship with label='What is your country of citizenship' %}
+
+    {% formfield player.language with label='What is your mother tongue (native language)' %}
+
+    {% formfield player.age with label='What is your age' %}
+
+    {% formfield player.gender with label='What is your gender' %}
+
+    {% formfield player.program with label='In what kind of program are you currently enrolled' %}
+
+    {% formfield player.year with label='In which year do you think you will graduate from your current program' %}
+
+    {% formfield player.field with label='What is your field of study' %}
+
+    {% formfield player.time with label='How many times have you participated in experiments before today' %}
+
+    <p>
+    <strong>
+        How hard to understand were today's experiments? For each experiment choose the most appropriate option. Please
+        note that this will not influence your payoff and will not be linked to your personal data.
+    </strong>
+    </p>
+    {% formfield player.exp1 with label=prompt %}
+    {% formfield player.other1 with label='Please specify the details if you choose Other' %}
+    {% formfield player.exp2 with label=prompt %}
+    {% formfield player.other2 with label='Please specify the details if you choose Other' %}
+    {% formfield player.exp3 with label=prompt %}
+    {% formfield player.other3 with label='Please specify the details if you choose Other' %}
+
+    {% next_button %}
+
+{% endblock %}

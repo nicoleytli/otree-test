@@ -1,0 +1,25 @@
+{% load otree_tags staticfiles %}
+
+<div class="instructions well well-lg">
+
+    <p>
+        In experiment 3 you will choose one of two options. In both options your payoff depends on the result of a random
+        draw from a drum filled with balls and some unknown amount of $X.
+    </p>
+    <p>
+        We will conduct a single draw. The drum will be filled with <strong>20 red balls</strong> and <strong>40 white and black balls</strong>
+        The 20 red balls are added for sure but the 40 white and black balls may be any combination of black and white balls. For example, the
+        drum could contain 20 red balls, 7 black balls and 33 white balls, or it could contain 20 red balls, 40 black balls, or 20 red balls
+        12 white balls and 28 black balls, or...That is to say, the sum of white and black balls in the drum is exactly 40, and the number of red balls in the drum is 20.
+        The whole process will be done by computer.
+    </p>
+    <p>
+        Before it starts, we will give you an encrypted message. This message contains a random number between 0 to
+        20. In this experiment these numbers will be only whole US dollar, so $0, $1, $2, ..., $20. Thus there are 21
+        possible numbers and they have equal probability. <strong>The number is randomly selected by computer before the experiment starts
+        and will remain the same. The encryption key, algorithm and mode are different across experiments. Different messages between experiments do not indicate different numbers</strong>.
+        Once experiment 3 is over, we will give you the algorithm, the key and the mode to decrypt your message on a third-party website:
+        <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a>. Then you can get your result.
+    </p>
+
+</div>
