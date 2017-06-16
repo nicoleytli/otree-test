@@ -9,22 +9,27 @@
 
     <p>
         Now please consider the following four different bets. These, and thus your possible earnings, depend on the
-        throw of the standard coin and the symbol of ball drawn from the urn.
+        throw of the standard coin and the symbol of the ball drawn from your urn, which is filled by the choices of the
+        other participants.
     </p>
+
     <p>
         Please specify for each bet what you think its value is. In other words, if you could buy the bet, how much
         would you maximally pay for it? Please enter a value between $0.00 and $4.00.
     </p>
+    
     <p>
-        You are not buying these bet, instead you will receive the bet for which you indicated the highest value, for
+        You are not buying these bets, instead you will receive the bet for which you indicated the highest value, for
         free (if you assign the same highest value to two or more bets, the bet which is listed first below is what you
-        will get). The session continues as follows: The computer generates the coin throws, a single coin throw
-        for all participants for the standard coin. And also the computer draw a ball from the urn.
+        will get). As soon as all participants have made their choice for "{{ htmla }}" or "{{ htmlb }}", and have given their valuation for the
+        different bets, the session continues as follows: The computer generates the coin throw. And also the computer draws a ball each urn.
         Depending on the combination of the coin and the ball then you personally either win $4.00 or nothing.
     </p>
+
     <p>
         While everything in the experiment is anonymous, there is one exception. On the next screen, we will show you
-        the contents of the urn as well as your payoff.
+        and all other participants the choices regarding the symbols. The participants will be identified by their
+        player ID.
     </p>
 
     <div class="row">
@@ -36,12 +41,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$0.00</td>
                     <td>$4.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$0.00</td>
                     <td>$4.00</td>
                 </tr>
@@ -60,12 +65,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$4.00</td>
                     <td>$0.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$4.00</td>
                     <td>$0.00</td>
                 </tr>
@@ -84,12 +89,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$0.00</td>
                     <td>$0.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$4.00</td>
                     <td>$4.00</td>
                 </tr>
@@ -108,12 +113,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$4.00</td>
                     <td>$4.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$0.00</td>
                     <td>$0.00</td>
                 </tr>

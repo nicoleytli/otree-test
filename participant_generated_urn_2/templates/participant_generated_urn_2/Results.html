@@ -2,30 +2,44 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Your Decision
+    Your Result
 {% endblock %}
 
 {% block content %}
+    {% include 'participant_generated_urn_2/Instructions.html' %}
+    <p>
+        Result of the coin flip: <strong>{{ group.coin }}</strong>.
+    </p>
+    <p>
+        The contents of your urn filled by other players are shown as follows:
+    </p>
+    <table class="table-condensed" style="width:200px; margin-top:20px;">
 
+    <tr>
+        <th>ID</th>
+        <th>Ball</th>
+    </tr>
+        {% for id, decision in list %}
+
+             <tr>
+             <td>{{ id }}:</td>
+             <td> {{ decision }}</td>
+             </tr>
+
+        {% endfor %}
+
+    </table>
     <p>
-        Now please consider the following four different bets. These, and thus your possible earnings, depend on the
-        throw of the standard coin and the symbol of ball drawn from the urn.
+    <br>
     </p>
     <p>
-        Please specify for each bet what you think its value is. In other words, if you could buy the bet, how much
-        would you maximally pay for it? Please enter a value between $0.00 and $4.00.
+        The ball drawn from this urn is: <strong>{{ result }}</strong>
     </p>
     <p>
-        You are not buying these bet, instead you will receive the bet for which you indicated the highest value, for
-        free (if you assign the same highest value to two or more bets, the bet which is listed first below is what you
-        will get). The session continues as follows: The computer generates the coin throws, a single coin throw
-        for all participants for the standard coin. And also the computer draw a ball from the urn.
-        Depending on the combination of the coin and the ball then you personally either win $4.00 or nothing.
+        Your bet is: <strong>Option {{player.option}}</strong>
     </p>
-    <p>
-        While everything in the experiment is anonymous, there is one exception. On the next screen, we will show you
-        the contents of the urn as well as your payoff.
-    </p>
+
+    {% if player.option == 1 %}
 
     <div class="row">
         <div class="col-md-7 col-md-offset-2">
@@ -36,12 +50,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$0.00</td>
                     <td>$4.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$0.00</td>
                     <td>$4.00</td>
                 </tr>
@@ -49,7 +63,7 @@
         </div>
     </div>
 
-    {% formfield player.option1 with label='How much would you pay for Option 1?' %}
+    {% elif player.option == 2 %}
 
     <div class="row">
         <div class="col-md-7 col-md-offset-2">
@@ -60,12 +74,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$4.00</td>
                     <td>$0.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$4.00</td>
                     <td>$0.00</td>
                 </tr>
@@ -73,7 +87,7 @@
         </div>
     </div>
 
-    {% formfield player.option2 with label='How much would you pay for Option 2?' %}
+    {% elif player.option == 3 %}
 
     <div class="row">
         <div class="col-md-7 col-md-offset-2">
@@ -84,12 +98,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$0.00</td>
                     <td>$0.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$4.00</td>
                     <td>$4.00</td>
                 </tr>
@@ -97,7 +111,7 @@
         </div>
     </div>
 
-    {% formfield player.option3 with label='How much would you pay for Option 3?' %}
+    {% else %}
 
     <div class="row">
         <div class="col-md-7 col-md-offset-2">
@@ -108,12 +122,12 @@
                     <th>Tail</th>
                 </tr>
                 <tr>
-                    <th>↗</th>
+                    <th>{{ htmla }}</th>
                     <td>$4.00</td>
                     <td>$4.00</td>
                 </tr>
                 <tr>
-                    <th>↖</th>
+                    <th>{{ htmlb }}</th>
                     <td>$0.00</td>
                     <td>$0.00</td>
                 </tr>
@@ -121,9 +135,14 @@
         </div>
     </div>
 
-    {% formfield player.option4 with label='How much would you pay for Option 4?' %}
-
+    {% endif %}
+    <p>
+        Your payoff is: <strong>{{ player.payoff }}</strong>.
+    </p>
+    <p>
+        Thank you for your participation!
+    </p>
     {% next_button %}
-
-
 {% endblock %}
+
+
