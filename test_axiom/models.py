@@ -35,7 +35,9 @@ class Player(BasePlayer):
     )
     result_A = models.CharField()
     result_B = models.CharField()
-    x_1 = models.CharField()
+    x_1 = models.CharField(
+        widget=widgets.RadioSelect()
+    )
     payoff_1 = models.CurrencyField()
 
 
@@ -43,7 +45,9 @@ class Player(BasePlayer):
         min=0, max=20
     )
     result_exp2 = models.CharField()
-    x_2 = models.CharField()
+    x_2 = models.CharField(
+        widget=widgets.RadioSelect()
+    )
     payoff_2 = models.CurrencyField()
     exp3_answer = models.CurrencyField(
         min=0, max=20
@@ -51,7 +55,9 @@ class Player(BasePlayer):
 
     result_exp3 = models.CharField()
     random_draw = models.BooleanField()
-    x_3 = models.CharField()
+    x_3 = models.CharField(
+        widget=widgets.RadioSelect()
+    )
 
     dollar_0 = models.IntegerField()
     dollar_1 = models.IntegerField()

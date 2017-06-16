@@ -9,15 +9,19 @@
 
     {% include 'test_axiom/Exp1_ins.html' %}
 
-    <p>
-        The message for you is: <div style="text-align:center"><strong>{{ message }}</strong></div>
-    </p>
+{#    <p>#}
+{#        The message for you is: <div style="text-align:center"><strong>{{ message }}</strong></div>#}
+{#    </p>#}
 {#    <p>#}
 {#    <strong>#}
 {#        To repeat, the number X encrypted in each message is preselected by computer randomly and will remain the same.#}
 {#    </strong>#}
 {#    </p>#}
 
+    {% formfield player.x_1 with label="Now please choose one message from the list" %}
+    <p>
+    <br>
+    </p>
     <p>
         Here is the table for "Option A" and "Option B":
     </p>

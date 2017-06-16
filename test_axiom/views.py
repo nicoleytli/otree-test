@@ -4,43 +4,57 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 import random
 
+
 class Exp1(Page):
     form_model = models.Player
-    form_fields = ['exp1_answer', 'exp1_choice']
+    form_fields = ['x_1', 'exp1_answer', 'exp1_choice']
 
     def vars_for_template(self):
-        messages = ['/KAxSKFMcYkpFjDSDqNcew==', 'Ig+PGrdlMX6WURRmREvLmg==', 'C4OFFgzvPVZut0FdrX18eg==', 'pm0BGu5kyrEdxWcoWyGHNQ==',
-                    'eT4E7rVOzy/7O2EzI4IMbg==', '7q9vL0cinUIL6rD9cIBnQ==', 'Yi0DsAryIO6QoTWpLNJ7sQ==', 'ZclnNbfYgpbzGOHcTVlpow==',
-                    '3gEwVeKgnJxsOZsdh0P6DQ==', 'dGOCHiIx0j8dNdZ83Ri4YQ==', 'w5C/k+hSkc3W3H7IIMNelg==', 'WPm34oB53pC4uRlAbClh8Q==',
-                    'xDvR1AAWF0NvV1eaI4B6EA==', 'AQb8MqPPL/Ly4fbI63o6gQ==', 'cOIE2daAU8BWR8HZWMi1DA==', 'wSLzJLwpvIbaxZXgsmA3Cw==',
-                    'Og+4eZlV9nun9Vxksgv2jg==', 'qed6GSTpWI9bKE3TtdsHUw==', 'HFn1lOcSjw2jKUyL/bG8BQ==', 'CJr6dtfYgrJviADxkUlVpQ==',
-                    'XZUlGjwrYVlw1a3zBlpKFA==']
-        self.player.x_1 = random.choice(messages)
+        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
 
-        return {'link': 'https://codebeautify.org/encrypt-decrypt',
-                'message': self.player.x_1}
+    def x_1_choices(self):
+        messages = ['/KAxSKFMcYkpFjDSDqNcew==', 'Ig+PGrdlMX6WURRmREvLmg==', 'C4OFFgzvPVZut0FdrX18eg==',
+                    'pm0BGu5kyrEdxWcoWyGHNQ==',
+                    'eT4E7rVOzy/7O2EzI4IMbg==', '7q9vL0cinUIL6rD9cIBnQ==', 'Yi0DsAryIO6QoTWpLNJ7sQ==',
+                    'ZclnNbfYgpbzGOHcTVlpow==',
+                    '3gEwVeKgnJxsOZsdh0P6DQ==', 'dGOCHiIx0j8dNdZ83Ri4YQ==', 'w5C/k+hSkc3W3H7IIMNelg==',
+                    'WPm34oB53pC4uRlAbClh8Q==',
+                    'xDvR1AAWF0NvV1eaI4B6EA==', 'AQb8MqPPL/Ly4fbI63o6gQ==', 'cOIE2daAU8BWR8HZWMi1DA==',
+                    'wSLzJLwpvIbaxZXgsmA3Cw==',
+                    'Og+4eZlV9nun9Vxksgv2jg==', 'qed6GSTpWI9bKE3TtdsHUw==', 'HFn1lOcSjw2jKUyL/bG8BQ==',
+                    'CJr6dtfYgrJviADxkUlVpQ==',
+                    'XZUlGjwrYVlw1a3zBlpKFA==']
+        random.shuffle(messages)
+        return messages
 
 
 class Exp2(Page):
     form_model = models.Player
-    form_fields = ['exp2_answer']
+    form_fields = ['x_2', 'exp2_answer']
 
     def vars_for_template(self):
-        messages = ['cteZfhNerD1Lc+OAxVdVvQ==', 'ZOS06LLuQL5chzeaPOr7bw==', 'AmIO9Cf+O6xbJB/F5dEsNA==', 'H1BEazTqdZ5WW3Zw/vshZg==',
-                    '5EaSJj73KsbmuQn5fboVXA==', 'CJ96ryYNtPjVpwHZKyxYw==', 'Nv0dpfwWqMk6J0rIMmAmlg==', 'zrEjMK6/Ibkiv01+Jn91ag==',
-                    'pyRU4AQDnJhJcmxoVozRIQ==', 'vjpDZI9a6HYW/JauZgww7A==', 'yR2Ri7/6ZaQJeh2so+E/jg==', 'g4strqXmHH5gF3TsEp8rGw==',
-                    'XOhjok9BJGQlaSdeKhPCMA==', 'ZYS8y7ULqIXnf6uJ37t4dQ==', '4DC1F7zcfD7j8OnfW9HIrw==', 'XOOO3DtqiFk724mUJYpVKg==',
-                    'Xd2O+FoDyqrdw6F8zdaVEQ==', 'CrOWg1atILOeqjt6aPdNsQ==', '2TzcYwXdRl4FJGPyS0X9Ww==', '1nJFfA2/v0CUI6NxeflnDA==',
-                    'Fwn2a6sS3M6Y51ou0pyUuQ==']
-        self.player.x_2 = random.choice(messages)
 
-        return {'link': 'https://codebeautify.org/encrypt-decrypt',
-                'message': self.player.x_2}
+        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+    def x_2_choices(self):
+        messages = ['cteZfhNerD1Lc+OAxVdVvQ==', 'ZOS06LLuQL5chzeaPOr7bw==', 'AmIO9Cf+O6xbJB/F5dEsNA==',
+                    'H1BEazTqdZ5WW3Zw/vshZg==',
+                    '5EaSJj73KsbmuQn5fboVXA==', 'CJ96ryYNtPjVpwHZKyxYw==', 'Nv0dpfwWqMk6J0rIMmAmlg==',
+                    'zrEjMK6/Ibkiv01+Jn91ag==',
+                    'pyRU4AQDnJhJcmxoVozRIQ==', 'vjpDZI9a6HYW/JauZgww7A==', 'yR2Ri7/6ZaQJeh2so+E/jg==',
+                    'g4strqXmHH5gF3TsEp8rGw==',
+                    'XOhjok9BJGQlaSdeKhPCMA==', 'ZYS8y7ULqIXnf6uJ37t4dQ==', '4DC1F7zcfD7j8OnfW9HIrw==',
+                    'XOOO3DtqiFk724mUJYpVKg==',
+                    'Xd2O+FoDyqrdw6F8zdaVEQ==', 'CrOWg1atILOeqjt6aPdNsQ==', '2TzcYwXdRl4FJGPyS0X9Ww==',
+                    '1nJFfA2/v0CUI6NxeflnDA==',
+                    'Fwn2a6sS3M6Y51ou0pyUuQ==']
+        random.shuffle(messages)
+        return messages
 
 
 class Exp3(Page):
     form_model = models.Player
-    form_fields = ['dollar_0', 'dollar_1', 'dollar_2', 'dollar_3', 'dollar_4', 'dollar_5', 'dollar_6',
+    form_fields = ['x_3', 'dollar_0', 'dollar_1', 'dollar_2', 'dollar_3', 'dollar_4', 'dollar_5', 'dollar_6',
                    'dollar_7', 'dollar_8', 'dollar_9', 'dollar_10', 'dollar_11', 'dollar_12', 'dollar_13', 'dollar_14',
                    'dollar_15', 'dollar_16', 'dollar_17', 'dollar_18', 'dollar_19', 'dollar_20']
 
@@ -53,18 +67,26 @@ class Exp3(Page):
                 'dollar_17', 'dollar_18', 'dollar_19', 'dollar_20']
         mylist = zip(dollar, name)
 
-        messages = ['gOil2ipql8W0n0mDPcxARg==', 'tWJedphA5AwHZ1CvRxRyGw==', 'UBlRnLtyDcF7XziItOXwNA==', 'VNOj9fFzP9poGBm6Z+vpHw==',
-                    'n/5cXvSnx3EalBwsXfwuKA==', 'VSmVj05ZsukbrrqYErsO0Q==', 'SIlqOwmAlC1wuup4cyERJw==', '03AfBZisvxwZhBJdFfwR1A==',
-                    'PYCKemmAg/zaznFW2rMOEg==', 'tYYTRDX48pjbS17DUkN1KA==', 'ptmrijqrLtr1Cpsxo7CCyg==', 'BX1EKcbgyk8vx3ATBZScEg==',
-                    'f8/LlHr38IRVJrxVLUpYSA==', 'pEexpnJAh2zzAhQNHBUmJA==', '7WT3vw7OKX6MPQ6ryDdq+w==', '6+6OU7AOyDYbMZuCgjAKCA==',
-                    'oBKBUMn25Y0WmLWaLKDmyg==', 'vHvlOHVo80xcs75BtETOvQ==', 'vuwIP2w4c9bcJjVktapS8Q==', '132o+8Yi6ILuTFX9sABGGA==',
-                    'Qwrs1mISKtfCsRRnY5NaNg==']
-        self.player.x_3 = random.choice(messages)
-
         return {'link': 'https://codebeautify.org/encrypt-decrypt',
                 'list': mylist,
-                'values': values,
-                'message': self.player.x_3}
+                'values': values}
+
+    def x_3_choices(self):
+        messages = ['gOil2ipql8W0n0mDPcxARg==', 'tWJedphA5AwHZ1CvRxRyGw==', 'UBlRnLtyDcF7XziItOXwNA==',
+                    'VNOj9fFzP9poGBm6Z+vpHw==',
+                    'n/5cXvSnx3EalBwsXfwuKA==', 'VSmVj05ZsukbrrqYErsO0Q==', 'SIlqOwmAlC1wuup4cyERJw==',
+                    '03AfBZisvxwZhBJdFfwR1A==',
+                    'PYCKemmAg/zaznFW2rMOEg==', 'tYYTRDX48pjbS17DUkN1KA==', 'ptmrijqrLtr1Cpsxo7CCyg==',
+                    'BX1EKcbgyk8vx3ATBZScEg==',
+                    'f8/LlHr38IRVJrxVLUpYSA==', 'pEexpnJAh2zzAhQNHBUmJA==', '7WT3vw7OKX6MPQ6ryDdq+w==',
+                    '6+6OU7AOyDYbMZuCgjAKCA==',
+                    'oBKBUMn25Y0WmLWaLKDmyg==', 'vHvlOHVo80xcs75BtETOvQ==', 'vuwIP2w4c9bcJjVktapS8Q==',
+                    '132o+8Yi6ILuTFX9sABGGA==',
+                    'Qwrs1mISKtfCsRRnY5NaNg==']
+
+        random.shuffle(messages)
+
+        return messages
 
     def before_next_page(self):
         self.participant.vars['dollar_0'] = self.player.dollar_0

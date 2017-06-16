@@ -9,15 +9,16 @@
 
     {% include 'test_axiom/Exp2_ins.html' %}
 
-    <p>
-        The message for you is: <div style="text-align:center"><strong>{{ message }}</strong></div>
-    </p>
+{#    <p>#}
+{#        The message for you is: <div style="text-align:center"><strong>{{ message }}</strong></div>#}
+{#    </p>#}
 {#    <p>#}
 {#    <strong>#}
 {#        To repeat, the number X encrypted in each message is preselected by computer randomly and will remain the same.#}
 {#        The encryption algorithms are different between experiments. A different message does not indicate a different number.#}
 {#    </strong>#}
 {#    </p>#}
+    {% formfield player.x_2 with label="Now please choose one message from the list" %}
     <p>
     <br>
     </p>
