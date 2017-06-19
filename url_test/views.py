@@ -1,9 +1,10 @@
+from __future__ import division
 from otree.api import Currency as c, currency_range
 from . import models
 from ._builtin import Page, WaitPage
 from .models import Constants
 from urllib.parse import urlencode
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.shortcuts import redirect
@@ -21,7 +22,6 @@ class FirstPage(Page):
 
 
 class MyPage(Page):
-
     def vars_for_template(self):
         url = self.player.participant._start_url()
         id = url.split('/', 3)
@@ -30,10 +30,10 @@ class MyPage(Page):
         params = {'participant_label': self.player.participant_label}
         base_url = 'http://159.203.82.211/surveys/-KkJ0pght7x5b2XV6gKE/sections/0'
         url = base_url + '?' + urlencode(params)
-
         self.player.url = url
 
         return {'link': url}
+
 
 
 class ResultsWaitPage(WaitPage):
@@ -50,6 +50,6 @@ class Results(Page):
 page_sequence = [
     FirstPage,
     # ResultsWaitPage,
-    Results,
-    MyPage
+    MyPage,
+    Results
 ]

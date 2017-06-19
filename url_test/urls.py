@@ -1,8 +1,6 @@
 from django.conf.urls import url
 from otree.urls import urlpatterns
 from url_test import views as url_views
-import url_test.views
+from url_test.views import MyPage
 
-urlpatterns.append(
-    url(r'^redirect／$', 'url_test.views.get_redir', name="redirection",)
-)
+url(r'(\d+)/$', MyPage.as_view())

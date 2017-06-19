@@ -8,8 +8,46 @@
 {% block content %}
 
 
-    <a href="{{ link }}" target=_blank>Link</a>
+{#    <a href="{{ link }}" target=_blank onclick="click()">Link</a>#}
 
-    {% next_button %}
+    <a href="{{ link }}" target=_blank id="link">Link</a>
+{#    <p>#}
+{##}
+{#    <form id="myform" action="#" method="post">#}
+{##}
+{#        <input class="btn btn-primary btn-large btn-primary next-button" type="submit" value="Suivant" id="next"  />#}
+{##}
+{#    </form>#}
+{##}
+{#    </p>#}
+
+{#    <button class="btn btn-primary" id="next" style="display:none">Next</button>#}
+     <button class="btn btn-primary" style="display:none" id="next" >Next</button>
+
+
+{% endblock %}
+
+{% block scripts %}
+
+    <script type="text/javascript">
+{##}
+{#    function clickme() {#}
+{##}
+{#        document.getElementById("next").click();#}
+{##}
+{#    }#}
+
+    window.onload=function(){
+
+      var next=document.getElementById("next");
+      var link=document.getElementById("link");
+
+      link.onclick=function(){
+          next.style.display="";
+      }
+    }
+
+
+    </script>
 
 {% endblock %}
