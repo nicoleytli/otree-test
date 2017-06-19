@@ -321,12 +321,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    # {
-    #     'name': 'url',
-    #     'display_name': "Testing url",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['url_test'],
-    # },
+    {
+        'name': 'url',
+        'display_name': "Testing url",
+        'num_demo_participants': 2,
+        'app_sequence': ['url_test'],
+    },
     # {
     #     'name': 'compensation',
     #     'display_name': "compensation",
@@ -339,19 +339,6 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 5,
     #     'app_sequence': ['test_axiom'],
     # },
-    {
-        'name': 'quiz',
-        'display_name': "Questions (non-interactive survey)",
-        'num_demo_participants': 2,
-        'app_sequence': ['quiz'],
-    },
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Beget Guile (interactive game)",
-        'num_demo_participants': 4,
-        'app_sequence': ['Empathy_Beget_Guile'],
-    },
-
 ]
 
 # anything you put after the below line will override

@@ -22,6 +22,9 @@ class FirstPage(Page):
 
 
 class MyPage(Page):
+    form_model = models.Player
+    form_fields = ['now_url', 'datastring']
+
     def vars_for_template(self):
         url = self.player.participant._start_url()
         id = url.split('/', 3)
@@ -30,10 +33,8 @@ class MyPage(Page):
         params = {'participant_label': self.player.participant_label}
         base_url = 'http://159.203.82.211/surveys/-KkJ0pght7x5b2XV6gKE/sections/0'
         url = base_url + '?' + urlencode(params)
-        self.player.url = url
 
         return {'link': url}
-
 
 
 class ResultsWaitPage(WaitPage):
@@ -44,6 +45,12 @@ class ResultsWaitPage(WaitPage):
 
 class Results(Page):
     pass
+
+
+
+
+
+
 
 
 

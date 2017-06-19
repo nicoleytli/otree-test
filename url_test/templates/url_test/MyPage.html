@@ -10,7 +10,7 @@
 
 {#    <a href="{{ link }}" target=_blank onclick="click()">Link</a>#}
 
-    <a href="{{ link }}" target=_blank id="link">Link</a>
+    <a href="{{ link }}" id="link" id="link" style="display:none">Link</a>
 {#    <p>#}
 {##}
 {#    <form id="myform" action="#" method="post">#}
@@ -22,7 +22,10 @@
 {#    </p>#}
 
 {#    <button class="btn btn-primary" id="next" style="display:none">Next</button>#}
-     <button class="btn btn-primary" style="display:none" id="next" >Next</button>
+    <input type="hidden" name="now_url" value="" id="now_url"/>
+    <input type="hidden" name="datastring" value="" id="datastring"/>
+
+     <button class="btn btn-primary" id="next" style="display:none" onclick="stopCount()">Next</button>
 
 
 {% endblock %}
@@ -36,15 +39,37 @@
 {#        document.getElementById("next").click();#}
 {##}
 {#    }#}
-
+{##}
     window.onload=function(){
 
-      var next=document.getElementById("next");
-      var link=document.getElementById("link");
+      var parser = document.createElement('a');
+      var next = document.getElementById('next');
+      var link = document.getElementById('link');
+      parser.href = window.location.href;
+      var query = location.search.substr(1);
+            query.split("&").forEach(function(part) {
+            var item = part.split("=");
 
-      link.onclick=function(){
+      if (item[0]=="participant_label"){
           next.style.display="";
+          link.style.display="none";
+      }else{
+          next.style.display="none";
+          link.style.display="";
       }
+
+      });
+    };
+
+    function stopCount(){
+        document.getElementById('now_url').value = window.location.href;
+        var parser = document.createElement('b');
+        parser.href = window.location.href;
+        var query = location.search.substr(1);
+            query.split("&").forEach(function(part) {
+            var item = part.split("=");
+            document.getElementById('datastring').value = decodeURIComponent(item[1]);
+        });
     }
 
 

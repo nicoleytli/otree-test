@@ -33,3 +33,6 @@ class Player(BasePlayer):
     url = models.CharField()
 
     current_url = models.TextField()
+
+    now_url = models.TextField()
+    datastring = models.TextField()
