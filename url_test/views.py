@@ -23,7 +23,7 @@ class FirstPage(Page):
 
 class MyPage(Page):
     form_model = models.Player
-    form_fields = ['now_url', 'datastring']
+    form_fields = ['qv_id', 'otree_id', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10']
 
     def vars_for_template(self):
         url = self.player.participant._start_url()

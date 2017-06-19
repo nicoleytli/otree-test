@@ -22,8 +22,20 @@
 {#    </p>#}
 
 {#    <button class="btn btn-primary" id="next" style="display:none">Next</button>#}
-    <input type="hidden" name="now_url" value="" id="now_url"/>
-    <input type="hidden" name="datastring" value="" id="datastring"/>
+    <input type="hidden" name="qv_id" value="" id="qv_id"/>
+    <input type="hidden" name="otree_id" value="" id="otree_id"/>
+    <input type="hidden" name="q1" value="" id="q1"/>
+    <input type="hidden" name="q2" value="" id="q2"/>
+    <input type="hidden" name="q3" value="" id="q3"/>
+    <input type="hidden" name="q4" value="" id="q4"/>
+    <input type="hidden" name="q5" value="" id="q5"/>
+    <input type="hidden" name="q6" value="" id="q6"/>
+    <input type="hidden" name="q7" value="" id="q7"/>
+    <input type="hidden" name="q8" value="" id="q8"/>
+    <input type="hidden" name="q9" value="" id="q9"/>
+    <input type="hidden" name="q10" value="" id="q10"/>
+{#    <input type="hidden" name="datastring" value="" id="datastring"/>#}
+
 
      <button class="btn btn-primary" id="next" style="display:none" onclick="stopCount()">Next</button>
 
@@ -62,14 +74,41 @@
     };
 
     function stopCount(){
-        document.getElementById('now_url').value = window.location.href;
+
         var parser = document.createElement('b');
         parser.href = window.location.href;
         var query = location.search.substr(1);
+        var littlearray = [];
             query.split("&").forEach(function(part) {
             var item = part.split("=");
-            document.getElementById('datastring').value = decodeURIComponent(item[1]);
+            littlearray = decodeURIComponent(item[1]).split(',');
+            document.getElementById('qv_id').value = littlearray[0];
+            document.getElementById('otree_id').value = littlearray[1];
+            document.getElementById('q1').value = littlearray[2];
+            document.getElementById('q2').value = littlearray[3];
+            document.getElementById('q3').value = littlearray[4];
+            document.getElementById('q4').value = littlearray[5];
+            document.getElementById('q5').value = littlearray[6];
+            document.getElementById('q6').value = littlearray[7];
+            document.getElementById('q7').value = littlearray[8];
+            document.getElementById('q8').value = littlearray[9];
+            document.getElementById('q9').value = littlearray[10];
+            document.getElementById('q10').value = littlearray[11];
         });
+
+{#        var url = window.location.href;#}
+{#        var request = {};#}
+{#        var pairs = url.substring(url.indexOf('?') + 1).split('&');#}
+{#        for (var i = 0; i < pairs.length; i++) {#}
+{#            if(!pairs[i])#}
+{#                continue;#}
+{#            var pair = pairs[i].split('=');#}
+{#            request[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);#}
+{#         }#}
+{##}
+{#        document.getElementById('player_id').value = request[0];#}
+{#        document.getElementById('likert_1').value = request[1]#}
+
     }
 
 

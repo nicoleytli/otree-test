@@ -34,5 +34,18 @@ class Player(BasePlayer):
 
     current_url = models.TextField()
 
-    now_url = models.TextField()
-    datastring = models.TextField()
+    datastring = models.CharField()
+
+    otree_id = models.CharField()
+    qv_id = models.CharField()
+    q1 = models.IntegerField()
+    q2 = models.IntegerField()
+    q3 = models.IntegerField()
+    q4 = models.IntegerField()
+    q5 = models.IntegerField()
+    q6 = models.IntegerField()
+    q7 = models.IntegerField()
+    q8 = models.IntegerField()
+    q9 = models.IntegerField()
+    q10 = models.IntegerField()
+
