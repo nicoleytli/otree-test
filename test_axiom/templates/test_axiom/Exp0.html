@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Introduction
+{% endblock %}
+
+{% block content %}
+
+    {% include 'test_axiom/Exp0_ins.html' %}
+    <p>
+        Now, to familiar you with the decryption process, please choose one of the following messages. <br>
+        On the next page, we will give you the key, the algorithm and the mode to decrypt it.
+    </p>
+
+    {% formfield player.x_0 with label=prompt %}
+
+    {% next_button %}
+
+{% endblock %}

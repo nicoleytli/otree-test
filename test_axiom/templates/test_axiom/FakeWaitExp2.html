@@ -2,28 +2,26 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Experiment 2 - Your Result
+    Please Wait!
 {% endblock %}
 
 {% block content %}
 
-    <div style="text-align:center">
-        <img src="{% static "test_axiom/exp2.png" %}" align="middle" height="220" width="820"/>
-    </div>
-
+    <p>
+        <strong>Now we are going to decrypt this message on the third-party website.</strong>
+    </p>
+    <p>
+        <strong>You will be forwarded automatically onto the next page once we've done.</strong>
+    </p>
     <p>
     <br>
     </p>
     <p>
-        The ball drawn from the drum is: <strong>{{ result }} ball</strong>.<br>
+    <br>
     </p>
     <p>
-        The message you chose is: <div style="text-align:center"><strong>{{ message }}</strong></div>
+        You can still go to the website: <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a> to check your result with:
     </p>
-    <p>
-        Now you can decrypt the message on this website: <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a><br>
-    </p>
-
         <table class="table table-hover">
 
             <tr>
@@ -41,9 +39,17 @@
 
         </table>
     <p>
-        Note: The information above is only valid for Experiment 2.
+        Your message: <div style="text-align:center"><strong>{{ message }}</strong></div>
     </p>
 
+{% endblock %}
 
-    {% next_button %}
+{% block styles %}
+  <style type="text/css">
+
+      div#otree-timeout {
+
+          display: none!important;
+    }
+  </style>
 {% endblock %}

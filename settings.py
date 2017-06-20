@@ -189,12 +189,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['likert'],
     # },
-    # {
-    #     'name': 'participant_generated_urn_2',
-    #     'display_name': "Is Ambiguity Aversion A Preference",
-    #     'num_demo_participants': 48,
-    #     'app_sequence': ['participant_generated_urn_2'],
-    # },
+    {
+        'name': 'participant_generated_urn_2',
+        'display_name': "Is Ambiguity Aversion A Preference",
+        'num_demo_participants': 48,
+        'app_sequence': ['participant_generated_urn_2'],
+    },
     # {
     #     'name': 'participant_generated_urn',
     #     'display_name': "Participant Generate Urn",
@@ -321,24 +321,24 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    {
-        'name': 'url',
-        'display_name': "Testing url",
-        'num_demo_participants': 2,
-        'app_sequence': ['url_test'],
-    },
+    # {
+    #     'name': 'url',
+    #     'display_name': "Testing url",
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['url_test'],
+    # },
     # {
     #     'name': 'compensation',
     #     'display_name': "compensation",
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
-    # {
-    #     'name': 'test_axiom',
-    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['test_axiom'],
-    # },
+    {
+        'name': 'test_axiom',
+        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+        'num_demo_participants': 5,
+        'app_sequence': ['test_axiom'],
+    },
 ]
 
 # anything you put after the below line will override

@@ -1,0 +1,51 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Result
+{% endblock %}
+
+{% block content %}
+
+    {% if player.check == 1 %}
+
+        <p>
+            The text you entered before matches the encrypted information. <br>
+            Please click the next button and go on.
+        </p>
+
+    {% else %}
+
+        {% formfield player.message0_other with label="The text you entered before appears to contain some errors. Please enter it here again" %}
+
+        <p>
+            Please note that if what you enter does not match the encrypted information, your payments for the next three experiments will be reduced. <br>
+            So check carefully the message you chose, and make sure you decrypt it in the right way.
+        </p>
+        <p>
+            The message you chose: <div style="text-align:center"><strong>{{ message }}</strong></div>
+        </p>
+        <p>
+            You can go to the website: <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a> to decrypt the message with:
+        </p>
+        <table class="table table-hover">
+
+                <tr>
+                <td width="10%" align="right"><strong>Algorithm:</strong></td>
+                <td width="10%" align="left">Rc2</td>
+                </tr>
+                <tr>
+                <td width="10%" align="right"><strong>Mode:</strong></td>
+                <td width="10%" align="left">CTR</td>
+                </tr>
+                <tr>
+                <td width="10%" align="right"><strong>Key:</strong></td>
+                <td width="10%" align="left">wobukaixin</td>
+                </tr>
+
+        </table>
+    {% endif %}
+
+    {% next_button %}
+
+{% endblock %}

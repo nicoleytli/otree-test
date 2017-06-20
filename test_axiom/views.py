@@ -4,6 +4,24 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 import random
 
+class Exp0(Page):
+    form_model = models.Player
+    form_fields = ['x_0']
+
+    def vars_for_template(self):
+        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+    def x_0_choices(self):
+        messages = ['YLolhbOXVVyGXctxYgrz11c4ah8imgf3', 'D0Gr/OMHS1Q07ugosu0iB6xqYhrxhjJ97A==', 'OTe7BOm05SOeCDRYDCpKOrEwDOku7lHgFBU=',
+                    '3eqNt1YCa67V3W+cUzFv2EFe+w0i1fkjtw==', 'Oxhphqmubr0VFIsW06WqizY4HY7Gdv+cgrFo+A==', 'k+lnHBubzK1A2vpvvgGBKNEVkaqpqaIB',
+                    'cf1oj/sAF3Mh8nng14/h+NmdUeoVWYDU', 'x7eHAw4duYcfSdCwrix6p4Vt0DXPBnwskDhJFQ==', 'kz2SNpQljo211c8HMfMNjW4Hy6k2fmWvrw==',
+                    '2MhFnEn7Ib1KME8Owxi9viGvfAZAvpigPhKs', '6Kx9T80c/Agt4I1HWGB+hLGCRfE/h49dGma5KA==', 'H2Qmqoxlr9VVs4cpcUaH7I4k6MEaQvUTQg==',
+                    'uLS34drtnD7rHhm/nASnuzFITLZ05RdjiHjKurCQ', 'PtULrfnwsAxRFFyCqA2DZw80oOCwJqFLxoIu6A==', '10grAnrFCNUtUoLucDWl5YN2jpuhL1Pwfw==',
+                    'M2APQmSWTSD+nWd0ACDfwAwLa18BHCR//g==', 'QTklvZv47j8SUOLyHzMxnczcQBl6GaoYz93n', '98Tg6PKOQB4GoLyhecauQQlCD9MhOgM=',
+                    '3lPpYsQKwnODRaBPqprXEmOmFOUjU7VEowzz', 'OClz9jsVXwswUZ9ceUC0M0w45FdzLR8=']
+        random.shuffle(messages)
+        return messages
+
 
 class Exp1(Page):
     form_model = models.Player
@@ -112,12 +130,141 @@ class Exp3(Page):
         self.participant.vars['dollar_20'] = self.player.dollar_20
 
 
+class Exp0_result(Page):
+    form_model = models.Player
+    form_fields = ['message0']
+
+    def vars_for_template(self):
+        return {'message': self.player.x_0,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
 
 class Exp1_result(Page):
     def vars_for_template(self):
         self.player.result_A = random.choice(['Red', 'Red', 'Red', 'Red', 'White', 'White', 'White', 'Black', 'Black', 'Black'])
         self.player.result_B = random.choice(['Red', 'Red', 'White', 'White', 'White', 'Black', 'Black', 'Black', 'Black', 'Black'])
 
+        return {'result_A': self.player.result_A,
+                'result_B': self.player.result_B,
+                'message': self.player.x_1,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class Exp2_result(Page):
+    def vars_for_template(self):
+        self.player.result_exp2 = random.choice(['Black', 'White'])
+
+        return {
+                'result': self.player.result_exp2,
+                'message': self.player.x_2,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class Exp3_result(Page):
+    def vars_for_template(self):
+        black_ball = random.randint(0, 40)
+        white_ball = 40 - black_ball
+        draw = random.randint(0, 60)
+
+        if draw <= 20:
+            self.player.result_exp3 = 'Red'
+        elif 20 < draw <= (black_ball + 20):
+            self.player.result_exp3 = 'Black'
+        else:
+            self.player.result_exp3 = 'White'
+
+        return {'black_ball': black_ball,
+                'white_ball': white_ball,
+                'result': self.player.result_exp3,
+                'link': 'https://codebeautify.org/encrypt-decrypt',
+                'message': self.player.x_3}
+
+
+class FakeWaitExp0(Page):
+    timeout_seconds = 10
+
+    def before_next_page(self):
+        messages = ['YLolhbOXVVyGXctxYgrz11c4ah8imgf3', 'D0Gr/OMHS1Q07ugosu0iB6xqYhrxhjJ97A==', 'OTe7BOm05SOeCDRYDCpKOrEwDOku7lHgFBU=',
+                    '3eqNt1YCa67V3W+cUzFv2EFe+w0i1fkjtw==', 'Oxhphqmubr0VFIsW06WqizY4HY7Gdv+cgrFo+A==', 'k+lnHBubzK1A2vpvvgGBKNEVkaqpqaIB',
+                    'cf1oj/sAF3Mh8nng14/h+NmdUeoVWYDU', 'x7eHAw4duYcfSdCwrix6p4Vt0DXPBnwskDhJFQ==', 'kz2SNpQljo211c8HMfMNjW4Hy6k2fmWvrw==',
+                    '2MhFnEn7Ib1KME8Owxi9viGvfAZAvpigPhKs', '6Kx9T80c/Agt4I1HWGB+hLGCRfE/h49dGma5KA==', 'H2Qmqoxlr9VVs4cpcUaH7I4k6MEaQvUTQg==',
+                    'uLS34drtnD7rHhm/nASnuzFITLZ05RdjiHjKurCQ', 'PtULrfnwsAxRFFyCqA2DZw80oOCwJqFLxoIu6A==', '10grAnrFCNUtUoLucDWl5YN2jpuhL1Pwfw==',
+                    'M2APQmSWTSD+nWd0ACDfwAwLa18BHCR//g==', 'QTklvZv47j8SUOLyHzMxnczcQBl6GaoYz93n', '98Tg6PKOQB4GoLyhecauQQlCD9MhOgM=',
+                    '3lPpYsQKwnODRaBPqprXEmOmFOUjU7VEowzz', 'OClz9jsVXwswUZ9ceUC0M0w45FdzLR8=']
+        num = messages.index(self.player.x_0)
+        text = ['Hello from Paris', 'Hello from London', 'Hello from Beijing', 'Hello from Berlin', 'Hello from New Heaven',
+                'Hello from Tokyo', 'Hello from Seoul', 'Hello from Barcelona', 'Hello from Moscow', 'Hello from Shanghai',
+                'Hello from Hong Kong', 'Hello from Boston', 'Hello from Los Angeles', 'Hello from Melbourne', 'Hello from Zurich',
+                'Hello from Taipei', 'Hello from New York', 'Hello from Mars', 'Hello from Toulouse', 'Hello from Nice']
+        real_text = text[num]
+        a = real_text
+        b = self.player.message0
+
+        n, m = len(a), len(b)
+        if n > m:
+            # Make sure n <= m, to use O(min(n,m)) space
+            a, b = b, a
+            n, m = m, n
+
+        current = range(n + 1)
+        for i in range(1, m + 1):
+            previous, current = current, [i] + [0] * n
+            for j in range(1, n + 1):
+                add, delete = previous[j] + 1, current[j - 1] + 1
+                change = previous[j - 1]
+                if a[j - 1] != b[i - 1]:
+                    change = change + 1
+                current[j] = min(add, delete, change)
+
+        distance = current[n]
+        ok = distance <= 0
+
+        if ok:
+            self.player.check = 1
+        else:
+            self.player.check = 0
+
+    def vars_for_template(self):
+        return {'message': self.player.x_0,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class FakeWaitExp1(Page):
+    timeout_seconds = 15
+
+    def vars_for_template(self):
+        return {'message': self.player.x_1,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class FakeWaitExp2(Page):
+    timeout_seconds = 9
+
+    def vars_for_template(self):
+        return {'message': self.player.x_2,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class FakeWaitExp3(Page):
+    timeout_seconds = 17
+
+    def vars_for_template(self):
+        return {'message': self.player.x_3,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class FakeResultExp0(Page):
+    form_model = models.Player
+    form_fields = ['message0_other']
+
+    def vars_for_template(self):
+        return {'message': self.player.x_0,
+                'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
+class FakeResultExp1(Page):
+
+    def vars_for_template(self):
         messages = ['/KAxSKFMcYkpFjDSDqNcew==', 'Ig+PGrdlMX6WURRmREvLmg==', 'C4OFFgzvPVZut0FdrX18eg==',
                     'pm0BGu5kyrEdxWcoWyGHNQ==',
                     'eT4E7rVOzy/7O2EzI4IMbg==', '7q9vL0cinUIL6rD9cIBnQ==', 'Yi0DsAryIO6QoTWpLNJ7sQ==',
@@ -186,20 +333,20 @@ class Exp1_result(Page):
                 else:
                     self.player.payoff_1 = 7
 
-        return {'result_A': self.player.result_A,
-                'result_B': self.player.result_B,
+        if option == 'Option A':
+            result = self.player.result_A
+        else:
+            result = self.player.result_B
+
+        return {'option': option,
+                'result': result,
                 'payoff': self.player.payoff_1,
-                'message': self.player.x_1,
-                'link': 'https://codebeautify.org/encrypt-decrypt',
                 'larger_smaller': larger_smaller,
-                'threshold': self.player.exp1_answer,
-                'option': option}
+                'threshold': self.player.exp1_answer}
 
 
-class Exp2_result(Page):
+class FakeResultExp2(Page):
     def vars_for_template(self):
-        self.player.result_exp2 = random.choice(['Black', 'White'])
-
         messages = ['cteZfhNerD1Lc+OAxVdVvQ==', 'ZOS06LLuQL5chzeaPOr7bw==', 'AmIO9Cf+O6xbJB/F5dEsNA==', 'H1BEazTqdZ5WW3Zw/vshZg==',
                     '5EaSJj73KsbmuQn5fboVXA==', 'CJ96ryYNtPjVpwHZKyxYw==', 'Nv0dpfwWqMk6J0rIMmAmlg==', 'zrEjMK6/Ibkiv01+Jn91ag==',
                     'pyRU4AQDnJhJcmxoVozRIQ==', 'vjpDZI9a6HYW/JauZgww7A==', 'yR2Ri7/6ZaQJeh2so+E/jg==', 'g4strqXmHH5gF3TsEp8rGw==',
@@ -227,28 +374,17 @@ class Exp2_result(Page):
             larger_smaller = 'larger than'
             self.player.payoff_2 = num
 
+        result = self.player.result_exp2
+
         return {'option': option,
-                'result': self.player.result_exp2,
-                'payoff': self.player.payoff_2,
-                'message': self.player.x_2,
+                'result': result,
                 'larger_smaller': larger_smaller,
-                'link': 'https://codebeautify.org/encrypt-decrypt',
+                'payoff': self.player.payoff_2,
                 'threshold': self.player.exp2_answer}
 
 
-class Exp3_result(Page):
+class FakeResultExp3(Page):
     def vars_for_template(self):
-        black_ball = random.randint(0, 40)
-        white_ball = 40 - black_ball
-        draw = random.randint(0, 60)
-
-        if draw <= 20:
-            self.player.result_exp3 = 'Red'
-        elif 20 < draw <= (black_ball + 20):
-            self.player.result_exp3 = 'Black'
-        else:
-            self.player.result_exp3 = 'White'
-
         messages = ['gOil2ipql8W0n0mDPcxARg==', 'tWJedphA5AwHZ1CvRxRyGw==', 'UBlRnLtyDcF7XziItOXwNA==',
                     'VNOj9fFzP9poGBm6Z+vpHw==',
                     'n/5cXvSnx3EalBwsXfwuKA==', 'VSmVj05ZsukbrrqYErsO0Q==', 'SIlqOwmAlC1wuup4cyERJw==',
@@ -289,13 +425,11 @@ class Exp3_result(Page):
             else:
                 self.player.payoff_3 = 20
 
-        return {'black_ball': black_ball,
-                'white_ball': white_ball,
-                'option': option,
-                'result': self.player.result_exp3,
-                'payoff': self.player.payoff_3,
-                'link': 'https://codebeautify.org/encrypt-decrypt',
-                'message': self.player.x_3}
+        result = self.player.result_exp3
+
+        return {'option': option,
+                'result': result,
+                'payoff': self.player.payoff_3}
 
 
 class Page1(Page):
@@ -310,7 +444,7 @@ class Page2(Page):
 
 class Page3(Page):
     form_model = models.Player
-    form_fields = ['citizenship', 'language', 'age', 'gender', 'program', 'year', 'field', 'time', 'exp1',
+    form_fields = ['citizenship', 'language', 'age', 'gender', 'educ', 'religion', 'income', 'time', 'exp1',
                    'other1', 'exp2', 'other2', 'exp3', 'other3']
 
 
@@ -320,12 +454,22 @@ class Result(Page):
         return {'total': total}
 
 page_sequence = [
+    Exp0,
+    Exp0_result,
+    FakeWaitExp0,
+    FakeResultExp0,
     Exp1,
     Exp1_result,
+    FakeWaitExp1,
+    FakeResultExp1,
     Exp2,
     Exp2_result,
+    FakeWaitExp2,
+    FakeResultExp2,
     Exp3,
     Exp3_result,
+    FakeWaitExp3,
+    FakeResultExp3,
     Page1,
     Page2,
     Page3,

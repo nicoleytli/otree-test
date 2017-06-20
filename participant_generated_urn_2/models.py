@@ -71,7 +71,7 @@ class Group(BaseGroup):
                 if player.option == 4:
                     if player.symbol_par <= player.a:
                         player.result = 'A'
-                        player.payoff = 4
+                        player.payoff = 1
                     else:
                         player.result = 'B'
                         player.payoff = 0
@@ -81,7 +81,7 @@ class Group(BaseGroup):
                         player.payoff = 0
                     else:
                         player.result = 'B'
-                        player.payoff = 4
+                        player.payoff = 1
                 elif player.option == 1:
                     if self.coin == 'Head':
                         player.payoff = 0
@@ -90,14 +90,14 @@ class Group(BaseGroup):
                         else:
                             player.result = 'B'
                     else:
-                        player.payoff = 4
+                        player.payoff = 1
                         if player.symbol_par <= player.a:
                             player.result = 'A'
                         else:
                             player.result = 'B'
                 else:
                     if self.coin == 'Head':
-                        player.payoff = 4
+                        player.payoff = 1
                         if player.symbol_par <= player.a:
                             player.result = 'A'
                         else:
@@ -112,7 +112,7 @@ class Group(BaseGroup):
                 if player.option == 4:
                     if self.symbol_exp <= self.a:
                         player.result = 'A'
-                        player.payoff = 4
+                        player.payoff = 1
                     else:
                         player.result = 'B'
                         player.payoff = 0
@@ -122,7 +122,7 @@ class Group(BaseGroup):
                         player.payoff = 0
                     else:
                         player.result = 'B'
-                        player.payoff = 4
+                        player.payoff = 1
                 elif player.option == 1:
                     if self.coin == 'Head':
                         player.payoff = 0
@@ -131,14 +131,14 @@ class Group(BaseGroup):
                         else:
                             player.result = 'B'
                     else:
-                        player.payoff = 4
+                        player.payoff = 1
                         if self.symbol_exp <= self.a:
                             player.result = 'A'
                         else:
                             player.result = 'B'
                 else:
                     if self.coin == 'Head':
-                        player.payoff = 4
+                        player.payoff = 1
                         if self.symbol_exp <= self.a:
                             player.result = 'A'
                         else:
@@ -157,19 +157,19 @@ class Player(BasePlayer):
     )
 
     option1 = models.CurrencyField(
-        choices=currency_range(0, 4, c(0.01))
+        choices=currency_range(0, 1, c(0.01))
     )
 
     option2 = models.CurrencyField(
-        choices=currency_range(0, 4, c(0.01))
+        choices=currency_range(0, 1, c(0.01))
     )
 
     option3 = models.CurrencyField(
-        choices=currency_range(0, 4, c(0.01))
+        choices=currency_range(0, 1, c(0.01))
     )
 
     option4 = models.CurrencyField(
-        choices=currency_range(0, 4, c(0.01))
+        choices=currency_range(0, 1, c(0.01))
     )
 
     treatment = models.CharField()
@@ -186,4 +186,44 @@ class Player(BasePlayer):
     a = models.IntegerField()
     b = models.IntegerField()
     symbol_par = models.IntegerField()
+
+    citizenship = models.CharField()
+    language = models.CharField()
+    age = models.IntegerField(
+        max=100, min=10
+    )
+    gender = models.CharField(
+        choices=['Female', 'Male', 'Other'],
+        widget=widgets.RadioSelectHorizontal()
+    )
+    educ = models.IntegerField(
+        choices=[[1, 'Less than 1st grade'],
+                 [2, '1st, 2nd, 3rd or 4th grade'],
+                 [3, '5th or 6th grade'],
+                 [4, '7th or 8th grade'],
+                 [5, '9th grade'],
+                 [6, '10th grade'],
+                 [7, '1th grade'],
+                 [8, '12th grade no diploma'],
+                 [9, 'High school graduate - high school diploma or equivalent (for example: GED)'],
+                 [10, 'Some college but no degree'],
+                 [11, 'Associate degree in college - Occupational/vocational program'],
+                 [12, 'Associate degree in college -- Academic program'],
+                 [13, 'Bachelor\'s degree (For example: BA, AB, BS)'],
+                 [14, 'Master\'s degree (For example: MA, MS, MEng, MEd, MSW, MBA)'],
+                 [15, 'Professional School Degree (For example: MD,DDS,DVM,LLB,JD)'],
+                 [16, 'Doctorate degree (For example: PhD, EdD)'],
+                 [95, 'Others']]
+    )
+    time = models.CharField(
+        choices=['Never', 'Once', '2 times', '3 times', 'More than 3 times'],
+        widget=widgets.RadioSelectHorizontal()
+    )
+    religion = models.CharField()
+    income = models.CharField(
+        choices=['Less than $20000', 'Between $20000 to $40000', 'Between $40001 to $60000', 'Between $60001 to $80000',
+                 'More than $80000'],
+        doc="""Please choose one of the choices""",
+    )
+
 

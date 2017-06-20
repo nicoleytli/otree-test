@@ -764,6 +764,13 @@ class Belief(Page):
     def is_displayed(self):
         return self.player.treatment == 'Participant'
 
+
+class Demographic(Page):
+    form_model = models.Player
+    form_fields = ['citizenship', 'language', 'age', 'gender', 'educ', 'time', 'religion', 'income']
+
+
+
 page_sequence = [
     FirstWait,
     Introduction,
@@ -771,6 +778,7 @@ page_sequence = [
     Decide2,
     Decide_exp,
     Belief,
+    Demographic,
     ResultsWaitPage,
     Results,
     Results_2

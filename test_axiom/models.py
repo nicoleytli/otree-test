@@ -11,6 +11,7 @@ Your app description
 """
 
 
+
 class Constants(BaseConstants):
     name_in_url = 'test_axiom'
     players_per_group = None
@@ -26,6 +27,17 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
+
+    x_0 = models.CharField(
+        widget=widgets.RadioSelect()
+    )
+
+    message0 = models.TextField()
+    message0_other = models.TextField(
+        blank=True
+    )
+    check = models.BooleanField()
+
     exp1_answer = models.CurrencyField(
         min=0, max=20
     )
@@ -100,24 +112,40 @@ class Player(BasePlayer):
     citizenship = models.CharField()
     language = models.CharField()
     age = models.IntegerField(
-        min=0, max=100
+        min=10, max=100
     )
     gender = models.CharField(
         choices=['Female', 'Male', 'Other'],
         widget=widgets.RadioSelectHorizontal()
     )
-    program = models.CharField(
-        choices=['Bachelor\'s program', 'Master\'s program', 'Not a student'],
-        widget=widgets.RadioSelectHorizontal()
+    educ = models.IntegerField(
+        choices=[[1, 'Less than 1st grade'],
+                 [2, '1st, 2nd, 3rd or 4th grade'],
+                 [3, '5th or 6th grade'],
+                 [4, '7th or 8th grade'],
+                 [5, '9th grade'],
+                 [6, '10th grade'],
+                 [7, '1th grade'],
+                 [8, '12th grade no diploma'],
+                 [9, 'High school graduate - high school diploma or equivalent (for example: GED)'],
+                 [10, 'Some college but no degree'],
+                 [11, 'Associate degree in college - Occupational/vocational program'],
+                 [12, 'Associate degree in college -- Academic program'],
+                 [13, 'Bachelor\'s degree (For example: BA, AB, BS)'],
+                 [14, 'Master\'s degree (For example: MA, MS, MEng, MEd, MSW, MBA)'],
+                 [15, 'Professional School Degree (For example: MD,DDS,DVM,LLB,JD)'],
+                 [16, 'Doctorate degree (For example: PhD, EdD)'],
+                 [95, 'Others']]
     )
-    year = models.CharField(
-        choices=['2017', '2018', 'Later', 'I am not a student'],
-        widget=widgets.RadioSelectHorizontal()
-    )
-    field = models.CharField()
     time = models.CharField(
         choices=['Never', 'Once', '2 times', '3 times', 'More than 3 times'],
         widget=widgets.RadioSelectHorizontal()
+    )
+    religion = models.CharField()
+    income = models.CharField(
+        choices=['Less than $20000', 'Between $20000 to $40000', 'Between $40001 to $60000', 'Between $60001 to $80000',
+                 'More than $80000'],
+        doc="""Please choose one of the choices""",
     )
     exp1 = models.CharField(
         choices=['I didn\'t understand the instructions',
