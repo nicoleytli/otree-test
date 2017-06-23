@@ -4,6 +4,11 @@ from ._builtin import Page, WaitPage
 from .models import Constants
 import random
 
+class Introduction(Page):
+    def vars_for_template(self):
+        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+
+
 class Exp0(Page):
     form_model = models.Player
     form_fields = ['x_0']
@@ -454,6 +459,7 @@ class Result(Page):
         return {'total': total}
 
 page_sequence = [
+    Introduction,
     Exp0,
     Exp0_result,
     FakeWaitExp0,
