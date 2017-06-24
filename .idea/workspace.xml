@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp1.png" afterPath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp2.png" afterPath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp3.png" afterPath="$PROJECT_DIR$/test_axiom/static/test_axiom/exp3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/static/test_axiom/intro.png" afterPath="$PROJECT_DIR$/test_axiom/static/test_axiom/intro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/models.py" afterPath="$PROJECT_DIR$/test_axiom/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_ins.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_ins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_result.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1_ins.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1_ins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1_result.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1_result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2_ins.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2_ins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2_result.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2_result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_ins.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_ins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_result.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_result.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp0.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp1.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp2.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp3.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Page3.html" afterPath="$PROJECT_DIR$/test_axiom/templates/test_axiom/Page3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_axiom/views.py" afterPath="$PROJECT_DIR$/test_axiom/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +41,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_axiom/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+            <state relative-caret-position="-819">
+              <caret line="404" column="27" lean-forward="true" selection-start-line="404" selection-start-column="27" selection-end-line="404" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -75,8 +51,18 @@
       <file leaf-file-name="Introduction.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="155">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeResultExp0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -107,16 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-90">
               <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FakeResultExp2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,9 +224,7 @@
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp1_result.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_result.html" />
-        <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Page3.html" />
-        <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_ins.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp2.html" />
@@ -262,6 +236,8 @@
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp2_ins.html" />
         <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp3_ins.html" />
         <option value="$PROJECT_DIR$/test_axiom/models.py" />
+        <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html" />
+        <option value="$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html" />
         <option value="$PROJECT_DIR$/test_axiom/views.py" />
       </list>
     </option>
@@ -1102,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="154" lean-forward="false" selection-start-line="28" selection-start-column="154" selection-end-line="28" selection-end-column="154" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1158,14 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeWaitExp3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1190,10 +1150,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/FakeResultExp0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_axiom/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+        <state relative-caret-position="-819">
+          <caret line="404" column="27" lean-forward="true" selection-start-line="404" selection-start-column="27" selection-end-line="404" selection-end-column="27" />
           <folding />
         </state>
       </provider>
