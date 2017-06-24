@@ -1,12 +1,30 @@
 {% load otree_tags staticfiles %}
 
 <div class="instructions well well-lg">
+    <h3 class="panel-sub-heading">
+        Instructions
+    </h3>
     <p>
-        This activity is part of a study in decision-making. You will be asked to do three experiments. <br>
-        In each experiment, you need to choose one of the encrypted messages which contain your payment information, and answer one related
-        question. The messages in different experiments are encrypted with different keys, algorithms and modes. After each
-        experiment, we will give you the details to decrypt your message on a third-party website:
-        <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a>. Meanwhile, we will decrypt
-        your message as well to prepare for your payment.
+        <br>
     </p>
+
+    <p>
+        To "open" the envelope you chose, please follow the three steps:
+    </p>
+    <p>
+        <strong>Step 1:</strong> Go to <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-decrypt</a>
+    </p>
+    <p>
+        <strong>Step 2:</strong> Enter the envelope (say "<I><U>U2FsdGVkX1+8FpVab/1AAEADz4ap/LEb54cczFNKB+w=</U></I>"), the password (say "<I><U>wobukaixin</U></I>") and click "AES Decrypt!".
+    </p>
+    <div style="text-align:center">
+        <img src="{% static "test_axiom/decrypt.png" %}" align="middle" height="400" width="500"/>
+    </div>
+    <p>
+        <strong>Step 3:</strong> Get your result: the encrypted information in this case is "<I><U>Hello World</U></I>"
+    </p>
+    <div style="text-align:center">
+        <img src="{% static "test_axiom/result.png" %}" align="middle" height="400" width="500"/>
+    </div>
+
 </div>

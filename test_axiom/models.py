@@ -39,7 +39,7 @@ class Player(BasePlayer):
     check = models.BooleanField()
 
     exp1_answer = models.CurrencyField(
-        min=0, max=20
+        min=0, max=2
     )
     exp1_choice = models.CharField(
         widget=widgets.RadioSelect(),
@@ -54,7 +54,7 @@ class Player(BasePlayer):
 
 
     exp2_answer = models.CurrencyField(
-        min=0, max=20
+        min=0, max=2
     )
     result_exp2 = models.CharField()
     x_2 = models.CharField(
@@ -62,7 +62,7 @@ class Player(BasePlayer):
     )
     payoff_2 = models.CurrencyField()
     exp3_answer = models.CurrencyField(
-        min=0, max=20
+        min=0, max=2
     )
 
     result_exp3 = models.CharField()
@@ -71,27 +71,27 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
 
-    dollar_0 = models.IntegerField()
-    dollar_1 = models.IntegerField()
-    dollar_2 = models.IntegerField()
-    dollar_3 = models.IntegerField()
-    dollar_4 = models.IntegerField()
-    dollar_5 = models.IntegerField()
-    dollar_6 = models.IntegerField()
-    dollar_7 = models.IntegerField()
-    dollar_8 = models.IntegerField()
-    dollar_9 = models.IntegerField()
-    dollar_10 = models.IntegerField()
-    dollar_11 = models.IntegerField()
-    dollar_12 = models.IntegerField()
-    dollar_13 = models.IntegerField()
-    dollar_14 = models.IntegerField()
-    dollar_15 = models.IntegerField()
-    dollar_16 = models.IntegerField()
-    dollar_17 = models.IntegerField()
-    dollar_18 = models.IntegerField()
-    dollar_19 = models.IntegerField()
-    dollar_20 = models.IntegerField()
+    dollar_0 = models.FloatField()
+    dollar_1 = models.FloatField()
+    dollar_2 = models.FloatField()
+    dollar_3 = models.FloatField()
+    dollar_4 = models.FloatField()
+    dollar_5 = models.FloatField()
+    dollar_6 = models.FloatField()
+    dollar_7 = models.FloatField()
+    dollar_8 = models.FloatField()
+    dollar_9 = models.FloatField()
+    dollar_10 = models.FloatField()
+    dollar_11 = models.FloatField()
+    dollar_12 = models.FloatField()
+    dollar_13 = models.FloatField()
+    dollar_14 = models.FloatField()
+    dollar_15 = models.FloatField()
+    dollar_16 = models.FloatField()
+    dollar_17 = models.FloatField()
+    dollar_18 = models.FloatField()
+    dollar_19 = models.FloatField()
+    dollar_20 = models.FloatField()
 
     payoff_3 = models.CurrencyField()
 
@@ -175,6 +175,16 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
     other3 = models.TextField(
+        blank=True
+    )
+    envelope = models.CharField(
+        choices=['I didn\'t understand the instructions',
+                 'I understood the instructions, but I didn\'t know how to open it',
+                 'Everything was clear',
+                 'Other (provide extra details)'],
+        widget=widgets.RadioSelect()
+    )
+    other4 = models.TextField(
         blank=True
     )
 

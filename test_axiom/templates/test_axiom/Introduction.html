@@ -9,16 +9,23 @@
 
     <p>
        This activity is part of a study in decision-making. You will be asked to do three experiments. <br>
-        In these experiments, we will introduce a method named “virtual envelope”. These envelopes are created in the following steps:
+       In these three experiments, we are going to simulate several envelopes. Let's call them "virtual envelopes".
+        In reality, an envelope can prevent you from reading the notes sealed inside of it. The same goes for our experiments.
+        We "seal" some information by using an online AES Encryptor in order to prevent both you and us from reading it
+        in advance. In this way, the "virtual envelopes" are actually some pieces of encrypted messages, which look like:
+        <I><U>"U2FsdGVkX1+8FpVab/1AAEADz4ap/LEb54cczFNKB+w="</U></I>. Now please let us explain more details.
     </p>
     <p>
-    <strong>Step 1:</strong> We go to a third party website named AES encryptor: <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a>.<br>
-    <strong>Step 2:</strong> Before each experiment, we encrypt 20 pieces of information, which are all used to decide your payment in the end, with the same special key. The three keys are different in the three experiments.<br>
-        <strong>Step 3:</strong> For each experiment, the AES encryptor gives us 20 encrypted messages, for example: <I><U>“U2FsdGVkX1+3OcprUTwgKzg+B6g0jtQ+C2+waZ7zQjg=“</U></I>. And these messages are called “virtual envelopes”.
+    We create the "virtual envelopes" using the following three steps:
+    </p>
+    <p>
+    <strong>Step 1:</strong> We go to the third party website named AES Encryptor: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-encrypt</a>.<br>
+    <strong>Step 2:</strong> Before each experiment, we encrypt 21 pieces of information, which are different but all used to decide your payment, with a password.<br>
+        <strong>Step 3:</strong> For each experiment, the AES Encryptor gives us 21 encrypted messages, for example: <I><U>"U2FsdGVkX1+8FpVab/1AAEADz4ap/LEb54cczFNKB+w="</U></I>. And these messages are called “virtual envelopes”.
     </p>
     <p>
     During one experiment, you will need to choose one of the envelopes and answer one related question.
-        Then after the experiment, we will give you the special key to “open” your envelope on that third-party website.
+        Then after the experiment, we will give you the password to "open" your envelope on that third-party website.
         Meanwhile, we will do the same thing on the same website to prepare for your payment.
     </p>
     <p>
@@ -27,7 +34,7 @@
     </p>
 
     <div style="text-align:center">
-        <img src="{% static "test_axiom/intro.png" %}" align="middle" height="670" width="820"/>
+        <img src="{% static "test_axiom/intro.png" %}" align="middle" height="600" width="820"/>
     </div>
 
     <p>

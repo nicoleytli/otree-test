@@ -2,38 +2,25 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Check Your Result
+    Practice Session - Check Your Result
 {% endblock %}
 
 {% block content %}
 
+    {% include 'test_axiom/Exp0_ins.html' %}
+
     <p>
-        The message you chose is: <div style="text-align:center"><strong>{{ message }}</strong></div>
+        The envelope you chose is: <div style="text-align:center"><strong>{{ message }}</strong></div>
     </p>
     <p>
-        Now you can decrypt the message on this website: <a href="{{ link }}" target=_blank>https://codebeautify.org/encrypt-decrypt</a><br>
-    with the information shown below:
+        Now you can "open" your envelope on this website: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-decrypt</a>
+    with the password:
     </p>
-
-        <table class="table table-hover">
-
-            <tr>
-            <td width="10%" align="right"><strong>Algorithm:</strong></td>
-            <td width="10%" align="left">Rc2</td>
-            </tr>
-            <tr>
-            <td width="10%" align="right"><strong>Mode:</strong></td>
-            <td width="10%" align="left">CTR</td>
-            </tr>
-            <tr>
-            <td width="10%" align="right"><strong>Key:</strong></td>
-            <td width="10%" align="left">wobukaixin</td>
-            </tr>
-
-        </table>
-
-    {% formfield player.message0 with label="Now please enter the decrypted information here" %}
-
+    <div style="text-align:center"><strong>wobukaixin</strong></div>
+    <p>
+    <br>
+    </p>
+    {% formfield player.message0 with label="Now please enter the encrypted information here" %}
 
     {% next_button %}
 {% endblock %}

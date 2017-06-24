@@ -6,7 +6,7 @@ import random
 
 class Introduction(Page):
     def vars_for_template(self):
-        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+        return {'link': 'https://www.browserling.com/tools/aes-encrypt'}
 
 
 class Exp0(Page):
@@ -14,16 +14,20 @@ class Exp0(Page):
     form_fields = ['x_0']
 
     def vars_for_template(self):
-        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+        return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_0_choices(self):
-        messages = ['YLolhbOXVVyGXctxYgrz11c4ah8imgf3', 'D0Gr/OMHS1Q07ugosu0iB6xqYhrxhjJ97A==', 'OTe7BOm05SOeCDRYDCpKOrEwDOku7lHgFBU=',
-                    '3eqNt1YCa67V3W+cUzFv2EFe+w0i1fkjtw==', 'Oxhphqmubr0VFIsW06WqizY4HY7Gdv+cgrFo+A==', 'k+lnHBubzK1A2vpvvgGBKNEVkaqpqaIB',
-                    'cf1oj/sAF3Mh8nng14/h+NmdUeoVWYDU', 'x7eHAw4duYcfSdCwrix6p4Vt0DXPBnwskDhJFQ==', 'kz2SNpQljo211c8HMfMNjW4Hy6k2fmWvrw==',
-                    '2MhFnEn7Ib1KME8Owxi9viGvfAZAvpigPhKs', '6Kx9T80c/Agt4I1HWGB+hLGCRfE/h49dGma5KA==', 'H2Qmqoxlr9VVs4cpcUaH7I4k6MEaQvUTQg==',
-                    'uLS34drtnD7rHhm/nASnuzFITLZ05RdjiHjKurCQ', 'PtULrfnwsAxRFFyCqA2DZw80oOCwJqFLxoIu6A==', '10grAnrFCNUtUoLucDWl5YN2jpuhL1Pwfw==',
-                    'M2APQmSWTSD+nWd0ACDfwAwLa18BHCR//g==', 'QTklvZv47j8SUOLyHzMxnczcQBl6GaoYz93n', '98Tg6PKOQB4GoLyhecauQQlCD9MhOgM=',
-                    '3lPpYsQKwnODRaBPqprXEmOmFOUjU7VEowzz', 'OClz9jsVXwswUZ9ceUC0M0w45FdzLR8=']
+        messages = ['U2FsdGVkX1/j4mb7KhgfqvDQJio/Nxo1y6XlOyGOtN3x6WWj3uOZdO+hmuOvLzF0', 'U2FsdGVkX1+3u/nF6C6K8zaIzDGVs82ZpDEk8cX9V0//6VSHXHB4mN4tUnYL/j3X',
+                    'U2FsdGVkX19Ry7iN9ssjgPSz3QuofSPCmCN/kas9+dcbbLR9H8NDpjIeODu1A7r/', 'U2FsdGVkX1+5l6Za3/57g3ZUspz3eC2VyyIcPzpnttgYZlswQSfr4lst7IDYPDaL',
+                    'U2FsdGVkX1+4Tr0pXNqpVnVhbMi6a8sX1JYbqQ2KiSa/eqUx1jsIGu0nkAR8Kl1X', 'U2FsdGVkX1/iEyJPqSp4z9gqZWLS6d7mglVGoYZEcGqcWTjtP50tFmJo9Gscyax2',
+                    'U2FsdGVkX19H2KiGPASXYAHanyO7WGpIvnxniL5jPBX7AVInMULS8uAWYOvZNlz0', 'U2FsdGVkX184QtReEcFaoEM40EpRGov/ix+KHyvfT9OjOoTlZhg+U9iUoxuEahuY',
+                    'U2FsdGVkX19ahhUWXsJ2NlU7q8B34X5mjcXj40GN3tmb95pYovaLFtgftKcKa8sY', 'U2FsdGVkX1/buqZe39rR55kfHqq+7aca5ZHJvKh413IqrHFk6PlnYJ5tMETYMWSI',
+                    'U2FsdGVkX1936my7mOI7VV+1ss2zG310eaT5+w+PEYiSLh7VXFQ7mxMRH1qT72+S', 'U2FsdGVkX1+IATNNLHxPXnDG1qSsO/7FeJR/O4cHqq2uMePPVw91CVSQk8NjZ3On',
+                    'U2FsdGVkX18Ii2GMgx1KqWvFiek7T0Ubdo1lBWF0JkNJkdMrNTGn3DU6UStsNPDJ', 'U2FsdGVkX1+LXJt1Wb9BCJXFIrvgjIm0S1qW6/FiBhIhlslCRwvKkAwVh1Jq54y7',
+                    'U2FsdGVkX18uL8/JtUcbOytTnfA3LtqOqX4UtpeLNGOEXICA5ix6r1tqzhGq7q2D', 'U2FsdGVkX18uuLeFlI1+Ljqbrg6WpQWTlBifv4jXM94f2jgY97a1YOMcYWNY/W4e',
+                    'U2FsdGVkX1+8YOpsdhbNXcJXa3XI846w7r9WVkVPgYRsTqE78xL/jQZzkLKFuyAE', 'U2FsdGVkX1+I6C17jJaVoSg2dxZrP6oNIS2V5G/qJj+NoQ/azIxNsOhfswqcRdmG',
+                    'U2FsdGVkX1/WHR8hjA8HBCKkun0HE3FyB5L6RQmlx1vdtZsNBpFdsC7ndHRjhThC', 'U2FsdGVkX18tq47VX8RmoIrbiClOnkKf5yfLkUbSIrnPL9I9naCh+oWkxwBpkn/T',
+                    'U2FsdGVkX18bGdo/Q9RkrSjdf+XbVUBjZDHQdH0RulfvySznhL/Ic2wt5SWuDgUE']
         random.shuffle(messages)
         return messages
 
@@ -33,20 +37,20 @@ class Exp1(Page):
     form_fields = ['x_1', 'exp1_answer', 'exp1_choice']
 
     def vars_for_template(self):
-        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+        return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_1_choices(self):
-        messages = ['/KAxSKFMcYkpFjDSDqNcew==', 'Ig+PGrdlMX6WURRmREvLmg==', 'C4OFFgzvPVZut0FdrX18eg==',
-                    'pm0BGu5kyrEdxWcoWyGHNQ==',
-                    'eT4E7rVOzy/7O2EzI4IMbg==', '7q9vL0cinUIL6rD9cIBnQ==', 'Yi0DsAryIO6QoTWpLNJ7sQ==',
-                    'ZclnNbfYgpbzGOHcTVlpow==',
-                    '3gEwVeKgnJxsOZsdh0P6DQ==', 'dGOCHiIx0j8dNdZ83Ri4YQ==', 'w5C/k+hSkc3W3H7IIMNelg==',
-                    'WPm34oB53pC4uRlAbClh8Q==',
-                    'xDvR1AAWF0NvV1eaI4B6EA==', 'AQb8MqPPL/Ly4fbI63o6gQ==', 'cOIE2daAU8BWR8HZWMi1DA==',
-                    'wSLzJLwpvIbaxZXgsmA3Cw==',
-                    'Og+4eZlV9nun9Vxksgv2jg==', 'qed6GSTpWI9bKE3TtdsHUw==', 'HFn1lOcSjw2jKUyL/bG8BQ==',
-                    'CJr6dtfYgrJviADxkUlVpQ==',
-                    'XZUlGjwrYVlw1a3zBlpKFA==']
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZjiCQSG9SNsmI1vHg07fs6FQqiLqJoU8=',
+                    'U2FsdGVkX19XyXRUNYHe/UMkcJv1HNDbS9ggAQ4F+qo=', 'U2FsdGVkX18mlYyk6jy+bACxGS8Ic9zhjHVb6fisQWk=',
+                    'U2FsdGVkX1/X1eEF7lNheDklf59i1JxJglXCBFbMPew=', 'U2FsdGVkX1+A6e5VHmbGn0H1ZaxYS2pjlBLmROBYb5k=',
+                    'U2FsdGVkX18VZ4cnz18H6I7rH/22GhKRO/S3lfZ9sHE=', 'U2FsdGVkX18FFzCQM7SOHYjLwX1D9hE4DdQ5qvCaS+A=',
+                    'U2FsdGVkX18yS4/B/XI1U7FAV2DbzGB0EtJT1RfKpFA=', 'U2FsdGVkX18qDcqtk3ZDh5XPHo4bs+voVwb1FaDodcg=',
+                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX19AODAmy/pFnKMRKzR93kr+7sRjRwNzaqY=',
+                    'U2FsdGVkX18FXz2CIpRpjYTKSU3Jt06r/9lsSPEF9Bc=', 'U2FsdGVkX19Us2QWxq6ZgftbIUwkCnJ1je018Jql4ns=',
+                    'U2FsdGVkX1+DaxnXmyk4JqlszhFLcyzD6cZfaFmzIOQ=', 'U2FsdGVkX1+I7WIqKLFl66ej4ndspK+797O9oOMQmss=',
+                    'U2FsdGVkX18YMi48W+JLyE6x1+EfW+ygW6cD6rbPF3M=', 'U2FsdGVkX19Rvd+pY4/2LNHs/VsTFBCSrpqpc1dzWFw=',
+                    'U2FsdGVkX1/o81rolhFWm4/SboLsoVq+L1zX0hV70Ho=', 'U2FsdGVkX185OijSu07iZfBT1kn0+MQygb52sN7CdHE=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=']
         random.shuffle(messages)
         return messages
 
@@ -57,20 +61,20 @@ class Exp2(Page):
 
     def vars_for_template(self):
 
-        return {'link': 'https://codebeautify.org/encrypt-decrypt'}
+        return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_2_choices(self):
-        messages = ['cteZfhNerD1Lc+OAxVdVvQ==', 'ZOS06LLuQL5chzeaPOr7bw==', 'AmIO9Cf+O6xbJB/F5dEsNA==',
-                    'H1BEazTqdZ5WW3Zw/vshZg==',
-                    '5EaSJj73KsbmuQn5fboVXA==', 'CJ96ryYNtPjVpwHZKyxYw==', 'Nv0dpfwWqMk6J0rIMmAmlg==',
-                    'zrEjMK6/Ibkiv01+Jn91ag==',
-                    'pyRU4AQDnJhJcmxoVozRIQ==', 'vjpDZI9a6HYW/JauZgww7A==', 'yR2Ri7/6ZaQJeh2so+E/jg==',
-                    'g4strqXmHH5gF3TsEp8rGw==',
-                    'XOhjok9BJGQlaSdeKhPCMA==', 'ZYS8y7ULqIXnf6uJ37t4dQ==', '4DC1F7zcfD7j8OnfW9HIrw==',
-                    'XOOO3DtqiFk724mUJYpVKg==',
-                    'Xd2O+FoDyqrdw6F8zdaVEQ==', 'CrOWg1atILOeqjt6aPdNsQ==', '2TzcYwXdRl4FJGPyS0X9Ww==',
-                    '1nJFfA2/v0CUI6NxeflnDA==',
-                    'Fwn2a6sS3M6Y51ou0pyUuQ==']
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1+Vg3+vnOh8DUimjQgGMVhsa2nzoiY48oM=',
+                    'U2FsdGVkX19rSflcGYeO6JmX2Gzwxe9HxTXmX1EEaOQ=', 'U2FsdGVkX1/er2SEOArwGn5IEth1vqnDU8hLM4HA2z4=',
+                    'U2FsdGVkX185zFQPBMT5HBlOo+OL72fAy3DFrg1bEZo=', 'U2FsdGVkX19DF/JfoEHksGWVW49AdSvOjVuiyhGuaeo=',
+                    'U2FsdGVkX1+M6knvcoN+ggc2NGWtLPdVHDryZEK1/Mg=', 'U2FsdGVkX1+L79zcly4M1CuRjXKPEL1Vj4FUCL9quL4=',
+                    'U2FsdGVkX193rJ07imlaInqe9CDX3WLjfQIrHgoRScw=', 'U2FsdGVkX18MI8K8Sbtgu5pR/C6yNMD8vkr0LkL3/3M=',
+                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX1+drW5Ynipd2zPUf4spULJPmWnL3wul/9w=',
+                    'U2FsdGVkX1/dfHoCHi49ciLDYnxsFO4788CyxMl360Y=', 'U2FsdGVkX19rMbbUU6Ksw5Ar5WDnAL0xDSs1krR1SvM=',
+                    'U2FsdGVkX19jVyRM4J7DDspK6MgXEfWojB2Xbwyjof4=', 'U2FsdGVkX19csUhGtsoANyHtq2Z6jGtPB0teZJzqGu0=',
+                    'U2FsdGVkX1+/BhnEIiaW044necZH5JSu/+bI0MzJ1bA=', 'U2FsdGVkX182EfT9tLh68rhg41wZ+XLofv97eNZFk30=',
+                    'U2FsdGVkX18VUKEqULydCRZprfOUyeByB2coDm+JaPw=', 'U2FsdGVkX19JVFCsrrpnmqMcNIwqc5rQ5PO+riuf7L4=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=']
         random.shuffle(messages)
         return messages
 
@@ -83,29 +87,29 @@ class Exp3(Page):
 
     def vars_for_template(self):
         values = [1, 2, 3]
-        dollar = ['$0', '$1', '$2', '$3', '$4', '$5', '$6', '$7', '$8', '$9', '$10', '$11', '$12', '$13', '$14',
-                  '$15', '$16', '$17', '$18', '$19', '$20']
+        dollar = ['$0.00', '$0.01', '$0.02', '$0.03', '$0.04', '$0.05', '$0.06', '$0.07', '$0.08', '$0.09', '$0.10', '$0.11', '$0.12', '$0.13', '$0.14',
+                  '$0.15', '$0.16', '$0.17', '$0.18', '$0.19', '$0.20']
         name = ['dollar_0', 'dollar_1', 'dollar_2', 'dollar_3', 'dollar_4', 'dollar_5', 'dollar_6', 'dollar_7', 'dollar_8',
                 'dollar_9', 'dollar_10', 'dollar_11', 'dollar_12', 'dollar_13', 'dollar_14', 'dollar_15', 'dollar_16',
                 'dollar_17', 'dollar_18', 'dollar_19', 'dollar_20']
         mylist = zip(dollar, name)
 
-        return {'link': 'https://codebeautify.org/encrypt-decrypt',
+        return {'link': 'https://www.browserling.com/tools/aes-decrypt',
                 'list': mylist,
                 'values': values}
 
     def x_3_choices(self):
-        messages = ['gOil2ipql8W0n0mDPcxARg==', 'tWJedphA5AwHZ1CvRxRyGw==', 'UBlRnLtyDcF7XziItOXwNA==',
-                    'VNOj9fFzP9poGBm6Z+vpHw==',
-                    'n/5cXvSnx3EalBwsXfwuKA==', 'VSmVj05ZsukbrrqYErsO0Q==', 'SIlqOwmAlC1wuup4cyERJw==',
-                    '03AfBZisvxwZhBJdFfwR1A==',
-                    'PYCKemmAg/zaznFW2rMOEg==', 'tYYTRDX48pjbS17DUkN1KA==', 'ptmrijqrLtr1Cpsxo7CCyg==',
-                    'BX1EKcbgyk8vx3ATBZScEg==',
-                    'f8/LlHr38IRVJrxVLUpYSA==', 'pEexpnJAh2zzAhQNHBUmJA==', '7WT3vw7OKX6MPQ6ryDdq+w==',
-                    '6+6OU7AOyDYbMZuCgjAKCA==',
-                    'oBKBUMn25Y0WmLWaLKDmyg==', 'vHvlOHVo80xcs75BtETOvQ==', 'vuwIP2w4c9bcJjVktapS8Q==',
-                    '132o+8Yi6ILuTFX9sABGGA==',
-                    'Qwrs1mISKtfCsRRnY5NaNg==']
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19UO4o/V+PM/gEh52Aghrl5WS9wvgZQaso=',
+                    'U2FsdGVkX1+DpQa4/Ms3HvesJ8oQgge21szNboP/BCM=', 'U2FsdGVkX1+4p4WCZ9mjhTGyG7XeEMDNyLvUhv8TnOQ=',
+                    'U2FsdGVkX1/QfPc1GWcXv2DdlHHhGsGs5e2BsKPeQGk=', 'U2FsdGVkX192QrisoIPmGB7dtrUiSkOI+llJ1KkbsAs=',
+                    'U2FsdGVkX1++r5injNGxq7V3BeUKpkOe3rmvXQBrYoo=', 'U2FsdGVkX1850jABUaGuTfXl0YKxJb7+Ir5flVh1egc=',
+                    'U2FsdGVkX18hZVCa9tHc0Be89FY7W9O3+W5PT6dNA/8=', 'U2FsdGVkX1/jmqPv4njnqQiqwY7JI4vQ4jJo6d/1wQI=',
+                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX1+oUG4rK5uH+IOkLGZ9/TZbaGpNC70F+40=',
+                    'U2FsdGVkX1+X+fhPM9Wf1BnHLUTAp5xagkQNNKCE9pY=', 'U2FsdGVkX1/arDROSwqrO/SfUzoNNCeaTUv/AMm+gto=',
+                    'U2FsdGVkX19uBdSP0+STB8Dg92D/p0/X2tH7zqtOqtk=', 'U2FsdGVkX19g9V7lhgg9ZfsMiC7ei+3xM5x8mTFeEuA=',
+                    'U2FsdGVkX1+amFbu/gC7SH/y9jU4oZeu3OUyEBKOeLo=', 'U2FsdGVkX1+EeZuGqy1YtvO3XoWLKPfTVu884Dlbw4g=',
+                    'U2FsdGVkX1/iKrpTELmuwcNPBWBe+9DJxpbmOMvzVj0=', 'U2FsdGVkX18pCbBQKEkw9lmcepBIoy+g4ZZvCjKovrs=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=']
 
         random.shuffle(messages)
 
@@ -141,7 +145,7 @@ class Exp0_result(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_0,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class Exp1_result(Page):
@@ -152,7 +156,7 @@ class Exp1_result(Page):
         return {'result_A': self.player.result_A,
                 'result_B': self.player.result_B,
                 'message': self.player.x_1,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class Exp2_result(Page):
@@ -162,7 +166,7 @@ class Exp2_result(Page):
         return {
                 'result': self.player.result_exp2,
                 'message': self.player.x_2,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class Exp3_result(Page):
@@ -181,7 +185,7 @@ class Exp3_result(Page):
         return {'black_ball': black_ball,
                 'white_ball': white_ball,
                 'result': self.player.result_exp3,
-                'link': 'https://codebeautify.org/encrypt-decrypt',
+                'link': 'https://www.browserling.com/tools/aes-decrypt',
                 'message': self.player.x_3}
 
 
@@ -189,18 +193,23 @@ class FakeWaitExp0(Page):
     timeout_seconds = 10
 
     def before_next_page(self):
-        messages = ['YLolhbOXVVyGXctxYgrz11c4ah8imgf3', 'D0Gr/OMHS1Q07ugosu0iB6xqYhrxhjJ97A==', 'OTe7BOm05SOeCDRYDCpKOrEwDOku7lHgFBU=',
-                    '3eqNt1YCa67V3W+cUzFv2EFe+w0i1fkjtw==', 'Oxhphqmubr0VFIsW06WqizY4HY7Gdv+cgrFo+A==', 'k+lnHBubzK1A2vpvvgGBKNEVkaqpqaIB',
-                    'cf1oj/sAF3Mh8nng14/h+NmdUeoVWYDU', 'x7eHAw4duYcfSdCwrix6p4Vt0DXPBnwskDhJFQ==', 'kz2SNpQljo211c8HMfMNjW4Hy6k2fmWvrw==',
-                    '2MhFnEn7Ib1KME8Owxi9viGvfAZAvpigPhKs', '6Kx9T80c/Agt4I1HWGB+hLGCRfE/h49dGma5KA==', 'H2Qmqoxlr9VVs4cpcUaH7I4k6MEaQvUTQg==',
-                    'uLS34drtnD7rHhm/nASnuzFITLZ05RdjiHjKurCQ', 'PtULrfnwsAxRFFyCqA2DZw80oOCwJqFLxoIu6A==', '10grAnrFCNUtUoLucDWl5YN2jpuhL1Pwfw==',
-                    'M2APQmSWTSD+nWd0ACDfwAwLa18BHCR//g==', 'QTklvZv47j8SUOLyHzMxnczcQBl6GaoYz93n', '98Tg6PKOQB4GoLyhecauQQlCD9MhOgM=',
-                    '3lPpYsQKwnODRaBPqprXEmOmFOUjU7VEowzz', 'OClz9jsVXwswUZ9ceUC0M0w45FdzLR8=']
+        messages = ['U2FsdGVkX1/j4mb7KhgfqvDQJio/Nxo1y6XlOyGOtN3x6WWj3uOZdO+hmuOvLzF0', 'U2FsdGVkX1+3u/nF6C6K8zaIzDGVs82ZpDEk8cX9V0//6VSHXHB4mN4tUnYL/j3X',
+                    'U2FsdGVkX19Ry7iN9ssjgPSz3QuofSPCmCN/kas9+dcbbLR9H8NDpjIeODu1A7r/', 'U2FsdGVkX1+5l6Za3/57g3ZUspz3eC2VyyIcPzpnttgYZlswQSfr4lst7IDYPDaL',
+                    'U2FsdGVkX1+4Tr0pXNqpVnVhbMi6a8sX1JYbqQ2KiSa/eqUx1jsIGu0nkAR8Kl1X', 'U2FsdGVkX1/iEyJPqSp4z9gqZWLS6d7mglVGoYZEcGqcWTjtP50tFmJo9Gscyax2',
+                    'U2FsdGVkX19H2KiGPASXYAHanyO7WGpIvnxniL5jPBX7AVInMULS8uAWYOvZNlz0', 'U2FsdGVkX184QtReEcFaoEM40EpRGov/ix+KHyvfT9OjOoTlZhg+U9iUoxuEahuY',
+                    'U2FsdGVkX19ahhUWXsJ2NlU7q8B34X5mjcXj40GN3tmb95pYovaLFtgftKcKa8sY', 'U2FsdGVkX1/buqZe39rR55kfHqq+7aca5ZHJvKh413IqrHFk6PlnYJ5tMETYMWSI',
+                    'U2FsdGVkX1936my7mOI7VV+1ss2zG310eaT5+w+PEYiSLh7VXFQ7mxMRH1qT72+S', 'U2FsdGVkX1+IATNNLHxPXnDG1qSsO/7FeJR/O4cHqq2uMePPVw91CVSQk8NjZ3On',
+                    'U2FsdGVkX18Ii2GMgx1KqWvFiek7T0Ubdo1lBWF0JkNJkdMrNTGn3DU6UStsNPDJ', 'U2FsdGVkX1+LXJt1Wb9BCJXFIrvgjIm0S1qW6/FiBhIhlslCRwvKkAwVh1Jq54y7',
+                    'U2FsdGVkX18uL8/JtUcbOytTnfA3LtqOqX4UtpeLNGOEXICA5ix6r1tqzhGq7q2D', 'U2FsdGVkX18uuLeFlI1+Ljqbrg6WpQWTlBifv4jXM94f2jgY97a1YOMcYWNY/W4e',
+                    'U2FsdGVkX1+8YOpsdhbNXcJXa3XI846w7r9WVkVPgYRsTqE78xL/jQZzkLKFuyAE', 'U2FsdGVkX1+I6C17jJaVoSg2dxZrP6oNIS2V5G/qJj+NoQ/azIxNsOhfswqcRdmG',
+                    'U2FsdGVkX1/WHR8hjA8HBCKkun0HE3FyB5L6RQmlx1vdtZsNBpFdsC7ndHRjhThC', 'U2FsdGVkX18tq47VX8RmoIrbiClOnkKf5yfLkUbSIrnPL9I9naCh+oWkxwBpkn/T',
+                    'U2FsdGVkX18bGdo/Q9RkrSjdf+XbVUBjZDHQdH0RulfvySznhL/Ic2wt5SWuDgUE']
         num = messages.index(self.player.x_0)
         text = ['Hello from Paris', 'Hello from London', 'Hello from Beijing', 'Hello from Berlin', 'Hello from New Heaven',
                 'Hello from Tokyo', 'Hello from Seoul', 'Hello from Barcelona', 'Hello from Moscow', 'Hello from Shanghai',
                 'Hello from Hong Kong', 'Hello from Boston', 'Hello from Los Angeles', 'Hello from Melbourne', 'Hello from Zurich',
-                'Hello from Taipei', 'Hello from New York', 'Hello from Mars', 'Hello from Toulouse', 'Hello from Nice']
+                'Hello from Taipei', 'Hello from New York', 'Hello from Singapore', 'Hello from Toulouse', 'Hello from Toronto',
+                'Hello from Amsterdam']
         real_text = text[num]
         a = real_text
         b = self.player.message0
@@ -231,7 +240,7 @@ class FakeWaitExp0(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_0,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class FakeWaitExp1(Page):
@@ -239,7 +248,7 @@ class FakeWaitExp1(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_1,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class FakeWaitExp2(Page):
@@ -247,7 +256,7 @@ class FakeWaitExp2(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_2,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class FakeWaitExp3(Page):
@@ -255,7 +264,7 @@ class FakeWaitExp3(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_3,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class FakeResultExp0(Page):
@@ -264,23 +273,23 @@ class FakeResultExp0(Page):
 
     def vars_for_template(self):
         return {'message': self.player.x_0,
-                'link': 'https://codebeautify.org/encrypt-decrypt'}
+                'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
 class FakeResultExp1(Page):
 
     def vars_for_template(self):
-        messages = ['/KAxSKFMcYkpFjDSDqNcew==', 'Ig+PGrdlMX6WURRmREvLmg==', 'C4OFFgzvPVZut0FdrX18eg==',
-                    'pm0BGu5kyrEdxWcoWyGHNQ==',
-                    'eT4E7rVOzy/7O2EzI4IMbg==', '7q9vL0cinUIL6rD9cIBnQ==', 'Yi0DsAryIO6QoTWpLNJ7sQ==',
-                    'ZclnNbfYgpbzGOHcTVlpow==',
-                    '3gEwVeKgnJxsOZsdh0P6DQ==', 'dGOCHiIx0j8dNdZ83Ri4YQ==', 'w5C/k+hSkc3W3H7IIMNelg==',
-                    'WPm34oB53pC4uRlAbClh8Q==',
-                    'xDvR1AAWF0NvV1eaI4B6EA==', 'AQb8MqPPL/Ly4fbI63o6gQ==', 'cOIE2daAU8BWR8HZWMi1DA==',
-                    'wSLzJLwpvIbaxZXgsmA3Cw==',
-                    'Og+4eZlV9nun9Vxksgv2jg==', 'qed6GSTpWI9bKE3TtdsHUw==', 'HFn1lOcSjw2jKUyL/bG8BQ==',
-                    'CJr6dtfYgrJviADxkUlVpQ==',
-                    'XZUlGjwrYVlw1a3zBlpKFA==']
+        messages = ['U2FsdGVkX1+3ES8ghqTFoKhslUe3eBAsehqa/mUVqR0=', 'U2FsdGVkX19CqsncsaXnNZwzq6hqc57ZXj0IFwbJVUs=',
+                    'U2FsdGVkX18zti9Yeeq1r9yOUfl979N6h364N3icU74=', 'U2FsdGVkX19/o9/C7MQMbrv/y9EKHubuHnZ9nFOtdn4=',
+                    'U2FsdGVkX19EV39KLtTZG2bPJ7fX/zu0ztIpRuRh/eQ=', 'U2FsdGVkX1+8XMKWfe0hfQBdz2KzkZ0cnlFfuWeO5m0=',
+                    'U2FsdGVkX1+yRKoLz2BK3lCzWmE4Mw7CSNIlnHXS2AY=', 'U2FsdGVkX18pSkZiouPvGyb7jlwlsPveN2r8rxQPcvs=',
+                    'U2FsdGVkX1+qd0dqAoYk5tx4j5vl2dDd8TFDtfPFlA0=', 'U2FsdGVkX18nWcDrowzW8CPlb/f78U72nWuu82gQS2g=',
+                    'U2FsdGVkX1/wax9KO9raMe6l/5XApsfvjZyX0U9Y9Ps=', 'U2FsdGVkX1//mQ1sflnkOcQ9Xr7mxUL+fcOtZncLtmE=',
+                    'U2FsdGVkX1+UaiU6nviiQp6TTBewJAnfAGXTCxa2Yj4=', 'U2FsdGVkX1/pmSlq9lWu96qwc8+bJ35NOF/qfrFXvt0=',
+                    'U2FsdGVkX1/XU41qEz32NVzcYfcJIPPRydbbYuJHozI=', 'U2FsdGVkX19jWW0/DxtT/q3zEV1+DMj6qGocqFXC+9g=',
+                    'U2FsdGVkX188SAfsUs3LXiafuHbOnOwTF0s9+EvekOw=', 'U2FsdGVkX18FbDz2uCpbv+LAeigaic5IPg3HPlt16FM=',
+                    'U2FsdGVkX1+Hi2y2uB5z5Oj5pBk+i16U09GkgnPYhM4=', 'U2FsdGVkX1/sE6oyT/Hva+PVPDt+tN/0QB5MzOep62c=',
+                    'U2FsdGVkX1/DKBeHaJTs4GQJzmLZk8WQXaD/++zkmLQ=']
         num = messages.index(self.player.x_1)
 
         if self.player.exp1_answer > num:
@@ -290,17 +299,17 @@ class FakeResultExp1(Page):
                 if self.player.result_A == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
         elif self.player.exp1_answer == num:
             larger_smaller = 'equal to'
             if self.player.exp1_choice == 'Option A':
@@ -308,17 +317,17 @@ class FakeResultExp1(Page):
                 if self.player.result_A == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
         else:
             larger_smaller = 'larger than'
             if self.player.exp1_choice == 'Option B':
@@ -326,17 +335,17 @@ class FakeResultExp1(Page):
                 if self.player.result_A == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
                     self.player.payoff_1 = num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 9
+                    self.player.payoff_1 = 0.9
                 else:
-                    self.player.payoff_1 = 7
+                    self.player.payoff_1 = 0.7
 
         if option == 'Option A':
             result = self.player.result_A
@@ -352,26 +361,31 @@ class FakeResultExp1(Page):
 
 class FakeResultExp2(Page):
     def vars_for_template(self):
-        messages = ['cteZfhNerD1Lc+OAxVdVvQ==', 'ZOS06LLuQL5chzeaPOr7bw==', 'AmIO9Cf+O6xbJB/F5dEsNA==', 'H1BEazTqdZ5WW3Zw/vshZg==',
-                    '5EaSJj73KsbmuQn5fboVXA==', 'CJ96ryYNtPjVpwHZKyxYw==', 'Nv0dpfwWqMk6J0rIMmAmlg==', 'zrEjMK6/Ibkiv01+Jn91ag==',
-                    'pyRU4AQDnJhJcmxoVozRIQ==', 'vjpDZI9a6HYW/JauZgww7A==', 'yR2Ri7/6ZaQJeh2so+E/jg==', 'g4strqXmHH5gF3TsEp8rGw==',
-                    'XOhjok9BJGQlaSdeKhPCMA==', 'ZYS8y7ULqIXnf6uJ37t4dQ==', '4DC1F7zcfD7j8OnfW9HIrw==', 'XOOO3DtqiFk724mUJYpVKg==',
-                    'Xd2O+FoDyqrdw6F8zdaVEQ==', 'CrOWg1atILOeqjt6aPdNsQ==', '2TzcYwXdRl4FJGPyS0X9Ww==', '1nJFfA2/v0CUI6NxeflnDA==',
-                    'Fwn2a6sS3M6Y51ou0pyUuQ==']
+        messages = ['U2FsdGVkX18z4580NqnIhQJsMMLspe8/crpzzKWezyI=', 'U2FsdGVkX1+Q4DDcytaZaSlG5q2sUn6YPWxMGsOG41I=',
+                    'U2FsdGVkX19NXqeIA2InkzZwd5MUN+Yi69hSivkMsC8=', 'U2FsdGVkX1/aL+H5Oedti0xtgWRXS0W6G05NK/Lk9ks=',
+                    'U2FsdGVkX19YrHAf+ggkmveiNZR3jZmSmqjaFrentc4=', 'U2FsdGVkX1+c0Wb+d4UQe21+bHQ3JIdrtqeViR4MgEY=',
+                    'U2FsdGVkX182adLCZ1sb3HTGE9dw81DNc0kb0Dre7iQ=', 'U2FsdGVkX18Z4+0JKjdn+RJnD0ox08KUMdf6i0Qbbl0=',
+                    'U2FsdGVkX18C1Oow9MONUnGjy5fTCm/Pu96MzbKV5wQ=', 'U2FsdGVkX18MYvUcHqpaT/kGHxBxM2ijky5/uMXUAh4=',
+                    'U2FsdGVkX19ksOWsILdhIdSnBfiYrjdfgH4IzqvZKoo=', 'U2FsdGVkX1/TZMVU11CddjGUlYiu1rFq1eiG92rQot4=',
+                    'U2FsdGVkX1+grlJD4WK6OjkfaMbp2fDdi0Uhg9Fg5y0=', 'U2FsdGVkX180m6Lhw5mo+VY1dZ4zyXjk4pfe0VA1P/4=',
+                    'U2FsdGVkX19xbMJxHlW5hYmZcE1PeqNa9yGUAmNNKOo=', 'U2FsdGVkX19pVKK0OgJj/Mx0WSrFFvt2sLGpubyJci0=',
+                    'U2FsdGVkX19UFMVcz8MnC9KUeIA5kZjEl1Oj/vOiofo=', 'U2FsdGVkX1+CvPU1qoZ6PzlLZSlfa8IxMHz71JRlAd4=',
+                    'U2FsdGVkX1+OfnG67jKnSoQuQX8ptuysgQ1ZYJzBXYQ=', 'U2FsdGVkX19DCBiYtsQHr4Ll1mvLEJN5YOpdImASkE4=',
+                    'U2FsdGVkX1/6xexol8HNDwdccsGlmXDZ6v+mjAs8+uc=']
         num = messages.index(self.player.x_2)
 
         if self.player.exp2_answer > num:
             option = 'Option A'
             larger_smaller = 'smaller than'
             if self.player.result_exp2 == 'Black':
-                self.player.payoff_2 = 20
+                self.player.payoff_2 = 2
             else:
                 self.player.payoff_2 = 0
         elif self.player.exp2_answer == num:
             option = 'Option A'
             larger_smaller = 'equal to'
             if self.player.result_exp2 == 'Black':
-                self.player.payoff_2 = 20
+                self.player.payoff_2 = 2
             else:
                 self.player.payoff_2 = 0
         else:
@@ -390,17 +404,17 @@ class FakeResultExp2(Page):
 
 class FakeResultExp3(Page):
     def vars_for_template(self):
-        messages = ['gOil2ipql8W0n0mDPcxARg==', 'tWJedphA5AwHZ1CvRxRyGw==', 'UBlRnLtyDcF7XziItOXwNA==',
-                    'VNOj9fFzP9poGBm6Z+vpHw==',
-                    'n/5cXvSnx3EalBwsXfwuKA==', 'VSmVj05ZsukbrrqYErsO0Q==', 'SIlqOwmAlC1wuup4cyERJw==',
-                    '03AfBZisvxwZhBJdFfwR1A==',
-                    'PYCKemmAg/zaznFW2rMOEg==', 'tYYTRDX48pjbS17DUkN1KA==', 'ptmrijqrLtr1Cpsxo7CCyg==',
-                    'BX1EKcbgyk8vx3ATBZScEg==',
-                    'f8/LlHr38IRVJrxVLUpYSA==', 'pEexpnJAh2zzAhQNHBUmJA==', '7WT3vw7OKX6MPQ6ryDdq+w==',
-                    '6+6OU7AOyDYbMZuCgjAKCA==',
-                    'oBKBUMn25Y0WmLWaLKDmyg==', 'vHvlOHVo80xcs75BtETOvQ==', 'vuwIP2w4c9bcJjVktapS8Q==',
-                    '132o+8Yi6ILuTFX9sABGGA==',
-                    'Qwrs1mISKtfCsRRnY5NaNg==']
+        messages = ['U2FsdGVkX19hYwJQiYuBJHjBTJJDFW95wNxU+f0Jw5w=', 'U2FsdGVkX1/C/f3UIS0xtpHeqVrgE+1rM4v5KxhtXRA=',
+                    'U2FsdGVkX1/RCWEwBXRXl5zo1p92HX06Wd0EQiZSgpc=', 'U2FsdGVkX19UlphOFLt01MpZ3nLf4mFp+yYhSzvIGxM=',
+                    'U2FsdGVkX1/mYuGaelSfNPYODePkkvxA1k3pwdryEFI=', 'U2FsdGVkX1/z5DD5/A1Yt0yIboHpw5I4eb73mL3s8Oc=',
+                    'U2FsdGVkX183hVMT+LOzr4C6LIKoN0AVujPGNX6NPZk=', 'U2FsdGVkX18GD/Nv50FFChGJZe6zuKkTKNS9aUqoveY=',
+                    'U2FsdGVkX18lJvas/oTe4SGEQ2rLIfKru4w94ZBQsxc=', 'U2FsdGVkX1+W0M4bCPDmrrnngw0l8JYc4BfNm3Its6E=',
+                    'U2FsdGVkX189mZ7E6Q4p/rJw51w2ycNluibOkBodskY=', 'U2FsdGVkX18FWkcnuscK7b84uCXznoygzx9D8AbNaX4=',
+                    'U2FsdGVkX186IlYlKJ89joJGF3zSofYmilLnoCSwgLw=', 'U2FsdGVkX18RoQpZZYEOpeIvquGq9ckyv7TREBO1oUM=',
+                    'U2FsdGVkX18P7odiN5hc43qpAIvEC9N46LEZpMe/Emk=', 'U2FsdGVkX1+wiLJdqTH5wUCQn9CJAI/pca9TTtdb7Ps=',
+                    'U2FsdGVkX18AKmerMtnitHtBxxiD5DFObiSZ+/awDXY=', 'U2FsdGVkX1+MCXr3bIabjq4Z3Y0rmqjVgEicQ43vzGQ=',
+                    'U2FsdGVkX19X9dg25FRZszFyeVIlfm9x5AHYZTeDifY=', 'U2FsdGVkX18jsyaeUaD8kkJ9WGwUJwdVIyRc94hDXsI=',
+                    'U2FsdGVkX18arEVmvzf5nEQFSZLFIwdpbJy8VxyyTvo=']
         num = messages.index(self.player.x_3)
 
         option_num = self.participant.vars['dollar_%s' % num]
@@ -417,7 +431,7 @@ class FakeResultExp3(Page):
 
         if option == 'Option A':
             if self.player.result_exp3 == 'Red':
-                self.player.payoff_3 = 20
+                self.player.payoff_3 = 2
             elif self.player.result_exp3 == 'Black':
                 self.player.payoff_3 = 0
             else:
@@ -428,7 +442,7 @@ class FakeResultExp3(Page):
             elif self.player.result_exp3 == 'Black':
                 self.player.payoff_3 = num
             else:
-                self.player.payoff_3 = 20
+                self.player.payoff_3 = 2
 
         result = self.player.result_exp3
 
@@ -450,7 +464,7 @@ class Page2(Page):
 class Page3(Page):
     form_model = models.Player
     form_fields = ['citizenship', 'language', 'age', 'gender', 'educ', 'religion', 'income', 'time', 'exp1',
-                   'other1', 'exp2', 'other2', 'exp3', 'other3']
+                   'other1', 'exp2', 'other2', 'exp3', 'other3', 'envelope', 'other4']
 
 
 class Result(Page):

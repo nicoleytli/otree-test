@@ -41,6 +41,14 @@
     {% formfield player.exp3 with label="Experiment 3" %}
     {% formfield player.other3 with label='Please specify the details if you choose Other' %}
 
+    <p>
+    <strong>
+        How hard to understand were the "virtual envelope"?
+    </strong>
+    </p>
+    {% formfield player.envelope with label=prompt %}
+    {% formfield player.other4 with label='Please specify the details if you choose Other' %}
+
     {% next_button %}
 
 {% endblock %}
