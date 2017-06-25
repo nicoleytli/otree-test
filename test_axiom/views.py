@@ -471,6 +471,7 @@ class Page3(Page):
 class Result(Page):
     def vars_for_template(self):
         total = self.player.payoff_1 + self.player.payoff_2 + self.player.payoff_3
+        self.player.payoff = total
         return {'total': total}
 
 
