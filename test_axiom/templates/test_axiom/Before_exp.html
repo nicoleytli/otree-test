@@ -1,0 +1,24 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Experiment
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Now you are asked to do three experiments and complete one questionnaire after them.
+    </p>
+    <p>
+        Please read the instructions in each experiment carefully: some may be confusing if you are not paying attention.
+    </p>
+    <p>
+        Your payoff for each experiment is up to $2.00. <br>
+        If you end up with winning nothing in all these three experiments,
+    we will give you a participant fee of $0.20.
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

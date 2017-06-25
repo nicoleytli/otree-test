@@ -7,20 +7,30 @@
 
 {% block content %}
 
+
     {% include 'test_axiom/Exp0_ins.html' %}
+
+    <p>
+        <strong><u>Now you can try it yourself using the above instructions</u></strong>
+    </p>
+    <p>
+    <br>
+    </p>
 
     <p>
         The envelope you chose is: <div style="text-align:center"><strong>{{ message }}</strong></div>
     </p>
     <p>
-        Now you can "open" your envelope on this website: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-decrypt</a>
+        "Open" your envelope on the third party website: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-decrypt</a>
     with the password:
     </p>
-    <div style="text-align:center"><strong>wobukaixin</strong></div>
+    <div style="text-align:center"><strong>wohenkaixin</strong></div>
     <p>
     <br>
     </p>
-    {% formfield player.message0 with label="Now please enter the encrypted information here" %}
+
+    {% formfield player.message0 with label="Please enter the encrypted information here" %}
 
     {% next_button %}
+
 {% endblock %}

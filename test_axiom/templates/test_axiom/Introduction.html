@@ -19,14 +19,21 @@
     We create the "virtual envelopes" using the following three steps:
     </p>
     <p>
-    <strong>Step 1:</strong> We go to the third party website named AES Encryptor: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-encrypt</a>.<br>
-    <strong>Step 2:</strong> Before each experiment, we encrypt 21 pieces of information, which are different but all used to decide your payment, with a password.<br>
-        <strong>Step 3:</strong> For each experiment, the AES Encryptor gives us 21 encrypted messages, for example: <I><U>"U2FsdGVkX1+8FpVab/1AAEADz4ap/LEb54cczFNKB+w="</U></I>. And these messages are called “virtual envelopes”.
+    <strong>Step 1:</strong> We go to a third party website named AES Encryptor: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-encrypt</a>.<br>
+    <strong>Step 2:</strong> Before each experiment, we encrypt 21 pieces of information with a password. These pieces of information are different and used to decide your payment.<br>
+    <strong>Step 3:</strong> For each experiment, the AES Encryptor gives us 21 encrypted messages, for example: <I><U>"U2FsdGVkX1+8FpVab/1AAEADz4ap/LEb54cczFNKB+w="</U></I>. And these messages are called “virtual envelopes”.
     </p>
     <p>
     During one experiment, you will need to choose one of the envelopes and answer one related question.
-        Then after the experiment, we will give you the password to "open" your envelope on that third-party website.
+        Then after the experiment, we will give you a password to "open" your envelope on that third party website.
         Meanwhile, we will do the same thing on the same website to prepare for your payment.
+    </p>
+    <p>
+    <strong>Please note: you can only open your envelope with a right password. We set three different passwords for three experiments,
+    so do not use the password from (say) experiment 1 to open the envelope you get in experiment 2. Otherwise, you will end up with a garbled message.</strong
+    </p>
+    <p>
+    <br>
     </p>
     <p>
     To help you understand the whole process better,
@@ -36,9 +43,12 @@
     <div style="text-align:center">
         <img src="{% static "test_axiom/intro.png" %}" align="middle" height="600" width="820"/>
     </div>
+    <p>
+    <br>
+    </p>
 
     <p>
-        Now we are going to organize a practice session in order to familiar you with the decryption process.
+        To familiar you with the decryption process, let's do a practice session. <br>
     </p>
 
     {% next_button %}

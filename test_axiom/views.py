@@ -17,17 +17,17 @@ class Exp0(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_0_choices(self):
-        messages = ['U2FsdGVkX1/j4mb7KhgfqvDQJio/Nxo1y6XlOyGOtN3x6WWj3uOZdO+hmuOvLzF0', 'U2FsdGVkX1+3u/nF6C6K8zaIzDGVs82ZpDEk8cX9V0//6VSHXHB4mN4tUnYL/j3X',
-                    'U2FsdGVkX19Ry7iN9ssjgPSz3QuofSPCmCN/kas9+dcbbLR9H8NDpjIeODu1A7r/', 'U2FsdGVkX1+5l6Za3/57g3ZUspz3eC2VyyIcPzpnttgYZlswQSfr4lst7IDYPDaL',
-                    'U2FsdGVkX1+4Tr0pXNqpVnVhbMi6a8sX1JYbqQ2KiSa/eqUx1jsIGu0nkAR8Kl1X', 'U2FsdGVkX1/iEyJPqSp4z9gqZWLS6d7mglVGoYZEcGqcWTjtP50tFmJo9Gscyax2',
-                    'U2FsdGVkX19H2KiGPASXYAHanyO7WGpIvnxniL5jPBX7AVInMULS8uAWYOvZNlz0', 'U2FsdGVkX184QtReEcFaoEM40EpRGov/ix+KHyvfT9OjOoTlZhg+U9iUoxuEahuY',
-                    'U2FsdGVkX19ahhUWXsJ2NlU7q8B34X5mjcXj40GN3tmb95pYovaLFtgftKcKa8sY', 'U2FsdGVkX1/buqZe39rR55kfHqq+7aca5ZHJvKh413IqrHFk6PlnYJ5tMETYMWSI',
-                    'U2FsdGVkX1936my7mOI7VV+1ss2zG310eaT5+w+PEYiSLh7VXFQ7mxMRH1qT72+S', 'U2FsdGVkX1+IATNNLHxPXnDG1qSsO/7FeJR/O4cHqq2uMePPVw91CVSQk8NjZ3On',
-                    'U2FsdGVkX18Ii2GMgx1KqWvFiek7T0Ubdo1lBWF0JkNJkdMrNTGn3DU6UStsNPDJ', 'U2FsdGVkX1+LXJt1Wb9BCJXFIrvgjIm0S1qW6/FiBhIhlslCRwvKkAwVh1Jq54y7',
-                    'U2FsdGVkX18uL8/JtUcbOytTnfA3LtqOqX4UtpeLNGOEXICA5ix6r1tqzhGq7q2D', 'U2FsdGVkX18uuLeFlI1+Ljqbrg6WpQWTlBifv4jXM94f2jgY97a1YOMcYWNY/W4e',
-                    'U2FsdGVkX1+8YOpsdhbNXcJXa3XI846w7r9WVkVPgYRsTqE78xL/jQZzkLKFuyAE', 'U2FsdGVkX1+I6C17jJaVoSg2dxZrP6oNIS2V5G/qJj+NoQ/azIxNsOhfswqcRdmG',
-                    'U2FsdGVkX1/WHR8hjA8HBCKkun0HE3FyB5L6RQmlx1vdtZsNBpFdsC7ndHRjhThC', 'U2FsdGVkX18tq47VX8RmoIrbiClOnkKf5yfLkUbSIrnPL9I9naCh+oWkxwBpkn/T',
-                    'U2FsdGVkX18bGdo/Q9RkrSjdf+XbVUBjZDHQdH0RulfvySznhL/Ic2wt5SWuDgUE']
+        messages = ['U2FsdGVkX18s+BqpZ/dBN3067AiYkJnfd5NeJLCjhnaRLNm/a4i581cbeXW9c6M8', 'U2FsdGVkX1/ifPvw3igI2+EHnNZOnExpj0tnBFKRWPV+3vWEupWUULslSxrA5gOo',
+                    'U2FsdGVkX1/jV1fBxlBW4lhaOhcH7O4/sfZRkcxC3onbEeEZC4PVhhAkQ9itQ80h', 'U2FsdGVkX194iOHdJPb9fbJCs/B+QVbKz8b6HWnvY8Flp/8/Gk4744/dz3Jl7Ey0',
+                    'U2FsdGVkX19YusyPtXZ1z6Pcdn1oPc9dghE0DE32DWM33bP7PwO5GIbFELiSYLL8', 'U2FsdGVkX1/2RWoCSmWhqYLfIIds/wZ+Up9bDFUgVbnaDJ5ZrKoFOQzp74xUvSlU',
+                    'U2FsdGVkX1+q48npkC85b58c4lkH4qim6OZWGKRHZZLn6k4zWwpqkaSb3MBcirWc', 'U2FsdGVkX1+1eJqJH+neh5LFePLkHtTeli4u1jViGOD9XakqmhwasKiK/Lrtpbhk',
+                    'U2FsdGVkX1/G3ZDK1ZvN7sJN/VH5C2mPaH5hcNrB2gaSVnTI706KbCxBj5OjXSJQ', 'U2FsdGVkX1846XuQxRFzypd61ShLLPx5bnQy9L+iTjNYVdQqjvDgnc3Wd3NHENN7',
+                    'U2FsdGVkX1+7uixDo0aszwR2Tx4eHv0q64YcNbFmw9wIxvTS9eD4ISGwI8owWw+Z', 'U2FsdGVkX191bRYXUZvg6ddNbTUu2H1G5zFcgQAKCTJOTmQhpfE2ja1w2Zm3YcKU',
+                    'U2FsdGVkX18SVum7pJsMTtPZD4MolAertmSExW7IRs+GX2iXHV3PdLqKMxCl7LXR', 'U2FsdGVkX1/l3p7MzkqegH3y3CXqX1V5M4M02/KzcYGGy+RIdLW4Wafe2lQ+gvb5',
+                    'U2FsdGVkX18zrj0BLx/HLUgWumolB7u6svpMTGDEyA7Z0qz82POb4W56qRU8nuH7', 'U2FsdGVkX19JYC5N3m5bvsB083b7pgYaYi4+AvAUjerO9nn650YvVZ4XloZDnUWS',
+                    'U2FsdGVkX1+A57qRRZGOPOOjdmYNwi71OVw2jnRStDBRbrs6GkMj/UfJsKnLeDUD', 'U2FsdGVkX1+IEXlFY6AOFkbwKh3IAu76byvEcBUUbKga8tBd1xFh0BVJgxERUy9S',
+                    'U2FsdGVkX1/wx5U+9H+4+c5KfOOid2HbyhzkHw166iFv9c1HzzHHa5MfO0T4WCnv', 'U2FsdGVkX1/HTK7bHEXQB/wVxe8p4vHDOzJbrJzXexv7zVsMt2cUMPXNC4fbkMga',
+                    'U2FsdGVkX19fdTyCrrUP1DMuybBcdQAHZlbJK4z21eH7y4Fs3xrfeuut8qlnnrP2']
         random.shuffle(messages)
         return messages
 
@@ -40,17 +40,17 @@ class Exp1(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_1_choices(self):
-        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZjiCQSG9SNsmI1vHg07fs6FQqiLqJoU8=',
-                    'U2FsdGVkX19XyXRUNYHe/UMkcJv1HNDbS9ggAQ4F+qo=', 'U2FsdGVkX18mlYyk6jy+bACxGS8Ic9zhjHVb6fisQWk=',
-                    'U2FsdGVkX1/X1eEF7lNheDklf59i1JxJglXCBFbMPew=', 'U2FsdGVkX1+A6e5VHmbGn0H1ZaxYS2pjlBLmROBYb5k=',
-                    'U2FsdGVkX18VZ4cnz18H6I7rH/22GhKRO/S3lfZ9sHE=', 'U2FsdGVkX18FFzCQM7SOHYjLwX1D9hE4DdQ5qvCaS+A=',
-                    'U2FsdGVkX18yS4/B/XI1U7FAV2DbzGB0EtJT1RfKpFA=', 'U2FsdGVkX18qDcqtk3ZDh5XPHo4bs+voVwb1FaDodcg=',
-                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX19AODAmy/pFnKMRKzR93kr+7sRjRwNzaqY=',
-                    'U2FsdGVkX18FXz2CIpRpjYTKSU3Jt06r/9lsSPEF9Bc=', 'U2FsdGVkX19Us2QWxq6ZgftbIUwkCnJ1je018Jql4ns=',
-                    'U2FsdGVkX1+DaxnXmyk4JqlszhFLcyzD6cZfaFmzIOQ=', 'U2FsdGVkX1+I7WIqKLFl66ej4ndspK+797O9oOMQmss=',
-                    'U2FsdGVkX18YMi48W+JLyE6x1+EfW+ygW6cD6rbPF3M=', 'U2FsdGVkX19Rvd+pY4/2LNHs/VsTFBCSrpqpc1dzWFw=',
-                    'U2FsdGVkX1/o81rolhFWm4/SboLsoVq+L1zX0hV70Ho=', 'U2FsdGVkX185OijSu07iZfBT1kn0+MQygb52sN7CdHE=',
-                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=']
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=',
+                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=',
+                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=',
+                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=',
+                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=', 'U2FsdGVkX1++OUbQa4VMtpMM8P9glhCkczKReX/r+rc=',
+                    'U2FsdGVkX192XsBVPuyVkjDFMmyzjPwtXUjxa6U58/o=', 'U2FsdGVkX18ukBqFhTr4GfS/K1OUxLAL1Wj49Vy4XWg=',
+                    'U2FsdGVkX190D7C1sPwCURzZvFl/eIlJm2DBtrS5I0s=', 'U2FsdGVkX1+596tdv12BL33Gkh/qRKmbkawcTu05odA=',
+                    'U2FsdGVkX18uKONkVE29Xzot3oXMPPPZNRt5UyS7iwk=', 'U2FsdGVkX18vHTW3Bo+pjdZQ6mz4XimLhKuIzncvBOU=',
+                    'U2FsdGVkX1/p8h5ges17VZ2MI4x//7V30+n3hxSqz9U=', 'U2FsdGVkX1+M+A60ZP7TqASYdffvGz/KEWq2eS+P0SM=',
+                    'U2FsdGVkX18Gi83XtaixOqqggKx7KvVbZC7Bn8XB6AA=']
         random.shuffle(messages)
         return messages
 
@@ -64,17 +64,17 @@ class Exp2(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_2_choices(self):
-        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1+Vg3+vnOh8DUimjQgGMVhsa2nzoiY48oM=',
-                    'U2FsdGVkX19rSflcGYeO6JmX2Gzwxe9HxTXmX1EEaOQ=', 'U2FsdGVkX1/er2SEOArwGn5IEth1vqnDU8hLM4HA2z4=',
-                    'U2FsdGVkX185zFQPBMT5HBlOo+OL72fAy3DFrg1bEZo=', 'U2FsdGVkX19DF/JfoEHksGWVW49AdSvOjVuiyhGuaeo=',
-                    'U2FsdGVkX1+M6knvcoN+ggc2NGWtLPdVHDryZEK1/Mg=', 'U2FsdGVkX1+L79zcly4M1CuRjXKPEL1Vj4FUCL9quL4=',
-                    'U2FsdGVkX193rJ07imlaInqe9CDX3WLjfQIrHgoRScw=', 'U2FsdGVkX18MI8K8Sbtgu5pR/C6yNMD8vkr0LkL3/3M=',
-                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX1+drW5Ynipd2zPUf4spULJPmWnL3wul/9w=',
-                    'U2FsdGVkX1/dfHoCHi49ciLDYnxsFO4788CyxMl360Y=', 'U2FsdGVkX19rMbbUU6Ksw5Ar5WDnAL0xDSs1krR1SvM=',
-                    'U2FsdGVkX19jVyRM4J7DDspK6MgXEfWojB2Xbwyjof4=', 'U2FsdGVkX19csUhGtsoANyHtq2Z6jGtPB0teZJzqGu0=',
-                    'U2FsdGVkX1+/BhnEIiaW044necZH5JSu/+bI0MzJ1bA=', 'U2FsdGVkX182EfT9tLh68rhg41wZ+XLofv97eNZFk30=',
-                    'U2FsdGVkX18VUKEqULydCRZprfOUyeByB2coDm+JaPw=', 'U2FsdGVkX19JVFCsrrpnmqMcNIwqc5rQ5PO+riuf7L4=',
-                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=']
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=',
+                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=',
+                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=',
+                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=',
+                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=', 'U2FsdGVkX1/PAV8MPoNO0Yf7cNiAXCQpZsUFgka0pJk=',
+                    'U2FsdGVkX19NXGkXpQaep+7dNnrCG2pCVECl52JEz2w=', 'U2FsdGVkX19rRak6LmVoor7goaIuqiRSLMlEczdGYNQ=',
+                    'U2FsdGVkX18n8gYiNq2Kina1Of5qIvsRkcp0PIdG37o=', 'U2FsdGVkX1/E32PydmSbgs3LzhRCjoM+e+09DrEiLaM=',
+                    'U2FsdGVkX19rJW5v8xujBW6CoLp28jn8EvEzlITb+Fw=', 'U2FsdGVkX18bOknI2ef1EU0Knc9mLhjo6jKe0XWwXAs=',
+                    'U2FsdGVkX18JWdgKpbenhMfzUX0QfGYzkbwRQjsUsYw=', 'U2FsdGVkX18xtpmOskZZEGzG+OQZgqPXkld85K4VXb4=',
+                    'U2FsdGVkX18NTjZMudELP6Wbi4P/wlCh5JNanOgEz+Y=']
         random.shuffle(messages)
         return messages
 
@@ -87,8 +87,8 @@ class Exp3(Page):
 
     def vars_for_template(self):
         values = [1, 2, 3]
-        dollar = ['$0.00', '$0.01', '$0.02', '$0.03', '$0.04', '$0.05', '$0.06', '$0.07', '$0.08', '$0.09', '$0.10', '$0.11', '$0.12', '$0.13', '$0.14',
-                  '$0.15', '$0.16', '$0.17', '$0.18', '$0.19', '$0.20']
+        dollar = ['$0.00', '$0.10', '$0.20', '$0.30', '$0.40', '$0.50', '$0.60', '$0.70', '$0.80', '$0.90', '$1.00', '$1.10', '$1.20', '$1.30', '$1.40',
+                  '$1.50', '$1.60', '$1.70', '$1.80', '$1.90', '$2.00']
         name = ['dollar_0', 'dollar_1', 'dollar_2', 'dollar_3', 'dollar_4', 'dollar_5', 'dollar_6', 'dollar_7', 'dollar_8',
                 'dollar_9', 'dollar_10', 'dollar_11', 'dollar_12', 'dollar_13', 'dollar_14', 'dollar_15', 'dollar_16',
                 'dollar_17', 'dollar_18', 'dollar_19', 'dollar_20']
@@ -99,17 +99,17 @@ class Exp3(Page):
                 'values': values}
 
     def x_3_choices(self):
-        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19UO4o/V+PM/gEh52Aghrl5WS9wvgZQaso=',
-                    'U2FsdGVkX1+DpQa4/Ms3HvesJ8oQgge21szNboP/BCM=', 'U2FsdGVkX1+4p4WCZ9mjhTGyG7XeEMDNyLvUhv8TnOQ=',
-                    'U2FsdGVkX1/QfPc1GWcXv2DdlHHhGsGs5e2BsKPeQGk=', 'U2FsdGVkX192QrisoIPmGB7dtrUiSkOI+llJ1KkbsAs=',
-                    'U2FsdGVkX1++r5injNGxq7V3BeUKpkOe3rmvXQBrYoo=', 'U2FsdGVkX1850jABUaGuTfXl0YKxJb7+Ir5flVh1egc=',
-                    'U2FsdGVkX18hZVCa9tHc0Be89FY7W9O3+W5PT6dNA/8=', 'U2FsdGVkX1/jmqPv4njnqQiqwY7JI4vQ4jJo6d/1wQI=',
-                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX1+oUG4rK5uH+IOkLGZ9/TZbaGpNC70F+40=',
-                    'U2FsdGVkX1+X+fhPM9Wf1BnHLUTAp5xagkQNNKCE9pY=', 'U2FsdGVkX1/arDROSwqrO/SfUzoNNCeaTUv/AMm+gto=',
-                    'U2FsdGVkX19uBdSP0+STB8Dg92D/p0/X2tH7zqtOqtk=', 'U2FsdGVkX19g9V7lhgg9ZfsMiC7ei+3xM5x8mTFeEuA=',
-                    'U2FsdGVkX1+amFbu/gC7SH/y9jU4oZeu3OUyEBKOeLo=', 'U2FsdGVkX1+EeZuGqy1YtvO3XoWLKPfTVu884Dlbw4g=',
-                    'U2FsdGVkX1/iKrpTELmuwcNPBWBe+9DJxpbmOMvzVj0=', 'U2FsdGVkX18pCbBQKEkw9lmcepBIoy+g4ZZvCjKovrs=',
-                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=']
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=',
+                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=',
+                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=',
+                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=',
+                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=', 'U2FsdGVkX18dstAgD8k8giVfXOad2Vt4nrscXvGg8hM=',
+                    'U2FsdGVkX1/ikkGE2zC9v8Gu96AHpw+j5Xkj3aeX3og=', 'U2FsdGVkX19IgaNiNIXPwdhtgQiUGpLgy20M1OcDMxk=',
+                    'U2FsdGVkX19GmR2nyn6piLZ/8k+t/RgWo4kiCn0jgto=', 'U2FsdGVkX1+shMxp7w8wW46UL6K9L6VpYoS8AqaZ/WE=',
+                    'U2FsdGVkX1/EkgOEQYbV5dGh52bEtPNZcaBE6zzwOzg=', 'U2FsdGVkX1+MNsgj3s3Cdb4KtFmBLyQ4mq3bfR1en7I=',
+                    'U2FsdGVkX19kPof/dhoJbJ07JMJovQ3L/hr+4lYXXV8=', 'U2FsdGVkX1+/9kDQDlQrSsJealnu1eM4HfA0WPKF9XE=',
+                    'U2FsdGVkX199TpOuJJ71j1brfR6zHos/8rs38bzMdzQ=']
 
         random.shuffle(messages)
 
@@ -193,23 +193,23 @@ class FakeWaitExp0(Page):
     timeout_seconds = 10
 
     def before_next_page(self):
-        messages = ['U2FsdGVkX1/j4mb7KhgfqvDQJio/Nxo1y6XlOyGOtN3x6WWj3uOZdO+hmuOvLzF0', 'U2FsdGVkX1+3u/nF6C6K8zaIzDGVs82ZpDEk8cX9V0//6VSHXHB4mN4tUnYL/j3X',
-                    'U2FsdGVkX19Ry7iN9ssjgPSz3QuofSPCmCN/kas9+dcbbLR9H8NDpjIeODu1A7r/', 'U2FsdGVkX1+5l6Za3/57g3ZUspz3eC2VyyIcPzpnttgYZlswQSfr4lst7IDYPDaL',
-                    'U2FsdGVkX1+4Tr0pXNqpVnVhbMi6a8sX1JYbqQ2KiSa/eqUx1jsIGu0nkAR8Kl1X', 'U2FsdGVkX1/iEyJPqSp4z9gqZWLS6d7mglVGoYZEcGqcWTjtP50tFmJo9Gscyax2',
-                    'U2FsdGVkX19H2KiGPASXYAHanyO7WGpIvnxniL5jPBX7AVInMULS8uAWYOvZNlz0', 'U2FsdGVkX184QtReEcFaoEM40EpRGov/ix+KHyvfT9OjOoTlZhg+U9iUoxuEahuY',
-                    'U2FsdGVkX19ahhUWXsJ2NlU7q8B34X5mjcXj40GN3tmb95pYovaLFtgftKcKa8sY', 'U2FsdGVkX1/buqZe39rR55kfHqq+7aca5ZHJvKh413IqrHFk6PlnYJ5tMETYMWSI',
-                    'U2FsdGVkX1936my7mOI7VV+1ss2zG310eaT5+w+PEYiSLh7VXFQ7mxMRH1qT72+S', 'U2FsdGVkX1+IATNNLHxPXnDG1qSsO/7FeJR/O4cHqq2uMePPVw91CVSQk8NjZ3On',
-                    'U2FsdGVkX18Ii2GMgx1KqWvFiek7T0Ubdo1lBWF0JkNJkdMrNTGn3DU6UStsNPDJ', 'U2FsdGVkX1+LXJt1Wb9BCJXFIrvgjIm0S1qW6/FiBhIhlslCRwvKkAwVh1Jq54y7',
-                    'U2FsdGVkX18uL8/JtUcbOytTnfA3LtqOqX4UtpeLNGOEXICA5ix6r1tqzhGq7q2D', 'U2FsdGVkX18uuLeFlI1+Ljqbrg6WpQWTlBifv4jXM94f2jgY97a1YOMcYWNY/W4e',
-                    'U2FsdGVkX1+8YOpsdhbNXcJXa3XI846w7r9WVkVPgYRsTqE78xL/jQZzkLKFuyAE', 'U2FsdGVkX1+I6C17jJaVoSg2dxZrP6oNIS2V5G/qJj+NoQ/azIxNsOhfswqcRdmG',
-                    'U2FsdGVkX1/WHR8hjA8HBCKkun0HE3FyB5L6RQmlx1vdtZsNBpFdsC7ndHRjhThC', 'U2FsdGVkX18tq47VX8RmoIrbiClOnkKf5yfLkUbSIrnPL9I9naCh+oWkxwBpkn/T',
-                    'U2FsdGVkX18bGdo/Q9RkrSjdf+XbVUBjZDHQdH0RulfvySznhL/Ic2wt5SWuDgUE']
+        messages = ['U2FsdGVkX18s+BqpZ/dBN3067AiYkJnfd5NeJLCjhnaRLNm/a4i581cbeXW9c6M8', 'U2FsdGVkX1/ifPvw3igI2+EHnNZOnExpj0tnBFKRWPV+3vWEupWUULslSxrA5gOo',
+                    'U2FsdGVkX1/jV1fBxlBW4lhaOhcH7O4/sfZRkcxC3onbEeEZC4PVhhAkQ9itQ80h', 'U2FsdGVkX194iOHdJPb9fbJCs/B+QVbKz8b6HWnvY8Flp/8/Gk4744/dz3Jl7Ey0',
+                    'U2FsdGVkX19YusyPtXZ1z6Pcdn1oPc9dghE0DE32DWM33bP7PwO5GIbFELiSYLL8', 'U2FsdGVkX1/2RWoCSmWhqYLfIIds/wZ+Up9bDFUgVbnaDJ5ZrKoFOQzp74xUvSlU',
+                    'U2FsdGVkX1+q48npkC85b58c4lkH4qim6OZWGKRHZZLn6k4zWwpqkaSb3MBcirWc', 'U2FsdGVkX1+1eJqJH+neh5LFePLkHtTeli4u1jViGOD9XakqmhwasKiK/Lrtpbhk',
+                    'U2FsdGVkX1/G3ZDK1ZvN7sJN/VH5C2mPaH5hcNrB2gaSVnTI706KbCxBj5OjXSJQ', 'U2FsdGVkX1846XuQxRFzypd61ShLLPx5bnQy9L+iTjNYVdQqjvDgnc3Wd3NHENN7',
+                    'U2FsdGVkX1+7uixDo0aszwR2Tx4eHv0q64YcNbFmw9wIxvTS9eD4ISGwI8owWw+Z', 'U2FsdGVkX191bRYXUZvg6ddNbTUu2H1G5zFcgQAKCTJOTmQhpfE2ja1w2Zm3YcKU',
+                    'U2FsdGVkX18SVum7pJsMTtPZD4MolAertmSExW7IRs+GX2iXHV3PdLqKMxCl7LXR', 'U2FsdGVkX1/l3p7MzkqegH3y3CXqX1V5M4M02/KzcYGGy+RIdLW4Wafe2lQ+gvb5',
+                    'U2FsdGVkX18zrj0BLx/HLUgWumolB7u6svpMTGDEyA7Z0qz82POb4W56qRU8nuH7', 'U2FsdGVkX19JYC5N3m5bvsB083b7pgYaYi4+AvAUjerO9nn650YvVZ4XloZDnUWS',
+                    'U2FsdGVkX1+A57qRRZGOPOOjdmYNwi71OVw2jnRStDBRbrs6GkMj/UfJsKnLeDUD', 'U2FsdGVkX1+IEXlFY6AOFkbwKh3IAu76byvEcBUUbKga8tBd1xFh0BVJgxERUy9S',
+                    'U2FsdGVkX1/wx5U+9H+4+c5KfOOid2HbyhzkHw166iFv9c1HzzHHa5MfO0T4WCnv', 'U2FsdGVkX1/HTK7bHEXQB/wVxe8p4vHDOzJbrJzXexv7zVsMt2cUMPXNC4fbkMga',
+                    'U2FsdGVkX19fdTyCrrUP1DMuybBcdQAHZlbJK4z21eH7y4Fs3xrfeuut8qlnnrP2']
         num = messages.index(self.player.x_0)
         text = ['Hello from Paris', 'Hello from London', 'Hello from Beijing', 'Hello from Berlin', 'Hello from New Heaven',
                 'Hello from Tokyo', 'Hello from Seoul', 'Hello from Barcelona', 'Hello from Moscow', 'Hello from Shanghai',
                 'Hello from Hong Kong', 'Hello from Boston', 'Hello from Los Angeles', 'Hello from Melbourne', 'Hello from Zurich',
-                'Hello from Taipei', 'Hello from New York', 'Hello from Singapore', 'Hello from Toulouse', 'Hello from Toronto',
-                'Hello from Amsterdam']
+                'Hello from Taipei', 'Hello from New York', 'Hello from Amsterdam',  'Hello from Toulouse', 'Hello from Toronto',
+                'Hello from Philadelphia']
         real_text = text[num]
         a = real_text
         b = self.player.message0
@@ -244,7 +244,7 @@ class FakeWaitExp0(Page):
 
 
 class FakeWaitExp1(Page):
-    timeout_seconds = 15
+    timeout_seconds = 20
 
     def vars_for_template(self):
         return {'message': self.player.x_1,
@@ -252,7 +252,7 @@ class FakeWaitExp1(Page):
 
 
 class FakeWaitExp2(Page):
-    timeout_seconds = 9
+    timeout_seconds = 18
 
     def vars_for_template(self):
         return {'message': self.player.x_2,
@@ -279,18 +279,18 @@ class FakeResultExp0(Page):
 class FakeResultExp1(Page):
 
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZjiCQSG9SNsmI1vHg07fs6FQqiLqJoU8=',
-                    'U2FsdGVkX19XyXRUNYHe/UMkcJv1HNDbS9ggAQ4F+qo=', 'U2FsdGVkX18mlYyk6jy+bACxGS8Ic9zhjHVb6fisQWk=',
-                    'U2FsdGVkX1/X1eEF7lNheDklf59i1JxJglXCBFbMPew=', 'U2FsdGVkX1+A6e5VHmbGn0H1ZaxYS2pjlBLmROBYb5k=',
-                    'U2FsdGVkX18VZ4cnz18H6I7rH/22GhKRO/S3lfZ9sHE=', 'U2FsdGVkX18FFzCQM7SOHYjLwX1D9hE4DdQ5qvCaS+A=',
-                    'U2FsdGVkX18yS4/B/XI1U7FAV2DbzGB0EtJT1RfKpFA=', 'U2FsdGVkX18qDcqtk3ZDh5XPHo4bs+voVwb1FaDodcg=',
-                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX19AODAmy/pFnKMRKzR93kr+7sRjRwNzaqY=',
-                    'U2FsdGVkX18FXz2CIpRpjYTKSU3Jt06r/9lsSPEF9Bc=', 'U2FsdGVkX19Us2QWxq6ZgftbIUwkCnJ1je018Jql4ns=',
-                    'U2FsdGVkX1+DaxnXmyk4JqlszhFLcyzD6cZfaFmzIOQ=', 'U2FsdGVkX1+I7WIqKLFl66ej4ndspK+797O9oOMQmss=',
-                    'U2FsdGVkX18YMi48W+JLyE6x1+EfW+ygW6cD6rbPF3M=', 'U2FsdGVkX19Rvd+pY4/2LNHs/VsTFBCSrpqpc1dzWFw=',
-                    'U2FsdGVkX1/o81rolhFWm4/SboLsoVq+L1zX0hV70Ho=', 'U2FsdGVkX185OijSu07iZfBT1kn0+MQygb52sN7CdHE=',
-                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=']
-        num = messages.index(self.player.x_1)
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=',
+                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=',
+                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=',
+                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=',
+                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=', 'U2FsdGVkX1++OUbQa4VMtpMM8P9glhCkczKReX/r+rc=',
+                    'U2FsdGVkX192XsBVPuyVkjDFMmyzjPwtXUjxa6U58/o=', 'U2FsdGVkX18ukBqFhTr4GfS/K1OUxLAL1Wj49Vy4XWg=',
+                    'U2FsdGVkX190D7C1sPwCURzZvFl/eIlJm2DBtrS5I0s=', 'U2FsdGVkX1+596tdv12BL33Gkh/qRKmbkawcTu05odA=',
+                    'U2FsdGVkX18uKONkVE29Xzot3oXMPPPZNRt5UyS7iwk=', 'U2FsdGVkX18vHTW3Bo+pjdZQ6mz4XimLhKuIzncvBOU=',
+                    'U2FsdGVkX1/p8h5ges17VZ2MI4x//7V30+n3hxSqz9U=', 'U2FsdGVkX1+M+A60ZP7TqASYdffvGz/KEWq2eS+P0SM=',
+                    'U2FsdGVkX18Gi83XtaixOqqggKx7KvVbZC7Bn8XB6AA=']
+        num = messages.index(self.player.x_1) / 10
 
         if self.player.exp1_answer > num:
             larger_smaller = 'smaller than'
@@ -361,18 +361,18 @@ class FakeResultExp1(Page):
 
 class FakeResultExp2(Page):
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1+Vg3+vnOh8DUimjQgGMVhsa2nzoiY48oM=',
-                    'U2FsdGVkX19rSflcGYeO6JmX2Gzwxe9HxTXmX1EEaOQ=', 'U2FsdGVkX1/er2SEOArwGn5IEth1vqnDU8hLM4HA2z4=',
-                    'U2FsdGVkX185zFQPBMT5HBlOo+OL72fAy3DFrg1bEZo=', 'U2FsdGVkX19DF/JfoEHksGWVW49AdSvOjVuiyhGuaeo=',
-                    'U2FsdGVkX1+M6knvcoN+ggc2NGWtLPdVHDryZEK1/Mg=', 'U2FsdGVkX1+L79zcly4M1CuRjXKPEL1Vj4FUCL9quL4=',
-                    'U2FsdGVkX193rJ07imlaInqe9CDX3WLjfQIrHgoRScw=', 'U2FsdGVkX18MI8K8Sbtgu5pR/C6yNMD8vkr0LkL3/3M=',
-                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX1+drW5Ynipd2zPUf4spULJPmWnL3wul/9w=',
-                    'U2FsdGVkX1/dfHoCHi49ciLDYnxsFO4788CyxMl360Y=', 'U2FsdGVkX19rMbbUU6Ksw5Ar5WDnAL0xDSs1krR1SvM=',
-                    'U2FsdGVkX19jVyRM4J7DDspK6MgXEfWojB2Xbwyjof4=', 'U2FsdGVkX19csUhGtsoANyHtq2Z6jGtPB0teZJzqGu0=',
-                    'U2FsdGVkX1+/BhnEIiaW044necZH5JSu/+bI0MzJ1bA=', 'U2FsdGVkX182EfT9tLh68rhg41wZ+XLofv97eNZFk30=',
-                    'U2FsdGVkX18VUKEqULydCRZprfOUyeByB2coDm+JaPw=', 'U2FsdGVkX19JVFCsrrpnmqMcNIwqc5rQ5PO+riuf7L4=',
-                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=']
-        num = messages.index(self.player.x_2)
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=',
+                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=',
+                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=',
+                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=',
+                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=', 'U2FsdGVkX1/PAV8MPoNO0Yf7cNiAXCQpZsUFgka0pJk=',
+                    'U2FsdGVkX19NXGkXpQaep+7dNnrCG2pCVECl52JEz2w=', 'U2FsdGVkX19rRak6LmVoor7goaIuqiRSLMlEczdGYNQ=',
+                    'U2FsdGVkX18n8gYiNq2Kina1Of5qIvsRkcp0PIdG37o=', 'U2FsdGVkX1/E32PydmSbgs3LzhRCjoM+e+09DrEiLaM=',
+                    'U2FsdGVkX19rJW5v8xujBW6CoLp28jn8EvEzlITb+Fw=', 'U2FsdGVkX18bOknI2ef1EU0Knc9mLhjo6jKe0XWwXAs=',
+                    'U2FsdGVkX18JWdgKpbenhMfzUX0QfGYzkbwRQjsUsYw=', 'U2FsdGVkX18xtpmOskZZEGzG+OQZgqPXkld85K4VXb4=',
+                    'U2FsdGVkX18NTjZMudELP6Wbi4P/wlCh5JNanOgEz+Y=']
+        num = messages.index(self.player.x_2) / 10
 
         if self.player.exp2_answer > num:
             option = 'Option A'
@@ -404,20 +404,21 @@ class FakeResultExp2(Page):
 
 class FakeResultExp3(Page):
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19UO4o/V+PM/gEh52Aghrl5WS9wvgZQaso=',
-                    'U2FsdGVkX1+DpQa4/Ms3HvesJ8oQgge21szNboP/BCM=', 'U2FsdGVkX1+4p4WCZ9mjhTGyG7XeEMDNyLvUhv8TnOQ=',
-                    'U2FsdGVkX1/QfPc1GWcXv2DdlHHhGsGs5e2BsKPeQGk=', 'U2FsdGVkX192QrisoIPmGB7dtrUiSkOI+llJ1KkbsAs=',
-                    'U2FsdGVkX1++r5injNGxq7V3BeUKpkOe3rmvXQBrYoo=', 'U2FsdGVkX1850jABUaGuTfXl0YKxJb7+Ir5flVh1egc=',
-                    'U2FsdGVkX18hZVCa9tHc0Be89FY7W9O3+W5PT6dNA/8=', 'U2FsdGVkX1/jmqPv4njnqQiqwY7JI4vQ4jJo6d/1wQI=',
-                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX1+oUG4rK5uH+IOkLGZ9/TZbaGpNC70F+40=',
-                    'U2FsdGVkX1+X+fhPM9Wf1BnHLUTAp5xagkQNNKCE9pY=', 'U2FsdGVkX1/arDROSwqrO/SfUzoNNCeaTUv/AMm+gto=',
-                    'U2FsdGVkX19uBdSP0+STB8Dg92D/p0/X2tH7zqtOqtk=', 'U2FsdGVkX19g9V7lhgg9ZfsMiC7ei+3xM5x8mTFeEuA=',
-                    'U2FsdGVkX1+amFbu/gC7SH/y9jU4oZeu3OUyEBKOeLo=', 'U2FsdGVkX1+EeZuGqy1YtvO3XoWLKPfTVu884Dlbw4g=',
-                    'U2FsdGVkX1/iKrpTELmuwcNPBWBe+9DJxpbmOMvzVj0=', 'U2FsdGVkX18pCbBQKEkw9lmcepBIoy+g4ZZvCjKovrs=',
-                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=']
-        num = messages.index(self.player.x_3)
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=',
+                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=',
+                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=',
+                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=',
+                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=', 'U2FsdGVkX18dstAgD8k8giVfXOad2Vt4nrscXvGg8hM=',
+                    'U2FsdGVkX1/ikkGE2zC9v8Gu96AHpw+j5Xkj3aeX3og=', 'U2FsdGVkX19IgaNiNIXPwdhtgQiUGpLgy20M1OcDMxk=',
+                    'U2FsdGVkX19GmR2nyn6piLZ/8k+t/RgWo4kiCn0jgto=', 'U2FsdGVkX1+shMxp7w8wW46UL6K9L6VpYoS8AqaZ/WE=',
+                    'U2FsdGVkX1/EkgOEQYbV5dGh52bEtPNZcaBE6zzwOzg=', 'U2FsdGVkX1+MNsgj3s3Cdb4KtFmBLyQ4mq3bfR1en7I=',
+                    'U2FsdGVkX19kPof/dhoJbJ07JMJovQ3L/hr+4lYXXV8=', 'U2FsdGVkX1+/9kDQDlQrSsJealnu1eM4HfA0WPKF9XE=',
+                    'U2FsdGVkX199TpOuJJ71j1brfR6zHos/8rs38bzMdzQ=']
+        num = messages.index(self.player.x_3) / 10
+        num2 = messages.index(self.player.x_3)
 
-        option_num = self.participant.vars['dollar_%s' % num]
+        option_num = self.participant.vars['dollar_%s' % num2]
 
         if option_num == 1:
             option = 'Option A'
@@ -472,12 +473,17 @@ class Result(Page):
         total = self.player.payoff_1 + self.player.payoff_2 + self.player.payoff_3
         return {'total': total}
 
+
+class Before_exp(Page):
+    pass
+
 page_sequence = [
     Introduction,
     Exp0,
     Exp0_result,
     FakeWaitExp0,
     FakeResultExp0,
+    Before_exp,
     Exp1,
     Exp1_result,
     FakeWaitExp1,

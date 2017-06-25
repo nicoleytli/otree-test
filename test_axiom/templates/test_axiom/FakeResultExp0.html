@@ -19,9 +19,11 @@
         {% formfield player.message0_other with label="The text you entered before appears to contain some errors. Please enter it here again" %}
 
         <p>
-            Please note that if what you enter does not match the encrypted information, your payments for the next three experiments will be reduced. <br>
-            So check carefully the envelope you chose, and make sure you decrypt it in the right way.
+            <font color="red">WARNING: If what you enter does not match the encrypted information, your payments for the next three experiments will be reduced. <br>
+                </font>
+        So check carefully the envelope you chose, and make sure you decrypt it in the right way.
         </p>
+        <hr/>
         <p>
             The envelope you chose: <div style="text-align:center"><strong>{{ message }}</strong></div>
         </p>
