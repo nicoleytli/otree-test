@@ -189,12 +189,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['likert'],
     # },
-    {
-        'name': 'participant_generated_urn_2',
-        'display_name': "Is Ambiguity Aversion A Preference",
-        'num_demo_participants': 48,
-        'app_sequence': ['participant_generated_urn_2'],
-    },
+    # {
+    #     'name': 'participant_generated_urn_2',
+    #     'display_name': "Is Ambiguity Aversion A Preference",
+    #     'num_demo_participants': 48,
+    #     'app_sequence': ['participant_generated_urn_2'],
+    # },
     # {
     #     'name': 'participant_generated_urn',
     #     'display_name': "Participant Generate Urn",
@@ -333,12 +333,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
+    # {
+    #     'name': 'test_axiom',
+    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['test_axiom'],
+    # },
     {
-        'name': 'test_axiom',
-        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-        'num_demo_participants': 5,
-        'app_sequence': ['test_axiom'],
-    },
+        'name': 'pilot2_1',
+        'display_name': 'Pilot2_1',
+        'num_demo_participants': 10,
+        'app_sequence': ['pilot2_1'],
+    }
 ]
 
 # anything you put after the below line will override
