@@ -341,9 +341,15 @@ SESSION_CONFIGS = [
     # },
     {
         'name': 'pilot2_1',
-        'display_name': 'Pilot2_1',
-        'num_demo_participants': 10,
+        'display_name': 'Polarization treatment',
+        'num_demo_participants': 50,
         'app_sequence': ['pilot2_1'],
+    },
+    {
+        'name': 'pilot2_2',
+        'display_name': 'Partisan prime - deprime treatment',
+        'num_demo_participants': 50,
+        'app_sequence': ['pilot2_2'],
     }
 ]
 
