@@ -682,7 +682,7 @@ class Introduction_2(Page):
                 'htmlb': htmlb}
 
 
-class Belief(Page):
+class Belieff(Page):
     form_model = models.Player
     form_fields = ['belief']
 
@@ -777,7 +777,7 @@ page_sequence = [
     Introduction_2,
     Decide2,
     Decide_exp,
-    Belief,
+    Belieff,
     Demographic,
     ResultsWaitPage,
     Results,
