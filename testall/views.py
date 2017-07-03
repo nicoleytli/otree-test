@@ -18,7 +18,8 @@ class ResultsWaitPage(WaitPage):
 class Results(Page):
     pass
 
-class TestPage(Page):
+
+class Onepage(Page):
     form_model = models.Player
     form_fields = ['submit']
 
@@ -26,5 +27,5 @@ page_sequence = [
     # MyPage,
     # ResultsWaitPage,
     # Results
-    TestPage
+    Onepage
 ]

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testall/templates/testall/Testpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erase/templates/erase/Test2.html" afterPath="$PROJECT_DIR$/erase/templates/erase/Test2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoseeking/templates/infoseeking/Results.html" afterPath="$PROJECT_DIR$/infoseeking/templates/infoseeking/Results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mouse_tracking/templates/mouse_tracking/TrackMouse.html" afterPath="$PROJECT_DIR$/mouse_tracking/templates/mouse_tracking/TrackMouse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mouse_tracking/views.py" afterPath="$PROJECT_DIR$/mouse_tracking/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall/models.py" afterPath="$PROJECT_DIR$/testall/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall/templates/testall/MyPage.html" afterPath="$PROJECT_DIR$/testall/templates/testall/MyPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall/templates/testall/Results.html" afterPath="$PROJECT_DIR$/testall/templates/testall/Results.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testall/templates/testall/Testpage.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall/views.py" afterPath="$PROJECT_DIR$/testall/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +37,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testall/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -101,12 +91,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3765">
-              <caret line="356" column="34" lean-forward="false" selection-start-line="356" selection-start-column="34" selection-end-line="356" selection-end-column="34" />
+            <state relative-caret-position="410">
+              <caret line="358" column="6" lean-forward="true" selection-start-line="358" selection-start-column="6" selection-end-line="358" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testall/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,20 +131,6 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Testpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testall/templates/testall/Testpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
-              <folding>
-                <element signature="e#326#384#0#HTML" expanded="true" />
-                <element signature="e#398#425#0#HTML" expanded="true" />
-                <element signature="e#565#644#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,10 +233,10 @@
         <option value="$PROJECT_DIR$/mouse_tracking/templates/mouse_tracking/TrackMouse.html" />
         <option value="$PROJECT_DIR$/testall/templates/testall/Results.html" />
         <option value="$PROJECT_DIR$/testall/templates/testall/MyPage.html" />
-        <option value="$PROJECT_DIR$/testall/views.py" />
         <option value="$PROJECT_DIR$/testall/templates/testall/Testpage.html" />
         <option value="$PROJECT_DIR$/testall/models.py" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/testall/views.py" />
       </list>
     </option>
   </component>
@@ -831,13 +819,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pilot2_2/templates/pilot2_2/Internet3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pilot2_2/templates/pilot2_2/Internet4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1180,24 +1161,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testall/views.py">
+    <entry file="file://$PROJECT_DIR$/testall/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testall/templates/testall/Testpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
-          <folding>
-            <element signature="e#326#384#0#HTML" expanded="true" />
-            <element signature="e#398#425#0#HTML" expanded="true" />
-            <element signature="e#565#644#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1212,9 +1181,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3765">
-          <caret line="356" column="34" lean-forward="false" selection-start-line="356" selection-start-column="34" selection-end-line="356" selection-end-column="34" />
+        <state relative-caret-position="410">
+          <caret line="358" column="6" lean-forward="true" selection-start-line="358" selection-start-column="6" selection-end-line="358" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testall/templates/testall/Testpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testall/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
