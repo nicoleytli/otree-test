@@ -189,12 +189,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['likert'],
     # },
-    {
-        'name': 'participant_generated_urn_2',
-        'display_name': "Is Ambiguity Aversion A Preference",
-        'num_demo_participants': 48,
-        'app_sequence': ['participant_generated_urn_2'],
-    },
+    # {
+    #     'name': 'participant_generated_urn_2',
+    #     'display_name': "Is Ambiguity Aversion A Preference",
+    #     'num_demo_participants': 48,
+    #     'app_sequence': ['participant_generated_urn_2'],
+    # },
     # {
     #     'name': 'participant_generated_urn',
     #     'display_name': "Participant Generate Urn",
@@ -333,12 +333,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
-    {
-        'name': 'test_axiom',
-        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-        'num_demo_participants': 5,
-        'app_sequence': ['test_axiom'],
-    },
+    # {
+    #     'name': 'test_axiom',
+    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['test_axiom'],
+    # },
     # {
     #     'name': 'pilot2_1',
     #     'display_name': 'Polarization treatment',
@@ -351,11 +351,17 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 50,
     #     'app_sequence': ['pilot2_2'],
     # },
+    {
+        'name': 'testall',
+        'display_name': 'Email',
+        'num_demo_participants': 5,
+        'app_sequence': ['testall'],
+    },
     # {
-    #     'name': 'testall',
-    #     'display_name': 'test',
+    #     'name': 'mouse_tracking',
+    #     'display_name': 'mouse',
     #     'num_demo_participants': 1,
-    #     'app_sequence': ['testall'],
+    #     'app_sequence': ['mouse_tracking'],
     # },
 ]
 

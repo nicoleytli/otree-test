@@ -5,7 +5,8 @@ from .models import Constants
 
 
 class MyPage(Page):
-    pass
+    form_model = models.Player
+    form_fields = ['mouse_x', 'mouse_y']
 
 
 class ResultsWaitPage(WaitPage):
@@ -17,9 +18,13 @@ class ResultsWaitPage(WaitPage):
 class Results(Page):
     pass
 
+class TestPage(Page):
+    form_model = models.Player
+    form_fields = ['submit']
 
 page_sequence = [
-    MyPage,
+    # MyPage,
     # ResultsWaitPage,
     # Results
+    TestPage
 ]

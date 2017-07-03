@@ -26,4 +26,6 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    pass
+    submit = models.TextField(
+        blank=True
+    )

@@ -1,0 +1,46 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Page title
+{% endblock %}
+
+{% block content %}
+
+{#    <iframe src="https://www.feinstein.senate.gov/public/index.cfm/e-mail-me" vspace="-500" hspace="-800" scrolling="no" height="3000" width="100%" frameborder="0"></iframe>#}
+
+    <div style="position: relative; width: 1000px; height: 3000px;">
+    <iframe style="position: absolute;" src="https://www.feinstein.senate.gov/public/index.cfm/e-mail-me" width="1000" height="3000" scrolling="no"></iframe>
+    <div id="second" style="position: absolute; left: 75px; top: 2490px; width: 70px; height: 40px;">
+    </div>
+    </div>
+    <p>
+    <br>
+    </p>
+
+    <input type="hidden" name="submit" value="" id="submit"/>
+
+    <button class="btn btn-danger">Next</button>
+
+
+{% endblock %}
+
+{% block style %}
+
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+
+    var second = document.getElementById("second");
+
+    second.onclick = function () {
+        second.style.display="none";
+        document.getElementById('submit').value = "Clicked"
+    }
+
+    </script>
+
+
+
+{% endblock %}
