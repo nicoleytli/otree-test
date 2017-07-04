@@ -26,6 +26,9 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
+    text = models.TextField(
+        blank=True
+    )
     submit = models.TextField(
         blank=True
     )

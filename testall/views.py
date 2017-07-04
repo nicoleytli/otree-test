@@ -21,7 +21,7 @@ class Results(Page):
 
 class Onepage(Page):
     form_model = models.Player
-    form_fields = ['submit']
+    form_fields = ['text', 'submit']
 
 page_sequence = [
     # MyPage,
