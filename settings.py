@@ -339,18 +339,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 5,
     #     'app_sequence': ['test_axiom'],
     # },
-    # {
-    #     'name': 'pilot2_1',
-    #     'display_name': 'Polarization treatment',
-    #     'num_demo_participants': 50,
-    #     'app_sequence': ['pilot2_1'],
-    # },
-    # {
-    #     'name': 'pilot2_2',
-    #     'display_name': 'Partisan prime - deprime treatment',
-    #     'num_demo_participants': 50,
-    #     'app_sequence': ['pilot2_2'],
-    # },
+    {
+        'name': 'pilot2_1',
+        'display_name': 'Polarization treatment',
+        'num_demo_participants': 50,
+        'app_sequence': ['pilot2_1'],
+    },
+    {
+        'name': 'pilot2_2',
+        'display_name': 'Partisan prime - deprime treatment',
+        'num_demo_participants': 50,
+        'app_sequence': ['pilot2_2'],
+    },
     {
         'name': 'testall',
         'display_name': 'Email',
