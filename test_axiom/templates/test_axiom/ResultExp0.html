@@ -7,12 +7,14 @@
 
 {% block content %}
 
-    {% if player.check == 1 %}
+    {% if player.check_0 == 1 %}
 
         <p>
             The text you entered before matches the encrypted information. <br>
             Please click the next button and go on.
         </p>
+
+        {% next_button %}
 
     {% else %}
 
@@ -31,9 +33,15 @@
             You can go to the website: <a href="{{ link }}" target=_blank>https://www.browserling.com/tools/aes-decrypt</a> to open the envelope with the password:
         </p>
     <div style="text-align:center"><strong>wobukaixin</strong></div>
+        <hr/>
+        {% next_button %}
+        <p>
+        <font color="red"><strong><u>If you are not sure where and how to decrypt it, please refer to the instructions below:</u></strong></font>
+    </p>
+    {% include 'test_axiom/Exp0_ins.html' %}
+
 
     {% endif %}
 
-    {% next_button %}
 
 {% endblock %}

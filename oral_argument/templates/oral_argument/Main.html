@@ -7,13 +7,16 @@
 {% endblock %}
 
 {% block content %}
-    <center>
-        <audio controls preload="auto">
-            <source src="{% static audio %}">
-            Your browser does not support the audio tag.
-        </audio>
-    </center>
 
+    <div id="aPlayer">
+        <center>
+            <audio controls="controls" preload="auto" id="audio" controlsList="nodownload">
+                <source src="{% static audio %}" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </center>
+
+    </div>
 
     <p><strong> 1. Please provide your impression of the voice recording in the matrix below: </strong></p>
         <center>
@@ -74,4 +77,5 @@
     {% next_button %}
 
 {% endblock %}
+
 

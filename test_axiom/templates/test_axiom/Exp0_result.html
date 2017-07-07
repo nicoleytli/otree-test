@@ -8,11 +8,6 @@
 {% block content %}
 
 
-    {% include 'test_axiom/Exp0_ins.html' %}
-
-    <p>
-        <strong><u>Now you can try it yourself using the above instructions</u></strong>
-    </p>
     <p>
     <br>
     </p>
@@ -30,7 +25,12 @@
     </p>
 
     {% formfield player.message0 with label="Please enter the encrypted information here" %}
-
     {% next_button %}
+    <p>
+        <font color="red"><strong><u>If you are not sure where and how to decrypt it, please refer to the instructions below:</u></strong></font>
+    </p>
+    <hr/>
+    {% include 'test_axiom/Exp0_ins.html' %}
+
 
 {% endblock %}

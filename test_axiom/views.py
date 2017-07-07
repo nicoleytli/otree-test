@@ -17,7 +17,7 @@ class Exp0(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_0_choices(self):
-        messages = ['U2FsdGVkX18s+BqpZ/dBN 3067AiYkJnfd5NeJLCjhna RLNm/a4i581c beXW9c6M8', 'U2FsdGVkX1/ifPvw3igI2+EHnNZOnExpj0tnBFKRWPV+3vWEupWUULslSxrA5gOo',
+        messages = ['U2FsdGVkX18s+BqpZ/dBN3067AiYkJnfd5NeJLCjhnaRLNm/a4i581cbeXW9c6M8', 'U2FsdGVkX1/ifPvw3igI2+EHnNZOnExpj0tnBFKRWPV+3vWEupWUULslSxrA5gOo',
                     'U2FsdGVkX1/jV1fBxlBW4lhaOhcH7O4/sfZRkcxC3onbEeEZC4PVhhAkQ9itQ80h', 'U2FsdGVkX194iOHdJPb9fbJCs/B+QVbKz8b6HWnvY8Flp/8/Gk4744/dz3Jl7Ey0',
                     'U2FsdGVkX19YusyPtXZ1z6Pcdn1oPc9dghE0DE32DWM33bP7PwO5GIbFELiSYLL8', 'U2FsdGVkX1/2RWoCSmWhqYLfIIds/wZ+Up9bDFUgVbnaDJ5ZrKoFOQzp74xUvSlU',
                     'U2FsdGVkX1+q48npkC85b58c4lkH4qim6OZWGKRHZZLn6k4zWwpqkaSb3MBcirWc', 'U2FsdGVkX1+1eJqJH+neh5LFePLkHtTeli4u1jViGOD9XakqmhwasKiK/Lrtpbhk',
@@ -189,8 +189,8 @@ class Exp3_result(Page):
                 'message': self.player.x_3}
 
 
-class FakeWaitExp0(Page):
-    timeout_seconds = 10
+class WaitExp0(Page):
+    timeout_seconds = 5
 
     def before_next_page(self):
         messages = ['U2FsdGVkX18s+BqpZ/dBN3067AiYkJnfd5NeJLCjhnaRLNm/a4i581cbeXW9c6M8', 'U2FsdGVkX1/ifPvw3igI2+EHnNZOnExpj0tnBFKRWPV+3vWEupWUULslSxrA5gOo',
@@ -234,40 +234,40 @@ class FakeWaitExp0(Page):
         ok = distance <= 0
 
         if ok:
-            self.player.check = 1
+            self.player.check_0 = 1
         else:
-            self.player.check = 0
+            self.player.check_0 = 0
 
     def vars_for_template(self):
         return {'message': self.player.x_0,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
-class FakeWaitExp1(Page):
-    timeout_seconds = 20
+class WaitExp1(Page):
+    timeout_seconds = 5
 
     def vars_for_template(self):
         return {'message': self.player.x_1,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
-class FakeWaitExp2(Page):
-    timeout_seconds = 18
+class WaitExp2(Page):
+    timeout_seconds = 6
 
     def vars_for_template(self):
         return {'message': self.player.x_2,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
-class FakeWaitExp3(Page):
-    timeout_seconds = 17
+class WaitExp3(Page):
+    timeout_seconds = 5
 
     def vars_for_template(self):
         return {'message': self.player.x_3,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
-class FakeResultExp0(Page):
+class ResultExp0(Page):
     form_model = models.Player
     form_fields = ['message0_other']
 
@@ -276,7 +276,7 @@ class FakeResultExp0(Page):
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
 
-class FakeResultExp1(Page):
+class ResultExp1(Page):
 
     def vars_for_template(self):
         messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=',
@@ -359,7 +359,7 @@ class FakeResultExp1(Page):
                 'threshold': self.player.exp1_answer}
 
 
-class FakeResultExp2(Page):
+class ResultExp2(Page):
     def vars_for_template(self):
         messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=',
                     'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=',
@@ -402,7 +402,7 @@ class FakeResultExp2(Page):
                 'threshold': self.player.exp2_answer}
 
 
-class FakeResultExp3(Page):
+class ResultExp3(Page):
     def vars_for_template(self):
         messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=',
                     'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=',
@@ -482,21 +482,21 @@ page_sequence = [
     Introduction,
     Exp0,
     Exp0_result,
-    FakeWaitExp0,
-    FakeResultExp0,
+    WaitExp0,
+    ResultExp0,
     Before_exp,
     Exp1,
     Exp1_result,
-    FakeWaitExp1,
-    FakeResultExp1,
+    WaitExp1,
+    ResultExp1,
     Exp2,
     Exp2_result,
-    FakeWaitExp2,
-    FakeResultExp2,
+    WaitExp2,
+    ResultExp2,
     Exp3,
     Exp3_result,
-    FakeWaitExp3,
-    FakeResultExp3,
+    WaitExp3,
+    ResultExp3,
     Page1,
     Page2,
     Page3,

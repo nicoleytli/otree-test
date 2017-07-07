@@ -207,12 +207,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['covering_test']
     # },
-    # {
-    #     'name': 'oral_argument',
-    #     'display_name': "Oral Arguments Experiment",
-    #     'num_demo_participants': 10,
-    #     'app_sequence': ['oral_argument']
-    # },
+    {
+        'name': 'oral_argument',
+        'display_name': "Oral Arguments Experiment",
+        'num_demo_participants': 10,
+        'app_sequence': ['oral_argument']
+    },
     # {
     #     'name': 'Empathy',
     #     'display_name': "Empathy Beget Guile",
@@ -333,30 +333,30 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
-    {
-        'name': 'test_axiom',
-        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-        'num_demo_participants': 5,
-        'app_sequence': ['test_axiom'],
-    },
-    {
-        'name': 'pilot2_1',
-        'display_name': 'Polarization treatment',
-        'num_demo_participants': 50,
-        'app_sequence': ['pilot2_1'],
-    },
-    {
-        'name': 'pilot2_2',
-        'display_name': 'Partisan prime - deprime treatment',
-        'num_demo_participants': 50,
-        'app_sequence': ['pilot2_2'],
-    },
-    {
-        'name': 'testall',
-        'display_name': 'Email',
-        'num_demo_participants': 5,
-        'app_sequence': ['testall'],
-    },
+    # {
+    #     'name': 'test_axiom',
+    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['test_axiom'],
+    # },
+    # {
+    #     'name': 'pilot2_1',
+    #     'display_name': 'Polarization treatment',
+    #     'num_demo_participants': 50,
+    #     'app_sequence': ['pilot2_1'],
+    # },
+    # {
+    #     'name': 'pilot2_2',
+    #     'display_name': 'Partisan prime - deprime treatment',
+    #     'num_demo_participants': 50,
+    #     'app_sequence': ['pilot2_2'],
+    # },
+    # {
+    #     'name': 'testall',
+    #     'display_name': 'Email',
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['testall'],
+    # },
     # {
     #     'name': 'mouse_tracking',
     #     'display_name': 'mouse',

@@ -36,7 +36,7 @@ class Player(BasePlayer):
     message0_other = models.TextField(
         blank=True
     )
-    check = models.BooleanField()
+    check_0 = models.BooleanField()
 
     exp1_answer = models.CurrencyField(
         min=0, max=2
@@ -51,7 +51,7 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect()
     )
     payoff_1 = models.CurrencyField()
-
+    check_1 = models.BooleanField()
 
     exp2_answer = models.CurrencyField(
         min=0, max=2
@@ -64,6 +64,7 @@ class Player(BasePlayer):
     exp3_answer = models.CurrencyField(
         min=0, max=2
     )
+    check_2 = models.BooleanField()
 
     result_exp3 = models.CharField()
     random_draw = models.BooleanField()
@@ -94,6 +95,7 @@ class Player(BasePlayer):
     dollar_20 = models.FloatField()
 
     payoff_3 = models.CurrencyField()
+    check_3 = models.BooleanField()
 
     q1 = models.IntegerField()
     q2 = models.IntegerField()
