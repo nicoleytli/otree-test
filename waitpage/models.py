@@ -12,7 +12,7 @@ doc = """
 
 
 class Constants(BaseConstants):
-    name_in_url = 'waitpage'
+    name_in_url = 'cusotomwp'
     players_per_group = 3
     num_rounds = 1
     # the startwp_timer defines how long the player has to wait at the
@@ -23,7 +23,13 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    ...
+    not_enough_players = models.BooleanField(
+        doc=""" this variable set to True when one of the players decide to
+        abandon the game (because he is tired to wait), and
+        there is no enough players left in the session to complete the group.
+        then those remaining get the opportunity to finish the game.""",
+        initial=False
+    )
 
 
 class Group(BaseGroup):

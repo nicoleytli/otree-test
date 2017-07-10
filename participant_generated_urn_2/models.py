@@ -13,7 +13,7 @@ Your app description
 
 class Constants(BaseConstants):
     name_in_url = 'participant_generate_urn_2'
-    players_per_group = 4
+    players_per_group = 30
     num_rounds = 1
     conditions = ['Participant', 'Experimenter']
     symbols = ['uparrow', 'downarrow', 'heart', 'circle', 'downzhe', 'upzhe', 'square', 'line', 'arrow', 'circle2',
@@ -37,10 +37,10 @@ class Group(BaseGroup):
         # result of first coin
         self.coin = random.choice(['Head', 'Tail'])
 
-        self.symbol_exp = random.randint(1, 3)
+        self.symbol_exp = random.randint(1, 29)
         if self.treatment == 'Experimenter':
-            self.a = random.randint(0, 3)
-            self.b = 3 - self.a
+            self.a = random.randint(0, 29)
+            self.b = 29 - self.a
         else:
             pass
 
@@ -61,11 +61,11 @@ class Group(BaseGroup):
                     else:
                         pass
                 player.a = len(result_a)
-                player.b = 3 - player.a
+                player.b = 29 - player.a
             else:
                 pass
 
-            player.symbol_par = random.randint(1, 3)
+            player.symbol_par = random.randint(1, 29)
 
             if self.treatment == 'Participant':
                 if player.option == 4:
@@ -224,6 +224,18 @@ class Player(BasePlayer):
         choices=['Less than $20000', 'Between $20000 to $40000', 'Between $40001 to $60000', 'Between $60001 to $80000',
                  'More than $80000'],
         doc="""Please choose one of the choices""",
+    )
+    timeout_decide = models.IntegerField(
+        blank=True
+    )
+    timeout_intro = models.IntegerField(
+        blank=True
+    )
+    timeout_belief = models.IntegerField(
+        blank=True
+    )
+    timeout_demo = models.IntegerField(
+        blank=True
     )
 
 

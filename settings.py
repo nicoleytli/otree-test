@@ -14,8 +14,7 @@ import otree.settings
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-
-CHANNEL_ROUTING = 'Empathy_Beget_Guile_Timer.routing.channel_routing'
+CHANNEL_ROUTING = 'participant_generated_urn_2.routing.channel_routing'
 
 SENTRY_DSN = 'http://ee3c5daaa6be43c38afbb2df55987f9f:14944f017bfe4f3ba49fe45d05133d63@sentry.otree.org/170'
 
@@ -189,12 +188,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['likert'],
     # },
-    # {
-    #     'name': 'participant_generated_urn_2',
-    #     'display_name': "Is Ambiguity Aversion A Preference",
-    #     'num_demo_participants': 48,
-    #     'app_sequence': ['participant_generated_urn_2'],
-    # },
+    {
+        'name': 'participant_generated_urn_2',
+        'display_name': "Is Ambiguity Aversion A Preference",
+        'num_demo_participants': 300,
+        'app_sequence': ['participant_generated_urn_2'],
+    },
     # {
     #     'name': 'participant_generated_urn',
     #     'display_name': "Participant Generate Urn",
@@ -207,12 +206,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 10,
     #     'app_sequence': ['covering_test']
     # },
-    {
-        'name': 'oral_argument',
-        'display_name': "Oral Arguments Experiment",
-        'num_demo_participants': 10,
-        'app_sequence': ['oral_argument']
-    },
+    # {
+    #     'name': 'oral_argument',
+    #     'display_name': "Oral Arguments Experiment",
+    #     'num_demo_participants': 10,
+    #     'app_sequence': ['oral_argument']
+    # },
     # {
     #     'name': 'Empathy',
     #     'display_name': "Empathy Beget Guile",
@@ -232,10 +231,10 @@ SESSION_CONFIGS = [
     #     'app_sequence': ['likertquest'],
     # },
     # {
-    #     'name': 'anes2',
-    #     'display_name': "Priming Treatment",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['anes2'],
+    #     'name': 'waitpage',
+    #     'display_name': "Wait Page Test",
+    #     'num_demo_participants': 3,
+    #     'app_sequence': ['waitpage'],
     # },
     # {
     #     'name': 'anes',

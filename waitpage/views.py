@@ -18,7 +18,7 @@ from otree.models_concrete import (
 import time
 import channels
 import json
-
+from .consumers import get_group_name
 
 class CustomWaitPage(WaitPage):
     template_name = 'waitpage/CustomWaitPage.html'
@@ -37,9 +37,6 @@ class StartWP(CustomWaitPage):
     group_by_arrival_time = True
     template_name = 'waitpage/FirstWaitPage.html'
 
-    def get_mturk_group_name(self):
-        return 'mturkchannel_{}_{}'.format(self.session.pk, self._index_in_pages)
-
     def is_displayed(self):
         return self.subsession.round_number == 1
 
@@ -54,16 +51,20 @@ class StartWP(CustomWaitPage):
     def get_players_for_group(self, waiting_players):
         post_dict = self.request.POST.dict()
         endofgame = post_dict.get('endofgame')
+        slowpokes = [p.participant for p in self.subsession.get_players()
+                     if p.participant._index_in_pages
+                     <= self.index_in_pages]
+        if len(slowpokes) <= Constants.players_per_group:
+            self.subsession.not_enough_players = True
         if endofgame:
             curplayer = [p for p in waiting_players if p.pk == int(endofgame)][0]
             curplayer.outofthegame = True
             return [curplayer]
-        print("HOW MAMMMMAMANY????", len(waiting_players))
         if len(waiting_players) == Constants.players_per_group:
             return waiting_players
-    #
-    # def is_displayed(self):
-    #     return self.round_number == 1
+
+    def is_displayed(self):
+        return self.round_number == 1
 
 
 class Intro(CustomPage):
