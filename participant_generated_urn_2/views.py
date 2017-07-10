@@ -163,6 +163,8 @@ class ResultsWaitPage(WaitPage):
 
     def after_all_players_arrive(self):
         self.group.set_payoffs()
+        for p in self.group.get_players():
+            p.participant.vars['fourthtime'] = time.time()
 
 
 class Results(Page):
@@ -334,10 +336,16 @@ class Results(Page):
 
         mylist = zip(id_num, other_result)
 
+        comp = (self.participant.vars['secondtime'] - self.participant.vars['firsttime']) / 60 + \
+               (self.participant.vars['fourthtime'] - self.participant.vars['thirdtime']) / 60
+
+        self.player.compensate = round(comp)
+
         return {'list': mylist,
                 'result': result,
                 'htmla': htmla,
-                'htmlb': htmlb}
+                'htmlb': htmlb,
+                'comp': self.player.compensate}
 
     def is_displayed(self):
         return self.player.treatment == 'Participant'
@@ -345,7 +353,6 @@ class Results(Page):
 
 class FirstWait(WaitPage):
     group_by_arrival_time = True
-    players_per_group = 30
     template_name = 'participant_generated_urn_2/CustomWaitPage.html'
 
     def after_all_players_arrive(self):
@@ -380,7 +387,7 @@ class FirstWait(WaitPage):
 
         for p in self.group.get_players():
             p.treatment = self.group.treatment
-
+            p.participant.vars['secondtime'] = time.time()
 
 class Introduction(Page):
     form_model = models.Player
@@ -655,9 +662,15 @@ class Results_2(Page):
             else:
                 result = '⓫'
 
+        comp = (self.participant.vars['secondtime'] - self.participant.vars['firsttime'])/60 + \
+               (self.participant.vars['fourthtime'] - self.participant.vars['thirdtime'])/60
+
+        self.player.compensate = round(comp)
+
         return {'htmla': htmla,
                 'htmlb': htmlb,
-                'result': result}
+                'result': result,
+                'comp': self.player.compensate}
 
 
 class Introduction_2(Page):
@@ -1194,6 +1207,7 @@ class Demographic(Page):
     def before_next_page(self):
         if self.timeout_happened:
             self.player.timeout_demo = 1
+        self.participant.vars['thirdtime'] = time.time()
 
 
 

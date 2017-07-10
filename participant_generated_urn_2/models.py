@@ -13,7 +13,7 @@ Your app description
 
 class Constants(BaseConstants):
     name_in_url = 'participant_generate_urn_2'
-    players_per_group = 30
+    players_per_group = 5
     num_rounds = 1
     conditions = ['Participant', 'Experimenter']
     symbols = ['uparrow', 'downarrow', 'heart', 'circle', 'downzhe', 'upzhe', 'square', 'line', 'arrow', 'circle2',
@@ -235,6 +235,9 @@ class Player(BasePlayer):
         blank=True
     )
     timeout_demo = models.IntegerField(
+        blank=True
+    )
+    compensate = models.IntegerField(
         blank=True
     )
 
