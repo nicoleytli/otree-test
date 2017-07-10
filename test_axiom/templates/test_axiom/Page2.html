@@ -2,7 +2,7 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Questionnaire - Part Two
+    Questionnaire - Part One
 {% endblock %}
 
 {% block content %}
@@ -21,7 +21,8 @@
     <p>
     <br>
     </p>
-    <p>
+        {% if order == 0 %}
+            <p>
     <strong>
         QUESTION:
     </strong>
@@ -41,6 +42,31 @@
     for free. And you choose exactly one.
     </p>
     {% formfield player.q5 with label='Which one would you choose' %}
+
+    {% else %}
+
+    <p>
+    <strong>
+        QUESTION:
+    </strong>
+    Now imagine you did not get the choice offered above, but instead got offered a choice between the 2 lotteries below
+    for free. And you choose exactly one.
+    </p>
+    {% formfield player.q5 with label='Which one would you choose' %}
+    <p>
+    <br>
+    </p>
+    <p>
+    <strong>
+        QUESTION:
+    </strong>
+    Suppose you got offered a choice between these 2 lotteries. Suppose you would not have to pay anything for either of
+    them, and you could choose exactly one lottery.
+    </p>
+
+    {% formfield player.q4 with label='Which one would you choose' %}
+
+    {% endif %}
 
 
     {% next_button %}

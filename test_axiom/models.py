@@ -52,6 +52,7 @@ class Player(BasePlayer):
     )
     payoff_1 = models.CurrencyField()
     check_1 = models.BooleanField()
+    message1 = models.TextField()
 
     exp2_answer = models.CurrencyField(
         min=0, max=2
@@ -65,12 +66,14 @@ class Player(BasePlayer):
         min=0, max=2
     )
     check_2 = models.BooleanField()
+    message2 = models.TextField()
 
     result_exp3 = models.CharField()
     random_draw = models.BooleanField()
     x_3 = models.CharField(
         widget=widgets.RadioSelect()
     )
+    message3 = models.TextField()
 
     dollar_0 = models.FloatField()
     dollar_1 = models.FloatField()

@@ -149,6 +149,9 @@ class Exp0_result(Page):
 
 
 class Exp1_result(Page):
+    form_model = models.Player
+    form_fields = ['message1']
+
     def vars_for_template(self):
         self.player.result_A = random.choice(['Red', 'Red', 'Red', 'Red', 'White', 'White', 'White', 'Black', 'Black', 'Black'])
         self.player.result_B = random.choice(['Red', 'Red', 'White', 'White', 'White', 'Black', 'Black', 'Black', 'Black', 'Black'])
@@ -160,6 +163,9 @@ class Exp1_result(Page):
 
 
 class Exp2_result(Page):
+    form_model = models.Player
+    form_fields = ['message2']
+
     def vars_for_template(self):
         self.player.result_exp2 = random.choice(['Black', 'White'])
 
@@ -170,6 +176,9 @@ class Exp2_result(Page):
 
 
 class Exp3_result(Page):
+    form_model = models.Player
+    form_fields = ['message3']
+
     def vars_for_template(self):
         black_ball = random.randint(0, 40)
         white_ball = 40 - black_ball
@@ -456,10 +465,18 @@ class Page1(Page):
     form_model = models.Player
     form_fields = ['q1', 'q2', 'q3']
 
+    def vars_for_template(self):
+        order = random.randint(1, 6)
+        return {'order': order}
+
 
 class Page2(Page):
     form_model = models.Player
     form_fields = ['q4', 'q5']
+
+    def vars_for_template(self):
+        order = random.randint(0, 1)
+        return {'order': order}
 
 
 class Page3(Page):
@@ -497,8 +514,8 @@ page_sequence = [
     Exp3_result,
     WaitExp3,
     ResultExp3,
-    Page1,
     Page2,
+    Page1,
     Page3,
     Result
 ]
