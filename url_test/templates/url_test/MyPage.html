@@ -23,7 +23,7 @@
 
 {#    <button class="btn btn-primary" id="next" style="display:none">Next</button>#}
     <input type="hidden" name="qv_id" value="" id="qv_id"/>
-    <input type="hidden" name="otree_id" value="" id="otree_id"/>
+    <input type="hidden" name="treat" value="" id="treat"/>
     <input type="hidden" name="q1" value="" id="q1"/>
     <input type="hidden" name="q2" value="" id="q2"/>
     <input type="hidden" name="q3" value="" id="q3"/>
@@ -37,7 +37,8 @@
 {#    <input type="hidden" name="datastring" value="" id="datastring"/>#}
 
 
-     <button class="btn btn-primary" id="next" style="display:none" onclick="stopCount()">Next</button>
+{#     <button class="btn btn-primary" id="next" style="display:none" onclick="stopCount()">Next</button>#}
+     <button class="btn btn-primary" id="next" onclick="stopCount()">Next</button>
 
 
 {% endblock %}
@@ -52,49 +53,49 @@
 {##}
 {#    }#}
 {##}
-    window.onload=function(){
+{#    window.onload=function(){#}
+{##}
+{#      var parser = document.createElement('a');#}
+{#      var next = document.getElementById('next');#}
+{#      var link = document.getElementById('link');#}
+{#      parser.href = window.location.href;#}
+{#      var query = location.search.substr(1);#}
+{#            query.split("&").forEach(function(part) {#}
+{#            var item = part.split("=");#}
+{##}
+{#      if (item[0]=="part_lab"){#}
+{#          next.style.display="";#}
+{#          link.style.display="none";#}
+{#      }else{#}
+{#          next.style.display="none";#}
+{#          link.style.display="";#}
+{#      }#}
+{##}
+{#      });#}
+{#    };#}
 
-      var parser = document.createElement('a');
-      var next = document.getElementById('next');
-      var link = document.getElementById('link');
-      parser.href = window.location.href;
-      var query = location.search.substr(1);
-            query.split("&").forEach(function(part) {
-            var item = part.split("=");
-
-      if (item[0]=="participant_label"){
-          next.style.display="";
-          link.style.display="none";
-      }else{
-          next.style.display="none";
-          link.style.display="";
-      }
-
-      });
-    };
-
-    function stopCount(){
-
-        var parser = document.createElement('b');
-        parser.href = window.location.href;
-        var query = location.search.substr(1);
-        var littlearray = [];
-            query.split("&").forEach(function(part) {
-            var item = part.split("=");
-            littlearray = decodeURIComponent(item[1]).split(',');
-            document.getElementById('qv_id').value = littlearray[0];
-            document.getElementById('otree_id').value = littlearray[1];
-            document.getElementById('q1').value = littlearray[2];
-            document.getElementById('q2').value = littlearray[3];
-            document.getElementById('q3').value = littlearray[4];
-            document.getElementById('q4').value = littlearray[5];
-            document.getElementById('q5').value = littlearray[6];
-            document.getElementById('q6').value = littlearray[7];
-            document.getElementById('q7').value = littlearray[8];
-            document.getElementById('q8').value = littlearray[9];
-            document.getElementById('q9').value = littlearray[10];
-            document.getElementById('q10').value = littlearray[11];
-        });
+{#    function stopCount(){#}
+{##}
+{#        var parser = document.createElement('b');#}
+{#        parser.href = window.location.href;#}
+{#        var query = location.search.substr(1);#}
+{#        var littlearray = [];#}
+{#            query.split("&").forEach(function(part) {#}
+{#            var item = part.split("=");#}
+{#            littlearray = decodeURIComponent(item[1]).split(',');#}
+{#            document.getElementById('qv_id').value = littlearray[0];#}
+{#            document.getElementById('otree_id').value = littlearray[1];#}
+{#            document.getElementById('q1').value = littlearray[2];#}
+{#            document.getElementById('q2').value = littlearray[3];#}
+{#            document.getElementById('q3').value = littlearray[4];#}
+{#            document.getElementById('q4').value = littlearray[5];#}
+{#            document.getElementById('q5').value = littlearray[6];#}
+{#            document.getElementById('q6').value = littlearray[7];#}
+{#            document.getElementById('q7').value = littlearray[8];#}
+{#            document.getElementById('q8').value = littlearray[9];#}
+{#            document.getElementById('q9').value = littlearray[10];#}
+{#            document.getElementById('q10').value = littlearray[11];#}
+{#        });#}
 
 {#        var url = window.location.href;#}
 {#        var request = {};#}
@@ -108,8 +109,38 @@
 {##}
 {#        document.getElementById('player_id').value = request[0];#}
 {#        document.getElementById('likert_1').value = request[1]#}
+{##}
+{#    }#}
 
-    }
+    	function getParameter(theParameter) {
+
+	var params = window.location.search.substr(1).split('&');
+
+  	for (var i = 0; i < params.length; i++) { // loop param
+
+		var p=params[i].split('=');
+
+		if (p[0] == theParameter) {
+			return decodeURIComponent(p[1]).split(',');
+		}
+	}
+	return false;
+}
+
+        function stopCount(){
+            document.getElementById('qv_id').value = getParameter('part_lab');
+            document.getElementById('q1').value = getParameter('finalAllocation')[0];
+            document.getElementById('q2').value = getParameter('finalAllocation')[1];
+            document.getElementById('q3').value = getParameter('finalAllocation')[2];
+            document.getElementById('q4').value = getParameter('finalAllocation')[3];
+            document.getElementById('q5').value = getParameter('finalAllocation')[4];
+            document.getElementById('q6').value = getParameter('finalAllocation')[5];
+            document.getElementById('q7').value = getParameter('finalAllocation')[6];
+            document.getElementById('q8').value = getParameter('finalAllocation')[7];
+            document.getElementById('q9').value = getParameter('finalAllocation')[8];
+            document.getElementById('q10').value = getParameter('finalAllocation')[9];
+            document.getElementById('treat').value = getParameter('treat');
+        }
 
 
     </script>

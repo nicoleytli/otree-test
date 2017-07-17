@@ -108,6 +108,7 @@ DEMO_PAGE_INTRO_TEXT = """
     source, and you can modify them as you wish.
 </p>
 """
+ROOM_DEFAULTS = {}
 
 ROOMS = [
     {
@@ -320,12 +321,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['Empathy_Beget_Guile_Timer'],
     # },
-    # {
-    #     'name': 'url',
-    #     'display_name': "Testing url",
-    #     'num_demo_participants': 2,
-    #     'app_sequence': ['url_test'],
-    # },
+    {
+        'name': 'url',
+        'display_name': "Testing url",
+        'num_demo_participants': 2,
+        'app_sequence': ['url_test'],
+    },
     # {
     #     'name': 'compensation',
     #     'display_name': "compensation",

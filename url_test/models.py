@@ -36,7 +36,7 @@ class Player(BasePlayer):
 
     datastring = models.CharField()
 
-    otree_id = models.CharField()
+    treat = models.CharField()
     qv_id = models.CharField()
     q1 = models.IntegerField()
     q2 = models.IntegerField()

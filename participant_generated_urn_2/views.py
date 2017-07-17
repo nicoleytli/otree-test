@@ -389,6 +389,7 @@ class FirstWait(WaitPage):
             p.treatment = self.group.treatment
             p.participant.vars['secondtime'] = time.time()
 
+
 class Introduction(Page):
     form_model = models.Player
     form_fields = ['decision']
