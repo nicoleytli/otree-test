@@ -5,98 +5,98 @@ from .models import Constants
 import random
 import time
 
-class Decide(Page):
-    form_model = models.Player
-    form_fields = ['decision']
-
-    def vars_for_template(self):
-        if self.group.symbol_pair == 'uparrow':
-            htmla = '↗'
-            htmlb = '↖'
-        elif self.group.symbol_pair == 'downarrow':
-            htmla = '↙'
-            htmlb = '↘︎'
-        elif self.group.symbol_pair == 'heart':
-            htmla = '♡'
-            htmlb = '☺︎'
-        elif self.group.symbol_pair == 'circle':
-            htmla = '◯'
-            htmlb = '•'
-        elif self.group.symbol_pair == 'downzhe':
-            htmla = '┓'
-            htmlb = '┏︎'
-        elif self.group.symbol_pair == 'upzhe':
-            htmla = '┗'
-            htmlb = '┛'
-        elif self.group.symbol_pair == 'square':
-            htmla = '■'
-            htmlb = '□'
-        elif self.group.symbol_pair == 'line':
-            htmla = '—'
-            htmlb = '|'
-        elif self.group.symbol_pair == 'arrow':
-            htmla = '↔'
-            htmlb = '↕'
-        elif self.group.symbol_pair == 'circle2':
-            htmla = '◌'
-            htmlb = '●'
-        elif self.group.symbol_pair == 'theta':
-            htmla = 'φ'
-            htmlb = 'θ'
-        elif self.group.symbol_pair == 'question':
-            htmla = 'ʔ'
-            htmlb = 'ʕ'
-        else:
-            htmla = '⑪'
-            htmlb = '⓫'
-        return {'htmla': htmla,
-                'htmlb': htmlb}
-
-    def decision_choices(self):
-        if self.group.symbol_pair == 'uparrow':
-            htmla = '↗'
-            htmlb = '↖'
-        elif self.group.symbol_pair == 'downarrow':
-            htmla = '↙'
-            htmlb = '↘︎'
-        elif self.group.symbol_pair == 'heart':
-            htmla = '♡'
-            htmlb = '☺︎'
-        elif self.group.symbol_pair == 'circle':
-            htmla = '◯'
-            htmlb = '•'
-        elif self.group.symbol_pair == 'downzhe':
-            htmla = '┓'
-            htmlb = '┏︎'
-        elif self.group.symbol_pair == 'upzhe':
-            htmla = '┗'
-            htmlb = '┛'
-        elif self.group.symbol_pair == 'square':
-            htmla = '■'
-            htmlb = '□'
-        elif self.group.symbol_pair == 'line':
-            htmla = '—'
-            htmlb = '|'
-        elif self.group.symbol_pair == 'arrow':
-            htmla = '↔'
-            htmlb = '↕'
-        elif self.group.symbol_pair == 'circle2':
-            htmla = '◌'
-            htmlb = '●'
-        elif self.group.symbol_pair == 'theta':
-            htmla = 'φ'
-            htmlb = 'θ'
-        elif self.group.symbol_pair == 'question':
-            htmla = 'ʔ'
-            htmlb = 'ʕ'
-        else:
-            htmla = '⑪'
-            htmlb = '⓫'
-        return [['A', htmla],
-                ['B', htmlb]]
-
-    timeout_seconds = 210
-    timeout_submission = ['A']
+# class Decide(Page):
+#     form_model = models.Player
+#     form_fields = ['decision']
+#
+#     def vars_for_template(self):
+#         if self.group.symbol_pair == 'uparrow':
+#             htmla = '↗'
+#             htmlb = '↖'
+#         elif self.group.symbol_pair == 'downarrow':
+#             htmla = '↙'
+#             htmlb = '↘︎'
+#         elif self.group.symbol_pair == 'heart':
+#             htmla = '♡'
+#             htmlb = '☺︎'
+#         elif self.group.symbol_pair == 'circle':
+#             htmla = '◯'
+#             htmlb = '•'
+#         elif self.group.symbol_pair == 'downzhe':
+#             htmla = '┓'
+#             htmlb = '┏︎'
+#         elif self.group.symbol_pair == 'upzhe':
+#             htmla = '┗'
+#             htmlb = '┛'
+#         elif self.group.symbol_pair == 'square':
+#             htmla = '■'
+#             htmlb = '□'
+#         elif self.group.symbol_pair == 'line':
+#             htmla = '—'
+#             htmlb = '|'
+#         elif self.group.symbol_pair == 'arrow':
+#             htmla = '↔'
+#             htmlb = '↕'
+#         elif self.group.symbol_pair == 'circle2':
+#             htmla = '◌'
+#             htmlb = '●'
+#         elif self.group.symbol_pair == 'theta':
+#             htmla = 'φ'
+#             htmlb = 'θ'
+#         elif self.group.symbol_pair == 'question':
+#             htmla = 'ʔ'
+#             htmlb = 'ʕ'
+#         else:
+#             htmla = '⑪'
+#             htmlb = '⓫'
+#         return {'htmla': htmla,
+#                 'htmlb': htmlb}
+#
+#     def decision_choices(self):
+#         if self.group.symbol_pair == 'uparrow':
+#             htmla = '↗'
+#             htmlb = '↖'
+#         elif self.group.symbol_pair == 'downarrow':
+#             htmla = '↙'
+#             htmlb = '↘︎'
+#         elif self.group.symbol_pair == 'heart':
+#             htmla = '♡'
+#             htmlb = '☺︎'
+#         elif self.group.symbol_pair == 'circle':
+#             htmla = '◯'
+#             htmlb = '•'
+#         elif self.group.symbol_pair == 'downzhe':
+#             htmla = '┓'
+#             htmlb = '┏︎'
+#         elif self.group.symbol_pair == 'upzhe':
+#             htmla = '┗'
+#             htmlb = '┛'
+#         elif self.group.symbol_pair == 'square':
+#             htmla = '■'
+#             htmlb = '□'
+#         elif self.group.symbol_pair == 'line':
+#             htmla = '—'
+#             htmlb = '|'
+#         elif self.group.symbol_pair == 'arrow':
+#             htmla = '↔'
+#             htmlb = '↕'
+#         elif self.group.symbol_pair == 'circle2':
+#             htmla = '◌'
+#             htmlb = '●'
+#         elif self.group.symbol_pair == 'theta':
+#             htmla = 'φ'
+#             htmlb = 'θ'
+#         elif self.group.symbol_pair == 'question':
+#             htmla = 'ʔ'
+#             htmlb = 'ʕ'
+#         else:
+#             htmla = '⑪'
+#             htmlb = '⓫'
+#         return [['A', htmla],
+#                 ['B', htmlb]]
+#
+#     timeout_seconds = 210
+#     timeout_submission = ['A']
 
 
 class Decide2(Page):
@@ -151,7 +151,7 @@ class Decide2(Page):
                 'htmlb': htmlb}
 
     timeout_seconds = 300
-    timeout_submission = [0.00, 0.00, 0.00, 0.00]
+    timeout_submission = [0.01, 0.01, 0.01, 0.01]
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -485,7 +485,7 @@ class Introduction(Page):
         return self.player.treatment == 'Participant'
 
     timeout_seconds = 210
-    timeout_submission = ['A']
+    timeout_submission = [['A', 'bots']]
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -544,7 +544,7 @@ class Decide_exp(Page):
                 'htmlb': htmlb}
 
     timeout_seconds = 300
-    timeout_submission = [0.00, 0.00, 0.00, 0.00]
+    timeout_submission = [0.01, 0.01, 0.01, 0.01]
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -1191,7 +1191,7 @@ class Belieff(Page):
         return self.player.treatment == 'Participant'
 
     timeout_seconds = 180
-    timeout_submission = [33]
+    timeout_submission = [[31, 'bots']]
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -1203,7 +1203,7 @@ class Demographic(Page):
     form_fields = ['citizenship', 'language', 'age', 'gender', 'educ', 'time', 'religion', 'income']
 
     timeout_seconds = 300
-    timeout_submission = ['cc', 'cc', '11', 'cc', '95', 'cc', 'cc', 'cc']
+    timeout_submission = ['bots', 'bots', 11, 'Other', [1, 'Less than 1st grade'], 'Never', 'bots', 'Less than $20000']
 
     def before_next_page(self):
         if self.timeout_happened:
