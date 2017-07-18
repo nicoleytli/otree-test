@@ -150,8 +150,11 @@ class Decide2(Page):
         return {'htmla': htmla,
                 'htmlb': htmlb}
 
-    timeout_seconds = 300
-    timeout_submission = [0.01, 0.01, 0.01, 0.01]
+    timeout_seconds = 360
+    timeout_submission = {'option1': 0.01,
+                          'option2': 0.01,
+                          'option3': 0.01,
+                          'option4': 0.01}
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -431,9 +434,12 @@ class Introduction(Page):
         elif self.group.symbol_pair == 'question':
             htmla = 'ʔ'
             htmlb = 'ʕ'
-        else:
+        elif self.group.symbol_pair == '11':
             htmla = '⑪'
             htmlb = '⓫'
+        else:
+            htmla = 'bots'
+            htmlb = 'bots'
         return [['A', htmla],
                 ['B', htmlb]]
 
@@ -484,8 +490,8 @@ class Introduction(Page):
     def is_displayed(self):
         return self.player.treatment == 'Participant'
 
-    timeout_seconds = 210
-    timeout_submission = [['A', 'bots']]
+    timeout_seconds = 200
+    timeout_submission = {'decision': 'A'}
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -543,8 +549,11 @@ class Decide_exp(Page):
         return {'htmla': htmla,
                 'htmlb': htmlb}
 
-    timeout_seconds = 300
-    timeout_submission = [0.01, 0.01, 0.01, 0.01]
+    timeout_seconds = 360
+    timeout_submission = {'option1': 0.01,
+                          'option2': 0.01,
+                          'option3': 0.01,
+                          'option4': 0.01}
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -723,7 +732,7 @@ class Introduction_2(Page):
                 'htmla': htmla,
                 'htmlb': htmlb}
 
-    timeout_seconds = 210
+    timeout_seconds = 200
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -1191,7 +1200,7 @@ class Belieff(Page):
         return self.player.treatment == 'Participant'
 
     timeout_seconds = 180
-    timeout_submission = [[31, 'bots']]
+    timeout_submission = {'belief': 31}
 
     def before_next_page(self):
         if self.timeout_happened:
@@ -1202,8 +1211,15 @@ class Demographic(Page):
     form_model = models.Player
     form_fields = ['citizenship', 'language', 'age', 'gender', 'educ', 'time', 'religion', 'income']
 
-    timeout_seconds = 300
-    timeout_submission = ['bots', 'bots', 11, 'Other', [1, 'Less than 1st grade'], 'Never', 'bots', 'Less than $20000']
+    timeout_seconds = 200
+    timeout_submission = {'citizenship': 'bots',
+                          'language': 'bots',
+                          'age': 11,
+                          'gender': 'Other',
+                          'educ': 1,
+                          'time': 'Never',
+                          'religion': 'bots',
+                          'income': 'Less than $20000'}
 
     def before_next_page(self):
         if self.timeout_happened:

@@ -333,12 +333,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
-    # {
-    #     'name': 'test_axiom',
-    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-    #     'num_demo_participants': 5,
-    #     'app_sequence': ['test_axiom'],
-    # },
+    {
+        'name': 'test_axiom',
+        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+        'num_demo_participants': 5,
+        'app_sequence': ['test_axiom'],
+    },
     # {
     #     'name': 'pilot2_1',
     #     'display_name': 'Polarization treatment',
