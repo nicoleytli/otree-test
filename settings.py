@@ -141,8 +141,8 @@ mturk_hit_settings = {
     # 'grant_qualification_id': '3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S',# to prevent retakes
     # 'grant_qualification_id': '3BEYYY5C0558D33AICHS96MF57C712', #test invitation
     'qualification_requirements': [
-        # qualification.LocaleRequirement("EqualTo", "US"),
-        # qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 50),
+        qualification.LocaleRequirement("EqualTo", "US"),
+        qualification.PercentAssignmentsApprovedRequirement("GreaterThanOrEqualTo", 90),
         # qualification.NumberHitsApprovedRequirement("GreaterThanOrEqualTo", 5),
         # qualification.Requirement('3JC3H4XMU9IAZNCLWX3MDLTQ42HC3S', 'DoesNotExist')
         # qualification.Requirement('3BEYYY5C0558D33AICHS96MF57C712',
