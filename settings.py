@@ -189,12 +189,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 20,
     #     'app_sequence': ['likert'],
     # },
-    {
-        'name': 'participant_generated_urn_2',
-        'display_name': "Is Ambiguity Aversion A Preference",
-        'num_demo_participants': 30,
-        'app_sequence': ['cover', 'participant_generated_urn_2'],
-    },
+    # {
+    #     'name': 'participant_generated_urn_2',
+    #     'display_name': "Is Ambiguity Aversion A Preference",
+    #     'num_demo_participants': 30,
+    #     'app_sequence': ['cover', 'participant_generated_urn_2'],
+    # },
     # {
     #     'name': 'participant_generated_urn',
     #     'display_name': "Participant Generate Urn",

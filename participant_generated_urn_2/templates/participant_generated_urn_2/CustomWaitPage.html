@@ -24,7 +24,7 @@
     as long as you stick with us to the end. </p>
     <br>
 <div id="timer"></div>
-<div>That's an extra $ <a id="bonus"></a> once you finish the game!</div>
+<div>That's an extra <a id="bonus"></a> cent(s) once you finish the game!</div>
 
 
 
@@ -77,6 +77,9 @@ setInterval(function() {
   a = get_elapsed_time_string(elapsed_seconds);
   document.getElementById('timer').innerHTML = a[0];
   document.getElementById('bonus').innerHTML = a[1];
+  if (a[1] >= 10){
+      document.getElementById('bonus').innerHTML = 10;
+  }
 {#  document.getElementById('bonus_var').value = a[1];#}
   }, 1000);
 </script>

@@ -40,17 +40,17 @@ class Exp1(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_1_choices(self):
-        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=',
-                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=',
-                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=',
-                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=',
-                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=',
-                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=', 'U2FsdGVkX1++OUbQa4VMtpMM8P9glhCkczKReX/r+rc=',
-                    'U2FsdGVkX192XsBVPuyVkjDFMmyzjPwtXUjxa6U58/o=', 'U2FsdGVkX18ukBqFhTr4GfS/K1OUxLAL1Wj49Vy4XWg=',
-                    'U2FsdGVkX190D7C1sPwCURzZvFl/eIlJm2DBtrS5I0s=', 'U2FsdGVkX1+596tdv12BL33Gkh/qRKmbkawcTu05odA=',
-                    'U2FsdGVkX18uKONkVE29Xzot3oXMPPPZNRt5UyS7iwk=', 'U2FsdGVkX18vHTW3Bo+pjdZQ6mz4XimLhKuIzncvBOU=',
-                    'U2FsdGVkX1/p8h5ges17VZ2MI4x//7V30+n3hxSqz9U=', 'U2FsdGVkX1+M+A60ZP7TqASYdffvGz/KEWq2eS+P0SM=',
-                    'U2FsdGVkX18Gi83XtaixOqqggKx7KvVbZC7Bn8XB6AA=']
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX19RMVqeDEnl/AABe7UYfg9Ri9sMakXSGQI=',
+                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX18OeWXB+Bel0dGK/bcIIenDgTSbmyl4I1k=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX1/HlSv5F9j1TIOT6J/Rzj+CeLR9BrHqcTI=',
+                    'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=', 'U2FsdGVkX19S1mP/vKjRkJ23iXwOyR/zxkKKEJM1oJo=',
+                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX190jD/CqGbYnfvm0oaJ3vrB3y+cygdL8TA=',
+                    'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=', 'U2FsdGVkX1+etrHjXwqDBESzFdT1HAZuCSNVf6XR9/Q=',
+                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1/SibLXp9dptT+7WIZlA5/nWU2LvZ+mwrk=',
+                    'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=', 'U2FsdGVkX18A1jUyqZh8D6n3p9GNndtdG/uVtUKWqlU=',
+                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX18uKxa92dauYX2uQ3kq8n2at9KQeIH+NIE=',
+                    'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=', 'U2FsdGVkX1+EsgZt0QSMPM2JkyejMwGnadTBoXOMRBA=',
+                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=']
         random.shuffle(messages)
         return messages
 
@@ -64,17 +64,17 @@ class Exp2(Page):
         return {'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
     def x_2_choices(self):
-        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=',
-                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=',
-                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=',
-                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=',
-                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=',
-                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=', 'U2FsdGVkX1/PAV8MPoNO0Yf7cNiAXCQpZsUFgka0pJk=',
-                    'U2FsdGVkX19NXGkXpQaep+7dNnrCG2pCVECl52JEz2w=', 'U2FsdGVkX19rRak6LmVoor7goaIuqiRSLMlEczdGYNQ=',
-                    'U2FsdGVkX18n8gYiNq2Kina1Of5qIvsRkcp0PIdG37o=', 'U2FsdGVkX1/E32PydmSbgs3LzhRCjoM+e+09DrEiLaM=',
-                    'U2FsdGVkX19rJW5v8xujBW6CoLp28jn8EvEzlITb+Fw=', 'U2FsdGVkX18bOknI2ef1EU0Knc9mLhjo6jKe0XWwXAs=',
-                    'U2FsdGVkX18JWdgKpbenhMfzUX0QfGYzkbwRQjsUsYw=', 'U2FsdGVkX18xtpmOskZZEGzG+OQZgqPXkld85K4VXb4=',
-                    'U2FsdGVkX18NTjZMudELP6Wbi4P/wlCh5JNanOgEz+Y=']
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX19XC7ERdFx8Kj4N16Uud2ODpEJeMzadpIQ=',
+                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX19CbB/8YOyYL3QL5xeMKg3HlG+TXbzTHWA=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/nz/DiJxGw6buIKZ5BlEnyTJtBQh+YBBU=',
+                    'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=', 'U2FsdGVkX18qPvH/QpQ4ylaId4tD7Ty0WL6pIZanS8M=',
+                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX18WhIPhjoNTpIkBSSu12lnLPe9u3gMRR4c=',
+                    'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=', 'U2FsdGVkX18YXr5ufHAX4HHscrGKsdp1v9MJ47ItWz4=',
+                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX1/TE2eXIPDRdJvipKwZRi1p3TaFdT1U1Y8=',
+                    'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=', 'U2FsdGVkX18J/NzGgs1NFJtngFCt/894kObbYihDuIw=',
+                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX18M/0h5G+OeMyAcZrDOu338Bu62X+woWxQ=',
+                    'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=', 'U2FsdGVkX1/zJy2XdkUg4XirO/87Dv6uHudt1iXFF28=',
+                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=']
         random.shuffle(messages)
         return messages
 
@@ -87,8 +87,8 @@ class Exp3(Page):
 
     def vars_for_template(self):
         values = [1, 2, 3]
-        dollar = ['$0.00', '$0.10', '$0.20', '$0.30', '$0.40', '$0.50', '$0.60', '$0.70', '$0.80', '$0.90', '$1.00', '$1.10', '$1.20', '$1.30', '$1.40',
-                  '$1.50', '$1.60', '$1.70', '$1.80', '$1.90', '$2.00']
+        dollar = ['$0.00', '$0.05', '$0.10', '$0.15', '$0.20', '$0.25', '$0.30', '$0.35', '$0.40', '$0.45', '$0.50', '$0.55', '$0.60', '$0.65', '$0.70',
+                  '$0.75', '$0.80', '$0.85', '$0.90', '$0.95', '$1.00']
         name = ['dollar_0', 'dollar_1', 'dollar_2', 'dollar_3', 'dollar_4', 'dollar_5', 'dollar_6', 'dollar_7', 'dollar_8',
                 'dollar_9', 'dollar_10', 'dollar_11', 'dollar_12', 'dollar_13', 'dollar_14', 'dollar_15', 'dollar_16',
                 'dollar_17', 'dollar_18', 'dollar_19', 'dollar_20']
@@ -99,17 +99,17 @@ class Exp3(Page):
                 'values': values}
 
     def x_3_choices(self):
-        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=',
-                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=',
-                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=',
-                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=',
-                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=',
-                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=', 'U2FsdGVkX18dstAgD8k8giVfXOad2Vt4nrscXvGg8hM=',
-                    'U2FsdGVkX1/ikkGE2zC9v8Gu96AHpw+j5Xkj3aeX3og=', 'U2FsdGVkX19IgaNiNIXPwdhtgQiUGpLgy20M1OcDMxk=',
-                    'U2FsdGVkX19GmR2nyn6piLZ/8k+t/RgWo4kiCn0jgto=', 'U2FsdGVkX1+shMxp7w8wW46UL6K9L6VpYoS8AqaZ/WE=',
-                    'U2FsdGVkX1/EkgOEQYbV5dGh52bEtPNZcaBE6zzwOzg=', 'U2FsdGVkX1+MNsgj3s3Cdb4KtFmBLyQ4mq3bfR1en7I=',
-                    'U2FsdGVkX19kPof/dhoJbJ07JMJovQ3L/hr+4lYXXV8=', 'U2FsdGVkX1+/9kDQDlQrSsJealnu1eM4HfA0WPKF9XE=',
-                    'U2FsdGVkX199TpOuJJ71j1brfR6zHos/8rs38bzMdzQ=']
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX1/Ldg77aq1XGnoHYDYYplNiHWQ029udy7U=',
+                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX18CWTA/Tcr4VJjnEltlnCimat+29LFso1c=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX18XqqFZ9PnMowISuITrPsU8DUCYlc4AeX8=',
+                    'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=', 'U2FsdGVkX1/yAzJnJg9MpEvStgbLXo2YjDYIniqv5g0=',
+                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX1+fIfl5VPnmHZ17Oia8UVBNG+djE0t1U50=',
+                    'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=', 'U2FsdGVkX19ylHePEgaYvHVJrhH75NsfRaM9qoy80ao=',
+                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX1/ku5nzQBmMrTfH0c7S0PZmh7DHNvMxp5c=',
+                    'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=', 'U2FsdGVkX19ZZBGcLdBEK1ULYJbaOe1glEFaav7Gqkk=',
+                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1891BTq8A4KsQiahA9Gnx83jDDosg/LYks=',
+                    'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=', 'U2FsdGVkX18CjdkkzzAwiTzc/2U3OtfUdm0Gy42QdtI=',
+                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=']
 
         random.shuffle(messages)
 
@@ -259,6 +259,50 @@ class WaitExp1(Page):
         return {'message': self.player.x_1,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
+    def before_next_page(self):
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX19RMVqeDEnl/AABe7UYfg9Ri9sMakXSGQI=',
+                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX18OeWXB+Bel0dGK/bcIIenDgTSbmyl4I1k=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX1/HlSv5F9j1TIOT6J/Rzj+CeLR9BrHqcTI=',
+                    'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=', 'U2FsdGVkX19S1mP/vKjRkJ23iXwOyR/zxkKKEJM1oJo=',
+                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX190jD/CqGbYnfvm0oaJ3vrB3y+cygdL8TA=',
+                    'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=', 'U2FsdGVkX1+etrHjXwqDBESzFdT1HAZuCSNVf6XR9/Q=',
+                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1/SibLXp9dptT+7WIZlA5/nWU2LvZ+mwrk=',
+                    'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=', 'U2FsdGVkX18A1jUyqZh8D6n3p9GNndtdG/uVtUKWqlU=',
+                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX18uKxa92dauYX2uQ3kq8n2at9KQeIH+NIE=',
+                    'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=', 'U2FsdGVkX1+EsgZt0QSMPM2JkyejMwGnadTBoXOMRBA=',
+                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=']
+        num = messages.index(self.player.x_1)
+        text = ['X=0.00', 'X=0.05', 'X=0.10', 'X=0.15', 'X=0.20', 'X=0.25', 'X=0.30', 'X=0.35', 'X=0.40', 'X=0.45',
+                'X=0.50', 'X=0.55', 'X=0.60', 'X=0.65', 'X=0.70', 'X=0.75', 'X=0.80', 'X=0.85', 'X=0.90', 'X=0.95',
+                'X=1.00']
+        real_text = text[num]
+        a = real_text
+        b = self.player.message1
+
+        n, m = len(a), len(b)
+        if n > m:
+            # Make sure n <= m, to use O(min(n,m)) space
+            a, b = b, a
+            n, m = m, n
+
+        current = range(n + 1)
+        for i in range(1, m + 1):
+            previous, current = current, [i] + [0] * n
+            for j in range(1, n + 1):
+                add, delete = previous[j] + 1, current[j - 1] + 1
+                change = previous[j - 1]
+                if a[j - 1] != b[i - 1]:
+                    change = change + 1
+                current[j] = min(add, delete, change)
+
+        distance = current[n]
+        ok = distance <= 0
+
+        if ok:
+            self.player.check_1 = 1
+        else:
+            self.player.check_1 = 0
+
 
 class WaitExp2(Page):
     timeout_seconds = 6
@@ -267,6 +311,50 @@ class WaitExp2(Page):
         return {'message': self.player.x_2,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
 
+    def before_next_page(self):
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX19XC7ERdFx8Kj4N16Uud2ODpEJeMzadpIQ=',
+                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX19CbB/8YOyYL3QL5xeMKg3HlG+TXbzTHWA=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/nz/DiJxGw6buIKZ5BlEnyTJtBQh+YBBU=',
+                    'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=', 'U2FsdGVkX18qPvH/QpQ4ylaId4tD7Ty0WL6pIZanS8M=',
+                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX18WhIPhjoNTpIkBSSu12lnLPe9u3gMRR4c=',
+                    'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=', 'U2FsdGVkX18YXr5ufHAX4HHscrGKsdp1v9MJ47ItWz4=',
+                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX1/TE2eXIPDRdJvipKwZRi1p3TaFdT1U1Y8=',
+                    'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=', 'U2FsdGVkX18J/NzGgs1NFJtngFCt/894kObbYihDuIw=',
+                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX18M/0h5G+OeMyAcZrDOu338Bu62X+woWxQ=',
+                    'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=', 'U2FsdGVkX1/zJy2XdkUg4XirO/87Dv6uHudt1iXFF28=',
+                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=']
+        num = messages.index(self.player.x_2)
+        text = ['X=0.00', 'X=0.05', 'X=0.10', 'X=0.15', 'X=0.20', 'X=0.25', 'X=0.30', 'X=0.35', 'X=0.40', 'X=0.45',
+                'X=0.50', 'X=0.55', 'X=0.60', 'X=0.65', 'X=0.70', 'X=0.75', 'X=0.80', 'X=0.85', 'X=0.90', 'X=0.95',
+                'X=1.00']
+        real_text = text[num]
+        a = real_text
+        b = self.player.message2
+
+        n, m = len(a), len(b)
+        if n > m:
+            # Make sure n <= m, to use O(min(n,m)) space
+            a, b = b, a
+            n, m = m, n
+
+        current = range(n + 1)
+        for i in range(1, m + 1):
+            previous, current = current, [i] + [0] * n
+            for j in range(1, n + 1):
+                add, delete = previous[j] + 1, current[j - 1] + 1
+                change = previous[j - 1]
+                if a[j - 1] != b[i - 1]:
+                    change = change + 1
+                current[j] = min(add, delete, change)
+
+        distance = current[n]
+        ok = distance <= 0
+
+        if ok:
+            self.player.check_2 = 1
+        else:
+            self.player.check_2 = 0
+
 
 class WaitExp3(Page):
     timeout_seconds = 5
@@ -274,6 +362,50 @@ class WaitExp3(Page):
     def vars_for_template(self):
         return {'message': self.player.x_3,
                 'link': 'https://www.browserling.com/tools/aes-decrypt'}
+
+    def before_next_page(self):
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX1/Ldg77aq1XGnoHYDYYplNiHWQ029udy7U=',
+                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX18CWTA/Tcr4VJjnEltlnCimat+29LFso1c=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX18XqqFZ9PnMowISuITrPsU8DUCYlc4AeX8=',
+                    'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=', 'U2FsdGVkX1/yAzJnJg9MpEvStgbLXo2YjDYIniqv5g0=',
+                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX1+fIfl5VPnmHZ17Oia8UVBNG+djE0t1U50=',
+                    'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=', 'U2FsdGVkX19ylHePEgaYvHVJrhH75NsfRaM9qoy80ao=',
+                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX1/ku5nzQBmMrTfH0c7S0PZmh7DHNvMxp5c=',
+                    'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=', 'U2FsdGVkX19ZZBGcLdBEK1ULYJbaOe1glEFaav7Gqkk=',
+                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1891BTq8A4KsQiahA9Gnx83jDDosg/LYks=',
+                    'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=', 'U2FsdGVkX18CjdkkzzAwiTzc/2U3OtfUdm0Gy42QdtI=',
+                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=']
+        num = messages.index(self.player.x_3)
+        text = ['X=0.00', 'X=0.05', 'X=0.10', 'X=0.15', 'X=0.20', 'X=0.25', 'X=0.30', 'X=0.35', 'X=0.40', 'X=0.45',
+                'X=0.50', 'X=0.55', 'X=0.60', 'X=0.65', 'X=0.70', 'X=0.75', 'X=0.80', 'X=0.85', 'X=0.90', 'X=0.95',
+                'X=1.00']
+        real_text = text[num]
+        a = real_text
+        b = self.player.message3
+
+        n, m = len(a), len(b)
+        if n > m:
+            # Make sure n <= m, to use O(min(n,m)) space
+            a, b = b, a
+            n, m = m, n
+
+        current = range(n + 1)
+        for i in range(1, m + 1):
+            previous, current = current, [i] + [0] * n
+            for j in range(1, n + 1):
+                add, delete = previous[j] + 1, current[j - 1] + 1
+                change = previous[j - 1]
+                if a[j - 1] != b[i - 1]:
+                    change = change + 1
+                current[j] = min(add, delete, change)
+
+        distance = current[n]
+        ok = distance <= 0
+
+        if ok:
+            self.player.check_3 = 1
+        else:
+            self.player.check_3 = 0
 
 
 class ResultExp0(Page):
@@ -288,73 +420,77 @@ class ResultExp0(Page):
 class ResultExp1(Page):
 
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=',
-                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=',
-                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=',
-                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=',
-                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=',
-                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=', 'U2FsdGVkX1++OUbQa4VMtpMM8P9glhCkczKReX/r+rc=',
-                    'U2FsdGVkX192XsBVPuyVkjDFMmyzjPwtXUjxa6U58/o=', 'U2FsdGVkX18ukBqFhTr4GfS/K1OUxLAL1Wj49Vy4XWg=',
-                    'U2FsdGVkX190D7C1sPwCURzZvFl/eIlJm2DBtrS5I0s=', 'U2FsdGVkX1+596tdv12BL33Gkh/qRKmbkawcTu05odA=',
-                    'U2FsdGVkX18uKONkVE29Xzot3oXMPPPZNRt5UyS7iwk=', 'U2FsdGVkX18vHTW3Bo+pjdZQ6mz4XimLhKuIzncvBOU=',
-                    'U2FsdGVkX1/p8h5ges17VZ2MI4x//7V30+n3hxSqz9U=', 'U2FsdGVkX1+M+A60ZP7TqASYdffvGz/KEWq2eS+P0SM=',
-                    'U2FsdGVkX18Gi83XtaixOqqggKx7KvVbZC7Bn8XB6AA=']
-        num = messages.index(self.player.x_1) / 10
+        messages = ['U2FsdGVkX1+xwJliNttDa3Vv6DZUnCmiCdXQ3zTz4u0=', 'U2FsdGVkX19RMVqeDEnl/AABe7UYfg9Ri9sMakXSGQI=',
+                    'U2FsdGVkX18ZbJBzRG1RO2EQhEu9musCKLYr89KFQfg=', 'U2FsdGVkX18OeWXB+Bel0dGK/bcIIenDgTSbmyl4I1k=',
+                    'U2FsdGVkX18ECE3+tKlB9DeV8w01+gnjxEOQZ9pe6P0=', 'U2FsdGVkX1/HlSv5F9j1TIOT6J/Rzj+CeLR9BrHqcTI=',
+                    'U2FsdGVkX18VnJKa6kJBEbcdO0OjcJxhJ1Sb4OP1BvQ=', 'U2FsdGVkX19S1mP/vKjRkJ23iXwOyR/zxkKKEJM1oJo=',
+                    'U2FsdGVkX18nc6ZjbX5MlCIJ2K7em2Q6eSyc6aBPO+8=', 'U2FsdGVkX190jD/CqGbYnfvm0oaJ3vrB3y+cygdL8TA=',
+                    'U2FsdGVkX1+8E5AvGy9bEiY4JyS3NIKsRJ0eX3Q1K4s=', 'U2FsdGVkX1+etrHjXwqDBESzFdT1HAZuCSNVf6XR9/Q=',
+                    'U2FsdGVkX1/50iNaisZgUddyD8UeRaJzC2W7rFvsZm4=', 'U2FsdGVkX1/SibLXp9dptT+7WIZlA5/nWU2LvZ+mwrk=',
+                    'U2FsdGVkX1+Im6guCEHVWsot4ISpydV2Lt/fiVMSy8k=', 'U2FsdGVkX18A1jUyqZh8D6n3p9GNndtdG/uVtUKWqlU=',
+                    'U2FsdGVkX18O5PBd7uSqxg35JoNANsU64u/s1qvU2AM=', 'U2FsdGVkX18uKxa92dauYX2uQ3kq8n2at9KQeIH+NIE=',
+                    'U2FsdGVkX1+aBLiaWJ+7dsTQWhCd0qT83c6xtipwW1w=', 'U2FsdGVkX1+EsgZt0QSMPM2JkyejMwGnadTBoXOMRBA=',
+                    'U2FsdGVkX1/TOM4o7tF52K4iZkX4VF6sl/d0DcEElXc=']
+        num_list = [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80,
+                    0.85, 0.90, 0.95, 1.00]
 
-        if self.player.exp1_answer > num:
+        num = messages.index(self.player.x_1)
+        real_num = num_list[num]
+
+        if self.player.exp1_answer > real_num:
             larger_smaller = 'smaller than'
             if self.player.exp1_choice == 'Option A':
                 option = 'Option A'
                 if self.player.result_A == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
+                    self.player.payoff_1 = 0.35
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
-        elif self.player.exp1_answer == num:
+                    self.player.payoff_1 = 0.35
+        elif self.player.exp1_answer == real_num:
             larger_smaller = 'equal to'
             if self.player.exp1_choice == 'Option A':
                 option = 'Option A'
                 if self.player.result_A == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
+                    self.player.payoff_1 = 0.35
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
+                    self.player.payoff_1 = 0.35
         else:
             larger_smaller = 'larger than'
             if self.player.exp1_choice == 'Option B':
                 option = 'Option A'
                 if self.player.result_A == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_A == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
+                    self.player.payoff_1 = 0.35
             else:
                 option = 'Option B'
                 if self.player.result_B == 'Red':
-                    self.player.payoff_1 = num
+                    self.player.payoff_1 = real_num
                 elif self.player.result_B == 'White':
-                    self.player.payoff_1 = 0.9
+                    self.player.payoff_1 = 0.45
                 else:
-                    self.player.payoff_1 = 0.7
+                    self.player.payoff_1 = 0.35
 
         if option == 'Option A':
             result = self.player.result_A
@@ -370,37 +506,41 @@ class ResultExp1(Page):
 
 class ResultExp2(Page):
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=',
-                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=',
-                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=',
-                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=',
-                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=',
-                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=', 'U2FsdGVkX1/PAV8MPoNO0Yf7cNiAXCQpZsUFgka0pJk=',
-                    'U2FsdGVkX19NXGkXpQaep+7dNnrCG2pCVECl52JEz2w=', 'U2FsdGVkX19rRak6LmVoor7goaIuqiRSLMlEczdGYNQ=',
-                    'U2FsdGVkX18n8gYiNq2Kina1Of5qIvsRkcp0PIdG37o=', 'U2FsdGVkX1/E32PydmSbgs3LzhRCjoM+e+09DrEiLaM=',
-                    'U2FsdGVkX19rJW5v8xujBW6CoLp28jn8EvEzlITb+Fw=', 'U2FsdGVkX18bOknI2ef1EU0Knc9mLhjo6jKe0XWwXAs=',
-                    'U2FsdGVkX18JWdgKpbenhMfzUX0QfGYzkbwRQjsUsYw=', 'U2FsdGVkX18xtpmOskZZEGzG+OQZgqPXkld85K4VXb4=',
-                    'U2FsdGVkX18NTjZMudELP6Wbi4P/wlCh5JNanOgEz+Y=']
-        num = messages.index(self.player.x_2) / 10
+        messages = ['U2FsdGVkX1+BM69M26Mn618sc3Kp+foEnmwqK8i6eM8=', 'U2FsdGVkX19XC7ERdFx8Kj4N16Uud2ODpEJeMzadpIQ=',
+                    'U2FsdGVkX1/ieVJYk8NQPeKshuOnXZUznVkoAJ1m4Cg=', 'U2FsdGVkX19CbB/8YOyYL3QL5xeMKg3HlG+TXbzTHWA=',
+                    'U2FsdGVkX1/bxh/J9Jn00tU9T6szv/deMBbT1l6OEwY=', 'U2FsdGVkX1/nz/DiJxGw6buIKZ5BlEnyTJtBQh+YBBU=',
+                    'U2FsdGVkX1/YH9S7rlaOMgADhZJJ2y3Bh9Iuch1sPRs=', 'U2FsdGVkX18qPvH/QpQ4ylaId4tD7Ty0WL6pIZanS8M=',
+                    'U2FsdGVkX1/LHkZMff0e/JQhOKogEmMqyJVZxcU5f/0=', 'U2FsdGVkX18WhIPhjoNTpIkBSSu12lnLPe9u3gMRR4c=',
+                    'U2FsdGVkX1/rl0MsQRjAwrVgSS58HaKBjiYTMJZ9VSU=', 'U2FsdGVkX18YXr5ufHAX4HHscrGKsdp1v9MJ47ItWz4=',
+                    'U2FsdGVkX19AS1L3jbK93lFq0GY63DUc5oF2AmzADuU=', 'U2FsdGVkX1/TE2eXIPDRdJvipKwZRi1p3TaFdT1U1Y8=',
+                    'U2FsdGVkX19GTRBHG26deWb3MViYxaRGd2Kn7QnGcKU=', 'U2FsdGVkX18J/NzGgs1NFJtngFCt/894kObbYihDuIw=',
+                    'U2FsdGVkX19niN9DPqDQNvuaOEvDOntSF3ieJ6d9rKc=', 'U2FsdGVkX18M/0h5G+OeMyAcZrDOu338Bu62X+woWxQ=',
+                    'U2FsdGVkX19hpg4aEJCequXm/HyqPQzLwNZm9EUBp1A=', 'U2FsdGVkX1/zJy2XdkUg4XirO/87Dv6uHudt1iXFF28=',
+                    'U2FsdGVkX1/X7lwmH+2JFtuXWEemDwsKgo6t91fJty8=']
+        num_list = [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80,
+                    0.85, 0.90, 0.95, 1.00]
 
-        if self.player.exp2_answer > num:
+        num = messages.index(self.player.x_2)
+        real_num = num_list[num]
+
+        if self.player.exp2_answer > real_num:
             option = 'Option A'
             larger_smaller = 'smaller than'
             if self.player.result_exp2 == 'Black':
-                self.player.payoff_2 = 2
+                self.player.payoff_2 = 1
             else:
                 self.player.payoff_2 = 0
-        elif self.player.exp2_answer == num:
+        elif self.player.exp2_answer == real_num:
             option = 'Option A'
             larger_smaller = 'equal to'
             if self.player.result_exp2 == 'Black':
-                self.player.payoff_2 = 2
+                self.player.payoff_2 = 1
             else:
                 self.player.payoff_2 = 0
         else:
             option = 'Option B'
             larger_smaller = 'larger than'
-            self.player.payoff_2 = num
+            self.player.payoff_2 = real_num
 
         result = self.player.result_exp2
 
@@ -413,21 +553,23 @@ class ResultExp2(Page):
 
 class ResultExp3(Page):
     def vars_for_template(self):
-        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=',
-                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=',
-                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=',
-                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=',
-                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=',
-                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=', 'U2FsdGVkX18dstAgD8k8giVfXOad2Vt4nrscXvGg8hM=',
-                    'U2FsdGVkX1/ikkGE2zC9v8Gu96AHpw+j5Xkj3aeX3og=', 'U2FsdGVkX19IgaNiNIXPwdhtgQiUGpLgy20M1OcDMxk=',
-                    'U2FsdGVkX19GmR2nyn6piLZ/8k+t/RgWo4kiCn0jgto=', 'U2FsdGVkX1+shMxp7w8wW46UL6K9L6VpYoS8AqaZ/WE=',
-                    'U2FsdGVkX1/EkgOEQYbV5dGh52bEtPNZcaBE6zzwOzg=', 'U2FsdGVkX1+MNsgj3s3Cdb4KtFmBLyQ4mq3bfR1en7I=',
-                    'U2FsdGVkX19kPof/dhoJbJ07JMJovQ3L/hr+4lYXXV8=', 'U2FsdGVkX1+/9kDQDlQrSsJealnu1eM4HfA0WPKF9XE=',
-                    'U2FsdGVkX199TpOuJJ71j1brfR6zHos/8rs38bzMdzQ=']
-        num = messages.index(self.player.x_3) / 10
-        num2 = messages.index(self.player.x_3)
+        messages = ['U2FsdGVkX1+lSdsw9mFWKOqy3pjhkpVojqI2amXsPq0=', 'U2FsdGVkX1/Ldg77aq1XGnoHYDYYplNiHWQ029udy7U=',
+                    'U2FsdGVkX19IzQehaZQjvsQMB01ti5Ia3dmjyRQ1TLM=', 'U2FsdGVkX18CWTA/Tcr4VJjnEltlnCimat+29LFso1c=',
+                    'U2FsdGVkX1+DdAsNqkEiXlYTHr/ripsNEatz7FORvbA=', 'U2FsdGVkX18XqqFZ9PnMowISuITrPsU8DUCYlc4AeX8=',
+                    'U2FsdGVkX1+HBUnCxkTisQ7Q+Be/DLDuWpXFGdch5O8=', 'U2FsdGVkX1/yAzJnJg9MpEvStgbLXo2YjDYIniqv5g0=',
+                    'U2FsdGVkX18HxIbGUY8YjDDME0+uIuckLNsCXnZAfys=', 'U2FsdGVkX1+fIfl5VPnmHZ17Oia8UVBNG+djE0t1U50=',
+                    'U2FsdGVkX18Yi5vDpYrsgCRcQhcM/AiiLB2zxaVSuJI=', 'U2FsdGVkX19ylHePEgaYvHVJrhH75NsfRaM9qoy80ao=',
+                    'U2FsdGVkX18rK1y8Z7fhDwFXBjqsAtqJPZKH/EU2FbM=', 'U2FsdGVkX1/ku5nzQBmMrTfH0c7S0PZmh7DHNvMxp5c=',
+                    'U2FsdGVkX18DDpqBHZWa9ntsJP+mFyN4AtX8pbv3yRA=', 'U2FsdGVkX19ZZBGcLdBEK1ULYJbaOe1glEFaav7Gqkk=',
+                    'U2FsdGVkX1+7crahYXtTvpWaGr+GDHOXIs3dzk1FKbY=', 'U2FsdGVkX1891BTq8A4KsQiahA9Gnx83jDDosg/LYks=',
+                    'U2FsdGVkX1+uYJwjH+QUEc0BV2XHaE0TdfapuEVv53I=', 'U2FsdGVkX18CjdkkzzAwiTzc/2U3OtfUdm0Gy42QdtI=',
+                    'U2FsdGVkX1/3cpvyWU83KDH/1x7JnTTEn+NUM9llL+o=']
+        num_list = [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75,
+                    0.80, 0.85, 0.90, 0.95, 1.00]
+        num = messages.index(self.player.x_3)
+        real_num = num_list[num]
 
-        option_num = self.participant.vars['dollar_%s' % num2]
+        option_num = self.participant.vars['dollar_%s' % num]
 
         if option_num == 1:
             option = 'Option A'
@@ -441,18 +583,18 @@ class ResultExp3(Page):
 
         if option == 'Option A':
             if self.player.result_exp3 == 'Red':
-                self.player.payoff_3 = 2
+                self.player.payoff_3 = 1
             elif self.player.result_exp3 == 'Black':
                 self.player.payoff_3 = 0
             else:
-                self.player.payoff_3 = num
+                self.player.payoff_3 = real_num
         else:
             if self.player.result_exp3 == 'Red':
                 self.player.payoff_3 = 0
             elif self.player.result_exp3 == 'Black':
-                self.player.payoff_3 = num
+                self.player.payoff_3 = real_num
             else:
-                self.player.payoff_3 = 2
+                self.player.payoff_3 = 1
 
         result = self.player.result_exp3
 

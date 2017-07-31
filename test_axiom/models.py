@@ -39,7 +39,7 @@ class Player(BasePlayer):
     check_0 = models.BooleanField()
 
     exp1_answer = models.CurrencyField(
-        min=0, max=2
+        min=0, max=1
     )
     exp1_choice = models.CharField(
         widget=widgets.RadioSelect(),
@@ -55,16 +55,13 @@ class Player(BasePlayer):
     message1 = models.TextField()
 
     exp2_answer = models.CurrencyField(
-        min=0, max=2
+        min=0, max=1
     )
     result_exp2 = models.CharField()
     x_2 = models.CharField(
         widget=widgets.RadioSelect()
     )
     payoff_2 = models.CurrencyField()
-    exp3_answer = models.CurrencyField(
-        min=0, max=2
-    )
     check_2 = models.BooleanField()
     message2 = models.TextField()
 
