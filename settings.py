@@ -14,7 +14,7 @@ import otree.settings
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-CHANNEL_ROUTING = 'participant_generated_urn_2.routing.channel_routing'
+# CHANNEL_ROUTING = 'participant_generated_urn_2.routing.channel_routing'
 
 SENTRY_DSN = 'http://ee3c5daaa6be43c38afbb2df55987f9f:14944f017bfe4f3ba49fe45d05133d63@sentry.otree.org/170'
 
@@ -165,12 +165,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    # {
-    #     'name': 'Empathy_Beget_Guile',
-    #     'display_name': "Empathy Game",
-    #     'num_demo_participants': 24,
-    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    # },
+    {
+        'name': 'Empathy_Beget_Guile',
+        'display_name': "Empathy Game",
+        'num_demo_participants': 24,
+        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    },
     # {
     #     'name': 'Empathy_Beget_Guile_2',
     #     'display_name': "Empathy Game",
@@ -333,12 +333,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 2,
     #     'app_sequence': ['compensation'],
     # },
-    {
-        'name': 'test_axiom',
-        'display_name': "Testing Axiomatizations of Ambiguity Aversion",
-        'num_demo_participants': 5,
-        'app_sequence': ['test_axiom'],
-    },
+    # {
+    #     'name': 'test_axiom',
+    #     'display_name': "Testing Axiomatizations of Ambiguity Aversion",
+    #     'num_demo_participants': 5,
+    #     'app_sequence': ['test_axiom'],
+    # },
     # {
     #     'name': 'pilot2_1',
     #     'display_name': 'Polarization treatment',
