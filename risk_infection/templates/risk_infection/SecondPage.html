@@ -1,0 +1,22 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    欢迎!
+{% endblock %}
+
+{% block content %}
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    请核对个人信息，确认无误后，点击"下一页"开始实验。若个人信息有误，请联系研究助理。
+    </div>
+     <table class="table-condensed" align="center" style="width:200px; margin-top:20px;">
+         <tr><th>姓名:</th><td>{{ player.name }}</td></tr>
+     <tr><th>年级:</th><td>{{ player.grade }}</td></tr>
+     <tr><th>专业:</th><td>{{ player.major }}</td></tr>
+    </table>
+
+<div align="right" style="margin: 5em 5em">
+    <button class="btn btn-primary">确认</button>
+</div>
+
+{% endblock %}

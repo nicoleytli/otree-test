@@ -14,7 +14,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="65">
+          <list size="66">
             <item index="0" class="java.lang.String" itemvalue="psycopg2" />
             <item index="1" class="java.lang.String" itemvalue="django-toolbelt" />
             <item index="2" class="java.lang.String" itemvalue="otree-core" />
@@ -80,6 +80,7 @@
             <item index="62" class="java.lang.String" itemvalue="python-decouple" />
             <item index="63" class="java.lang.String" itemvalue="Pillow" />
             <item index="64" class="java.lang.String" itemvalue="Django" />
+            <item index="65" class="java.lang.String" itemvalue="django-idmap" />
           </list>
         </value>
       </option>

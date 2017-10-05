@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    欢迎！
+{% endblock %}
+
+{% block content %}
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    请输入您的实验账号：
+    </div>
+        <div align="center" style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    {% formfield player.number with label=prompt %}
+            </div>
+
+<div align="right" style="margin: 5em 5em">
+    {% next_button %}
+</div>
+
+{% endblock %}

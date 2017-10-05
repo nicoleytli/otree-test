@@ -83,7 +83,7 @@ POINTS_DECIMAL_PLACES = 1
 
 # e.g. en, de, fr, it, ja, zh-hans
 # see: https://docs.djangoproject.com/en/1.9/topics/i18n/#term-language-code
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'zh-hans'
 
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
 INSTALLED_APPS = ['otree']
@@ -165,12 +165,12 @@ SESSION_CONFIG_DEFAULTS = {
 }
 
 SESSION_CONFIGS = [
-    {
-        'name': 'Empathy_Beget_Guile',
-        'display_name': "Empathy Game",
-        'num_demo_participants': 24,
-        'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
-    },
+    # {
+    #     'name': 'Empathy_Beget_Guile',
+    #     'display_name': "Empathy Game",
+    #     'num_demo_participants': 24,
+    #     'app_sequence': ['Eye_Exam', 'Empathy_Beget_Guile'],
+    # },
     # {
     #     'name': 'Empathy_Beget_Guile_2',
     #     'display_name': "Empathy Game",
@@ -363,6 +363,12 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 1,
     #     'app_sequence': ['mouse_tracking'],
     # },
+    {
+        'name': 'risk_infection',
+        'display_name': 'Risk Infection',
+        'num_demo_participants': 1,
+        'app_sequence': ['risk_infection'],
+    }
 ]
 
 # anything you put after the below line will override
