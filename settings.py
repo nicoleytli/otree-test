@@ -363,11 +363,17 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 1,
     #     'app_sequence': ['mouse_tracking'],
     # },
+    # {
+    #     'name': 'risk_infection',
+    #     'display_name': 'Risk Infection',
+    #     'num_demo_participants': 1,
+    #     'app_sequence': ['risk_infection'],
+    # },
     {
-        'name': 'risk_infection',
-        'display_name': 'Risk Infection',
-        'num_demo_participants': 1,
-        'app_sequence': ['risk_infection'],
+        'name': 'new_eye',
+        'display_name': 'Reading Eyes in Mind Test',
+        'num_demo_participants': 2,
+        'app_sequence': ['new_eye'],
     }
 ]
 

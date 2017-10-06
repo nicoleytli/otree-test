@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Result
+{% endblock %}
+
+{% block content %}
+
+    <p>
+{#    Your score is {{ player.score }} out of 36.<br>#}
+    Your payoff is $0.50.<br>
+    Thank you for your participation!
+    </p>
+
+    {% next_button %}
+
+{% endblock %}
+
+
