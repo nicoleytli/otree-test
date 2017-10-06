@@ -33,8 +33,12 @@ class Subsession(BaseSubsession):
             # a list of random answers' location
             random_loc = random.sample(list(range(36)), number_of_random)
             # a list of drawn random answers
+            # 哪些位置上的图片会换
             pics_loc = random_loc
-            random.shuffle(random_loc)
+            self.pics_loc = pics_loc
+
+            # 换来的图片是来自哪里
+            random_loc = random.sample(random_loc, len(random_loc))
 
             # for i in range(len(random_loc)):
             #     loc = list(range(36))
@@ -43,7 +47,7 @@ class Subsession(BaseSubsession):
 
             final_list = list(range(36))
 
-            for i, j in zip(range(random_loc), pics_loc):
+            for i, j in zip(range(len(random_loc)), pics_loc):
                 final_list[j] = random_loc[i]
 
             self.session.vars['final_list'] = final_list
@@ -55,7 +59,6 @@ class Subsession(BaseSubsession):
             #     answers_data = p.current_answers()
             #     p.correct_answer = answers_data['correction']
 
-            self.pics_loc = pics_loc
             self.pics = random_loc
 
 
