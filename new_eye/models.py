@@ -24,8 +24,8 @@ class Constants(BaseConstants):
 
 class Subsession(BaseSubsession):
 
-    ans_loc = models.CharField()
-    ran_loc = models.CharField()
+    pics = models.CharField()
+    pics_loc = models.CharField()
 
     def creating_session(self):
         if self.round_number == 1:
@@ -33,16 +33,18 @@ class Subsession(BaseSubsession):
             # a list of random answers' location
             random_loc = random.sample(list(range(36)), number_of_random)
             # a list of drawn random answers
-            answers_loc = []
-            for i in range(len(random_loc)):
-                loc = list(range(36))
-                loc.remove(i)
-                answers_loc.append(random.choice(loc))
+            pics_loc = random_loc
+            random.shuffle(random_loc)
+
+            # for i in range(len(random_loc)):
+            #     loc = list(range(36))
+            #     loc.remove(i)
+            #     answers_loc.append(random.choice(loc))
 
             final_list = list(range(36))
 
-            for i, j in zip(random_loc, answers_loc):
-                final_list[i] = answers_loc.index(j)
+            for i, j in zip(range(random_loc), pics_loc):
+                final_list[j] = random_loc[i]
 
             self.session.vars['final_list'] = final_list
 
@@ -53,8 +55,8 @@ class Subsession(BaseSubsession):
             #     answers_data = p.current_answers()
             #     p.correct_answer = answers_data['correction']
 
-            self.ans_loc = answers_loc
-            self.ran_loc = random_loc
+            self.pics_loc = pics_loc
+            self.pics = random_loc
 
 
 
@@ -70,8 +72,8 @@ class Player(BasePlayer):
     # score = models.IntegerField()
 
     def current_answers(self):
-        num = self.session.vars['final_list'][self.round_number - 1]
-        return self.session.vars['all_answers'][num]
+        # num = self.session.vars['final_list'][self.round_number - 1]
+        return self.session.vars['all_answers'][self.round_number - 1]
 
     # def get_scores(self):
     #     answer = []

@@ -33,7 +33,7 @@ class MyPage(Page):
         choice2 = ans['choice2']
         choice3 = ans['choice3']
         choice4 = ans['choice4']
-        image = "new_eye/eye%s.png" % self.round_number
+        image = "new_eye/eye%s.png" % self.session.vars['final_list'][self.round_number - 1]
         return {
             'choice1': choice1,
             'choice2': choice2,
