@@ -319,7 +319,7 @@
       <recent name="$PROJECT_DIR$/test_axiom/templates/test_axiom" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.models">
+  <component name="RunManager" selected="Django server.Django">
     <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
