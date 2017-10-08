@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_eye/templates/new_eye/Completion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_eye/templates/new_eye/Dictionary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/answers.csv" afterPath="$PROJECT_DIR$/new_eye/answers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/models.py" afterPath="$PROJECT_DIR$/new_eye/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html" afterPath="$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/templates/new_eye/MyPage.html" afterPath="$PROJECT_DIR$/new_eye/templates/new_eye/MyPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/tts.py" afterPath="$PROJECT_DIR$/new_eye/tts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/views.py" afterPath="$PROJECT_DIR$/new_eye/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,21 +47,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/MyPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Instructions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Instructions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Introduction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Introduction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instructions.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -230,9 +241,9 @@
         <option value="$PROJECT_DIR$/new_eye/templates/new_eye/Completion.html" />
         <option value="$PROJECT_DIR$/new_eye/models.py" />
         <option value="$PROJECT_DIR$/new_eye/views.py" />
-        <option value="$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html" />
         <option value="$PROJECT_DIR$/new_eye/templates/new_eye/Dictionary.html" />
         <option value="$PROJECT_DIR$/new_eye/templates/new_eye/MyPage.html" />
+        <option value="$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html" />
       </list>
     </option>
   </component>
@@ -328,6 +339,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="new_eye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eye_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oTree1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eye_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eye_Exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -805,20 +852,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_axiom/templates/test_axiom/Exp0_ins.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1003,15 +1036,15 @@
         <state relative-caret-position="285">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <element signature="e#142#204#0#HTML" expanded="true" />
-            <element signature="e#241#303#0#HTML" expanded="true" />
-            <element signature="e#455#517#0#HTML" expanded="true" />
-            <element signature="e#696#758#0#HTML" expanded="true" />
-            <element signature="e#1827#1889#0#HTML" expanded="true" />
-            <element signature="e#2108#2170#0#HTML" expanded="true" />
-            <element signature="e#2514#2576#0#HTML" expanded="true" />
-            <element signature="e#3468#3530#0#HTML" expanded="true" />
-            <element signature="e#3766#3828#0#HTML" expanded="true" />
+            <element signature="e#142#204#0#HTML" expanded="false" />
+            <element signature="e#241#303#0#HTML" expanded="false" />
+            <element signature="e#455#517#0#HTML" expanded="false" />
+            <element signature="e#696#758#0#HTML" expanded="false" />
+            <element signature="e#1827#1889#0#HTML" expanded="false" />
+            <element signature="e#2108#2170#0#HTML" expanded="false" />
+            <element signature="e#2514#2576#0#HTML" expanded="false" />
+            <element signature="e#3468#3530#0#HTML" expanded="false" />
+            <element signature="e#3766#3828#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1154,16 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1184,9 +1207,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/MyPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eye_Exam/templates/Eye_Exam/Instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_eye/templates/new_eye/Instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
