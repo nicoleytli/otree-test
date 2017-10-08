@@ -7,22 +7,25 @@
 
 {% block content %}
 
+    {% include 'new_eye/Dictionary.html' %}
+
 <div>
     <div align="center" style="border:1px solid black; width:550px; height: 450px; margin: 0 0 0 50px; float: left">
         <div align="left" style="margin: 50px 0 50px 30px; float: left">
-            <span style="font-size: 25px">{{ choice1 }}</span>
+{#            <a href=# style="font-size: 25px" title={{ d }}>{{ choice1 }}</a>#}
+            <span style="font-size: 25px" title="{{ title1 }}">{{ choice1 }}</span>
         </div>
         <div align="right" style="margin: 50px 30px 50px 0; float: right">
-            <span style="font-size: 25px">{{ choice2 }}</span>
+            <span style="font-size: 25px" title="{{ title2 }}">{{ choice2 }}</span>
         </div>
         <div align="center" >
                 <img src="{% static image %}" style="width: 450px; height: 170px"/>
         </div>
         <div align="left" style="margin: 50px 0 50px 30px; float: left">
-            <span style="font-size: 25px">{{ choice3 }}</span>
+            <span style="font-size: 25px" title="{{ title3 }}">{{ choice3 }}</span>
         </div>
         <div align="right" style="margin: 50px 30px 50px 0; float: right">
-            <span style="font-size: 25px">{{ choice4 }}</span>
+            <span style="font-size: 25px" title="{{ title4 }}">{{ choice4 }}</span>
         </div>
     </div>
 

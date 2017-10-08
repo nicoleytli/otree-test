@@ -15,4 +15,12 @@ final_list = list(range(36))
 for i, j in zip(range(len(random_loc)), pics_loc):
     final_list[j] = random_loc[i]
 
-print(final_list)
+order_list = list(range(36))
+order_list = random.sample(order_list, len(order_list))
+
+pic_final_list = list(range(36))
+for i in range(len(pic_final_list)):
+    pic_final_list[i] = final_list[order_list[i]]
+
+print(order_list)
+print(pic_final_list)
