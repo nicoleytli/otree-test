@@ -7,7 +7,7 @@
 
 {% block content %}
 
-    {% include 'new_eye/Dictionary.html' %}
+
 
 <div>
     <div align="center" style="border:1px solid black; width:550px; height: 450px; margin: 0 0 0 50px; float: left">
@@ -29,13 +29,15 @@
         </div>
     </div>
 
-        <div style="margin: 50px 40px 0 0;float: right">
+        <div style="margin: 25px 40px 0 0;float: right">
             {% formfield player.answer with label='What emotion are the eyes showing?' %}
-            <p>
-                <br>
-            </p>
+
             {% next_button %}
+            {% include 'new_eye/Dictionary.html' %}
+
         </div>
+
+
      <div style="clear:both;"></div>
 </div>
 
