@@ -15,7 +15,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'risk_infection_2'
     players_per_group = 9
-    num_rounds = 60
+    num_rounds = 2
 
     with open('risk_infection/info.csv') as f:
         info = list(csv.DictReader(f))

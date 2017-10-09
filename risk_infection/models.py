@@ -13,7 +13,7 @@ Your app description
 
 class Constants(BaseConstants):
     name_in_url = 'risk_infection'
-    players_per_group = 54
+    players_per_group = 9
     num_rounds = 1
 
     with open('risk_infection/info.csv') as f:

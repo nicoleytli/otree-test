@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Introduction2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/info.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Cover_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Cover_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PA_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RA_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RB_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_eye/tts.py" afterPath="$PROJECT_DIR$/new_eye/tts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/risk_infection/info.csv" afterPath="$PROJECT_DIR$/risk_infection/info.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/risk_infection/models.py" afterPath="$PROJECT_DIR$/risk_infection/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Introduction.html" afterPath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Test.html" afterPath="$PROJECT_DIR$/risk_infection/templates/risk_infection/Test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/risk_infection/views.py" afterPath="$PROJECT_DIR$/risk_infection/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
-    </list>
+    <list default="true" id="985c0a7b-5d95-4c04-b234-8eaccac858d7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,128 +34,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PA_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PA_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="34" />
-              <folding>
-                <element signature="e#589#654#0#HTML" expanded="true" />
-                <element signature="e#1978#2043#0#HTML" expanded="true" />
-                <element signature="e#3601#3624#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PA_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PA_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1832">
-              <caret line="351" column="25" lean-forward="false" selection-start-line="351" selection-start-column="25" selection-end-line="351" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PB_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="38" />
-              <folding>
-                <marker date="1507583542000" expanded="false" signature="1770:1807" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PB_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="34" />
-              <folding>
-                <marker date="1507583542000" expanded="false" signature="473:510" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RA_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RA_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RB_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RB_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Result.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-              <folding>
-                <element signature="e#151#249#0#HTML" expanded="true" />
-                <element signature="e#291#328#0#HTML" expanded="true" />
-                <element signature="e#558#657#0#HTML" expanded="true" />
-                <element signature="e#699#736#0#HTML" expanded="true" />
-                <element signature="e#1026#1092#0#HTML" expanded="true" />
-                <element signature="e#1315#1377#0#HTML" expanded="true" />
-                <element signature="e#1444#1503#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk_infection_2/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="184" column="36" lean-forward="true" selection-start-line="184" selection-start-column="36" selection-end-line="184" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,8 +74,8 @@
       <find>fluidityb</find>
       <find>fluidity</find>
       <find>等待期满</find>
-      <find>choice</find>
       <find>低</find>
+      <find>choice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,16 +125,16 @@
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RA_2.html" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RA_1.html" />
         <option value="$PROJECT_DIR$/new_eye/tts.py" />
-        <option value="$PROJECT_DIR$/risk_infection/models.py" />
         <option value="$PROJECT_DIR$/risk_infection/views.py" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PA_1.html" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_1.html" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PA_2.html" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/PB_2.html" />
-        <option value="$PROJECT_DIR$/risk_infection_2/models.py" />
-        <option value="$PROJECT_DIR$/risk_infection_2/views.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Result.html" />
+        <option value="$PROJECT_DIR$/risk_infection_2/views.py" />
+        <option value="$PROJECT_DIR$/risk_infection_2/models.py" />
+        <option value="$PROJECT_DIR$/risk_infection/models.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -337,56 +195,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="risk_infection_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="risk_infection_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="risk_infection_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oTree1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="risk_infection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,7 +647,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1228" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23271501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -849,7 +657,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18832117" sideWeight="0.49662733" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21605839" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21605839" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1225,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/risk_infection/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/Cover_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1266,6 +1066,32 @@
             <element signature="e#1978#2043#0#HTML" expanded="true" />
             <element signature="e#3601#3624#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/risk_infection/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/risk_infection_2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,34 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/risk_infection_2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="184" column="36" lean-forward="true" selection-start-line="184" selection-start-column="36" selection-end-line="184" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/risk_infection_2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1832">
-          <caret line="351" column="25" lean-forward="false" selection-start-line="351" selection-start-column="25" selection-end-line="351" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/risk_infection_2/templates/risk_infection_2/RB_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1353,6 +1151,16 @@
             <element signature="e#1026#1092#0#HTML" expanded="true" />
             <element signature="e#1315#1377#0#HTML" expanded="true" />
             <element signature="e#1444#1503#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/risk_infection_2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="192" column="38" lean-forward="false" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
