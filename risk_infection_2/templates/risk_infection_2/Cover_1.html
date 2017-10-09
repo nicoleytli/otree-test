@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    第一局
+{% endblock %}
+
+{% block content %}
+
+    <div align="center" style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        第一局实验开始：<strong>银行Ａ</strong> 为 <strong>完全信息</strong>；<strong>银行Ｂ</strong> 为 <strong>不完全信息</strong>。
+    </div>
+
+    <div align="right" style="margin: 5em 5em">
+        {% next_button %}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    实验 - 第{{ player.round_number }}／{{ Constants.num_rounds }}轮
+{% endblock %}
+
+
+{% block content %}
+
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+            您本轮实验获得的效用值为{{ player.utility }}
+        </div>
+
+<div align="right" style="margin: 5em 5em">
+    {% next_button %}
+</div>
+{% endblock %}
+
+

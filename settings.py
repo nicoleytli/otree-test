@@ -76,14 +76,14 @@ AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
 
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
-REAL_WORLD_CURRENCY_CODE = 'USD'
+REAL_WORLD_CURRENCY_CODE = 'CNY'
 USE_POINTS = False
 
 POINTS_DECIMAL_PLACES = 1
 
 # e.g. en, de, fr, it, ja, zh-hans
 # see: https://docs.djangoproject.com/en/1.9/topics/i18n/#term-language-code
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'zh-hans'
 
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
 INSTALLED_APPS = ['otree']
@@ -363,18 +363,18 @@ SESSION_CONFIGS = [
     #     'num_demo_participants': 1,
     #     'app_sequence': ['mouse_tracking'],
     # },
-    # {
-    #     'name': 'risk_infection',
-    #     'display_name': 'Risk Infection',
-    #     'num_demo_participants': 1,
-    #     'app_sequence': ['risk_infection'],
-    # },
     {
-        'name': 'new_eye',
-        'display_name': 'Reading Eyes in Mind Test',
-        'num_demo_participants': 2,
-        'app_sequence': ['new_eye'],
-    }
+        'name': 'risk_infection',
+        'display_name': 'Risk Infection Test',
+        'num_demo_participants': 54,
+        'app_sequence': ['risk_infection', 'risk_infection_2'],
+    },
+    # {
+    #     'name': 'new_eye',
+    #     'display_name': 'Reading Eyes in Mind Test',
+    #     'num_demo_participants': 2,
+    #     'app_sequence': ['new_eye'],
+    # }
 ]
 
 # anything you put after the below line will override

@@ -8,24 +8,47 @@
 {% block content %}
 
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
-    请回答以下问题:
+    <strong>请回答以下问题:</strong>
+    </div>
+    <p>
+    <br>
+    </p>
+
+    <span style="text-indent:2em; line-height:170%; margin: 0.25em 5em 0 5em;">
+    <strong>1.</strong>
+    </span>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    银行A存款人数为: <input type="number" name="bankA" value="" id="bankA"/>;
+        银行B存款人数为: <input type="number" name="bankB" value="" id="bankB"/>;
     </div>
 
+<span style="text-indent:2em; line-height:170%; margin: 0.25em 5em 0 5em;">
+    <strong>2.</strong>
+    </span>
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
-    银行A存款人数为: {% formfield player.bankA with label=prompt %};
-        银行B存款人数为: {% formfield player.bankB with label=prompt %};
+    关联组实验时，A和B银行的流动性水平
+    <select name="fluidityA">
+    <option value="相同">相同</option>
+    <option value="不相同">不相同</option>
+    <option value="不确定">不确定</option>
+    </select>;
+            独立组实验时，A和B银行的流动性水平
+    <select name="fluidityB">
+    <option value="相同">相同</option>
+    <option value="不相同">不相同</option>
+    <option value="不确定">不确定</option>
+    </select>;
     </div>
 
-    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
-    关联组实验时，A和B银行的流动性水平 {% formfield player.fluidityA with label=prompt%};
-            独立组实验时，A和B银行的流动性水平 {% formfield player.fluidityB with label=prompt%}
-    </div>
+    <span style="text-indent:2em; line-height:170%; margin: 0.25em 5em 0 5em;">
+    <strong>3.</strong>
+    </span>
 
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     根据实验说明中A银行对应的支付矩阵：
     </div>
 
-<table border="1" align="center" style="text-align: center; line-height: 25px">
+<table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 2em">
 　<caption><strong>A 银行支付矩阵</strong></caption>
     <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td><td width="40px">4</td><td width="40px">5</td><td width="40px">6</td></tr>
     <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>100</td><td>60</td><td>40</td><td>30</td><td>24</td><td>20</td></tr>
@@ -36,23 +59,27 @@
 
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     假定您是A银行的存款人，目前A银行是低流动性，则存在4人取款，其他人决定等待期满时，
-        如果您当期取款则获得效用值为 {% formfield player.utility1 with label=prompt %}
-        ，如果您等待期满则获得效用值为 {% formfield player.utility2 with label=prompt %}.
+        如果您当期取款则获得效用值为 <input type="number" name="utility1" value="" id="utility1"/>
+        ，如果您等待期满则获得效用值为 <input type="number" name="utility2" value="" id="utility2"/>.
     </div>
 
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     假定您是A银行的存款人，但是A银行的流动性水平未知，则存在2人取款，其他人决定等待期满时，
-        如果您当期取款则获得效用值为 {% formfield player.utility3 with label=prompt %} 或者
-        {% formfield player.utility4 with label=prompt %}，
-        如果您等待期满则获得效用值为 {% formfield player.utility5 with label=prompt %} 或者
-        {% formfield player.utility6 with label=prompt %}.
+        如果您当期取款则获得效用值为 <input type="number" name="utility3" value="" id="utility3"/> 或者
+        <input type="number" name="utility4" value="" id="utility4"/>，
+        如果您等待期满则获得效用值为 <input type="number" name="utility5" value="" id="utility5"/> 或者
+        <input type="number" name="utility6" value="" id="utility6"/>.
     </div>
+
+    <span style="text-indent:2em; line-height:170%; margin: 0.25em 5em 0 5em;">
+    <strong>4.</strong>
+    </span>
 
     <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     根据实验说明中B银行对应的支付矩阵：
     </div>
 
-<table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 3em">
+<table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 2em">
 　<caption><strong>B 银行支付矩阵</strong></caption>
     <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td></tr>
     <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>60</td><td>30</td><td>20</td></tr>
@@ -63,20 +90,23 @@
 
         <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     假定您是B银行的存款人，目前B银行是低流动性，则存在1人取款，其他人决定等待期满时，
-            如果您当期取款则获得效用值为 {% formfield player.utility7 with label=prompt %} ，
-            如果您等待期满则获得效用值为 {% formfield player.utility8 with label=prompt %}.
+            如果您当期取款则获得效用值为 <input type="number" name="utility7" value="" id="utility7"/> ，
+            如果您等待期满则获得效用值为 <input type="number" name="utility8" value="" id="utility8"/>.
         </div>
 
         <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
     假定您是B银行的存款人，但是B银行的流动性水平未知，则存在2人取款，其他人决定等待期满时，
-            如果您当期取款则获得效用值为 {% formfield player.utility9 with label=prompt %}
-            或者 {% formfield player.utility10 with label=prompt %}，
-            如果您等待期满则获得效用值为 {% formfield player.utility11 with label=prompt %}
-            或者 {% formfield player.utility12 with label=prompt %} .
+            如果您当期取款则获得效用值为 <input type="number" name="utility9" value="" id="utility9"/>
+            或者 <input type="number" name="utility10" value="" id="utility10"/>，
+            如果您等待期满则获得效用值为 <input type="number" name="utility11" value="" id="utility11"/>
+            或者 <input type="number" name="utility12" value="" id="utility12"/>.
         </div>
 
 
 
 
+<div align="right" style="margin: 5em 5em">
     {% next_button %}
+</div>
+
 {% endblock %}

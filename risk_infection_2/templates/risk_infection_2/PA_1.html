@@ -1,0 +1,68 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    实验 - 第{{ player.round_number }}／{{ Constants.num_rounds }}轮
+{% endblock %}
+
+{% block content %}
+
+<div class="instructions well well-lg">
+
+    {% if player.role == 'A_dep' %}
+
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+            开始实验，您被确定为A和Ｂ银行处于<strong>关联状态</strong>、<strong>银行A</strong>的存款人.
+        </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        您所对应的支付矩阵为：
+        </div>
+        <table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 2em">
+        　<caption><strong>A 银行支付矩阵</strong></caption>
+            <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td><td width="40px">4</td><td width="40px">5</td><td width="40px">6</td></tr>
+            <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>100</td><td>60</td><td>40</td><td>30</td><td>24</td><td>20</td></tr>
+    　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>25</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr>
+            <tr><th rowspan="2" style="text-align: center">高流动性</th><th style="text-align: center">当期取款</th><td></td><td>100</td><td>100</td><td>100</td><td>100</td><td>96</td><td>80</td></tr>
+    　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>119</td><td>109</td><td>94</td><td>63</td><td>0</td><td></td></tr>
+        </table>
+
+    {% elif player.role == 'A_ind' %}
+
+         <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+            开始实验，您被确定为A和Ｂ银行处于独立状态、银行A的存款人.
+         </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+         您所对应的支付矩阵为：
+        </div>
+        <table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 2em">
+        　<caption><strong>A 银行支付矩阵</strong></caption>
+            <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td><td width="40px">4</td><td width="40px">5</td><td width="40px">6</td></tr>
+            <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>100</td><td>60</td><td>40</td><td>30</td><td>24</td><td>20</td></tr>
+    　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>25</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr>
+            <tr><th rowspan="2" style="text-align: center">高流动性</th><th style="text-align: center">当期取款</th><td></td><td>100</td><td>100</td><td>100</td><td>100</td><td>96</td><td>80</td></tr>
+    　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>119</td><td>109</td><td>94</td><td>63</td><td>0</td><td></td></tr>
+        </table>
+
+    {% endif %}
+
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        请牢记自己的身份，根据支付矩阵以及银行流动性水平等信息确定<strong>当期取款</strong>还是<strong>等待期满</strong>.
+    </div>
+
+</div>
+
+
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        第{{ player.round_number }}轮： 已知银行Ａ为<u><strong>{{ fluidity }}</strong>流动性</u>，请您选择“当期取款”还是“等待期满”：
+    </div>
+        <div align="center" style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        {% formfield player.choice with label=prompt %}
+    </div>
+
+
+<div align="right" style="margin: 5em 5em">
+    {% next_button %}
+</div>
+
+
+{% endblock %}

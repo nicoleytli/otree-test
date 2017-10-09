@@ -1,0 +1,58 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    实验结果
+{% endblock %}
+
+{% block content %}
+
+    <div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em 2em 5em; float: left; border: dotted" >
+        <table class="table-condensed" style="width:300px; margin-top:20px;">
+
+            {% for num, utility in mylist1 %}
+
+                <tr><td>轮次</td><td>效用值</td></tr>
+                <tr><td>{{ num }}</td><td>{{ utility }}</td></tr>
+
+            {% endfor %}
+
+        </table>
+    </div>
+
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em 2em 5em; float: right; border: dotted" >
+        <table class="table-condensed" style="width:300px; margin-top:20px;">
+
+            {% for num, utility in mylist2 %}
+
+                <tr><td>轮次</td><td>效用值</td></tr>
+                <tr><td>{{ num }}</td><td>{{ utility }}</td></tr>
+
+            {% endfor %}
+
+        </table>
+    </div>
+
+    <div style="clear:both;"></div>
+
+</div>
+
+    <div align="center" style="text-indent:2em; line-height:170%; margin: 5em 5em 0.25em;" >
+    随机抽取的三轮：{{ n1 }}, {{ n2 }}, {{ n3 }}。
+    </div>
+    <div align="center" style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        效用值为：{{ c1 }}, {{ c2 }}, {{ c3 }}。
+    </div>
+    <div align="center" style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+       您最终的报酬为：{{ payoff }}。
+    </div>
+    <div align="center" style="text-indent:2em; line-height:170%; margin: 1em 5em;" >
+       <strong>请查看微信红包，谢谢您的参与！</strong>
+    </div>
+
+<div align="right" style="margin: 5em 5em">
+    {% next_button %}
+</div>
+
+{% endblock %}

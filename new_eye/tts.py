@@ -1,26 +1,32 @@
-import random
+mylist = ['1A', '1B', '2B']
+herlist = []
+for i in mylist:
+    if i == '1A' or i == '1B':
+        herlist.append('1')
 
-number_of_random = 30
-# a list of random answers' location
-random_loc = random.sample(list(range(36)), number_of_random)
-# a list of drawn random answers
-pics_loc = random_loc
-random_loc = random.sample(random_loc, len(random_loc))
+names = locals()
+print(names['mylist'])
 
-print(pics_loc)
-print(random_loc)
+group_matrix = []
 
-final_list = list(range(36))
+players_1A = [1, 1, 1]
+players_1B = [2, 2, 2]
+players_2A = [3, 3, 3]
+players_2B = [4, 4, 4]
+players_3A = [5, 5, 5]
+players_3B = [6, 6, 6]
 
-for i, j in zip(range(len(random_loc)), pics_loc):
-    final_list[j] = random_loc[i]
 
-order_list = list(range(36))
-order_list = random.sample(order_list, len(order_list))
+for i in range(1, 4):
+    while names['players_%sA' % i]:
+        new_group = [
+            names['players_%sA' % i].pop(),
+            names['players_%sA' % i].pop(),
+            names['players_%sA' % i].pop(),
+            names['players_%sB' % i].pop(),
+            names['players_%sB' % i].pop(),
+            names['players_%sB' % i].pop(),
+        ]
+        group_matrix.append(new_group)
 
-pic_final_list = list(range(36))
-for i in range(len(pic_final_list)):
-    pic_final_list[i] = final_list[order_list[i]]
-
-print(order_list)
-print(pic_final_list)
+print(group_matrix)

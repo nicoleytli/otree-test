@@ -1,0 +1,160 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    实验说明 - 2
+{% endblock %}
+
+{% block content %}
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        <span style="color: red"><strong>很遗憾，您在理解性测试中的回答不正确，请再一次阅读实验说明。</strong></span>
+    </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    <span style="color: red"><strong>在您阅读实验说明之后，将再一次进行理解性测试，若测试结果仍然未达标准，我们会部分扣除您的报酬。</strong></span>
+        </div>
+
+    <div style="text-indent:2em; line-height:170%; margin: 0.8em 2em;" >
+    <strong>一、银行说明</strong>
+    </div>
+<div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    实验中将有两家银行——A银行和B银行。A银行成立时间早、规模大，有6名存款人；B银行成立时间晚、规模小，有3名存款人。
+    而您将是A或者B银行中的一名存款人，A和B银行在当期可能处于高流动性或者低流动性，这代表银行的偿付能力，会对您最终获得的取款效用值产生影响。
+    根据我们的假定，银行资产流动性发生变化的概率为1/3，仍然保持上一轮流动性的概率为2/3.（例如一家银行在该轮实验中为高流动性，
+    那么它有1/3的可能性在下一轮实验中变为低流动性）
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+A银行和B银行之间存在关联和独立两种状态。当两个银行处于关联状态时，它们具有相同的流动性，即同时处于高流动性或者同时处于低流动性。
+    当两个银行处于独立状态时，它们的流动性则互不影响。
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.8em 2em;" >
+    <strong>二、支付矩阵说明</strong>
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    每轮实验开始时，您在银行将会有效用值为100的存款。而您将面临选择，当期立即取款或是等到期满再取款。
+    而您的银行是否有充足的钱来满足您取款的需求，取决于银行自身的现金流动性和有多少名存款人在当期取款。
+    每个存款人在银行的初始存款效用值为100，银行通过清算贴现优先满足当期取款的需求。
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    以下是本次实验A银行对应的支付矩阵：
+    </div>
+    <table border="1" align="center" style="text-align: center; line-height: 25px">
+    　<caption><strong>A 银行支付矩阵</strong></caption>
+        <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td><td width="40px">4</td><td width="40px">5</td><td width="40px">6</td></tr>
+        <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>100</td><td>60</td><td>40</td><td>30</td><td>24</td><td>20</td></tr>
+　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>25</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr>
+        <tr><th rowspan="2" style="text-align: center">高流动性</th><th style="text-align: center">当期取款</th><td></td><td>100</td><td>100</td><td>100</td><td>100</td><td>96</td><td>80</td></tr>
+　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>119</td><td>109</td><td>94</td><td>63</td><td>0</td><td></td></tr>
+    </table>
+    <div style="text-indent:2em; line-height:170%; margin: 2em 5em 0.1em;" >
+    以下是本次实验B银行对应的支付矩阵：
+    </div>
+    <table border="1" align="center" style="text-align: center; line-height: 25px; margin-bottom: 3em">
+    　<caption><strong>B 银行支付矩阵</strong></caption>
+        <tr><th colspan="2" width="160px" style="text-align: center">当期取款人数</th><td width="40px">0</td><td width="40px">1</td><td width="40px">2</td><td width="40px">3</td></tr>
+        <tr><th rowspan="2" style="text-align: center">低流动性</th><th width="80px" style="text-align: center">当期取款</th><td></td><td>60</td><td>30</td><td>20</td></tr>
+　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>0</td><td>0</td><td></td></tr>
+        <tr><th rowspan="2" style="text-align: center">高流动性</th><th style="text-align: center">当期取款</th><td></td><td>100</td><td>100</td><td>80</td></tr>
+　      <tr><th style="text-align: center">等待期满</th><td>125</td><td>109</td><td>163</td><td></td></tr>
+    </table>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    取款人的最终取款值即其获得的效用值，存款者若等待期满，则其最终获得存款额取决于银行给付当期后的资产储蓄，这个储蓄可高可低。
+    </div>
+
+    <div style="text-indent:2em; line-height:170%; margin: 3em 5em 0.25em;" >
+    为了便于理解支付矩阵，给出以下4个例子。
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    <strong>例1</strong>：假定您是A银行的存款人，目前A银行是低流动性，则在其他人都不退款，决定等待期满时，如果您当期取款则获得效用值为100，如果您等待期满则获得效用值为125.
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    <strong>例2</strong>：假定您是A银行的存款人，目前A银行是高流动性，则存在其他3人当期取款，其他人决定等待期满时，如果您当期取款则获得效用值为100，如果您等待期满则获得效用值为94.
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    <strong>例3</strong>：假定您是B银行的存款人，目前B银行是低流动性，则存在其他1人当期取款，其他人决定等待期满时，如果您当期取款则获得效用值为30，如果您等待期满则获得效用值为0.
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    <strong>例4</strong>：假定您是B银行的存款人，目前B银行是高流动性，则存在其他1人取款，其他人决定等待期满时，如果您当期取款则获得效用值为100，如果您等待期满则获得效用值为109.
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    注意Ａ和Ｂ银行的区别在于Ａ银行规模大，有6个客户，而B银行只有3个客户。自您进入本实验开始，
+        您所在的银行（Ａ还是Ｂ银行）和银行之间的状态（关联还是独立）是始终保持不变的。
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 3em 5em 0.25em;" >
+    <strong>第一局实验：银行Ａ为完全信息；银行Ｂ为不完全信息。</strong>
+    </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        银行Ａ的客户根据Ａ银行的流动性做出当期取款或者等待期满的选择。
+        </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        银行B的客户不知道Ｂ银行的流动性情况，他们需要根据B银行和Ａ银行关联或者独立的状态、
+            Ａ银行这一轮实验中当期取款的总人数以及Ｂ银行上一轮实验中当期取款的人数来决定自己取款还是等待期满。
+        </div>
+        <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        这一局实验总共有30轮，每轮实验结束后屏幕会显示您参加本轮实验获得的效用值。
+        </div>
+        <div style="text-indent:2em; line-height:170%; margin: 3em 5em 0.25em;" >
+    <strong>    第二局实验：银行Ｂ为完全信息，银行Ａ为不完全信息。</strong>
+    </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+        银行Ｂ的客户根据Ｂ银行的流动性做出当期取款或者等待期满的选择。
+        </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em;" >
+    银行Ａ的客户不知道Ａ银行的流动性情况，他们需要根据Ａ银行和Ｂ银行关联或者独立的状态、
+        Ｂ银行这一轮实验中当期取款的总人数以及Ａ银行上一轮实验中当期取款的人数来决定自己取款还是等待期满。
+        </div>
+    <div style="text-indent:2em; line-height:170%; margin: 0.25em 5em 5em;" >
+    这一局实验总共有30轮，每轮实验结束后屏幕会显示您参加本轮实验获得的效用值。
+        </div>
+
+
+<div align="right" style="margin: 5em 5em">
+    {% next_button %}
+</div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>如果您已经理解了实验说明，点击"下一页"，完成下一页的理解性测试</p>
+      <p>如果您需要继续阅读实验说明，请关闭对话框</p>
+      {% next_button %}
+  </div>
+
+</div>
+
+
+{% endblock %}
+
+{% block script %}
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+};
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+{% endblock %}
